@@ -723,8 +723,9 @@
   "status": "license"
  },
  "SLDC.SeiSa": {
-  "note": "",
-  "status": "pending"
+  "note": "パネル＋エクスプレッション用ライブラリ（テキストの本文のエクスプレッション）",
+  "path": "plugins/SLDC.SeiSa",
+  "status": "ported"
  },
  "Sagyou.DVD": {
   "note": "",

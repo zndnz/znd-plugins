@@ -1,0 +1,20 @@
+{
+  "id": "SLDC.SeiSa",
+  "name": "SeiSa",
+  "version": "1.0.0",
+  "vendor": "SLDC（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "簡単な操作で動画にRTAタイマーを追加できるようにするもの",
+  "permissions": [],
+  "panels": [
+    {
+      "id": "seisa",
+      "title": "あとのせRTAタイマー",
+      "script": "panels/seisa.js",
+      "width": 340
+    }
+  ],
+  "expressions": [
+    "expressions/seisa.js"
+  ]
+}

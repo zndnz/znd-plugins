@@ -91,7 +91,7 @@ pub fn text_project(text: &str, size: f64, cw: u32, ch: u32) -> Project {
     let l = Layer::new(
         "t",
         "t",
-        LayerKind::Text { document: doc, animators: Vec::new(), path: None, per_char_3d: false },
+        LayerKind::Text { document: doc, animators: Vec::new(), path: None, per_char_3d: false, text_expression: None },
         Transform::centered(0.0, 0.0, cw as f64, ch as f64),
         dur,
     );
