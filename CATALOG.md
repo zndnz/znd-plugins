@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 102 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 3 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 17 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 18 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 220 | まだ手を付けていない |
+| 未着手 | 219 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -131,6 +131,7 @@
 | [Composite](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Composite` | スクリプト | こんにゃくねこ | CC0-1.0 | 対象外 | znd のエフェクトは後に続くエフェクトの結果を受け取れない（エフェクトの順番と合成モードで代わりになる） |
 | [OSC4AU2](https://github.com/zopty/osc4au2)<br>`zopty.osc4au2` | スクリプト | zopty | BSD-3-Clause | 対象外 | OSC（UDP）で外部から値を受け取り、トラックバーを動かすライブ演奏用のプラグイン。znd のエクスプレッションとスクリプトは通信できない設計で、外部からの入力を時間軸に結び付ける仕組みも無い |
 | [前回のプロジェクトを開く](https://github.com/ar-ca-na/aviutl2-open-last-project)<br>`ar-ca-na.open-last-project` | 外部プログラム | arcana | MIT | 対象外 | AviUtl2 の起動を外から操作する外部プログラムで、znd には対象がない |
+| [Rusty Restart Shortcut Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut` | 汎用プラグイン | Nanashi. | MIT | 対象外 | 作者が非推奨としている AviUtl2 の再起動メニューで、znd には対象がない |
 | [AviUtl2 Community Translation Companion](https://github.com/aviutl2/aviutl2-community-translation)<br>`aviutl2-community.aviutl2_community_translation_companion` | 言語ファイル | Nanashi. | MIT | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
 | [アクセスキー付き日本語リソース](https://github.com/Garech-mas/jp_akey.aul2)<br>`Garech.jp_akey.aul2` | 言語ファイル | Garech | CC0-1.0 | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
 | [非公式言語ファイル(Japanese_Mod)](https://github.com/reindex-ot/reindex_AviUtl2_Language)<br>`reindex-ot.reindex_AviUtl2_Language` | 言語ファイル | Re*Index. (ot_inc) | WTFPL license | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
@@ -436,7 +437,6 @@
 | [Aviutl2-Calculator](https://github.com/sagami121/Aviutl2-Calculator)<br>`sagami121.Calculator` | 汎用プラグイン | 3aGaM1 | MIT | 未着手 |  |
 | [Rusty Local Alias Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [Rusty Metronome Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
-| [Rusty Restart Shortcut Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [Rusty Scripts Search Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_scripts_search` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [Rusty SRT File Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_srt_file` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [clipboard.aux2](https://github.com/sevenc-nanashi/clipboard.aux2)<br>`sevenc-nanashi.clipboard-aux2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |

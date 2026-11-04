@@ -1446,8 +1446,8 @@
   "status": "pending"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut": {
-  "note": "",
-  "status": "pending"
+  "note": "作者が非推奨としている AviUtl2 の再起動メニューで、znd には対象がない",
+  "status": "na"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_scripts_search": {
   "note": "",
