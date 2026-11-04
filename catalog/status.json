@@ -884,8 +884,8 @@
   "status": "na"
  },
  "animeojisan.AI_S-R_ONNX": {
-  "note": "",
-  "status": "pending"
+  "note": "ONNX / WinML の AI モデルで超解像するプラグインで、znd のプラグインには機械学習の実行環境がない",
+  "status": "na"
  },
  "ar-ca-na.aup2-relink": {
   "note": "znd の組み込みの「欠落した素材を再リンク」（移動先のフォルダから同名のファイルを探す）で同じことができる",
