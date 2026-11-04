@@ -1297,8 +1297,9 @@
   "status": "pending"
  },
  "rigaya.x264guiEx": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/rigaya.x264guiEx",
+  "status": "ported"
  },
  "rigaya.x265guiEx": {
   "note": "",

@@ -1,0 +1,109 @@
+{
+  "id": "rigaya.x264guiEx",
+  "name": "x264guiEx",
+  "version": "1.0.0",
+  "vendor": "rigaya（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "x264を使用してエンコードを行うAviutlの出力プラグインです。",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "x264",
+      "label": "x264（H.264）",
+      "extension": "mp4",
+      "even": true,
+      "video_args": [
+        "-c:v",
+        "libx264",
+        "-preset",
+        "{preset}",
+        "-crf",
+        "{q}",
+        "-pix_fmt",
+        "yuv420p",
+        "-tune",
+        "{tune}",
+        "-profile:v",
+        "{profile}",
+        "{extra}",
+        "-movflags",
+        "+faststart"
+      ],
+      "audio_args": [
+        "-c:a",
+        "aac",
+        "-b:a",
+        "{abr}k"
+      ],
+      "params": [
+        {
+          "id": "q",
+          "label": "画質 CRF",
+          "type": "number",
+          "default": 18,
+          "min": 0,
+          "max": 51
+        },
+        {
+          "id": "preset",
+          "label": "プリセット",
+          "type": "choice",
+          "default": 6,
+          "options": [
+            "ultrafast",
+            "superfast",
+            "veryfast",
+            "faster",
+            "fast",
+            "medium",
+            "slow",
+            "slower",
+            "veryslow",
+            "placebo"
+          ]
+        },
+        {
+          "id": "abr",
+          "label": "音声ビットレート（kbps）",
+          "type": "number",
+          "default": 256,
+          "min": 32,
+          "max": 512
+        },
+        {
+          "id": "extra",
+          "label": "追加の引数",
+          "type": "args",
+          "default": ""
+        },
+        {
+          "id": "tune",
+          "label": "チューニング",
+          "type": "choice",
+          "default": 1,
+          "options": [
+            "film",
+            "animation",
+            "grain",
+            "stillimage",
+            "psnr",
+            "ssim",
+            "fastdecode",
+            "zerolatency"
+          ]
+        },
+        {
+          "id": "profile",
+          "label": "プロファイル",
+          "type": "choice",
+          "default": 0,
+          "options": [
+            "high",
+            "main",
+            "baseline"
+          ]
+        }
+      ]
+    }
+  ]
+}
