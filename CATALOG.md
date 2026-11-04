@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 130 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 4 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 22 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 23 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 186 | まだ手を付けていない |
+| 未着手 | 185 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -160,6 +160,7 @@
 | [Composite](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Composite` | スクリプト | こんにゃくねこ | CC0-1.0 | 対象外 | znd のエフェクトは後に続くエフェクトの結果を受け取れない（エフェクトの順番と合成モードで代わりになる） |
 | [OSC4AU2](https://github.com/zopty/osc4au2)<br>`zopty.osc4au2` | スクリプト | zopty | BSD-3-Clause | 対象外 | OSC（UDP）で外部から値を受け取り、トラックバーを動かすライブ演奏用のプラグイン。znd のエクスプレッションとスクリプトは通信できない設計で、外部からの入力を時間軸に結び付ける仕組みも無い |
 | [前回のプロジェクトを開く](https://github.com/ar-ca-na/aviutl2-open-last-project)<br>`ar-ca-na.open-last-project` | 外部プログラム | arcana | MIT | 対象外 | AviUtl2 の起動を外から操作する外部プログラムで、znd には対象がない |
+| [AviUtl2_Discord_RPC](https://github.com/amaii4/AviUtl2_Discord_RPC)<br>`amaii4.AviUtl2_Discord_RPC` | 汎用プラグイン | 甘味 | MIT | 対象外 | Discord のアプリと通信する機能で、znd のプラグインのスクリプトには外部と通信する手段がなく、ネイティブの通信は安全性スキャンで止められる |
 | [Rusty Restart Shortcut Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut` | 汎用プラグイン | Nanashi. | MIT | 対象外 | 作者が非推奨としている AviUtl2 の再起動メニューで、znd には対象がない |
 | [create_control_object.aux2](https://github.com/sevenc-nanashi/create_control_object.aux2)<br>`sevenc-nanashi.create_control_object-aux2` | 汎用プラグイン | Nanashi. | MIT | 対象外 | znd にはグループ制御（下のレイヤー数を対象にする制御オブジェクト）がなく、親子付けやプリコンポーズで代わりにする |
 | [modify_group_num_layers.aux2](https://github.com/sevenc-nanashi/modify_group_num_layers.aux2)<br>`sevenc-nanashi.modify_group_num_layers-aux2` | 汎用プラグイン | Nanashi. | MIT | 対象外 | znd にはグループ制御（下のレイヤー数を対象にする制御オブジェクト）がなく、親子付けやプリコンポーズで代わりにする |
@@ -404,7 +405,6 @@
 | [セリフ準備から.srtファイル生成プラグイン](https://github.com/mugi995/Serifu-JunbiToSRT-for-AviUtl2)<br>`Mugi995.Serifu-JunbiToSRT` | 出力プラグイン | Mugi995 | MIT | 未着手 |  |
 | [Rusty Statistics Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_statistics` | 出力プラグイン | Nanashi. | MIT | 未着手 |  |
 | [aup2 リンク修復](https://github.com/ar-ca-na/aviutl2-aup2-relink)<br>`ar-ca-na.aup2-relink` | 外部プログラム | arcana | MIT | 未着手 |  |
-| [AviUtl2_Discord_RPC](https://github.com/amaii4/AviUtl2_Discord_RPC)<br>`amaii4.AviUtl2_Discord_RPC` | 汎用プラグイン | 甘味 | MIT | 未着手 |  |
 | [Gradient Editor](https://github.com/azurite581/AviUtl2-GradientEditor)<br>`azurite.GradientEditor` | 汎用プラグイン | azurite | MIT | 未着手 |  |
 | [aviutl2-alias-inserter](https://github.com/beive60/aviutl2-alias-inserter)<br>`beive60.aviutl2-alias-inserter` | 汎用プラグイン | Beive60 | MIT | 未着手 |  |
 | [aviutl2-audio-rec](https://github.com/beive60/aviutl2-audio-rec)<br>`beive60.aviutl2-audio-rec` | 汎用プラグイン | Beive60 | MIT | 未着手 |  |

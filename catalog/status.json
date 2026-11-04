@@ -878,8 +878,8 @@
   "status": "closed"
  },
  "amaii4.AviUtl2_Discord_RPC": {
-  "note": "",
-  "status": "pending"
+  "note": "Discord のアプリと通信する機能で、znd のプラグインのスクリプトには外部と通信する手段がなく、ネイティブの通信は安全性スキャンで止められる",
+  "status": "na"
  },
  "animeojisan.AI_S-R_ONNX": {
   "note": "",
