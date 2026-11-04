@@ -1,0 +1,12 @@
+{
+  "id": "Sagyou.OpticsCompensation_s_for_AviUtl2",
+  "name": "OpticsCompensation_s_for_AviUtl2",
+  "version": "1.0.0",
+  "vendor": "サ行（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "レンズの収差（樽型/糸巻き型）をシミュレートするスクリプト。",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sagyou_opticscompensation_s_for_aviutl2"
+  ]
+}

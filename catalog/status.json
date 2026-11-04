@@ -729,8 +729,9 @@
   "status": "pending"
  },
  "Sagyou.OpticsCompensation_s_for_AviUtl2": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト",
+  "path": "plugins/Sagyou.OpticsCompensation_s_for_AviUtl2",
+  "status": "ported"
  },
  "SotenTsumugu.BaseEase": {
   "note": "ライセンス: GPL-3.0 license（組み込めるライセンスではない）",
