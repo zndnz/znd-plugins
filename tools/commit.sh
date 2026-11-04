@@ -12,6 +12,6 @@ for b in "$@"; do msg="$msg
 msg="$msg
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
-git add -A "plugins/$id" catalog CATALOG.md harness 2>/dev/null || git add -A catalog CATALOG.md
+git add -A catalog CATALOG.md Cargo.lock; [ -d "plugins/$id" ] && git add -A "plugins/$id"; git add -A harness
 git commit -q -m "$msg"
 git log --oneline -1
