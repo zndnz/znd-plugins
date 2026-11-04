@@ -1715,8 +1715,9 @@
   "status": "pending"
  },
  "tettu0530.LiquidGlass": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（背景は LAYER パラメータで選ぶ）",
+  "path": "plugins/tettu0530.LiquidGlass",
+  "status": "ported"
  },
  "tettu0530.NCSVisualizer": {
   "note": "エフェクト（音は LAYER パラメータで受け取る）",

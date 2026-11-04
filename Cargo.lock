@@ -1083,6 +1083,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-tettu0530-liquidglass"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-tettu0530-ncsvisualizer"
 version = "1.0.0"
 dependencies = [

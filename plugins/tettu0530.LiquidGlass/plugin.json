@@ -1,0 +1,12 @@
+{
+  "id": "tettu0530.LiquidGlass",
+  "name": "Liquid Glass エフェクト",
+  "version": "1.0.0",
+  "vendor": "tettu0530（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "Liquid Glassの質感を再現するエフェクトスクリプトです",
+  "permissions": [],
+  "effects": [
+    "lib/zp_tettu0530_liquidglass"
+  ]
+}
