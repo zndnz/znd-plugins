@@ -6,11 +6,11 @@
 | 状況 | 数 | 意味 |
 |---|---|---|
 | 移植済み | 143 | `plugins/` に znd のプラグインとして再実装した |
-| znd 本体で対応 | 13 | znd 本体に同じ機能があるため、プラグインにしていない |
+| znd 本体で対応 | 14 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 40 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 14 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 145 | まだ手を付けていない |
+| 未着手 | 144 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -160,6 +160,7 @@
 | [Tonecurve_C](https://x.com/CatWithNeko/status/1972685066963960255)<br>`CatWithNeko.ToneCurve` | スクリプト | こんにゃくねこ | CC0-1.0 | znd 本体で対応 | znd の組み込みエフェクト「トーンカーブ」で同じことができる |
 | [svg2obj](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.svg2obj` | スクリプト | 黒猫大福 | MIT | znd 本体で対応 | znd は SVG を素材として直接読み込める（ドロップでもよい） |
 | [出力時に非表示.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E5%87%BA%E5%8A%9B%E6%99%82%E3%81%AB%E9%9D%9E%E8%A1%A8%E7%A4%BA/README.md)<br>`sevenc-nanashi.aviutl2-scripts.hide_on_export-anm2` | スクリプト | Nanashi. | MIT | znd 本体で対応 | znd のガイドレイヤー（書き出しに含めないレイヤー）で同じことができる |
+| [svg.aux2](https://github.com/sevenc-nanashi/svg.aux2)<br>`sevenc-nanashi.svg-aux2` | フィルタプラグイン | Nanashi. | MIT | znd 本体で対応 | znd は SVG を素材として直接読み込める |
 | [void.auf2](https://github.com/sevenc-nanashi/void.auf2)<br>`sevenc-nanashi.void-auf2` | フィルタプラグイン | Nanashi. | MIT | znd 本体で対応 | znd の組み込みのヌルレイヤーで同じことができる |
 | [L-SMASH-Works](https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds)<br>`Mr-Ojii.L-SMASH-Works` | 入力プラグイン | Mr-Ojii | MIT | znd 本体で対応 | 動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ |
 | [Rusty Image Input](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_image_rs_input` | 入力プラグイン | Nanashi. | MIT | znd 本体で対応 | znd は PNG・JPEG・WebP・TIFF・EXR・BMP・TGA を組み込みで読み込める（アニメーション画像は動画として読み込む） |
@@ -407,7 +408,6 @@
 | [Karaoke Lyric Renderer](https://github.com/nove-nove/aviutl2-karaoke-lyric-renderer)<br>`novenove.KaraokeLyricRenderer` | フィルタプラグイン | novenove | MIT | 未着手 |  |
 | [アナログ風](https://github.com/Pachira762/AnalogFuu)<br>`Pachira762.AnalogFuu` | フィルタプラグイン | Pachira762 | MIT | 未着手 |  |
 | [mojie](https://github.com/ronin-gw/aviutl2_mojie)<br>`ronin_gw.mojie` | フィルタプラグイン | Andy.F | MIT | 未着手 |  |
-| [svg.aux2](https://github.com/sevenc-nanashi/svg.aux2)<br>`sevenc-nanashi.svg-aux2` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
 | [tex.auf2](https://github.com/sevenc-nanashi/tex.auf2)<br>`sevenc-nanashi.tex-auf2` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
 | [Border_S](https://github.com/sigma-axis/aviutl2_Border_S)<br>`sigma-axis.Border_S` | フィルタプラグイン | σ軸 | MIT | 未着手 |  |
 | [AudioFilter](https://github.com/vramwiz/Aul2AudioFilter)<br>`VRAMWIZ.AudioFilter` | フィルタプラグイン | VRAMの魔術師 | MIT | 未着手 |  |

@@ -1617,8 +1617,8 @@
   "status": "pending"
  },
  "sevenc-nanashi.svg-aux2": {
-  "note": "",
-  "status": "pending"
+  "note": "znd は SVG を素材として直接読み込める",
+  "status": "builtin"
  },
  "sevenc-nanashi.tex-auf2": {
   "note": "",
