@@ -1,4 +1,4 @@
-//! JPEGノイズ（作業だるい）の移植: 8×8 の DCT・量子化・逆 DCT で JPEG のブロックノイズと色のにじみを出す。
+//! JPEGノイズ（サ行）の移植: 8×8 の DCT・量子化・逆 DCT で JPEG のブロックノイズと色のにじみを出す。
 //! 計算は元のシェーダーと同じ（YUV の作り方・量子化表・補間式も元のまま）。
 
 use std::f64::consts::PI;
@@ -161,7 +161,7 @@ fn render(f: &mut Frame) -> FxResult {
 }
 
 plugin! {
-    vendor: "作業だるい（znd 移植: znd-plugins）", version: "1.0.0", license: "MIT",
+    vendor: "サ行（znd 移植: znd-plugins）", version: "1.0.0", license: "MIT",
     effects: [
         {
             id: "Sagyou.JpegNoise", name: "JPEGノイズ", category: "加工", flags: THREAD_SAFE,
