@@ -1597,8 +1597,8 @@
   "status": "ported"
  },
  "sevenc-nanashi.tinted-aviutl2": {
-  "note": "",
-  "status": "pending"
+  "note": "AviUtl2 本体の配色を書き換えるプラグインで、znd には書き換える対象がない",
+  "status": "na"
  },
  "sevenc-nanashi.transform_specific_chars-anm2": {
   "note": "パネル（テキストのアニメーターを作る）",
