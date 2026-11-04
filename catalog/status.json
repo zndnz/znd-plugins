@@ -1,0 +1,1790 @@
+{
+ "93.GetColor-V2R": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Amai_28ftb.AULReceptor": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Amai_28ftb.DTMerExtensionKit": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Amai_28ftb.DTMerStarterKit": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Asu.LikeHandWriting": {
+  "note": "ライセンス: 独自ライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Asu.TwoStepsLyricmotion": {
+  "note": "ライセンス: 独自ライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Bialis.TrackingStabilizer-for-AviUtl-ExEdit2": {
+  "note": "",
+  "status": "pending"
+ },
+ "Book-0225.EAP2": {
+  "note": "",
+  "status": "pending"
+ },
+ "Book-0225.relink": {
+  "note": "",
+  "status": "pending"
+ },
+ "CJF.MaskSelector": {
+  "note": "",
+  "status": "pending"
+ },
+ "CJF.PSD_anime": {
+  "note": "",
+  "status": "pending"
+ },
+ "CJF.PenTool": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.AlphaDither": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.Canny": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.ChromaticAberration": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.Colorama": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.Composite": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.Dither": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.Erosion": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.Exposure": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.Gamma": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.Halftone": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.LeaveColor": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.Lens": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.Level": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.LongShadow": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.MaxMin": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.Mosaic": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.SelfDisplace": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.ToneCurve": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.Turbulent": {
+  "note": "",
+  "status": "pending"
+ },
+ "CatWithNeko.WaveWarp": {
+  "note": "",
+  "status": "pending"
+ },
+ "ChihaYuki.obj": {
+  "note": "ライセンス: GPLv3（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Esgo.MP4Exporter": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Estelle.AviUtl2-LaTeX": {
+  "note": "",
+  "status": "pending"
+ },
+ "Fu-Majime.AviUtl2_PolygonMorph_F": {
+  "note": "",
+  "status": "pending"
+ },
+ "Fuji.commons_material_extractor": {
+  "note": "ソースが公開されていない（配布物のみ）",
+  "status": "closed"
+ },
+ "Fuji.voice_drop": {
+  "note": "ソースが公開されていない（配布物のみ）",
+  "status": "closed"
+ },
+ "Fuji.voice_valet": {
+  "note": "ソースが公開されていない（配布物のみ）",
+  "status": "closed"
+ },
+ "Garech.DateTime": {
+  "note": "",
+  "status": "pending"
+ },
+ "Garech.DoubleBPMGrid": {
+  "note": "",
+  "status": "pending"
+ },
+ "Garech.SplitFilters": {
+  "note": "",
+  "status": "pending"
+ },
+ "Garech.ToggleLayers": {
+  "note": "",
+  "status": "pending"
+ },
+ "Garech.jp_akey.aul2": {
+  "note": "AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない",
+  "status": "na"
+ },
+ "Gohankaiju.rich-audio-spectrum": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.AutoFitText_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.AviUtl2Browser_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.BackupDiff_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.BallAction_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.Beam_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.Bubbles_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.CardDance_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.Caustics_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.ColorHistory_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.ColorSpaceBlend_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.ColoredEchoImg": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.ContentAwareFill_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.CurveEditor_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.DecoParticle_H": {
+  "note": "ライセンス: その他（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "HexBrowns.EditScript_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.ExtendedParticle_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.Extrude_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.FileFinder_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.Filters_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.FineParticles_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.FullSizePreview_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.Grid_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.HandheldCamera_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.Keying_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.LayerSilenceCut_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.LightPath_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.LightShaft_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.Lighting2D_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.LoudnessNormalize_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.Lowpoly": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.ManuscriptPanel_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.MediaCollect_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.MediaProbe_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.MidpointTable_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.OpticalBokeh": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.PdfPage_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.PlanarTracking_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.ProceduralPattern_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.RadioWaves_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.RangeWarning_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.SceneTransitions": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.ShapeDistort_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.SplitLayout_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.TestPattern_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.TextReplace_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.TimeWarp_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.VectorBlur_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.VerticalText": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.VideoScope_H": {
+  "note": "",
+  "status": "pending"
+ },
+ "HexBrowns.svg_trace": {
+  "note": "",
+  "status": "pending"
+ },
+ "IZUisMe.OpenGlow": {
+  "note": "",
+  "status": "pending"
+ },
+ "InuyoshiAtom.ColorLink": {
+  "note": "",
+  "status": "pending"
+ },
+ "JobsJoestar.RippleDelete": {
+  "note": "",
+  "status": "pending"
+ },
+ "KAZOON.KSA": {
+  "note": "",
+  "status": "pending"
+ },
+ "KAZOON.fzgx_smr_ks": {
+  "note": "",
+  "status": "pending"
+ },
+ "KAZOON.resize_ks": {
+  "note": "",
+  "status": "pending"
+ },
+ "KAZOON.wav_output_ks": {
+  "note": "",
+  "status": "pending"
+ },
+ "KYU.InterpolationObject": {
+  "note": "",
+  "status": "pending"
+ },
+ "Kanata844.CustomToolbox": {
+  "note": "",
+  "status": "pending"
+ },
+ "Kanata844.MediaReplacer": {
+  "note": "",
+  "status": "pending"
+ },
+ "Karoterra.Bend": {
+  "note": "",
+  "status": "pending"
+ },
+ "Karoterra.ColorVisionSimulation": {
+  "note": "",
+  "status": "pending"
+ },
+ "Karoterra.OilPainting": {
+  "note": "",
+  "status": "pending"
+ },
+ "Karoterra.Typst": {
+  "note": "",
+  "status": "pending"
+ },
+ "Karoterra.WaveformPreview": {
+  "note": "",
+  "status": "pending"
+ },
+ "Kenkun.AviUtlExEdit2": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "KuroNeko.CopyAlias": {
+  "note": "",
+  "status": "pending"
+ },
+ "KuroNeko.FontPreview": {
+  "note": "",
+  "status": "pending"
+ },
+ "KuroNeko.Haribote": {
+  "note": "",
+  "status": "pending"
+ },
+ "KuroNeko.TTSFileRename": {
+  "note": "",
+  "status": "pending"
+ },
+ "KuroNeko.VariableFont": {
+  "note": "",
+  "status": "pending"
+ },
+ "KuroNeko.audio2obj": {
+  "note": "",
+  "status": "pending"
+ },
+ "KuroNeko.midi2EAP2": {
+  "note": "",
+  "status": "pending"
+ },
+ "KuroNeko.svg2obj": {
+  "note": "",
+  "status": "pending"
+ },
+ "Kurolium.Random_Figure": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "MIYA.Aup2GapFiller": {
+  "note": "",
+  "status": "pending"
+ },
+ "MonogoiNoobs.MFOutput": {
+  "note": "",
+  "status": "pending"
+ },
+ "Mr-Ojii.L-SMASH-Works": {
+  "note": "動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ",
+  "status": "builtin"
+ },
+ "Mr-Ojii.WebPFileReader-Plugin": {
+  "note": "",
+  "status": "pending"
+ },
+ "Mugi995.Any_Shortcut_for_AviUtl2": {
+  "note": "",
+  "status": "pending"
+ },
+ "Mugi995.Serifu-JunbiToSRT": {
+  "note": "",
+  "status": "pending"
+ },
+ "Nagomiku.CrushPNG": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Nagomiku.NagoEffect2.mod2": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Nagomiku.shape_by_value": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Natadecoco.MyAssetManager": {
+  "note": "",
+  "status": "pending"
+ },
+ "Natadecoco.SoftAnchorBone": {
+  "note": "",
+  "status": "pending"
+ },
+ "Natadecoco.TextBackplate": {
+  "note": "",
+  "status": "pending"
+ },
+ "Natadecoco.TextEditor": {
+  "note": "",
+  "status": "pending"
+ },
+ "Natadecoco.TextSplitter": {
+  "note": "",
+  "status": "pending"
+ },
+ "NeAc.AviUtlNoise": {
+  "note": "",
+  "status": "pending"
+ },
+ "NeAc.BezierPath": {
+  "note": "",
+  "status": "pending"
+ },
+ "NeAc.CinemaScope": {
+  "note": "",
+  "status": "pending"
+ },
+ "NeAc.Egasumi": {
+  "note": "",
+  "status": "pending"
+ },
+ "NeAc.LongShadowN": {
+  "note": "",
+  "status": "pending"
+ },
+ "NeAc.Loop": {
+  "note": "",
+  "status": "pending"
+ },
+ "NeAc.LyricMotioN": {
+  "note": "",
+  "status": "pending"
+ },
+ "NeAc.MorphBridge": {
+  "note": "",
+  "status": "pending"
+ },
+ "NeAc.Scatter": {
+  "note": "",
+  "status": "pending"
+ },
+ "NeAc.ScreenAspect": {
+  "note": "",
+  "status": "pending"
+ },
+ "NeAc.SpeedLine": {
+  "note": "",
+  "status": "pending"
+ },
+ "Number-0621.SelectEasing": {
+  "note": "",
+  "status": "pending"
+ },
+ "Number-0621.easing-quick-setup": {
+  "note": "",
+  "status": "pending"
+ },
+ "OverPulse.Custom_Speed_Move": {
+  "note": "ソースが公開されていない（配布物のみ）",
+  "status": "closed"
+ },
+ "OverPulse.Delayed_Entrance": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "OverPulse.Delayed_Exit": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "OverPulse.Delayed_Shuffle": {
+  "note": "ソースが公開されていない（配布物のみ）",
+  "status": "closed"
+ },
+ "OverPulse.Flash_Hue": {
+  "note": "ソースが公開されていない（配布物のみ）",
+  "status": "closed"
+ },
+ "Pachira762.AnalogFuu": {
+  "note": "",
+  "status": "pending"
+ },
+ "Pachira762.vsr4aviutl": {
+  "note": "",
+  "status": "pending"
+ },
+ "Rhapthorne_0.BPMEffectToggle": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.BlockGlitch_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.CompositionAsMultiObject_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.HueCycle_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.IndividualBasicEffects": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.Parallax_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.RadialRaster_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.RepeatedDraw_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.RotationRaster_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.ShowParameters_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.SolidColorMosaic": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.SplitText_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.StatusLink_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.Strobe_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.TextAutoWrap": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.TextSkin": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.TimeDelay_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.TransformCoords_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.anchorControl_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.basicDelay": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.lineGlitch_Rh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.radialShift": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.roundCornerRh": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Rhapthorne_0.unifyText": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "SLDC.SeiSa": {
+  "note": "",
+  "status": "pending"
+ },
+ "Sagyou.DVD": {
+  "note": "",
+  "status": "pending"
+ },
+ "Sagyou.JpegNoise": {
+  "note": "",
+  "status": "pending"
+ },
+ "Sagyou.OpticsCompensation_s_for_AviUtl2": {
+  "note": "",
+  "status": "pending"
+ },
+ "SotenTsumugu.BaseEase": {
+  "note": "ライセンス: GPL-3.0 license（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Suzuke.IDgen_Su": {
+  "note": "",
+  "status": "pending"
+ },
+ "UndoFish.Easing2020": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Utsbox.AudioEffect": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "V.Bernkastel.AviUtl2_Language_kr": {
+  "note": "AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない",
+  "status": "na"
+ },
+ "VRAMWIZ.AudioFilter": {
+  "note": "",
+  "status": "pending"
+ },
+ "VRAMWIZ.Aul2MIRAI": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "VRAMWIZ.MMDAnimationStudio": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "VRAMWIZ.SYNC_Breath": {
+  "note": "",
+  "status": "pending"
+ },
+ "VRAMWIZ.SYNC_Graph": {
+  "note": "ライセンス: GPL-3.0（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "VRAMWIZ.SYNC_Lyrics": {
+  "note": "ライセンス: GPL-3.0-only（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "VRAMWIZ.SYNC_MVStudio": {
+  "note": "ライセンス: GPL-3.0（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "VRAMWIZ.SYNC_MapRaku": {
+  "note": "",
+  "status": "pending"
+ },
+ "VRAMWIZ.SYNC_Motion": {
+  "note": "",
+  "status": "pending"
+ },
+ "VRAMWIZ.SYNC_PianoRoll": {
+  "note": "",
+  "status": "pending"
+ },
+ "VRAMWIZ.SYNC_ScreenLayout": {
+  "note": "",
+  "status": "pending"
+ },
+ "VRAMWIZ.Shake_PPP": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "VRAMWIZ.Syncroh2": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "VRAMWIZ.TurnOver_PPP": {
+  "note": "",
+  "status": "pending"
+ },
+ "VRAMWIZ.VW_Media_Input": {
+  "note": "ライセンス: GPL-3.0（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "VRAMWIZ.VW_Media_Output": {
+  "note": "ライセンス: GPL-3.0（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Yuzuriha.ChapterMarker": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Yuzuriha.LoudnessVisualExplorer": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "Yuzuriha.SimpleRecorder": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "airiah7.plugin--picked-color-storage": {
+  "note": "ソースが公開されていない（配布物のみ）",
+  "status": "closed"
+ },
+ "airiah7.widget--drag-and-drop-objects": {
+  "note": "ソースが公開されていない（配布物のみ）",
+  "status": "closed"
+ },
+ "airiah7.widget--speed-preview": {
+  "note": "ソースが公開されていない（配布物のみ）",
+  "status": "closed"
+ },
+ "amaii4.AviUtl2_Discord_RPC": {
+  "note": "",
+  "status": "pending"
+ },
+ "animeojisan.AI_S-R_ONNX": {
+  "note": "",
+  "status": "pending"
+ },
+ "ar-ca-na.aup2-relink": {
+  "note": "",
+  "status": "pending"
+ },
+ "ar-ca-na.grunge-bg": {
+  "note": "",
+  "status": "pending"
+ },
+ "ar-ca-na.layer-pin": {
+  "note": "",
+  "status": "pending"
+ },
+ "ar-ca-na.open-last-project": {
+  "note": "",
+  "status": "pending"
+ },
+ "ar-ca-na.waveform-line": {
+  "note": "",
+  "status": "pending"
+ },
+ "arcana.connection_line": {
+  "note": "",
+  "status": "pending"
+ },
+ "aviutl2-community.aviutl2_community_translation_companion": {
+  "note": "AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない",
+  "status": "na"
+ },
+ "azurite.AdjustPivot_A": {
+  "note": "",
+  "status": "pending"
+ },
+ "azurite.ColorHalftone": {
+  "note": "",
+  "status": "pending"
+ },
+ "azurite.DepthMapFilter": {
+  "note": "",
+  "status": "pending"
+ },
+ "azurite.GradientEditor": {
+  "note": "",
+  "status": "pending"
+ },
+ "azurite.GradientPlus": {
+  "note": "",
+  "status": "pending"
+ },
+ "azurite.Hex-Tiling": {
+  "note": "",
+  "status": "pending"
+ },
+ "azurite.ImageCropExport": {
+  "note": "",
+  "status": "pending"
+ },
+ "azurite.LayerGridView": {
+  "note": "",
+  "status": "pending"
+ },
+ "azurite.PointZoom": {
+  "note": "",
+  "status": "pending"
+ },
+ "beive60.aviutl2-alias-inserter": {
+  "note": "",
+  "status": "pending"
+ },
+ "beive60.aviutl2-audio-rec": {
+  "note": "",
+  "status": "pending"
+ },
+ "beive60.scene-lighting": {
+  "note": "",
+  "status": "pending"
+ },
+ "c30.midiinfoobject": {
+  "note": "ソースが公開されていない（配布物のみ）",
+  "status": "closed"
+ },
+ "chihayuki.kokyuu": {
+  "note": "ライセンス: ニコニ・コモンズ（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "cleaning.sam3_bb_gb_generator": {
+  "note": "",
+  "status": "pending"
+ },
+ "cleaning.sam_frame_export_filter": {
+  "note": "",
+  "status": "pending"
+ },
+ "eizo-gak.aviutl2-Placeholder": {
+  "note": "",
+  "status": "pending"
+ },
+ "eizo-gak.aviutl2-SourceMonitor": {
+  "note": "ソースが公開されていない（配布物のみ）",
+  "status": "closed"
+ },
+ "gometh.3dconv_g": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "gomi1124.psdtoolkit-aviutl1-lipsync": {
+  "note": "",
+  "status": "pending"
+ },
+ "halkun19.HL_Blobox": {
+  "note": "",
+  "status": "pending"
+ },
+ "halkun19.HL_Ezing": {
+  "note": "",
+  "status": "pending"
+ },
+ "halkun19.HL_FxWheel": {
+  "note": "",
+  "status": "pending"
+ },
+ "hebiiro.al2_dialog_resizer": {
+  "note": "",
+  "status": "pending"
+ },
+ "hebiiro.al2_jd": {
+  "note": "",
+  "status": "pending"
+ },
+ "hebiiro.al2_memo": {
+  "note": "",
+  "status": "pending"
+ },
+ "hebiiro.al2_preset_adder": {
+  "note": "",
+  "status": "pending"
+ },
+ "hebiiro.al2_slimming": {
+  "note": "",
+  "status": "pending"
+ },
+ "hebiiro.al2_timeline_object_arranger": {
+  "note": "",
+  "status": "pending"
+ },
+ "hebiiro.al2_ui_dressing": {
+  "note": "",
+  "status": "pending"
+ },
+ "hebiiro.al2_visual_font": {
+  "note": "",
+  "status": "pending"
+ },
+ "hebiiro.al2_wav_saver": {
+  "note": "",
+  "status": "pending"
+ },
+ "hinodeisuzu.sliceglitch": {
+  "note": "",
+  "status": "pending"
+ },
+ "kanade-ak.TextCharEditor": {
+  "note": "",
+  "status": "pending"
+ },
+ "kanade-ak.kazeyureT": {
+  "note": "",
+  "status": "pending"
+ },
+ "koisi0319.Duplicate_objects": {
+  "note": "",
+  "status": "pending"
+ },
+ "korarei.AutoLyricAnimation_K": {
+  "note": "",
+  "status": "pending"
+ },
+ "korarei.CameraTransform_K": {
+  "note": "",
+  "status": "pending"
+ },
+ "korarei.ColorLUT_K": {
+  "note": "",
+  "status": "pending"
+ },
+ "korarei.Constraint": {
+  "note": "",
+  "status": "pending"
+ },
+ "korarei.Diffusion_K": {
+  "note": "",
+  "status": "pending"
+ },
+ "korarei.FlowType_K": {
+  "note": "",
+  "status": "pending"
+ },
+ "korarei.Handle": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "korarei.Kaleidoscope_K": {
+  "note": "",
+  "status": "pending"
+ },
+ "korarei.ObjectMotionBlur_LK": {
+  "note": "",
+  "status": "pending"
+ },
+ "korarei.PixelSorter_K": {
+  "note": "",
+  "status": "pending"
+ },
+ "korarei.Stylize_K": {
+  "note": "",
+  "status": "pending"
+ },
+ "legashiro.TextInput": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "mes51.Unmult": {
+  "note": "",
+  "status": "pending"
+ },
+ "mogesystem.VectorCanvas": {
+  "note": "",
+  "status": "pending"
+ },
+ "momo_neeeko.LocusMotion": {
+  "note": "",
+  "status": "pending"
+ },
+ "momo_neeeko.RainbowGradationM": {
+  "note": "",
+  "status": "pending"
+ },
+ "momo_neeeko.RasterM": {
+  "note": "",
+  "status": "pending"
+ },
+ "momo_neeeko.ReuleauxPolygon": {
+  "note": "",
+  "status": "pending"
+ },
+ "momo_neeeko.ScallopedCircle": {
+  "note": "",
+  "status": "pending"
+ },
+ "momo_neeeko.WaveClipping": {
+  "note": "",
+  "status": "pending"
+ },
+ "momo_neeeko.bpm_shake": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "momo_neeeko.delay_m": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "momo_neeeko.fold": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "momo_neeeko.parallel_projection": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "momo_neeeko.pixelize": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "momo_neeeko.rainbow_grad": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "momo_neeeko.rounded_rect_layout": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "momo_neeeko.squash_resize": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "nakano000.nkn_zoom_lines": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "naltutyo.ScriptBrowserPlugin": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "naltutyo.fuchidorigurade": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "naltutyo.kakutyo-tsu-ruba-": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "naltutyo.sagyouroga-N": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "naltutyo.zikanseigyoN": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "namarium.toaster": {
+  "note": "ソースが公開されていない（配布物のみ）",
+  "status": "closed"
+ },
+ "natuneko722.FrameCapturePlugin": {
+  "note": "",
+  "status": "pending"
+ },
+ "natuneko722.OCRTextExtractorPlugin": {
+  "note": "",
+  "status": "pending"
+ },
+ "natuneko722.text-background-balloon-script": {
+  "note": "",
+  "status": "pending"
+ },
+ "nctype.AutoBlendLight": {
+  "note": "",
+  "status": "pending"
+ },
+ "nctype.FilmPrintLUT": {
+  "note": "",
+  "status": "pending"
+ },
+ "nctype.ParametricBG": {
+  "note": "",
+  "status": "pending"
+ },
+ "nctype.Pixelizer": {
+  "note": "",
+  "status": "pending"
+ },
+ "nctype.PuniCollision": {
+  "note": "",
+  "status": "pending"
+ },
+ "nctype.RainOnPane": {
+  "note": "",
+  "status": "pending"
+ },
+ "nctype.ReflectionOnPane": {
+  "note": "",
+  "status": "pending"
+ },
+ "nctype.SomethingLikeGlitch": {
+  "note": "",
+  "status": "pending"
+ },
+ "ngw.anm2": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "nkopikaso.AviUtl2-WhisperAutoSub": {
+  "note": "ソースが公開されていない（配布物のみ）",
+  "status": "closed"
+ },
+ "novenove.KaraokeLyricRenderer": {
+  "note": "",
+  "status": "pending"
+ },
+ "novenove.VRMToolkit": {
+  "note": "",
+  "status": "pending"
+ },
+ "nullru.MotionTracking_MK-II_Plus_for_AviUtl2": {
+  "note": "",
+  "status": "pending"
+ },
+ "oov.GCMZDrops2": {
+  "note": "",
+  "status": "pending"
+ },
+ "oov.PSDToolKit2": {
+  "note": "",
+  "status": "pending"
+ },
+ "osakana4242.GifBayerDitherOutput": {
+  "note": "",
+  "status": "pending"
+ },
+ "pon.Displace": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "reindex-ot.reindex_AviUtl2_Language": {
+  "note": "AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない",
+  "status": "na"
+ },
+ "rigaya.NVEnc": {
+  "note": "",
+  "status": "pending"
+ },
+ "rigaya.QSVEnc": {
+  "note": "",
+  "status": "pending"
+ },
+ "rigaya.VCEEnc": {
+  "note": "",
+  "status": "pending"
+ },
+ "rigaya.VVenCguiEx": {
+  "note": "",
+  "status": "pending"
+ },
+ "rigaya.ffmpegOut": {
+  "note": "",
+  "status": "pending"
+ },
+ "rigaya.svtAV1guiEx": {
+  "note": "",
+  "status": "pending"
+ },
+ "rigaya.x264guiEx": {
+  "note": "",
+  "status": "pending"
+ },
+ "rigaya.x265guiEx": {
+  "note": "",
+  "status": "pending"
+ },
+ "ronin_gw.mojie": {
+  "note": "",
+  "status": "pending"
+ },
+ "routersys.DockLayout": {
+  "note": "",
+  "status": "pending"
+ },
+ "sagami121.AudioEnc": {
+  "note": "",
+  "status": "pending"
+ },
+ "sagami121.BlockNoise": {
+  "note": "",
+  "status": "pending"
+ },
+ "sagami121.Calculator": {
+  "note": "",
+  "status": "pending"
+ },
+ "sagami121.GParticle": {
+  "note": "",
+  "status": "pending"
+ },
+ "sagami121.Glitch_T": {
+  "note": "",
+  "status": "pending"
+ },
+ "sagami121.HEIF-HEIC-Input": {
+  "note": "",
+  "status": "pending"
+ },
+ "sagami121.NEF-Input": {
+  "note": "",
+  "status": "pending"
+ },
+ "sagami121.QRCode": {
+  "note": "",
+  "status": "pending"
+ },
+ "saluf.SumiDamari": {
+  "note": "",
+  "status": "pending"
+ },
+ "seilor0.roundedPolygonSl": {
+  "note": "",
+  "status": "pending"
+ },
+ "seilor0.twinkle_sl": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_binaural": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_chiptune": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_equalizer": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_image_rs_input": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_image_rs_output": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_midi_player": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_pixelsort": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_random_color": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_scripts_search": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_single_image_output": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_srt_file": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-rs.rusty_statistics": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-scripts.camera_frame-obj2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-scripts.crt-display.anm2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-scripts.dokaben-anm2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-scripts.hide_on_export-anm2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-scripts.legacy_glow-anm2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-scripts.pixel-transform-anm2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-scripts.targeted-scale-anm2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.aviutl2-scripts.vertical-video-obj2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.budoux-obj2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.clipboard-aux2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.create_control_object-aux2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.disassembler-anm2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.discord_activity-aux2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.enhanced_tracks-aux2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.extra_blend_mode-anm2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.filter_effect_toggle-aux2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.import_midi_tempos-aux2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.insert-aux2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.modify_group_num_layers-aux2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.ntsc-rs": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.object_as_frame_selection-aux2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.open_project_directory-aux2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.ported_satsuki": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "sevenc-nanashi.ported_tim": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.quantizer-aux2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.reset_frame_selection_on_focus-aux2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.rikky_modoki-anm2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.svg-aux2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.tex-auf2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.time_control_assistant-tra2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.tinted-aviutl2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.transform_specific_chars-anm2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.vintage-auf2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sevenc-nanashi.void-auf2": {
+  "note": "",
+  "status": "pending"
+ },
+ "shidunami.3dcg_movie_animation": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "shyachi.SrtImporter": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.AutoClipping_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.Basic_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.Border_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.ColoredCollar_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.GroundShadow2_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.Histogram_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.Layback": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.Lens_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.MovingMosaic_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.PageRoll_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.Path_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.PixelSnap_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.RadRotDirBlur_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.Region_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.Resize_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.SceneChangeKit_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.Tile_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.WhiteBalance_S": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.tl_walkaround2": {
+  "note": "",
+  "status": "pending"
+ },
+ "sigma-axis.translations_sigma-axis": {
+  "note": "AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない",
+  "status": "na"
+ },
+ "sikemoti.AdjustCenterCoordinate": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "sikemoti.GradientGenerator": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "sikemoti.JPEGCrush": {
+  "note": "",
+  "status": "pending"
+ },
+ "sikemoti.LevelAdjustment": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "sinyaperu.rhythmical": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "supernyan74.RadialClipping": {
+  "note": "",
+  "status": "pending"
+ },
+ "teruyoshii.4corner": {
+  "note": "",
+  "status": "pending"
+ },
+ "teruyoshii.Palette_History": {
+  "note": "",
+  "status": "pending"
+ },
+ "teruyoshii.TrackbarAudioSync": {
+  "note": "",
+  "status": "pending"
+ },
+ "teruyoshii.noiseGradation": {
+  "note": "",
+  "status": "pending"
+ },
+ "teruyoshii.noiseTe": {
+  "note": "",
+  "status": "pending"
+ },
+ "teruyoshii.pathBlur": {
+  "note": "",
+  "status": "pending"
+ },
+ "teruyoshii.pathGradation": {
+  "note": "",
+  "status": "pending"
+ },
+ "teruyoshii.stepGradation": {
+  "note": "",
+  "status": "pending"
+ },
+ "tettu0530.LiquidGlass": {
+  "note": "",
+  "status": "pending"
+ },
+ "tettu0530.NCSVisualizer": {
+  "note": "",
+  "status": "pending"
+ },
+ "tikubonn.Alignment": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "tikubonn.CinemaScope": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "tikubonn.IrisOut": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "tikubonn.NostalgiaFilter": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "tikubonn.TVSubtitle": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "tikubonn.ZigZagClipping": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "tnotawa.autozwj": {
+  "note": "",
+  "status": "pending"
+ },
+ "tranczmeq.aviutl2-mcp-bridge": {
+  "note": "",
+  "status": "pending"
+ },
+ "tsts4767.LoopPortionOfFrames": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "tsts4767.RepetitiveMovementPlus": {
+  "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "tt_xiaop.fold": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "tt_xiaop.ougi_blind": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "vandojapan.comfont": {
+  "note": "",
+  "status": "pending"
+ },
+ "vandojapan.typing-effect": {
+  "note": "",
+  "status": "pending"
+ },
+ "yh2237.AviUtl2-MCP": {
+  "note": "",
+  "status": "pending"
+ },
+ "yu7400ki.anmImOutput-apng": {
+  "note": "",
+  "status": "pending"
+ },
+ "yu7400ki.anmImOutput-avif": {
+  "note": "",
+  "status": "pending"
+ },
+ "yu7400ki.anmImOutput-gif": {
+  "note": "",
+  "status": "pending"
+ },
+ "yu7400ki.anmImOutput-jxl": {
+  "note": "",
+  "status": "pending"
+ },
+ "yu7400ki.anmImOutput-webp": {
+  "note": "",
+  "status": "pending"
+ },
+ "yu7400ki.stabilizer": {
+  "note": "",
+  "status": "pending"
+ },
+ "zopty.BlindLoop": {
+  "note": "",
+  "status": "pending"
+ },
+ "zopty.DokodemoBuffer": {
+  "note": "",
+  "status": "pending"
+ },
+ "zopty.OKLCHpalette": {
+  "note": "ライセンス: 不明（組み込めるライセンスではない）",
+  "status": "license"
+ },
+ "zopty.OpticalFlowMotionBlur": {
+  "note": "",
+  "status": "pending"
+ },
+ "zopty.osc4au2": {
+  "note": "",
+  "status": "pending"
+ }
+}

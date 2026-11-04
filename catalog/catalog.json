@@ -1,0 +1,7930 @@
+[
+ {
+  "id": "Kenkun.AviUtlExEdit2",
+  "name": "AviUtl ExEdit2",
+  "type": "本体",
+  "author": "ＫＥＮくん",
+  "summary": "AviUtl2本体",
+  "repo": "https://spring-fragrance.mints.ne.jp/aviutl/",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "hebiiro.al2_jd",
+  "name": "⚠️【非推奨】ダークモード化MOD",
+  "type": "MOD",
+  "author": "蛇色",
+  "summary": "AviUtl2を完全にダークモード化するプラグイン",
+  "repo": "https://github.com/hebiiro/al2_jd/",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "hebiiro"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "hebiiro.al2_wav_saver",
+  "name": "WAVファイル出力",
+  "type": "出力プラグイン",
+  "author": "蛇色",
+  "summary": "WAVファイルを出力するプラグイン",
+  "repo": "https://github.com/hebiiro/al2_wav_saver/",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "hebiiro"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "rigaya.x264guiEx",
+  "name": "x264guiEx",
+  "type": "出力プラグイン",
+  "author": "rigaya",
+  "summary": "x264を使用してエンコードを行うAviutlの出力プラグインです。",
+  "repo": "https://github.com/rigaya/x264guiEx",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2010-2022",
+      "holder": "rigaya"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "rigaya.x265guiEx",
+  "name": "x265guiEx",
+  "type": "出力プラグイン",
+  "author": "rigaya",
+  "summary": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
+  "repo": "https://github.com/rigaya/x265guiEx",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2010-2022",
+      "holder": "rigaya"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "rigaya.NVEnc",
+  "name": "NVEnc",
+  "type": "出力プラグイン",
+  "author": "rigaya",
+  "summary": "NVENCによる高速エンコードの性能実験",
+  "repo": "https://github.com/rigaya/NVEnc",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2011-2022",
+      "holder": "rigaya"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "rigaya.QSVEnc",
+  "name": "QSVEnc",
+  "type": "出力プラグイン",
+  "author": "rigaya",
+  "summary": "QSVによる高速エンコードの性能実験",
+  "repo": "https://github.com/rigaya/QSVEnc",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2010-2016",
+      "holder": "rigaya"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "rigaya.ffmpegOut",
+  "name": "ffmpegOut",
+  "type": "出力プラグイン",
+  "author": "rigaya",
+  "summary": "Aviutlのffmpegを使用した出力プラグイン",
+  "repo": "https://github.com/rigaya/ffmpegOut",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "",
+      "holder": "rigaya"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "rigaya.VCEEnc",
+  "name": "VCEEnc",
+  "type": "出力プラグイン",
+  "author": "rigaya",
+  "summary": "VCEによる高速エンコードの性能実験",
+  "repo": "https://github.com/rigaya/VCEEnc",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2014-2017",
+      "holder": "rigaya"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "rigaya.svtAV1guiEx",
+  "name": "svtAV1guiEx",
+  "type": "出力プラグイン",
+  "author": "rigaya",
+  "summary": "拡張 SVT-AV1 出力(GUI) Ex",
+  "repo": "https://github.com/rigaya/svtAV1guiEx",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2010-2022",
+      "holder": "rigaya"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Mr-Ojii.L-SMASH-Works",
+  "name": "L-SMASH-Works",
+  "type": "入力プラグイン",
+  "author": "Mr-Ojii",
+  "summary": "幅広い形式の動画・音声ファイルを読み込めるようにする入力プラグイン",
+  "repo": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2021",
+      "holder": "Mr-Ojii"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.AutoClipping_S",
+  "name": "AutoClipping_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "オブジェクトの上下左右の透明領域をクリッピングするスクリプト",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_AutoClipping_S",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025-2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.RadRotDirBlur_S",
+  "name": "RadRotDirBlur_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "放射ブラー・回転ブラー・方向ブラーを組み合わせた複合ブラーのスクリプト",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025-2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "gometh.3dconv_g",
+  "name": "立体化(g)",
+  "type": "スクリプト",
+  "author": "gometh",
+  "summary": "オブジェクトを“立体的”に表示するためのスクリプト",
+  "repo": "https://x.com/gometh55/status/1942624351028928756",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "momo_neeeko.rainbow_grad",
+  "name": "虹色グラデーション",
+  "type": "スクリプト",
+  "author": "もも猫",
+  "summary": "虹色グラデーションを作成するエフェクト",
+  "repo": "https://x.com/momo_neeeko/status/1947433839112163352",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "momo_neeeko.squash_resize",
+  "name": "潰す",
+  "type": "スクリプト",
+  "author": "もも猫",
+  "summary": "いい感じに縦と横のリサイズを行います",
+  "repo": "https://x.com/momo_neeeko/status/1944343165852426666",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "momo_neeeko.rounded_rect_layout",
+  "name": "角丸長方形配置",
+  "type": "スクリプト",
+  "author": "もも猫",
+  "summary": "角丸長方形配置状に個別オブジェクトを配置する",
+  "repo": "https://x.com/momo_neeeko/status/1944343165852426666",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "momo_neeeko.bpm_shake",
+  "name": "BPMカクカク振動",
+  "type": "スクリプト",
+  "author": "もも猫",
+  "summary": "BPMカクカク振動",
+  "repo": "https://x.com/momo_neeeko/status/1944343165852426666",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Nagomiku.shape_by_value",
+  "name": "値で図形",
+  "type": "スクリプト",
+  "author": "Nagomiku",
+  "summary": "xyサイズを指定して図形を描画するスクリプト",
+  "repo": "https://x.com/nagomiku7359/status/1943304659487396140",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "tt_xiaop.ougi_blind",
+  "name": "扇ブラインド",
+  "type": "スクリプト",
+  "author": "テツ",
+  "summary": "扇型のブラインドを作成するスクリプト",
+  "repo": "https://x.com/tt_xiaop/status/1943165775189270911",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "tt_xiaop.fold",
+  "name": "折り畳み",
+  "type": "スクリプト",
+  "author": "テツ",
+  "summary": "画像や映像を折りたたんだり広げたりするスクリプト",
+  "repo": "https://x.com/tt_xiaop/status/1942481707682115712",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "momo_neeeko.fold",
+  "name": "折りたたむ",
+  "type": "スクリプト",
+  "author": "もも猫",
+  "summary": "オブジェクトを折りたたむスクリプト",
+  "repo": "https://x.com/momo_neeeko/status/1946436761141629252",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "korarei.Stylize_K",
+  "name": "@Stylize_K",
+  "type": "スクリプト",
+  "author": "Korarei",
+  "summary": "AviUtl ExEdit2で画像の見た目を変えるスクリプト群",
+  "repo": "https://github.com/korarei/AviUtl2_Stylize_K_Script",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Korarei"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "reindex-ot.reindex_AviUtl2_Language",
+  "name": "非公式言語ファイル(Japanese_Mod)",
+  "type": "言語ファイル",
+  "author": "Re*Index. (ot_inc)",
+  "summary": "修正した AviUtl2 の日本語の言語ファイル。",
+  "repo": "https://github.com/reindex-ot/reindex_AviUtl2_Language",
+  "licenses": [
+   {
+    "type": "WTFPL license",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "seilor0.roundedPolygonSl",
+  "name": "角丸正多角形_sl",
+  "type": "スクリプト",
+  "author": "セイル",
+  "summary": "角丸や星形にもできる正多角形のカスタムオブジェクト",
+  "repo": "https://github.com/seilor0/roundedPolygon_sl",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "seilor0"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "seilor0.twinkle_sl",
+  "name": "twinkle_sl",
+  "type": "スクリプト",
+  "author": "セイル",
+  "summary": "✨を作れるカスタムオブジェクト",
+  "repo": "https://github.com/seilor0/twinkle_sl",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "seilor0"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "hebiiro.al2_memo",
+  "name": "メモ帳プラグイン",
+  "type": "汎用プラグイン",
+  "author": "蛇色",
+  "summary": "メモ帳代わりに使用できるウィンドウを追加するプラグイン",
+  "repo": "https://github.com/hebiiro/al2_memo",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "hebiiro"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Mr-Ojii.WebPFileReader-Plugin",
+  "name": "WebPFileReader-Plugin",
+  "type": "入力プラグイン",
+  "author": "Mr-Ojii",
+  "summary": "Animated WebP を読み込むために開発した AviUtl ExEdit2 用入力プラグイン",
+  "repo": "https://github.com/Mr-Ojii/AviUtl2-WebPFileReader-Plugin",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Mr-Ojii"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "yu7400ki.anmImOutput-apng",
+  "name": "APNG出力プラグイン",
+  "type": "出力プラグイン",
+  "author": "yu7400ki",
+  "summary": "動画をAPNGとして出力するプラグイン",
+  "repo": "https://yu7400ki.me/aviutl2-animated-image-output/",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Yuki Natori"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "yu7400ki.anmImOutput-gif",
+  "name": "GIF出力プラグイン",
+  "type": "出力プラグイン",
+  "author": "yu7400ki",
+  "summary": "動画をGIFとして出力するプラグイン",
+  "repo": "https://yu7400ki.me/aviutl2-animated-image-output/",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Yuki Natori"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "yu7400ki.anmImOutput-webp",
+  "name": "WebP出力プラグイン",
+  "type": "出力プラグイン",
+  "author": "yu7400ki",
+  "summary": "動画をWebPとして出力するプラグイン",
+  "repo": "https://yu7400ki.me/aviutl2-animated-image-output/",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Yuki Natori"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "yu7400ki.anmImOutput-avif",
+  "name": "AVIF出力プラグイン",
+  "type": "出力プラグイン",
+  "author": "yu7400ki",
+  "summary": "動画をAVIFとして出力するプラグイン",
+  "repo": "https://yu7400ki.me/aviutl2-animated-image-output/",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Yuki Natori"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.Basic_S",
+  "name": "Basic_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "丸角矩形や回転操作の補助，傾斜変形など汎用的な基本効果のスクリプト集．",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_Basic_S",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025-2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.Path_S",
+  "name": "Path_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "折れ線やベジェ曲線で図形を描画，フィルタ効果をかけるスクリプト",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_Path_S/",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025-2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "korarei.PixelSorter_K",
+  "name": "PixelSorter_K",
+  "type": "スクリプト",
+  "author": "Korarei",
+  "summary": "範囲とソート対象を指定できるピクセルソートスクリプト",
+  "repo": "https://github.com/korarei/AviUtl2_PixelSorter_K_Script",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Korarei"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "korarei.ObjectMotionBlur_LK",
+  "name": "MotionBlur_K",
+  "type": "フィルタプラグイン",
+  "author": "Korarei",
+  "summary": "軽量モーションブラーエフェクト",
+  "repo": "https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Korarei"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.ColoredCollar_S",
+  "name": "ColoredCollar_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "オブジェクトの境界部分の色を引き伸ばして縁取りをするスクリプト",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025-2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.Tile_S",
+  "name": "Tile_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "規則的なパターン模様を生成し、背景や装飾として利用できるスクリプト",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_Tile_S",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025-2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.Resize_S",
+  "name": "Resize_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "拡大縮小のアルゴリズムを選べるリサイズフィルタ",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_Resize_S",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025-2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.PixelSnap_S",
+  "name": "PixelSnap_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "小数点以下のピクセルずれで余計なボケが入るのを抑えるスクリプト",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_PixelSnap_S",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025-2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.PageRoll_S",
+  "name": "PageRoll_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "ページを丸めるように画像を変形するスクリプト",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_PageRoll_S",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025-2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Garech.SplitFilters",
+  "name": "フィルタ分離",
+  "type": "汎用プラグイン",
+  "author": "Garech",
+  "summary": "オブジェクト上のフィルタ効果群を個別オブジェクト化するプラグイン",
+  "repo": "https://github.com/Garech-mas/AviUtl2_SplitFilters",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Garech"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Garech.jp_akey.aul2",
+  "name": "アクセスキー付き日本語リソース",
+  "type": "言語ファイル",
+  "author": "Garech",
+  "summary": "⚠️導入/更新時注意　AviUtl2のメニューにアクセスキーを追加",
+  "repo": "https://github.com/Garech-mas/jp_akey.aul2",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.GroundShadow2_S",
+  "name": "GroundShadow2_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "影を立体的に地面や壁，天井などへ落とすフィルタ効果．",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025-2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.Histogram_S",
+  "name": "Histogram_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "ヒストグラムを編集画面上に表示するスクリプト",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_Histogram_S",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "zopty.BlindLoop",
+  "name": "ブラインドループ",
+  "type": "スクリプト",
+  "author": "zopty",
+  "summary": "斜めクリッピングを連続して並べたような効果を追加します。",
+  "repo": "https://gist.github.com/zopty/ff3439d79fe609c7714d6db4ef1a39a6",
+  "licenses": [
+   {
+    "type": "BSD-3-Clause",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "zopty"
+     }
+    ],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "azurite.ColorHalftone",
+  "name": "ColorHalftone",
+  "type": "スクリプト",
+  "author": "azurite",
+  "summary": "カラーハーフトーン加工をするスクリプト",
+  "repo": "https://github.com/azurite581/AviUtl2-ColorHalftone",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025-2026",
+      "holder": "azurite"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "oov.GCMZDrops2",
+  "name": "GCMZDrops2",
+  "type": "MOD",
+  "author": "おおぶ",
+  "summary": "ファイルドロップを拡張するプラグイン（ごちゃまぜドロップス2）",
+  "repo": "https://github.com/oov/aviutl2_gcmzdrops2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "oov"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "amaii4.AviUtl2_Discord_RPC",
+  "name": "AviUtl2_Discord_RPC",
+  "type": "汎用プラグイン",
+  "author": "甘味",
+  "summary": "Discordにプレイ中を表示させるAviUtl2のプラグイン",
+  "repo": "https://github.com/amaii4/AviUtl2_Discord_RPC",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "甘味"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Natadecoco.TextEditor",
+  "name": "TextEditor",
+  "type": "汎用プラグイン",
+  "author": "なたのこ",
+  "summary": "テキストの文字ごとにサイズ・フォント・色などを個別に設定できるエディタ",
+  "repo": "https://github.com/Natadecoco2539/AviUtl2-TextEditor",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "なたのこ"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Natadecoco.TextSplitter",
+  "name": "TextSplitter",
+  "type": "汎用プラグイン",
+  "author": "なたのこ",
+  "summary": "テキストオブジェクトを1文字ずつのオブジェクトに一括分割するプラグイン",
+  "repo": "https://github.com/Natadecoco2539/AviUtl2-TextSplitter",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "なたのこ"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Natadecoco.MyAssetManager",
+  "name": "MyAssetManager",
+  "type": "汎用プラグイン",
+  "author": "なたのこ",
+  "summary": "画像や動画素材、オブジェクトの構成を管理するためのプラグイン",
+  "repo": "https://github.com/Natadecoco2539/AviUtl2-MyAssetManager",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "なたのこ"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "azurite.GradientPlus",
+  "name": "グラデーション+",
+  "type": "スクリプト",
+  "author": "azurite",
+  "summary": "sRGB以外の色空間でグラデーション加工するスクリプト",
+  "repo": "https://github.com/azurite581/AviUtl2-GradientPlus",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "naltutyo.fuchidorigurade",
+  "name": "縁取りグラデーション",
+  "type": "スクリプト",
+  "author": "Nao",
+  "summary": "縁取りにグラデーションをかけることのできるソフトです",
+  "repo": "https://nao-kid.booth.pm/items/7737503",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "naltutyo.ScriptBrowserPlugin",
+  "name": "ScriptBrowserPlugin",
+  "type": "汎用プラグイン",
+  "author": "Nao",
+  "summary": "多くの効果を検索し、付与や追加等ができるPluginです",
+  "repo": "https://nao-kid.booth.pm/items/7684889",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "namarium.toaster",
+  "name": "出力先トースト通知プラグイン",
+  "type": "汎用プラグイン",
+  "author": "namarium",
+  "summary": "出力先を開くボタン付きのトースト通知を表示するプラグイン",
+  "repo": "https://booth.pm/ja/items/7544010",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "namarium"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "oov.PSDToolKit2",
+  "name": "PSDToolKit2",
+  "type": "汎用プラグイン",
+  "author": "おおぶ",
+  "summary": "PSD ファイルを扱うためのプラグイン",
+  "repo": "https://github.com/oov/aviutl2_psdtoolkit2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "oov"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Karoterra.OilPainting",
+  "name": "油絵KR",
+  "type": "スクリプト",
+  "author": "かろてら",
+  "summary": "油絵風の加工を施すスクリプト",
+  "repo": "https://github.com/karoterra/aviutl2-OilPainting",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "karoterra"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Karoterra.Bend",
+  "name": "曲げKR",
+  "type": "スクリプト",
+  "author": "かろてら",
+  "summary": "画像を曲線に沿って曲げるスクリプト",
+  "repo": "https://github.com/karoterra/aviutl2-Bend",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "karoterra"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Karoterra.ColorVisionSimulation",
+  "name": "色覚シミュレーションKR",
+  "type": "スクリプト",
+  "author": "かろてら",
+  "summary": "色覚を持つ人の見え方をシミュレーションするスクリプト",
+  "repo": "https://github.com/karoterra/aviutl2-ColorVisionSimulation",
+  "licenses": [
+   {
+    "type": "Unlicense",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "naltutyo.kakutyo-tsu-ruba-",
+  "name": "Nao式ツールボックス",
+  "type": "汎用プラグイン",
+  "author": "Nao",
+  "summary": "元祖拡張ツールバーをAviutl2用にオマージュしたものです",
+  "repo": "https://nao-kid.booth.pm/items/7791311",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "korarei.AutoLyricAnimation_K",
+  "name": "AutoLyricAnimation_K",
+  "type": "スクリプト",
+  "author": "Korarei",
+  "summary": "リリックモーションを行うためのスクリプト",
+  "repo": "https://github.com/korarei/AviUtl2_AutoLyricAnimation_K_Script",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Korarei"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "korarei.CameraTransform_K",
+  "name": "CameraTransform_K",
+  "type": "スクリプト",
+  "author": "Korarei",
+  "summary": "AviUtl ExEdit2 向けカメラ調整用ツール",
+  "repo": "https://github.com/korarei/AviUtl2_CameraTransform_K_Script",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Korarei"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "korarei.Kaleidoscope_K",
+  "name": "Kaleidoscope_K",
+  "type": "スクリプト",
+  "author": "Korarei",
+  "summary": "画像を万華鏡風に加工するスクリプト",
+  "repo": "https://github.com/korarei/AviUtl2_Kaleidoscope_K_Script",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Korarei"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "korarei.ColorLUT_K",
+  "name": "ColorLUT_K",
+  "type": "フィルタプラグイン",
+  "author": "Korarei",
+  "summary": "LUTファイルを扱えるようにするプラグイン",
+  "repo": "https://github.com/korarei/AviUtl2_ColorLUT_K_Plugin",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Korarei"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.tl_walkaround2",
+  "name": "TLショトカ移動2",
+  "type": "汎用プラグイン",
+  "author": "σ軸",
+  "summary": "タイムライン操作のコマンドを追加するプラグイン",
+  "repo": "https://github.com/sigma-axis/aviutl2_tl_walkaround2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025-2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "zopty.DokodemoBuffer",
+  "name": "どこでもバッファ",
+  "type": "スクリプト",
+  "author": "zopty",
+  "summary": "転送可能なフレームバッファ",
+  "repo": "https://github.com/zopty/DokodemoBuffer",
+  "licenses": [
+   {
+    "type": "BSD-3-Clause",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "zopty"
+     }
+    ],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.BlockGlitch_Rh",
+  "name": "BlockGlitch_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "ブロック状にずれるグリッチエフェクト",
+  "repo": "https://x.com/Rhapthorne_0/status/2000355120782164458",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.RadialRaster_Rh",
+  "name": "放射ラスター_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "画像などを放射状に変形するエフェクト",
+  "repo": "https://x.com/Rhapthorne_0/status/2009429917847658676",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.TextSkin",
+  "name": "Textスキン",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "テキストを図形や画像、動画に置き換えるスクリプト",
+  "repo": "https://x.com/Rhapthorne_0/status/1967755313521512906",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.BPMEffectToggle",
+  "name": "BPMエフェクトトグル",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "BPMに合わせてエフェクトをオンオフするスクリプト",
+  "repo": "https://x.com/Rhapthorne_0/status/1967755313521512906?s=20",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.unifyText",
+  "name": "テキスト一枚化",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "テキストを一つのオブジェクトのように扱えるスクリプト",
+  "repo": "https://x.com/Rhapthorne_0/status/1968330680842297713",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.TextAutoWrap",
+  "name": "テキスト自動改行",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "テキストを自動改行するスクリプト",
+  "repo": "https://x.com/Rhapthorne_0/status/1971818367167483937",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.SolidColorMosaic",
+  "name": "単色不透明化+モザイク",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "モザイク後不透明な部分を指定色で塗りつぶすスクリプト",
+  "repo": "https://x.com/Rhapthorne_0/status/1971988664227172734",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.radialShift",
+  "name": "ラディアルシフト",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "複数オブジェクトを放射状に配置し、回転やディレイを付けられるスクリプト",
+  "repo": "https://x.com/Rhapthorne_0/status/1975320165941129277",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.basicDelay",
+  "name": "基本効果(Delay)",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "基本効果をオブジェクトごとに時間差で適用するスクリプト",
+  "repo": "https://x.com/Rhapthorne_0/status/1978378817640018296",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "teruyoshii.noiseGradation",
+  "name": "ノイズグラデーション",
+  "type": "スクリプト",
+  "author": "てるよし",
+  "summary": "時間制御カーブで自由に調整できるノイズグラデーション",
+  "repo": "https://x.com/teruyoshi_uec/status/1979927691215471002",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "teruyoshi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "teruyoshii.pathGradation",
+  "name": "パスグラデーション",
+  "type": "スクリプト",
+  "author": "てるよし",
+  "summary": "パスでグラデーションを掛けられるスクリプト",
+  "repo": "https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E3%83%91%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.anm2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "teruyoshi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "shyachi.SrtImporter",
+  "name": "SrtImporter",
+  "type": "汎用プラグイン",
+  "author": "shyachi",
+  "summary": "SRT字幕ファイルをインポートするプラグイン",
+  "repo": "https://github.com/shyachi/AviUtl2_SrtImporter",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "shyachi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "hebiiro.al2_preset_adder",
+  "name": "プリセット追加MOD",
+  "type": "MOD",
+  "author": "蛇色",
+  "summary": "一部のダイアログにプリセットを追加するプラグイン",
+  "repo": "https://github.com/hebiiro/al2_preset_adder",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "hebiiro"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.WhiteBalance_S",
+  "name": "WhiteBalance_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "ホワイトバランスや色温度を調整するスクリプト",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_WhiteBalance_S",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.roundCornerRh",
+  "name": "角丸補正_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "角を丸めるスクリプト",
+  "repo": "https://x.com/Rhapthorne_0/status/1991423812328648848?s=20",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.lineGlitch_Rh",
+  "name": "LineGlitch_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "帯状に画面をランダムずらし色ズレも出すグリッチスクリプト",
+  "repo": "https://x.com/Rhapthorne_0/status/1992790280186011754",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.anchorControl_Rh",
+  "name": "個別アンカー操作_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "アンカーを用いて文字ごとの移動・回転・拡大を直感操作できるスクリプト",
+  "repo": "https://x.com/Rhapthorne_0/status/1996544042973409715",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "hebiiro.al2_visual_font",
+  "name": "フォント視覚化MOD",
+  "type": "MOD",
+  "author": "蛇色",
+  "summary": "フォントを選ぶ際にプレビューを表示するプラグイン",
+  "repo": "https://github.com/hebiiro/al2_visual_font",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "hebiiro"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_binaural",
+  "name": "Rusty Binaural Filter",
+  "type": "フィルタプラグイン",
+  "author": "Nanashi.",
+  "summary": "バイノーラルな感じの音を再現できるプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Nanashi. <sevenc7c.com>"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_chiptune",
+  "name": "Rusty Chiptune Filter",
+  "type": "フィルタプラグイン",
+  "author": "Nanashi.",
+  "summary": "チップチューンで使われるような音を実装するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Nanashi. <sevenc7c.com>"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_equalizer",
+  "name": "Rusty Equalizer Filter",
+  "type": "フィルタプラグイン",
+  "author": "Nanashi.",
+  "summary": "イコライザーを実装するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Nanashi. <sevenc7c.com>"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg",
+  "name": "Rusty FFmpeg Output",
+  "type": "出力プラグイン",
+  "author": "Nanashi.",
+  "summary": "FFmpegを使用して動画を出力するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Nanashi. <sevenc7c.com>"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_input",
+  "name": "Rusty Image Input",
+  "type": "入力プラグイン",
+  "author": "Nanashi.",
+  "summary": "様々な画像（アニメーション画像を含む）を読み込むプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Nanashi. <sevenc7c.com>"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_image_rs_output",
+  "name": "Rusty Image Output",
+  "type": "出力プラグイン",
+  "author": "Nanashi.",
+  "summary": "画像を連番で出力するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Nanashi. <sevenc7c.com>"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin",
+  "name": "Rusty Local Alias Plugin",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "プロジェクトファイル内にエイリアスを登録できるようにするプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Nanashi. <sevenc7c.com>"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_midi_player",
+  "name": "Rusty Piano Midi Player Input",
+  "type": "入力プラグイン",
+  "author": "Nanashi.",
+  "summary": "MIDIを読み込みピアノ音源で再生するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Nanashi. <sevenc7c.com>"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_pixelsort",
+  "name": "Rusty Pixel Sort Filter",
+  "type": "フィルタプラグイン",
+  "author": "Nanashi.",
+  "summary": "ピクセルソートを行うプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Nanashi. <sevenc7c.com>"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_random_color",
+  "name": "Rusty Random Color Filter",
+  "type": "フィルタプラグイン",
+  "author": "Nanashi.",
+  "summary": "ランダムな色の正方形のカスタムオブジェクトを作成するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Nanashi. <sevenc7c.com>"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut",
+  "name": "Rusty Restart Shortcut Plugin",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "⚠️非推奨 AviUtl2を再起動する編集メニューを追加するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Nanashi. <sevenc7c.com>"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_scripts_search",
+  "name": "Rusty Scripts Search Plugin",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "オブジェクト・エフェクトを検索してタイムラインに配置するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Nanashi. <sevenc7c.com>"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_srt_file",
+  "name": "Rusty SRT File Plugin",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "SRTファイル(字幕)のインポート/エクスポートを行うプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Nanashi. <sevenc7c.com>"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_statistics",
+  "name": "Rusty Statistics Output",
+  "type": "出力プラグイン",
+  "author": "Nanashi.",
+  "summary": "フレームを描画するのにかかった時間を表示するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Nanashi. <sevenc7c.com>"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.ntsc-rs",
+  "name": "ntsc-rs.anm2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "ntsc.rs を使ってVHS風のエフェクトを追加するプラグイン。",
+  "repo": "https://github.com/sevenc-nanashi/ntsc-rs.anm2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sagami121.AudioEnc",
+  "name": "AudioEnc",
+  "type": "出力プラグイン",
+  "author": "3aGaM1",
+  "summary": "Aviutl2で音声を出力するプラグイン",
+  "repo": "https://github.com/sagami121/Aviutl2-AudioEnc",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "3aGaM1"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.clipboard-aux2",
+  "name": "clipboard.aux2",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "ファイル・画像・テキストをクリップボードから直接貼り付けるプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/clipboard.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.vintage-auf2",
+  "name": "vintage.auf2",
+  "type": "フィルタプラグイン",
+  "author": "Nanashi.",
+  "summary": "音声を昔のビデオっぽくするAviUtl2のフィルタプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/vintage.auf2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-scripts.pixel-transform-anm2",
+  "name": "ドット絵変形.anm2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "ドット絵の拡大縮小・回転を行うスクリプト",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2#%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2anm2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-scripts.targeted-scale-anm2",
+  "name": "目標指定拡大縮小.anm2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "目標のピクセル数を指定し拡大縮小を行うスクリプト",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%9B%AE%E6%A8%99%E6%8C%87%E5%AE%9A%E6%8B%A1%E5%A4%A7%E7%B8%AE%E5%B0%8F/README.md",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "hebiiro.al2_slimming",
+  "name": "スリム化MOD",
+  "type": "MOD",
+  "author": "蛇色",
+  "summary": "タイトルバーとメニューバーを一体化してスリム化するMOD",
+  "repo": "https://github.com/hebiiro/al2_slimming",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "hebiiro"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Garech.DoubleBPMGrid",
+  "name": "BPMグリッド倍化",
+  "type": "汎用プラグイン",
+  "author": "Garech",
+  "summary": "グリッドの設定のBPM値を倍々に変化&BPM測定",
+  "repo": "https://github.com/Garech-mas/DoubleBPMGrid",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Garech"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.svg-aux2",
+  "name": "svg.aux2",
+  "type": "フィルタプラグイン",
+  "author": "Nanashi.",
+  "summary": "SVGファイルを読み込むカスタムオブジェクト",
+  "repo": "https://github.com/sevenc-nanashi/svg.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Esgo.MP4Exporter",
+  "name": "MP4Exporter",
+  "type": "出力プラグイン",
+  "author": "えすご",
+  "summary": "MP4ファイルを出力するプラグイン",
+  "repo": "https://apps.esugo.net/aviutl2-mp4exporter/",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Book-0225.EAP2",
+  "name": "External Audio Processing 2 (EAP2)",
+  "type": "フィルタプラグイン",
+  "author": "Book0225",
+  "summary": "音声関連色々出来るプラグイン(VST3, ピッチ, 解析等)",
+  "repo": "https://github.com/Book-0225/aviutl2_External_Audio_Processing",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Book-0225"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "ngw.anm2",
+  "name": "二色化",
+  "type": "スクリプト",
+  "author": "ngw",
+  "summary": "オブジェクトが2色のみに加工される",
+  "repo": "https://booth.pm/ja/items/7234918",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "ChihaYuki.obj",
+  "name": "補助線",
+  "type": "スクリプト",
+  "author": "ちはユキ",
+  "summary": "三分割構図を配置できる",
+  "repo": "https://www.nicovideo.jp/watch/sm37066079",
+  "licenses": [
+   {
+    "type": "GPLv3",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin",
+  "name": "Rusty Metronome Plugin",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "BPMを合わせるためのボタンとメトロノームを追加するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Utsbox.AudioEffect",
+  "name": "Utsbox Audio Effect",
+  "type": "フィルタプラグイン",
+  "author": "うつぼかずら",
+  "summary": "音声に対してさまざまな加工を行うプラグイン",
+  "repo": "https://www.utsbox.com/?p=4050",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "hebiiro.al2_ui_dressing",
+  "name": "UIドレッシングMOD",
+  "type": "MOD",
+  "author": "蛇色",
+  "summary": "AviUtl2の見た目を統一するMOD",
+  "repo": "https://github.com/hebiiro/al2_ui_dressing",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "hebiiro"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "mes51.Unmult",
+  "name": "Unmult",
+  "type": "スクリプト",
+  "author": "mes51",
+  "summary": "黒背景または白背景に重ねられた素材を復元するスクリプト",
+  "repo": "https://github.com/mes51/AVIUtl2_Unmult",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "mes51"
+     }
+    ],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sagami121.Calculator",
+  "name": "Aviutl2-Calculator",
+  "type": "汎用プラグイン",
+  "author": "3aGaM1",
+  "summary": "AviUtl2上で計算ができるプラグイン",
+  "repo": "https://github.com/sagami121/Aviutl2-Calculator",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "3aGaM1"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.ToneCurve",
+  "name": "Tonecurve_C",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "時間制御のカーブエディタを利用したトーンカーブスクリプト",
+  "repo": "https://x.com/CatWithNeko/status/1972685066963960255",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "cleaning.sam_frame_export_filter",
+  "name": "1クリック物体切り抜き（静止画）",
+  "type": "フィルタプラグイン",
+  "author": "クリーニング",
+  "summary": "1クリックで背景を消す(初回導入にあたってはGithubを読んで)",
+  "repo": "https://github.com/clean262/sam_frame_export_filter",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "cleaning"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "KAZOON.KSA",
+  "name": "KSA",
+  "type": "スクリプト",
+  "author": "KAZOON",
+  "summary": "リサイズやインターレース解除を含むスクリプト集",
+  "repo": "https://github.com/cycloawaodorin/ksa",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "KAZOON"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.tinted-aviutl2",
+  "name": "Tinted AviUtl2",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "tinted-theming をAviUtl2で使うプラグイン。",
+  "repo": "https://github.com/sevenc-nanashi/tinted-aviutl2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "zopty.OKLCHpalette",
+  "name": "OKLCH パレット",
+  "type": "プリセット",
+  "author": "zopty",
+  "summary": "OKLCH に基づいて設計されたカラーパレット",
+  "repo": "https://gist.github.com/zopty/46b16b7d5f90ec772274e67015117a91",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "cleaning.sam3_bb_gb_generator",
+  "name": "1クリック動画切り抜き",
+  "type": "汎用プラグイン",
+  "author": "クリーニング",
+  "summary": "動画背景を消す(初回導入にあたってはGithubを読んで)",
+  "repo": "https://github.com/clean262/sam3_bb_gb_generator",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "cleaning"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "SotenTsumugu.BaseEase",
+  "name": "キホンイーズ",
+  "type": "プリセット",
+  "author": "蒼天つむぐ",
+  "summary": "時間制御編集からイージングを設定できるプリセット",
+  "repo": "https://x.com/soten_various/status/1951590669304336443",
+  "licenses": [
+   {
+    "type": "GPL-3.0 license",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "KuroNeko.audio2obj",
+  "name": "audio2obj",
+  "type": "スクリプト",
+  "author": "黒猫大福",
+  "summary": "音声ファイル名からオブジェクト生成",
+  "repo": "https://github.com/rokujyushi/GCMZScripts",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "rokujyushi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "KuroNeko.midi2EAP2",
+  "name": "midi2EAP2",
+  "type": "スクリプト",
+  "author": "黒猫大福",
+  "summary": "EAP2 MIDI Visualizerのハンドラースクリプト",
+  "repo": "https://github.com/rokujyushi/GCMZScripts",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "rokujyushi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "KuroNeko.Haribote",
+  "name": "HariboteReader",
+  "type": "入力プラグイン",
+  "author": "黒猫大福",
+  "summary": "GCMZDrops2でメディアファイル以外をD&Dするためのプラグイン",
+  "repo": "https://github.com/rokujyushi/Haribote",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "rokujyushi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "NeAc.CinemaScope",
+  "name": "シネマスコープ",
+  "type": "スクリプト",
+  "author": "猫愛",
+  "summary": "シネマスコープ風の黒帯を描画するスクリプト",
+  "repo": "https://github.com/nea-c/aviutl2_script_CinemaScope",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "NeAc"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "azurite.GradientEditor",
+  "name": "Gradient Editor",
+  "type": "汎用プラグイン",
+  "author": "azurite",
+  "summary": "グラデーションエディタプラグイン",
+  "repo": "https://github.com/azurite581/AviUtl2-GradientEditor",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "azurite"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "KAZOON.wav_output_ks",
+  "name": "WAVファイル出力",
+  "type": "出力プラグイン",
+  "author": "KAZOON",
+  "summary": "モノラル/ステレオで出力できるWAVファイル出力プラグイン",
+  "repo": "https://github.com/cycloawaodorin/wav_output_ks",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "KAZOON"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "KAZOON.fzgx_smr_ks",
+  "name": "SMR for F-ZERO GX",
+  "type": "出力プラグイン",
+  "author": "KAZOON",
+  "summary": "F-ZERO GX のスピードメータ指示値をテキスト化するプラグイン",
+  "repo": "https://github.com/cycloawaodorin/fzgx_smr_ks",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "KAZOON"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "KuroNeko.VariableFont",
+  "name": "VariableFont",
+  "type": "スクリプト",
+  "author": "黒猫大福",
+  "summary": "可変フォント対応の文字を影や縁取り付きで表示するプラグイン",
+  "repo": "https://github.com/rokujyushi/Variable-Font-Plug-ins",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "rokujyushi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "KuroNeko.FontPreview",
+  "name": "FontPreview",
+  "type": "汎用プラグイン",
+  "author": "黒猫大福",
+  "summary": "フォント一覧検索およびVFの補助プラグイン",
+  "repo": "https://github.com/rokujyushi/FontPreview",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "rokujyushi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "KuroNeko.svg2obj",
+  "name": "svg2obj",
+  "type": "スクリプト",
+  "author": "黒猫大福",
+  "summary": "SVGファイルをD&Dで利用できるようになるスクリプト（svg.aux2が必要）",
+  "repo": "https://github.com/rokujyushi/GCMZScripts",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "rokujyushi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "NeAc.ScreenAspect",
+  "name": "画面アスペクト",
+  "type": "スクリプト",
+  "author": "猫愛",
+  "summary": "画面アスペクト比を指定してサイズ確認等をできるようにするスクリプト",
+  "repo": "https://github.com/nea-c/aviutl2_script_ScreenAspect",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "NeAc"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "NeAc.Egasumi",
+  "name": "エ霞(えがすみ)",
+  "type": "スクリプト",
+  "author": "猫愛",
+  "summary": "和柄の雲を作成可能なカスタムオブジェクト",
+  "repo": "https://github.com/nea-c/aviutl2_script_Egasumi",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "NeAc"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "NeAc.BezierPath",
+  "name": "BezierPath",
+  "type": "スクリプト",
+  "author": "猫愛",
+  "summary": "ベジェ曲線としてパスを描き、それに沿っての移動や配置が可能なスクリプト",
+  "repo": "https://github.com/nea-c/aviutl2_script_BezierPath",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "NeAc"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.open_project_directory-aux2",
+  "name": "open_project_directory.aux2",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "「プロジェクトファイルのフォルダを開く」ボタンを追加する汎用プラグイン",
+  "repo": "https://github.com/sevenc-nanashi/open_project_directory.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "V.Bernkastel.AviUtl2_Language_kr",
+  "name": "Korean (한국어)",
+  "type": "言語ファイル",
+  "author": "Victorique Bernkastel",
+  "summary": "AviUtl2 한국어 번역 파일 \n 韓国語言語ファイル",
+  "repo": "https://github.com/Victorique-Bernkastel/AviUtl2_Language",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Victorique Bernkastel"
+     }
+    ],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "zopty.OpticalFlowMotionBlur",
+  "name": "光学モーションブラー",
+  "type": "スクリプト",
+  "author": "zopty",
+  "summary": "オプティカルフローを使った疑似モーションブラー",
+  "repo": "https://gist.github.com/zopty/51deda495876451c1dcfb09ceb05345d",
+  "licenses": [
+   {
+    "type": "BSD-3-Clause",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "zopty"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.filter_effect_toggle-aux2",
+  "name": "filter_effect_toggle.aux2",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "フィルタ効果とフィルタオブジェクトを切り替える機能を追加するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/filter_effect_toggle.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "koisi0319.Duplicate_objects",
+  "name": "オブジェクト行複製",
+  "type": "汎用プラグイン",
+  "author": "koisi0319",
+  "summary": "選択したオブジェクトをそのレイヤーに複製するスクリプト",
+  "repo": "https://github.com/koisi0319/Aviutl2-Duplicate-objects-at-equal-intervals",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "koisi0319"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.Syncroh2",
+  "name": "新旧朗2",
+  "type": "汎用プラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "PSD立ち絵表示・セリフ挿入・音楽関連ツールをまとめたプラグイン",
+  "repo": "https://vramwiz.github.io/Syncroh2-site/",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "KuroNeko.CopyAlias",
+  "name": "CopyAlias",
+  "type": "汎用プラグイン",
+  "author": "黒猫大福",
+  "summary": "トラックバー、オブジェクトのエイリアスをクリップボードにコピーする",
+  "repo": "https://github.com/rokujyushi/Copy_alias",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "rokujyushi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sagami121.BlockNoise",
+  "name": "BlockNoise",
+  "type": "スクリプト",
+  "author": "3aGaM1",
+  "summary": "Aviutl2でブロックノイズをかけるスクリプト",
+  "repo": "https://github.com/sagami121/Aviutl2-BlockNoise",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "3aGaM1"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.insert-aux2",
+  "name": "insert.aux2",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "「メディアを挿入」編集メニューを追加する汎用プラグイン",
+  "repo": "https://github.com/sevenc-nanashi/insert.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.quantizer-aux2",
+  "name": "quantizer.aux2",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "BPMグリッドから少しズレているオブジェクトを補正するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/quantizer.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "azurite.Hex-Tiling",
+  "name": "Hex-Tiling",
+  "type": "スクリプト",
+  "author": "azurite",
+  "summary": "テクスチャの繰り返しを目立ちにくくするスクリプト",
+  "repo": "https://github.com/azurite581/AviUtl2-Hex-Tiling",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "NeAc.LyricMotioN",
+  "name": "LyricMotioN",
+  "type": "スクリプト",
+  "author": "猫愛",
+  "summary": "リリックモーションを簡単に作成できるスクリプト",
+  "repo": "https://github.com/nea-c/aviutl2_script_LyricMotioN",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "NeAc"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "NeAc.Loop",
+  "name": "Loop",
+  "type": "スクリプト",
+  "author": "猫愛",
+  "summary": "個別オブジェクト化、Z方向ループ対応の高度な画像ループ系スクリプト",
+  "repo": "https://github.com/nea-c/aviutl2_script_Loop",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "NeAc"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "naltutyo.sagyouroga-N",
+  "name": "作業ロガーN",
+  "type": "汎用プラグイン",
+  "author": "Nao",
+  "summary": "自分の作業を記録しXに投稿したり、作業時間を見直すプラグイン",
+  "repo": "https://nao-kid.booth.pm/items/8025601",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_single_image_output",
+  "name": "Rusty Single Image Output",
+  "type": "出力プラグイン",
+  "author": "Nanashi.",
+  "summary": "静止画を出力するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-rs",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.discord_activity-aux2",
+  "name": "discord_activity.aux2",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "編集中にDiscordのアクティビティを更新するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/discord_activity.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-scripts.camera_frame-obj2",
+  "name": "カメラフレーム.obj2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "カメラフレームっぽい図形を描画するスクリプト",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/README.md",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.modify_group_num_layers-aux2",
+  "name": "modify_group_num_layers.aux2",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "対象レイヤー数をショートカットキーから変更できるようにするプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/modify_group_num_layers.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.transform_specific_chars-anm2",
+  "name": "transform_specific_chars.anm2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "指定した文字のみに加工を行うスクリプト",
+  "repo": "https://github.com/sevenc-nanashi/transform_specific_chars.anm2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.disassembler-anm2",
+  "name": "disassembler.anm2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "画像のパーツを分解して個別オブジェクトにするスクリプト",
+  "repo": "https://github.com/sevenc-nanashi/disassembler.anm2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "KAZOON.resize_ks",
+  "name": "Lanczos3 / 画素平均法リサイズ",
+  "type": "フィルタプラグイン",
+  "author": "KAZOON",
+  "summary": "Lanczos3 または画素平均法でリサイズするフィルタプラグイン",
+  "repo": "https://github.com/cycloawaodorin/resize_ks",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "KAZOON"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Pachira762.vsr4aviutl",
+  "name": "vsr4aviutl",
+  "type": "フィルタプラグイン",
+  "author": "Pachira762",
+  "summary": "RTX VSRを使用したデノイズ、アップスケーリングを行う",
+  "repo": "https://github.com/Pachira762/vsr4aviutl",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "Pachira762"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "nakano000.nkn_zoom_lines",
+  "name": "NKN集中線",
+  "type": "スクリプト",
+  "author": "nakano000",
+  "summary": "漫画のような集中線スクリプト",
+  "repo": "https://www.nicovideo.jp/watch/sm45167975",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "azurite.ImageCropExport",
+  "name": "ImageCropExport",
+  "type": "出力プラグイン",
+  "author": "azurite",
+  "summary": "現在フレームの一部を切り抜いて画像として出力する出力プラグイン",
+  "repo": "https://github.com/azurite581/AviUtl2-ImageCropExport",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "azurite"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "teruyoshii.TrackbarAudioSync",
+  "name": "トラックバー音声同期",
+  "type": "スクリプト",
+  "author": "てるよし",
+  "summary": "プロジェクトの音量に応じてパラメータを変化させるトラックバースクリプト",
+  "repo": "https://x.com/teruyoshi_uec/status/1965389717224276231",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "teruyoshi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Nagomiku.CrushPNG",
+  "name": "CrushPNG",
+  "type": "スクリプト",
+  "author": "Nagomiku",
+  "summary": "⚠️説明文要確認　PNGのフィルタ方式で画像をグリッチするスクリプト",
+  "repo": "https://scrapbox.io/nanikani-shugo/CrushPNG",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Nagomiku.NagoEffect2.mod2",
+  "name": "NagoEffect2.mod2",
+  "type": "スクリプトモジュール",
+  "author": "Nagomiku",
+  "summary": "Nagomiku氏が作成する一部スクリプトに必須なスクリプトモジュール",
+  "repo": "https://scrapbox.io/nanikani-shugo/NagoEffect2.mod2",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "KuroNeko.TTSFileRename",
+  "name": "TTSFileRename",
+  "type": "スクリプト",
+  "author": "黒猫大福",
+  "summary": "音声合成ソフトから出力されたファイルのリネームスクリプト",
+  "repo": "https://github.com/rokujyushi/GCMZScripts",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "rokujyushi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "korarei.Constraint",
+  "name": "Constraint",
+  "type": "スクリプト",
+  "author": "Korarei",
+  "summary": "テキストの横にアイコン画像を表示",
+  "repo": "https://gist.github.com/korarei/d5b089a69e0c8ba5903d641d677c89e8",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "arcana.connection_line",
+  "name": "連結ライン",
+  "type": "スクリプト",
+  "author": "arcana",
+  "summary": "指定した2つのオブジェクトを、実線または点線で繋ぎます。",
+  "repo": "https://github.com/ar-ca-na/connection_line",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "arcana"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "novenove.KaraokeLyricRenderer",
+  "name": "Karaoke Lyric Renderer",
+  "type": "フィルタプラグイン",
+  "author": "novenove",
+  "summary": "タイムタグ付き歌詞をカスタムオブジェクトとして表示する（ルビ対応）",
+  "repo": "https://github.com/nove-nove/aviutl2-karaoke-lyric-renderer",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "novenove"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "momo_neeeko.WaveClipping",
+  "name": "ウェーブクリッピング",
+  "type": "スクリプト",
+  "author": "もも猫",
+  "summary": "様々な波の形で斜めクリッピング",
+  "repo": "https://x.com/momo_neeeko/status/2037491184260784191",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "もも猫"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "naltutyo.zikanseigyoN",
+  "name": "時間制御N",
+  "type": "汎用プラグイン",
+  "author": "Nao",
+  "summary": "独自のイージングエディタを追加するPluginです",
+  "repo": "https://nao-kid.booth.pm/items/8121576",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.budoux-obj2",
+  "name": "budoux.obj2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "横幅を指定してテキストを折り返すスクリプト",
+  "repo": "https://github.com/sevenc-nanashi/budoux.obj2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "korarei.Diffusion_K",
+  "name": "Diffusion_K",
+  "type": "スクリプト",
+  "author": "Korarei",
+  "summary": "オートン効果をかけるスクリプト",
+  "repo": "https://github.com/korarei/AviUtl2_Diffusion_K_Script",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.Border_S",
+  "name": "Border_S",
+  "type": "フィルタプラグイン",
+  "author": "σ軸",
+  "summary": "縁取り・角丸め・アウトラインができるフィルタ集",
+  "repo": "https://github.com/sigma-axis/aviutl2_Border_S",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Number-0621.SelectEasing",
+  "name": "SelectEasing",
+  "type": "汎用プラグイン",
+  "author": "No.0",
+  "summary": "AviUtl(無印)用の「イージング簡単選択」の移植版",
+  "repo": "https://github.com/NumberZero-0621/AviUtl2-Plugin-SelectEasing",
+  "licenses": [
+   {
+    "type": "MIT-0  license",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "azurite.PointZoom",
+  "name": "ポイントズーム",
+  "type": "スクリプト",
+  "author": "azurite",
+  "summary": "指定したポイントにズームするスクリプト",
+  "repo": "https://github.com/azurite581/AviUtl2-PointZoom",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "azurite"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Fu-Majime.AviUtl2_PolygonMorph_F",
+  "name": "多角形モーフ_F",
+  "type": "スクリプト",
+  "author": "フマジメ",
+  "summary": "モーフィング機能を備えた角丸正多角形・星型図形スクリプト",
+  "repo": "https://github.com/fu-majime/AviUtl2_PolygonMorph_F",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Fu-Majime"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "novenove.VRMToolkit",
+  "name": "VRM Toolkit for AviUtl2",
+  "type": "スクリプト",
+  "author": "novenove",
+  "summary": "VRMモデルを3D配置して表示するカスタムオブジェクト（VRMA対応）",
+  "repo": "https://github.com/nove-nove/aviutl2-vrm-toolkit",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "novenove"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "momo_neeeko.ScallopedCircle",
+  "name": "スカラップ円",
+  "type": "スクリプト",
+  "author": "もも猫",
+  "summary": "スカラップ円のカスタムオブジェクト",
+  "repo": "https://x.com/momo_neeeko/status/2040680596410941589",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "もも猫"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Number-0621.easing-quick-setup",
+  "name": "Easing Quick Setup",
+  "type": "汎用プラグイン",
+  "author": "No.0",
+  "summary": "AviUtl(無印)用の「イージング設定時短プラグイン」の移植版",
+  "repo": "https://github.com/NumberZero-0621/AviUtl2-easing-quick-setup",
+  "licenses": [
+   {
+    "type": "MIT-0 License",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Yuzuriha.SimpleRecorder",
+  "name": "シンプルレコーダー",
+  "type": "汎用プラグイン",
+  "author": "ゆずりは",
+  "summary": "Aviutl内でシンプルに録音できるプラグインです。",
+  "repo": "https://drive.google.com/drive/u/2/folders/1p3wHfas0d7fLNMffXFM2X6bJU9fW1dWt",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Fuji.commons_material_extractor",
+  "name": "ニコニ・コモンズ作品ID一覧出力プラグイン",
+  "type": "汎用プラグイン",
+  "author": "Fuji",
+  "summary": "ニコニ・コモンズで親作品登録を容易にするプラグインです",
+  "repo": "https://www.nicovideo.jp/watch/sm46156601",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Fuji"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Pachira762.AnalogFuu",
+  "name": "アナログ風",
+  "type": "フィルタプラグイン",
+  "author": "Pachira762",
+  "summary": "アナログテレビ風のエフェクトプラグイン",
+  "repo": "https://github.com/Pachira762/AnalogFuu",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Pachira762"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.tex-auf2",
+  "name": "tex.auf2",
+  "type": "フィルタプラグイン",
+  "author": "Nanashi.",
+  "summary": "TeXを読み込むAviUtl2のカスタムオブジェクト",
+  "repo": "https://github.com/sevenc-nanashi/tex.auf2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Yuzuriha.LoudnessVisualExplorer",
+  "name": "ラウドネス視覚分析",
+  "type": "汎用プラグイン",
+  "author": "ゆずりは",
+  "summary": "AviUtl2用のラウドネスを可視化し調整できるプラグインです",
+  "repo": "https://drive.google.com/drive/folders/1scs7pYc-EUqhfItoDdPXlV1DKFZ9iYQf?usp=sharing",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.LongShadow",
+  "name": "LongShadow",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "AviUtl2 ロングシャドー(&フラットシャドー)",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "azurite.AdjustPivot_A",
+  "name": "中心ずらし_A",
+  "type": "スクリプト",
+  "author": "azurite",
+  "summary": "オブジェクトの中心座標を移動するスクリプト",
+  "repo": "https://github.com/azurite581/AviUtl2-AdjustPivot_A",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "azurite"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.Lens",
+  "name": "Lens",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "レンズディストーションっぽいやつ",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-scripts.vertical-video-obj2",
+  "name": "縦動画ガイド.obj2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "ニコニコショートのUIで隠れる部分を表示するためのスクリプト",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%B8%A6%E5%8B%95%E7%94%BB%E3%82%AC%E3%82%A4%E3%83%89/README.md",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "aviutl2-community.aviutl2_community_translation_companion",
+  "name": "AviUtl2 Community Translation Companion",
+  "type": "言語ファイル",
+  "author": "Nanashi.",
+  "summary": "Pull translations from Crowdin",
+  "repo": "https://github.com/aviutl2/aviutl2-community-translation",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.Halftone",
+  "name": "Halftone",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "なんちゃってハーフトーン",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Sagyou.OpticsCompensation_s_for_AviUtl2",
+  "name": "OpticsCompensation_s_for_AviUtl2",
+  "type": "スクリプト",
+  "author": "サ行",
+  "summary": "レンズの収差（樽型/糸巻き型）をシミュレートするスクリプト。",
+  "repo": "https://github.com/SagyouDarui900/OpticsCompensation_s_for_AviUtl2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.Canny",
+  "name": "Canny",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "ノイズを抑えて輪郭を細くきれいに出すCanny風エッジ抽出スクリプト",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "tikubonn.CinemaScope",
+  "name": "シネマスコープ",
+  "type": "スクリプト",
+  "author": "ちくぼん",
+  "summary": "洋画などで見られる上下の暗幕を表示します。自動計算機能付き。",
+  "repo": "https://tikubonn.booth.pm/items/8270797",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.Composite",
+  "name": "Composite",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "このフィルタ以降にかけたフィルタと、このエフェクト以前の画像を合成する",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "tikubonn.IrisOut",
+  "name": "アイリスアウト",
+  "type": "スクリプト",
+  "author": "ちくぼん",
+  "summary": "画面端から丸い領域が縮小していく演出機能を提供します。",
+  "repo": "https://tikubonn.booth.pm/items/8205637",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Asu.LikeHandWriting",
+  "name": "手書き風カクカク振動",
+  "type": "スクリプト",
+  "author": "アス",
+  "summary": "手書き風にイラストやテキストをカクカク動かすことのできるスクリプトです",
+  "repo": "https://avilityyy.blogspot.com/2026/04/likeHandWriting.html",
+  "licenses": [
+   {
+    "type": "独自ライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "tikubonn.Alignment",
+  "name": "揃え",
+  "type": "スクリプト",
+  "author": "ちくぼん",
+  "summary": "オブジェクトの揃え位置を指定します。",
+  "repo": "https://tikubonn.booth.pm/items/8250336",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "beive60.aviutl2-alias-inserter",
+  "name": "aviutl2-alias-inserter",
+  "type": "汎用プラグイン",
+  "author": "Beive60",
+  "summary": "Steam Deck などの外部デバイスから挿入できるようにする",
+  "repo": "https://github.com/beive60/aviutl2-alias-inserter",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Beive60"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "beive60.aviutl2-audio-rec",
+  "name": "aviutl2-audio-rec",
+  "type": "汎用プラグイン",
+  "author": "Beive60",
+  "summary": "録音してwavファイルに保存してタイムラインに挿入",
+  "repo": "https://github.com/beive60/aviutl2-audio-rec",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Beive60"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "chihayuki.kokyuu",
+  "name": "自動呼吸アニメーション",
+  "type": "スクリプト",
+  "author": "ちはユキ",
+  "summary": "立ち絵に呼吸追加するアニメーション効果",
+  "repo": "https://www.nicovideo.jp/watch/sm37438844",
+  "licenses": [
+   {
+    "type": "ニコニ・コモンズ",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.translations_sigma-axis",
+  "name": "Language Files for Scripts and Filters by sigma-axis",
+  "type": "言語ファイル",
+  "author": "σ軸",
+  "summary": "Translation for sigma-axis packages",
+  "repo": "https://github.com/sigma-axis/aviutl2_translations_sigma-axis",
+  "licenses": [
+   {
+    "type": "BSD-2-Clause",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Karoterra.Typst",
+  "name": "Typst for AviUtl2",
+  "type": "フィルタプラグイン",
+  "author": "かろてら",
+  "summary": "AviUtl2 で Typst を使えるようにするプラグイン",
+  "repo": "https://github.com/karoterra/aviutl2-typst",
+  "licenses": [
+   {
+    "type": "Apache-2.0",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "karoterra"
+     }
+    ],
+    "custom": false
+   },
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "karoterra"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Asu.TwoStepsLyricmotion",
+  "name": "2段階リリックモーション",
+  "type": "スクリプト",
+  "author": "アス",
+  "summary": "2回に分けてテキストが動くリリックモーションを簡単に作成できます。",
+  "repo": "https://avilityyy.blogspot.com/2025/12/twoStepsLyricmotion.html",
+  "licenses": [
+   {
+    "type": "独自ライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "teruyoshii.noiseTe",
+  "name": "ノイズ_Te",
+  "type": "スクリプト",
+  "author": "てるよし",
+  "summary": "一定時間/距離ごとにループできるカスタマイズ性が高いノイズスクリプト群",
+  "repo": "https://github.com/teruyoshii/AviUtl2_Noise_Te",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "teruyoshi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "osakana4242.GifBayerDitherOutput",
+  "name": "GIFベイヤーディザ出力",
+  "type": "出力プラグイン",
+  "author": "三川おさかな",
+  "summary": "減色とベイヤーディザを適用した GIF を出力",
+  "repo": "https://github.com/osakana4242/aviutl2-gif-bayer-dither-output",
+  "licenses": [
+   {
+    "type": "0BSD",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.ported_tim",
+  "name": "ported_tim",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "ティム氏のスクリプト一式（226個）",
+  "repo": "https://github.com/sevenc-nanashi/ported_tim",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "momo_neeeko.RasterM",
+  "name": "ラスターM",
+  "type": "スクリプト",
+  "author": "もも猫",
+  "summary": "様々な波形で向きが指定できるラスター",
+  "repo": "https://x.com/momo_neeeko/status/2041081558011093323",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "もも猫"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Book-0225.relink",
+  "name": "AviUtl2 relink",
+  "type": "汎用プラグイン",
+  "author": "Book0225",
+  "summary": ".aup2 が参照しているファイルのパスを確認・修正するツールです",
+  "repo": "https://github.com/Book-0225/aviutl2_relink",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Book-0225"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "beive60.scene-lighting",
+  "name": "scene-lighting",
+  "type": "スクリプト",
+  "author": "Beive60",
+  "summary": "背景レイヤーの環境光を前景オブジェクト（キャラクターイラスト等）に反映",
+  "repo": "https://github.com/beive60/aviutl2-scene-lighting",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Beive60"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "korarei.FlowType_K",
+  "name": "FlowType_K",
+  "type": "スクリプト",
+  "author": "Korarei",
+  "summary": "超全自動リリックモーション",
+  "repo": "https://github.com/korarei/AviUtl2_FlowType_K_Script",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Korarei"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "zopty.osc4au2",
+  "name": "OSC4AU2",
+  "type": "スクリプト",
+  "author": "zopty",
+  "summary": "OSCを使って AviUtl2 のパラメーターを変化させる時間制御",
+  "repo": "https://github.com/zopty/osc4au2",
+  "licenses": [
+   {
+    "type": "BSD-3-Clause",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.Region_S",
+  "name": "Region_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "範囲を塗りつぶしたり一部分だけ透過したりパーツ分解できるスクリプト",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_Region_S",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.Layback",
+  "name": "最背面に配置",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "下のレイヤーでもフレームの最背面に配置して描画するスクリプト",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_Layback",
+  "licenses": [
+   {
+    "type": "Unlicense",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "c30.midiinfoobject",
+  "name": "[Beta] MIDI Info Object",
+  "type": "フィルタプラグイン",
+  "author": "c30 (zel9278 / fuji_midi)",
+  "summary": "MIDIの情報を動画に出すプラグイン",
+  "repo": "https://c30.booth.pm/items/8420669",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "c30 (zel9278)"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-scripts.crt-display.anm2",
+  "name": "CRTディスプレイ風.anm2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "CRTディスプレイ風のエフェクト",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/CRT%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E9%A2%A8/README.md",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.VW_Media_Input",
+  "name": "動画IN",
+  "type": "入力プラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "MP4、MP3などの映像や音声ファイルが再生可能になる超軽量プラグイン",
+  "repo": "https://github.com/vramwiz/VW_Media_Input/",
+  "licenses": [
+   {
+    "type": "GPL-3.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.VW_Media_Output",
+  "name": "動画OUT",
+  "type": "出力プラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "AviUtl2からMP4/H.264/AACで書き出す出力プラグイン",
+  "repo": "https://github.com/vramwiz/VW_Media_Output/",
+  "licenses": [
+   {
+    "type": "GPL-3.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Natadecoco.SoftAnchorBone",
+  "name": "SoftAnchorBone",
+  "type": "スクリプト",
+  "author": "なたのこ",
+  "summary": "AviUtl2用の、3点アンカーで髪や服を揺らす軽量ボーン風スクリプト",
+  "repo": "https://github.com/Natadecoco2539/AviUtl2-SoftAnchorBone",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "なたのこ"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2",
+  "name": "GPUピクセルソート.anm2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "GPUを使用してピクセルソートを行うスクリプト",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88/README.md",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "airiah7.plugin--picked-color-storage",
+  "name": "スポイトの色を保存",
+  "type": "汎用プラグイン",
+  "author": "あいりあなな(airiah7)",
+  "summary": "スポイトで取得した色を名前付きで保存して使いまわせるようにする",
+  "repo": "https://github.com/airiah7/airiah7--aviutl2--plugin--picked-color-storage",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "airiah7"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "airiah7.widget--speed-preview",
+  "name": "倍速プレビュー",
+  "type": "MOD",
+  "author": "あいりあなな(airiah7)",
+  "summary": "倍速プレビューできるようにするウィジェット",
+  "repo": "https://github.com/airiah7/airiah7--aviutl2--widget--speed-preview",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "airiah7"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "airiah7.widget--drag-and-drop-objects",
+  "name": "ドラッグ&ドロップでタイムラインに配置",
+  "type": "汎用プラグイン",
+  "author": "あいりあなな(airiah7)",
+  "summary": "ドラッグ&ドロップでオブジェクトを配置できるようにするウィジェット",
+  "repo": "https://github.com/airiah7/airiah7--aviutl2--widget--drag-and-drop-objects",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "airiah7"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "saluf.SumiDamari",
+  "name": "墨だまり",
+  "type": "スクリプト",
+  "author": "saluf",
+  "summary": "墨だまり加工を追加するスクリプト",
+  "repo": "https://github.com/5qlufz-1536/AviUtl2_SumiDamari",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "saluf"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Garech.DateTime",
+  "name": "日付と時刻",
+  "type": "スクリプト",
+  "author": "Garech",
+  "summary": "時間変化する日付と時刻を表示します。カウンターとしても使えます。",
+  "repo": "https://www.nicovideo.jp/watch/sm36307237",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "teruyoshii.stepGradation",
+  "name": "段階グラデーション",
+  "type": "スクリプト",
+  "author": "てるよし",
+  "summary": "時間制御カーブで自由に調整できる段階グラデーション",
+  "repo": "https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E6%AE%B5%E9%9A%8E%E3%82%B0%E3%83%A9%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.anm2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "teruyoshi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "azurite.DepthMapFilter",
+  "name": "DepthMapFilter",
+  "type": "フィルタプラグイン",
+  "author": "azurite",
+  "summary": "深度マップを生成するフィルタープラグイン",
+  "repo": "https://github.com/azurite581/AviUtl2-DepthMapFilter",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "azurite"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "eizo-gak.aviutl2-SourceMonitor",
+  "name": "AviUtl2 Source Monitor",
+  "type": "汎用プラグイン",
+  "author": "映像学区",
+  "summary": "動画ファイルのプレビュー、In/Out点指定、タイムラインへの投げ込み",
+  "repo": "https://www.youtube.com/watch?v=2SjgBuMDvSM",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "映像学区"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Fuji.voice_drop",
+  "name": "Voice Drop",
+  "type": "汎用プラグイン",
+  "author": "Fuji",
+  "summary": "音声ファイルをAviutl2上に自動でDropしてくれるプラグイン",
+  "repo": "https://github.com/Fuji07-2525/voice-drop",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Fuji"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.HueCycle_Rh",
+  "name": "彩cle_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "イン/アウトで単色化し、滑らかに色を変化させるスクリプト",
+  "repo": "https://twitter.com/Rhapthorne_0/status/1985646515592061158",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.CompositionAsMultiObject_Rh",
+  "name": "個別化レイヤー_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "画像合成(オブジェクト)を個別オブジェクトにするスクリプト",
+  "repo": "https://twitter.com/Rhapthorne_0/status/2063788101093208349",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.StatusLink_Rh",
+  "name": "ステータスリンク_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "指定したオブジェクトの状態を別のオブジェクトに同期するスクリプト",
+  "repo": "https://twitter.com/Rhapthorne_0/status/2003616617566204199",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.Strobe_Rh",
+  "name": "ストロボ_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "イン/アウトに点滅を適用するスクリプト",
+  "repo": "https://twitter.com/Rhapthorne_0/status/1985646515592061158",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.ShowParameters_Rh",
+  "name": "パラメータ表示_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "各種パラメータを表示できるスクリプト",
+  "repo": "https://twitter.com/Rhapthorne_0/status/2040957660900544965",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.IndividualBasicEffects",
+  "name": "基本効果(個別指定)",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "個別オブジェクトに対してそれぞれ基本効果を指定するスクリプト",
+  "repo": "https://twitter.com/Rhapthorne_0/status/1990342570116034832",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.RotationRaster_Rh",
+  "name": "回転ラスター_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "回転ラスター効果を加えるスクリプト",
+  "repo": "https://twitter.com/Rhapthorne_0/status/1988879507135094998",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.TransformCoords_Rh",
+  "name": "座標の回転・拡大_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "指定した中心を基準に、座標の回転・拡大を行うスクリプト",
+  "repo": "https://twitter.com/Rhapthorne_0/status/2045698905698914323",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.RepeatedDraw_Rh",
+  "name": "描画リピーター_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "描画（とパラメータ)を時間差で複製・配置するスクリプト",
+  "repo": "https://twitter.com/Rhapthorne_0/status/2035884231889404163",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.TimeDelay_Rh",
+  "name": "TimeDelay_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "後段のエフェクトをディレイさせるスクリプト",
+  "repo": "https://twitter.com/Rhapthorne_0/status/2056177955601072592",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.Gamma",
+  "name": "Gamma",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "RGBまたは全体にかかるガンマ補正",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts#gamma",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.Level",
+  "name": "Level",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "レベル補正っぽいやつ",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts#level",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.Exposure",
+  "name": "Exposure",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "露出・ガンマ・オフセットの補正をかける",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts#exposure",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.Dither",
+  "name": "Dither",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "閾値がランダム変化する二値化",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts#dither",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.Erosion",
+  "name": "Erosion",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "輪郭を削るだけのシンプルなエフェクト 縁取りの逆",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts#erosion",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.ChromaticAberration",
+  "name": "Chromatic Aberration",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "簡易色収差",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts#chromatic-aberration",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.Colorama",
+  "name": "Colorama",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "簡易コロラマ",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts#colorama",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.LeaveColor",
+  "name": "Leave Color",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "色抜き",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts#leave-color",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.Turbulent",
+  "name": "Turbulent",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "簡易タービュレントディスプレイス",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts#turbulent",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.MaxMin",
+  "name": "MaxMin",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "最大値・最小値フィルタ",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts#maxmin",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.SelfDisplace",
+  "name": "SelfDisplace",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "自身を基準にディスプレイスメントマップ(移動・回転・拡大)をかける",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts#selfdisplace",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.WaveWarp",
+  "name": "Wave Warp",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "角度と波形を指定できるラスター",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts#wave-warp",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.Mosaic",
+  "name": "Mosaic_C",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "シャープなモザイク",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts#mosaic_c",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CatWithNeko.AlphaDither",
+  "name": "AlphaDither_C",
+  "type": "スクリプト",
+  "author": "こんにゃくねこ",
+  "summary": "いわゆるディザ合成",
+  "repo": "https://github.com/CatWithNeko/aviutl2-scripts#alphadither_c",
+  "licenses": [
+   {
+    "type": "CC0-1.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-scripts.hide_on_export-anm2",
+  "name": "出力時に非表示.anm2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "出力時に非表示にするスクリプト",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E5%87%BA%E5%8A%9B%E6%99%82%E3%81%AB%E9%9D%9E%E8%A1%A8%E7%A4%BA/README.md",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.import_midi_tempos-aux2",
+  "name": "import_midi_tempos.aux2",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "MIDIファイルからBPMを取得し、タイムラインに反映するプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/import_midi_tempos.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Gohankaiju.rich-audio-spectrum",
+  "name": "リッチな音声波形_Gk",
+  "type": "スクリプト",
+  "author": "Gohankaiju",
+  "summary": "音声に反応するちょっとリッチなビジュアライザー",
+  "repo": "https://github.com/Gohankaiju/aviutl2-rich-audio-spectrum",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Gohankaiju"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.AudioFilter",
+  "name": "AudioFilter",
+  "type": "フィルタプラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "音声にエフェクト、電話風、無線風、反響、こもり、ナレーション補正が可能",
+  "repo": "https://github.com/vramwiz/Aul2AudioFilter",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "VRAMの魔術師"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Karoterra.WaveformPreview",
+  "name": "Waveform Preview",
+  "type": "汎用プラグイン",
+  "author": "かろてら",
+  "summary": "AviUtl2 で編集中の音声波形を確認するためのプラグイン",
+  "repo": "https://github.com/karoterra/aviutl2-waveform-preview",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "karoterra"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "UndoFish.Easing2020",
+  "name": "トラックバー対応イージングスクリプト 2020版",
+  "type": "スクリプト",
+  "author": "UndoFish",
+  "summary": "Tweenな感じのイージングスクリプトトラックバー対応版です。",
+  "repo": "https://www.nicovideo.jp/watch/sm37721332",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "nkopikaso.AviUtl2-WhisperAutoSub",
+  "name": "AviUtl2-WhisperAutoSub",
+  "type": "汎用プラグイン",
+  "author": "nkopikaso",
+  "summary": "Whisperを使用して動画・音声から自動で字幕を生成するプラグイン",
+  "repo": "https://github.com/nkopikaso/AviUtl2-WhisperAutoSub",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "nkopikaso"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Natadecoco.TextBackplate",
+  "name": "TextBackplate",
+  "type": "スクリプト",
+  "author": "なたのこ",
+  "summary": "テキストの背面に図形を追加するスクリプト",
+  "repo": "https://github.com/Natadecoco2539/AviUtl2-TextBackplate",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "なたのこ"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "tsts4767.LoopPortionOfFrames",
+  "name": "特定フレームループ",
+  "type": "スクリプト",
+  "author": "テステス",
+  "summary": "アニメーションのmp4やgifで特定のフレームをループさせるスクリプト",
+  "repo": "https://www.nicovideo.jp/watch/sm45249838",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "hebiiro.al2_dialog_resizer",
+  "name": "ダイアログサイズ変更MOD",
+  "type": "MOD",
+  "author": "蛇色",
+  "summary": "AviUtl2のダイアログをリサイズ可能にするプラグイン",
+  "repo": "https://github.com/hebiiro/al2_dialog_resizer",
+  "licenses": [
+   {
+    "type": "BSL-1.0",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "tsts4767.RepetitiveMovementPlus",
+  "name": "反復移動プラス",
+  "type": "スクリプト",
+  "author": "テステス",
+  "summary": "標準の反復移動に待機時間や2次ベジェ曲線などの機能を追加したスクリプト",
+  "repo": "https://www.nicovideo.jp/watch/sm36246269",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "SLDC.SeiSa",
+  "name": "SeiSa",
+  "type": "スクリプト",
+  "author": "SLDC",
+  "summary": "簡単な操作で動画にRTAタイマーを追加できるようにするもの",
+  "repo": "https://github.com/samuelladoco/aviutl2-script-seisa",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026-present",
+      "holder": "Samuel LaDoCo (SLDC)"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.void-auf2",
+  "name": "void.auf2",
+  "type": "フィルタプラグイン",
+  "author": "Nanashi.",
+  "summary": "「無」の画像・音声を出力するカスタムオブジェクト",
+  "repo": "https://github.com/sevenc-nanashi/void.auf2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Estelle.AviUtl2-LaTeX",
+  "name": "AviUtl2-LaTeX",
+  "type": "フィルタプラグイン",
+  "author": "Estelle",
+  "summary": "LaTeXの描画を行うメディアオブジェクトプラグインです。",
+  "repo": "https://github.com/Estellellet/AviUtl2-LaTeX",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Estellellet"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "teruyoshii.4corner",
+  "name": "四隅に配置",
+  "type": "スクリプト",
+  "author": "てるよし",
+  "summary": "対象を画面の四隅に複製配置。余白調整,個別回転,反転,拡縮,透明化可能",
+  "repo": "https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E5%9B%9B%E9%9A%85%E3%81%AB%E9%85%8D%E7%BD%AE.anm2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2025",
+      "holder": "てるよし"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Suzuke.IDgen_Su",
+  "name": "IDgen_Su",
+  "type": "スクリプト",
+  "author": "Suzuke",
+  "summary": "UUIDv4等を表示するカスタムオブジェクト",
+  "repo": "https://github.com/Suzukeh/IDgen_Su",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Suzuke"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.enhanced_tracks-aux2",
+  "name": "enhanced_tracks.aux2",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "中間点毎にイージングスクリプトを変更（あとCurveEditor）",
+  "repo": "https://github.com/sevenc-nanashi/enhanced_tracks.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "tikubonn.TVSubtitle",
+  "name": "テレビ字幕",
+  "type": "スクリプト",
+  "author": "ちくぼん",
+  "summary": "テレビ字幕のようにテキスト裏に背景を追加します。複数行にも対応。",
+  "repo": "https://tikubonn.booth.pm/items/8626637",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "Amai_28ftb.DTMerStarterKit",
+  "name": "DTMer Starter Kit",
+  "type": "スクリプト",
+  "author": "甘井ふたば",
+  "summary": "音声・MIDIを視覚的に表示同期可能なScript群",
+  "repo": "https://tourmaline-rock-7c0.notion.site/DTMerStarterKit-Wiki-AviUtl2-300bea655f64804d975fea11976ad85c",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "mogesystem.VectorCanvas",
+  "name": "ベクターキャンバス",
+  "type": "スクリプト",
+  "author": "もげ",
+  "summary": "ベクターグラフィックスを扱うためのスクリプト群",
+  "repo": "https://github.com/Mg32/aviutl2-vectorcanvas",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "VectorCanvas Developers"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.Parallax_Rh",
+  "name": "パララックス_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "簡易的なパララックス効果を再現するスクリプト",
+  "repo": "https://x.com/Rhapthorne_0/status/2078646007345136078",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "kanade-ak.kazeyureT",
+  "name": "風揺れT(DLL)",
+  "type": "フィルタプラグイン",
+  "author": "kanade-ak",
+  "summary": "風揺れTの高速化フィルタ",
+  "repo": "https://github.com/kanade-ak/kazeyureT",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "kanade-ak"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Mugi995.Serifu-JunbiToSRT",
+  "name": "セリフ準備から.srtファイル生成プラグイン",
+  "type": "出力プラグイン",
+  "author": "Mugi995",
+  "summary": "PSDToolKitのセリフ準備の位置を解析し、.srtファイルを出力",
+  "repo": "https://github.com/mugi995/Serifu-JunbiToSRT-for-AviUtl2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "mugi995"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "nullru.MotionTracking_MK-II_Plus_for_AviUtl2",
+  "name": "MotionTracking MK-II Plus for AviUtl2",
+  "type": "汎用プラグイン",
+  "author": "nullru",
+  "summary": "AviUtl2 でオブジェクトトラッキングを行うプラグイン",
+  "repo": "https://github.com/nullruptr/MotionTracking_MK-II_Plus_for_AviUtl2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "vandojapan.typing-effect",
+  "name": "TypingEffect",
+  "type": "スクリプト",
+  "author": "4vando",
+  "summary": "まるで文字を入力しているようなエフェクト",
+  "repo": "https://github.com/vandojapan/TypingEffect.obj2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.time_control_assistant-tra2",
+  "name": "time_control_assistant.tra2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "区間長指定で繰り返したり反復したりオブジェクト外を繰り返したり",
+  "repo": "https://github.com/sevenc-nanashi/time_control_assistant.tra2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "tranczmeq.aviutl2-mcp-bridge",
+  "name": "aviutl2_mcp_bridge",
+  "type": "汎用プラグイン",
+  "author": "TranczMeq",
+  "summary": "AviUtl2ライブ共同編集用MCPブリッジ",
+  "repo": "https://github.com/TranczMeq/aviutl2-live-mcp",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "TranczMeq"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Mugi995.Any_Shortcut_for_AviUtl2",
+  "name": "Any Shortcut for AviUtl2",
+  "type": "汎用プラグイン",
+  "author": "Mugi995",
+  "summary": "おそらくほぼあらゆる操作にショートカットを割り当てられるプラグイン",
+  "repo": "https://github.com/mugi995/Any_Shortcut_for_AviUtl2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "mugi995"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "vandojapan.comfont",
+  "name": "comfont.aux2",
+  "type": "汎用プラグイン",
+  "author": "4vando",
+  "summary": "PSDToolKit利用者向けの合成フォントもどきプラグイン",
+  "repo": "https://github.com/vandojapan/comfont",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "comfont contributors"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.object_as_frame_selection-aux2",
+  "name": "object_as_frame_selection.aux2",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "選択したオブジェクトの範囲をフレーム選択範囲にするプラグイン",
+  "repo": "https://github.com/sevenc-nanashi/object_as_frame_selection.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "azurite.LayerGridView",
+  "name": "レイヤーグリッド表示",
+  "type": "スクリプト",
+  "author": "azurite",
+  "summary": "指定したレイヤーのオブジェクトをグリッド状に表示するスクリプト",
+  "repo": "https://github.com/azurite581/AviUtl2-LayerGridView",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "azurite"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "natuneko722.OCRTextExtractorPlugin",
+  "name": "OCR文字抽出プラグイン",
+  "type": "汎用プラグイン",
+  "author": "夏猫",
+  "summary": "Windows 標準の OCR 機能で文字を抽出する汎用プラグインだよ",
+  "repo": "https://github.com/natuneko722/OCRTextExtractorPlugin",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "夏猫"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Yuzuriha.ChapterMarker",
+  "name": "チャプターマーカー読み込みプラグイン",
+  "type": "汎用プラグイン",
+  "author": "ゆずりは",
+  "summary": "Aviutl2でOBSチャプターマーカーを読み込むためのプラグインです",
+  "repo": "https://drive.google.com/drive/u/2/folders/1GhO8jXWakX3DZUptUNLVafKBb7Kmnnc0",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "halkun19.HL_Ezing",
+  "name": "HL_Ezing for AviUtl2",
+  "type": "汎用プラグイン",
+  "author": "はるくん / harukun19",
+  "summary": "イージングを簡単に設定できるプラグイン",
+  "repo": "https://github.com/Hallkun19/HL_Ezing-for-aul2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "はるくん / harukun19"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.SYNC_PianoRoll",
+  "name": "ピアノロール",
+  "type": "フィルタプラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "音楽に同期した鍵盤とノートを表示",
+  "repo": "https://github.com/vramwiz/SYNC_PianoRoll/",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "VRAMの魔術師"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.Aul2MIRAI",
+  "name": "AI MIRAI",
+  "type": "汎用プラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "AIからAviUtl2を安全に操作するインターフェイス",
+  "repo": "https://github.com/vramwiz/Aul2MIRAI/",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.SYNC_Motion",
+  "name": "音楽同期アニメーション",
+  "type": "フィルタプラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "音楽に合わせて画像を動かすフィルター",
+  "repo": "https://github.com/vramwiz/SYNC_Motion/",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "VRAMの魔術師"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "korarei.Handle",
+  "name": "Handle",
+  "type": "スクリプト",
+  "author": "Korarei",
+  "summary": "画像の四隅にハンドルアイコンを追加するスクリプト",
+  "repo": "https://gist.github.com/korarei/7a8aefa23a12ea97d02cc7943e05a4dd",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.Shake_PPP",
+  "name": "胸揺れ",
+  "type": "フィルタプラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "画像の一部分をオブジェクト移動に合わせて柔らかく揺らすフィルター",
+  "repo": "https://github.com/vramwiz/Shake_PPP",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.reset_frame_selection_on_focus-aux2",
+  "name": "reset_frame_selection_on_focus.aux2",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "オブジェクトを選択したときにフレーム選択を解除する汎用プラグイン",
+  "repo": "https://github.com/sevenc-nanashi/reset_frame_selection_on_focus.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "93.GetColor-V2R",
+  "name": "GetColor-V2R",
+  "type": "スクリプト",
+  "author": "93",
+  "summary": "AviUtl2でポリゴングラフィック的なことができるスクリプトです",
+  "repo": "https://www.dropbox.com/scl/fo/x4l4mepoe5w7d9mtt332g/AK3OZhpP3hjggWZPWDe_8dU/GetColor-V2r.zip?dl=0&e=1&file_subpath=%2FGetColor-V2r&rlkey=w17rfsb61pyhdbws5dfo7jqc9",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "ronin_gw.mojie",
+  "name": "mojie",
+  "type": "フィルタプラグイン",
+  "author": "Andy.F",
+  "summary": "登録した文字列を画像に置き換えるプラグイン",
+  "repo": "https://github.com/ronin-gw/aviutl2_mojie",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Andy.F"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.TurnOver_PPP",
+  "name": "パンチラ",
+  "type": "フィルタプラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "画像を2点でめくり固定辺を基準に風・波・重力で布をなびかせるフィルター",
+  "repo": "https://github.com/vramwiz/TurnOver_PPP",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "VRAMの魔術師"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "OverPulse.Custom_Speed_Move",
+  "name": "OA-速度指定移動",
+  "type": "スクリプト",
+  "author": "OverPulse",
+  "summary": "角度と速度を決めて動かすだけのスクリプトです",
+  "repo": "https://overpulse.booth.pm/items/8713264",
+  "licenses": [
+   {
+    "type": "Unlicense",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "halkun19.HL_Blobox",
+  "name": "HL_Blobox for AviUtl2",
+  "type": "フィルタプラグイン",
+  "author": "はるくん / harukun19",
+  "summary": "ブロブトラッキングができるフィルタプラグイン",
+  "repo": "https://github.com/Hallkun19/HL_Blobox-for-aul2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "はるくん / harukun19"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "nctype.AutoBlendLight",
+  "name": "AutoBlendLight",
+  "type": "スクリプト",
+  "author": "nctype",
+  "summary": "自動ライティング・背景馴染ませスクリプト",
+  "repo": "https://github.com/nctype/aviutl2_script_AutoBlendLight",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "nctype"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "legashiro.TextInput",
+  "name": "TextInput",
+  "type": "汎用プラグイン",
+  "author": "れがしろ",
+  "summary": "テキストボックスに文字を入力し、直接追加",
+  "repo": "https://github.com/RubymondJ/TextInput-AviUtl2Plugin",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "nctype.Pixelizer",
+  "name": "Pixelizer",
+  "type": "スクリプト",
+  "author": "nctype",
+  "summary": "Pixelizerは、リアルタイムドット絵化スクリプトです。",
+  "repo": "https://github.com/nctype/aviutl2_script_Pixelizer",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "nctype"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sikemoti.JPEGCrush",
+  "name": "JPEGCrush",
+  "type": "スクリプト",
+  "author": "しけもち",
+  "summary": "JPEGグリッチエフェクトのアニメーション効果スクリプト",
+  "repo": "https://note.com/sikemoti/n/n7017a0e6eabf",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sikemoti.AdjustCenterCoordinate",
+  "name": "中心座標調整",
+  "type": "スクリプト",
+  "author": "しけもち",
+  "summary": "中心座標を調整するためのスクリプト",
+  "repo": "https://note.com/sikemoti/n/n4569e629dc35",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sikemoti.LevelAdjustment",
+  "name": "レベル補正",
+  "type": "スクリプト",
+  "author": "しけもち",
+  "summary": "レベル補正を使い色調補正ができるスクリプト",
+  "repo": "https://note.com/sikemoti/n/n9b1843bfb32f",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sikemoti.GradientGenerator",
+  "name": "グラデーションジェネレーター",
+  "type": "スクリプト",
+  "author": "しけもち",
+  "summary": "グラデーションを描画するためのスクリプト",
+  "repo": "https://note.com/sikemoti/n/n23f4da3cd318",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "gomi1124.psdtoolkit-aviutl1-lipsync",
+  "name": "PSDToolkit用自然な口パク",
+  "type": "スクリプト",
+  "author": "ただのごみ",
+  "summary": "音声の強弱に合わせて自然な口パクを生成",
+  "repo": "https://github.com/gomi1124/PSDToolKit-Natural-LipSync",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "gomi1124"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "teruyoshii.Palette_History",
+  "name": "Palette History",
+  "type": "汎用プラグイン",
+  "author": "てるよし",
+  "summary": "色設定ウィンドウのパレットに使用した色の履歴を積み上げるプラグイン",
+  "repo": "https://github.com/teruyoshii/AviUtl2_Palette_History",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "teruyoshi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "OverPulse.Flash_Hue",
+  "name": "TA-瞬間カラー変化",
+  "type": "スクリプト",
+  "author": "OverPulse",
+  "summary": "テキストの登場に色変化を追加します",
+  "repo": "https://www.nicovideo.jp/watch/sm45980061",
+  "licenses": [
+   {
+    "type": "Unlicense",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "eizo-gak.aviutl2-Placeholder",
+  "name": "プレースホルダー",
+  "type": "スクリプト",
+  "author": "映像学区",
+  "summary": "画像プレースホルダーを作れるカスタムオブジェクト",
+  "repo": "https://github.com/eizo-gak/aviutl2-Placeholder",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "映像学区"
+     }
+    ],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.create_control_object-aux2",
+  "name": "create_control_object.aux2",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "選択オブジェクトから制御系のオブジェクトを作成する汎用プラグイン",
+  "repo": "https://github.com/sevenc-nanashi/create_control_object.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "momo_neeeko.parallel_projection",
+  "name": "平行投影",
+  "type": "スクリプト",
+  "author": "もも猫",
+  "summary": "平行投影",
+  "repo": "https://twitter.com/momo_neeeko/status/2071867409636692120",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "momo_neeeko.pixelize",
+  "name": "ピクセル化",
+  "type": "スクリプト",
+  "author": "もも猫",
+  "summary": "ぼかしのかからないモザイク",
+  "repo": "https://twitter.com/momo_neeeko/status/2044756345430417897",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "momo_neeeko.delay_m",
+  "name": "ディレイM",
+  "type": "スクリプト",
+  "author": "もも猫",
+  "summary": "以降のエフェクトの動きすべてにディレイをかけるスクリプト",
+  "repo": "https://twitter.com/momo_neeeko/status/2044756345430417897",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "NeAc.Scatter",
+  "name": "Scatter",
+  "type": "スクリプト",
+  "author": "猫愛",
+  "summary": "個別オブジェクトをランダムに拡散させるスクリプト",
+  "repo": "https://github.com/nea-c/aviutl2_script_Scatter",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "NeAc"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CJF.PenTool",
+  "name": "ペン&矩形ツール",
+  "type": "スクリプト",
+  "author": "CJF",
+  "summary": "編集画面上でペンや矩形ツールを使用できるスクリプトです",
+  "repo": "https://github.com/ColorJellyFish/aviutl2_cjf_pentool",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "ColorJellyFish"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "halkun19.HL_FxWheel",
+  "name": "HL_FxWheel for AviUtl2",
+  "type": "汎用プラグイン",
+  "author": "はるくん / harukun19",
+  "summary": "ホイールメニューでいろいろなことが出来るランチャープラグイン",
+  "repo": "https://github.com/Hallkun19/HL_FxWheel-for-aul2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "はるくん / harukun19"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CJF.PSD_anime",
+  "name": "PSD連携アニメーション(非公式)",
+  "type": "スクリプト",
+  "author": "CJF",
+  "summary": "パーツ上書きを監視してPSDToolKitの立ち絵を動かすスクリプト",
+  "repo": "https://github.com/ColorJellyFish/aviutl2_cjf_psdanimation",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "ColorJellyFish"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Bialis.TrackingStabilizer-for-AviUtl-ExEdit2",
+  "name": "TrackingStabilizer for AviUtl ExEdit2",
+  "type": "フィルタプラグイン",
+  "author": "Bialis",
+  "summary": "トラッキング手振れ補正",
+  "repo": "https://github.com/Bialis-dev/TrackingStabilizer-for-AviUtl-ExEdit2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Bialis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Sagyou.JpegNoise",
+  "name": "JpegNoise_for_AviUtl2",
+  "type": "スクリプト",
+  "author": "サ行",
+  "summary": "JPEG圧縮特有のブロックノイズや色のにじみを再現するスクリプト。",
+  "repo": "https://github.com/SagyouDarui900/JPEGNoise_AviUtl2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2022",
+      "holder": "ToTTi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "tettu0530.LiquidGlass",
+  "name": "Liquid Glass エフェクト",
+  "type": "スクリプト",
+  "author": "tettu0530",
+  "summary": "Liquid Glassの質感を再現するエフェクトスクリプトです",
+  "repo": "https://github.com/Tettu0530/Liquid-Glass",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Tettu0530"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "natuneko722.text-background-balloon-script",
+  "name": "吹き出し背景@テキスト",
+  "type": "スクリプト",
+  "author": "夏猫",
+  "summary": "テキストや図形に吹き出し付き背景を追加できるよ",
+  "repo": "https://github.com/natuneko722/TextBackgroundBalloonScript",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "夏猫"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "CJF.MaskSelector",
+  "name": "選択ツール式マスク&クリッピング",
+  "type": "フィルタプラグイン",
+  "author": "CJF",
+  "summary": "マスクとクリッピングを選択ツールで設定できるボタンをフィルタで追加",
+  "repo": "https://github.com/ColorJellyFish/aviutl2_cjf_maskselector",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "ColorJellyFish"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "natuneko722.FrameCapturePlugin",
+  "name": "フレームキャプチャー",
+  "type": "汎用プラグイン",
+  "author": "夏猫",
+  "summary": "AviUtl2のプレビュー画面を範囲選択してコピーとPNG保存できるよ",
+  "repo": "https://github.com/natuneko722/FrameCapturePlugin",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "夏猫"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "OverPulse.Delayed_Entrance",
+  "name": "TA-Delay登場",
+  "type": "スクリプト",
+  "author": "OverPulse",
+  "summary": "テキストをそれっぽく登場させます",
+  "repo": "https://overpulse.booth.pm/items/8755928",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "tettu0530.NCSVisualizer",
+  "name": "NCS風音声波形 (NCSAudioVisualizer)",
+  "type": "スクリプト",
+  "author": "tettu0530",
+  "summary": "パーリンノイズを用いた、NCS風の音声波形を再現するスクリプト",
+  "repo": "https://github.com/Tettu0530/NCSAudioVisualizer",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Tettu0530"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "nctype.ReflectionOnPane",
+  "name": "ReflectionOnPane",
+  "type": "スクリプト",
+  "author": "nctype",
+  "summary": "ガラスの反射・映り込み風に合成するスクリプトです。",
+  "repo": "https://github.com/nctype/aviutl2_script_ReflectionOnPane",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "nctype"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "nctype.RainOnPane",
+  "name": "RainOnPane",
+  "type": "スクリプト",
+  "author": "nctype",
+  "summary": "雨に濡れた窓ガラスを再現するカスタムオブジェクトです。",
+  "repo": "https://github.com/nctype/aviutl2_script_RainOnPane",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "nctype"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "routersys.DockLayout",
+  "name": "DockLayout",
+  "type": "MOD",
+  "author": "routersys",
+  "summary": "ドラッグとドロップだけで配置できるようにするプラグイン",
+  "repo": "https://github.com/routersys/AUE2-DockLayout",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "routersys"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "pon.Displace",
+  "name": "Displace(β)",
+  "type": "スクリプト",
+  "author": "pon",
+  "summary": "Aeのタービュレントディスプレイスのような挙動をするアニメーション効果",
+  "repo": "https://x.com/pon_no_main/status/1152576408108982274",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "kanade-ak.TextCharEditor",
+  "name": "文字位置調整",
+  "type": "汎用プラグイン",
+  "author": "kanade-ak",
+  "summary": "テキストオブジェクトをいい感じに配置できる",
+  "repo": "https://github.com/kanade-ak/TextCharEditor",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "kanade-ak"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "OverPulse.Delayed_Exit",
+  "name": "TA-Delay退場",
+  "type": "スクリプト",
+  "author": "OverPulse",
+  "summary": "テキストをそれっぽく退場させます",
+  "repo": "https://overpulse.booth.pm/items/8772365",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "tikubonn.ZigZagClipping",
+  "name": "ジグザグクリッピング",
+  "type": "スクリプト",
+  "author": "ちくぼん",
+  "summary": "画像の不透過部分に、ジグザグに切り取られたような背景を追加します。",
+  "repo": "https://tikubonn.booth.pm/items/8775466",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "IZUisMe.OpenGlow",
+  "name": "Open Glow",
+  "type": "スクリプト",
+  "author": "絵に描いた虹",
+  "summary": "光学に基づいて自然に減衰する美しいグロー",
+  "repo": "https://github.com/IZUisMe/aviutl2-open-glow",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "絵に描いた虹"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "momo_neeeko.LocusMotion",
+  "name": "LocusMotion",
+  "type": "汎用プラグイン",
+  "author": "もも猫",
+  "summary": "トラックバー移動で使用可能な曲線を作成するプラグイン",
+  "repo": "https://github.com/momoneeeko/LocusMotion.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "もも猫"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.MMDAnimationStudio",
+  "name": "MMDアニメーションスタジオ",
+  "type": "汎用プラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "MMDモデルアクセサリの表示とポーズ表情モーションセリフ連携プラグイン",
+  "repo": "https://github.com/vramwiz/MMDAnimationStudio/",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "yh2237.AviUtl2-MCP",
+  "name": "AviUtl2 MCP",
+  "type": "汎用プラグイン",
+  "author": "yh",
+  "summary": "AviUtl2をMCPから操作するためのサーバー",
+  "repo": "https://github.com/yh2237/AviUtl2-MCP",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "yh"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "OverPulse.Delayed_Shuffle",
+  "name": "TA-Delayシャッフル",
+  "type": "スクリプト",
+  "author": "OverPulse",
+  "summary": "テキストを1文字ずつ変化させながら登場させます",
+  "repo": "https://overpulse.booth.pm/items/8795713",
+  "licenses": [
+   {
+    "type": "Unlicense",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "InuyoshiAtom.ColorLink",
+  "name": "ColorLink",
+  "type": "スクリプト",
+  "author": "犬好アトム",
+  "summary": "複数オブジェクトの色を1つのカラーマスターから変更できる連動スクリプト",
+  "repo": "https://github.com/InuyoshiAtom/aviutl2-colorlink",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "KYU.InterpolationObject",
+  "name": "InterpolationObject",
+  "type": "フィルタプラグイン",
+  "author": "KYU",
+  "summary": "直前・直後のオブジェクトの画像と値を補間して描画",
+  "repo": "https://github.com/KYU49/InterpolationObject",
+  "licenses": [
+   {
+    "type": "Apache-2.0",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "KYU @ https://ejapon.icu"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Amai_28ftb.AULReceptor",
+  "name": "AUL Receptor",
+  "type": "スクリプト",
+  "author": "甘井ふたば",
+  "summary": "DTMerStarterKit&DTMerExtensionKit用",
+  "repo": "https://tourmaline-rock-7c0.notion.site/AUL-Receptor-315bea655f6482cdb2020104ad22b068",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.SYNC_ScreenLayout",
+  "name": "画面レイアウト",
+  "type": "フィルタプラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "画面レイアウトを作成・編集",
+  "repo": "https://github.com/vramwiz/SYNC_ScreenLayout/",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "VRAMの魔術師"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "animeojisan.AI_S-R_ONNX",
+  "name": "AI S-R ONNX",
+  "type": "フィルタプラグイン",
+  "author": "animeojisan",
+  "summary": "ONNX / WinML ベース AI 超解像フィルタプラグイン",
+  "repo": "https://github.com/animeojisan/AI-S-R-ONNX",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "animeojisan"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Kanata844.MediaReplacer",
+  "name": "MediaReplacer",
+  "type": "汎用プラグイン",
+  "author": "Kanata844",
+  "summary": "選択した画像を、ドラッグドロップで入れ替えます。",
+  "repo": "https://github.com/Kanata844/MediaReplacer",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "kanata"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Kanata844.CustomToolbox",
+  "name": "CustomToolbox",
+  "type": "汎用プラグイン",
+  "author": "Kanata844",
+  "summary": "エフェクトなどをタイムライン上に追加します。",
+  "repo": "https://github.com/Kanata844/CustomToolbox",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "tnotawa.autozwj",
+  "name": "AutoZWJ",
+  "type": "汎用プラグイン",
+  "author": "TNOTawa",
+  "summary": "音MAD/YTPMV制作をAviUtl2のタイムラインへ同期。",
+  "repo": "https://github.com/TNOTawa/AutoZWJ",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "TNOT"
+     }
+    ],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sagami121.Glitch_T",
+  "name": "Glitch_T",
+  "type": "スクリプト",
+  "author": "3aGaM1",
+  "summary": "グリッチエフェクト",
+  "repo": "https://github.com/sagami121/Glitch_T",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "3aGaM1"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sagami121.QRCode",
+  "name": "QRCode",
+  "type": "スクリプト",
+  "author": "3aGaM1",
+  "summary": "QRコードの生成ができるスクリプト",
+  "repo": "https://github.com/sagami121/Aviutl2-QRCode",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "3aGaM1"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "yu7400ki.stabilizer",
+  "name": "手ブレ補正プラグイン",
+  "type": "フィルタプラグイン",
+  "author": "yu7400ki",
+  "summary": "手ブレ補正を行うプラグイン",
+  "repo": "https://github.com/yu7400ki/aviutl2-stabilizer-plugin",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Yuki Natori"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "yu7400ki.anmImOutput-jxl",
+  "name": "JXL出力プラグイン",
+  "type": "出力プラグイン",
+  "author": "yu7400ki",
+  "summary": "動画をJXLとして出力するプラグイン",
+  "repo": "https://yu7400ki.me/aviutl2-animated-image-output/",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Yuki Natori"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "ar-ca-na.open-last-project",
+  "name": "前回のプロジェクトを開く",
+  "type": "外部プログラム",
+  "author": "arcana",
+  "summary": "AviUtl2 起動時に前回のプロジェクトを自動で開く",
+  "repo": "https://github.com/ar-ca-na/aviutl2-open-last-project",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "arcana"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "ar-ca-na.aup2-relink",
+  "name": "aup2 リンク修復",
+  "type": "外部プログラム",
+  "author": "arcana",
+  "summary": "素材のリンク切れを、移動先フォルダから同名ファイルを探して直す",
+  "repo": "https://github.com/ar-ca-na/aviutl2-aup2-relink",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "arcana"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.SYNC_Breath",
+  "name": "呼吸",
+  "type": "フィルタプラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "人物画像の胸・腹部・肩・首・頭へ自然な呼吸の動きを加えるフィルター",
+  "repo": "https://github.com/vramwiz/SYNC_Breath/",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "VRAMの魔術師"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "ar-ca-na.grunge-bg",
+  "name": "グランジ背景を生成",
+  "type": "スクリプト",
+  "author": "arcana",
+  "summary": "グランジ背景を生成",
+  "repo": "https://github.com/ar-ca-na/aviutl2-grunge-bg",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "arcana"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sagami121.GParticle",
+  "name": "GParticle",
+  "type": "スクリプト",
+  "author": "3aGaM1",
+  "summary": "パーティクルスクリプト",
+  "repo": "https://github.com/sagami121/GParticle",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "3aGaM1"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "ar-ca-na.waveform-line",
+  "name": "波形ライン",
+  "type": "スクリプト",
+  "author": "arcana",
+  "summary": "マウスで描いた線を音声波形で揺らすカスタムオブジェクト",
+  "repo": "https://github.com/ar-ca-na/aviutl2-waveform-line",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "arcana"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.Lens_S",
+  "name": "Lens_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "背景を透過してレンズやアクリルのような質感を表現するスクリプト．",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_Lens_S",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "sigma-axis"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Sagyou.DVD",
+  "name": "DVD",
+  "type": "スクリプト",
+  "author": "サ行",
+  "summary": "DVDプレーヤーの待機画面を再現したスクリプトです。",
+  "repo": "https://github.com/SagyouDarui900/AviUtl2_Script_SagyouDarui",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "🈂️行"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.SYNC_MapRaku",
+  "name": "地図",
+  "type": "汎用プラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "案内図を作成し、ルート上でマーカーを移動表示",
+  "repo": "https://github.com/vramwiz/MapRaku/",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "VRAMの魔術師"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.extra_blend_mode-anm2",
+  "name": "extra_blend_mode.anm2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "合成モード拡張っぽいの",
+  "repo": "https://github.com/sevenc-nanashi/extra_blend_mode.anm2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "NeAc.SpeedLine",
+  "name": "スピード線",
+  "type": "スクリプト",
+  "author": "猫愛",
+  "summary": "横や縦に流れるスピード線を描画するスクリプト",
+  "repo": "https://github.com/nea-c/aviutl2_script_SpeedLine",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "NeAc"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "NeAc.AviUtlNoise",
+  "name": "無印ノイズ",
+  "type": "スクリプト",
+  "author": "猫愛",
+  "summary": "AviUtl無印のノイズを再現するスクリプト",
+  "repo": "https://github.com/nea-c/aviutl2_script_AviUtlNoise",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "NeAc"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "NeAc.LongShadowN",
+  "name": "LongShadowN",
+  "type": "スクリプト",
+  "author": "猫愛",
+  "summary": "3種類のロングシャドウを作成できるスクリプト",
+  "repo": "https://github.com/nea-c/aviutl2_script_LongShadowN",
+  "licenses": [
+   {
+    "type": "Apache-2.0",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "NeAc"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Kurolium.Random_Figure",
+  "name": "ランダム多角形",
+  "type": "スクリプト",
+  "author": "Kurolium",
+  "summary": "アニメの四隅のどこかにありそうな感じのよさげな多角形を生成します",
+  "repo": "https://kurolium.booth.pm/items/8883822",
+  "licenses": [
+   {
+    "type": "不明",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "NeAc.MorphBridge",
+  "name": "MorphBridge",
+  "type": "フィルタプラグイン",
+  "author": "猫愛",
+  "summary": "前後オブジェクトのシルエットをモーフィングするメディアオブジェクト",
+  "repo": "https://github.com/nea-c/aviutl2_plugin_MorphBridge",
+  "licenses": [
+   {
+    "type": "Apache-2.0",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "NeAc"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sagami121.NEF-Input",
+  "name": "NEF Input Plugin",
+  "type": "入力プラグイン",
+  "author": "3aGaM1",
+  "summary": "NEF入力プラグイン",
+  "repo": "https://github.com/sagami121/NEF-Input",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "3aGaM1"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.rikky_modoki-anm2",
+  "name": "rikky_modoki.aux2",
+  "type": "汎用プラグイン",
+  "author": "Nanashi.",
+  "summary": "rikky_moduleっぽいの（互換用）",
+  "repo": "https://github.com/sevenc-nanashi/rikky_modoki.aux2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.SYNC_Lyrics",
+  "name": "歌詞テロップ",
+  "type": "フィルタプラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "音楽データに合わせて歌詞テロップを同期表示",
+  "repo": "https://github.com/vramwiz/SYNC_Lyrics/",
+  "licenses": [
+   {
+    "type": "GPL-3.0-only",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.SYNC_MVStudio",
+  "name": "MVスタジオ",
+  "type": "フィルタプラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "今どきのMV制作を支援するプラグイン",
+  "repo": "https://github.com/vramwiz/SYNC_MVStudio/",
+  "licenses": [
+   {
+    "type": "GPL-3.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "supernyan74.RadialClipping",
+  "name": "放射クリッピング",
+  "type": "スクリプト",
+  "author": "スーパーNyan",
+  "summary": "放射状にオブジェクトをクリッピングします。",
+  "repo": "https://github.com/supernyan74/Radial-Clipping",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "supernyan74"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "momo_neeeko.ReuleauxPolygon",
+  "name": "ルーローの多角形",
+  "type": "スクリプト",
+  "author": "もも猫",
+  "summary": "ルーローの多角形のカスタムオブジェクト",
+  "repo": "https://drive.google.com/file/d/1X7q80FYOqJINB2CIKaJ5A9nHXAusRX0r/view?usp=drive_link",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "もも猫"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "teruyoshii.pathBlur",
+  "name": "パスブラー",
+  "type": "スクリプト",
+  "author": "てるよし",
+  "summary": "パスに沿ったブラーを掛けるスクリプト",
+  "repo": "https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E3%83%91%E3%82%B9%E3%83%96%E3%83%A9%E3%83%BC.anm2",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "teruyoshi"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.SceneChangeKit_S",
+  "name": "シーンチェンジ自作キット",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "シーンチェンジを自作できる汎用的なシーンチェンジスクリプト",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_SceneChangeKit_S",
+  "licenses": [
+   {
+    "type": "Unlicense",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.ported_satsuki",
+  "name": "ported_satsuki",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "さつき氏のスクリプト一式（233個）",
+  "repo": "https://github.com/sevenc-nanashi/ported_satsuki",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "tikubonn.NostalgiaFilter",
+  "name": "ノスタルジーフィルタ",
+  "type": "スクリプト",
+  "author": "ちくぼん",
+  "summary": "オブジェの色調を昔のカラーテレビのようなノスタルジーな風合いにします。",
+  "repo": "https://tikubonn.booth.pm/items/8901638",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2",
+  "name": "ベベルとエンボス.anm2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "輪郭に光と影を付けベベル・エンボスを作るスクリプト",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%83%99%E3%83%99%E3%83%AB%E3%81%A8%E3%82%A8%E3%83%B3%E3%83%9C%E3%82%B9/README.md",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "MIYA.Aup2GapFiller",
+  "name": "Aup2GapFiller",
+  "type": "汎用プラグイン",
+  "author": "みや",
+  "summary": "PSDToolKitの字幕の隙間を埋めるプラグイン",
+  "repo": "https://github.com/miya999949/Aup2GapFiller",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "MIYA"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "nctype.SomethingLikeGlitch",
+  "name": "SomethingLikeGlitch",
+  "type": "スクリプト",
+  "author": "nctype",
+  "summary": "グリッチっぽいエフェクト",
+  "repo": "https://github.com/nctype/aviutl2_script_SomethingLikeGlitch",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "nctype"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "VRAMWIZ.SYNC_Graph",
+  "name": "グラフ",
+  "type": "フィルタプラグイン",
+  "author": "VRAMの魔術師",
+  "summary": "折れ線・棒・円・N角形グラフを作成・編集",
+  "repo": "https://github.com/vramwiz/SYNC_Graph/",
+  "licenses": [
+   {
+    "type": "GPL-3.0",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.SceneTransitions",
+  "name": "SceneTransitions",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "スマッシュカット・ズーム・パララックスのシーンチェンジ",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.ShapeDistort_H",
+  "name": "ShapeDistort_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "回転・放射・ジグザグ・無限ズーム・パペットなど6種",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.Keying_H",
+  "name": "キーイング_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "マット調整・スピル除去・動体抽出・光の回り込みなど7種",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.Filters_H",
+  "name": "フィルム調フィルタ集_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "グリッチ・グレイン・ハレーションなどフィルム調の加工29種",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.OpticalBokeh",
+  "name": "光学系ボケ",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "玉ボケ・レンズぼかし・チルトシフトなどレンズのボケ5種",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.DecoParticle_H",
+  "name": "装飾パーティクル_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "オブジェクトの範囲に粒を出しては消す（軽量版）",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "その他",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.TestPattern_H",
+  "name": "検証パターン_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "階調・色相・肌色などのテストパターン9種",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.VerticalText",
+  "name": "テキスト縦書き化",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "文字ごとのオブジェクトのまま横書きを縦書きに並べる",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.RangeWarning_H",
+  "name": "レンジ警告_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "白飛び・黒潰れ・色域外の画素をゼブラで示す",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.AutoFitText_H",
+  "name": "枠内自動フィット_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "枠に収まる最大のフォントサイズで文字を出す",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.Grid_H",
+  "name": "グリッド_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "線の網目や、図形を等間隔に並べた模様を出す",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.HandheldCamera_H",
+  "name": "手持ちカメラ_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "カメラ制御に手持ち撮影のような揺れを加える",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.ProceduralPattern_H",
+  "name": "プロシージャル模様_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "雲・縞・セル・反応拡散などから模様を作る",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.Bubbles_H",
+  "name": "泡_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "泡を描くカスタムオブジェクト",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.FineParticles_H",
+  "name": "微粒子_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "ほこりや浮遊物などの細かい粒を画面に流す",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.Beam_H",
+  "name": "ビーム化_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "形を白い芯と色の付いた光のビームに描き替える",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.LightShaft_H",
+  "name": "光束_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "オブジェクトの形から光の筋を伸ばす",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.Lowpoly",
+  "name": "ローポリ",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "オブジェクトのローポリ化と、ローポリの背景",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.LightPath_H",
+  "name": "光線経路_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "鏡で反射しプリズムで分光する光線の経路を描く",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sigma-axis.MovingMosaic_S",
+  "name": "MovingMosaic_S",
+  "type": "スクリプト",
+  "author": "σ軸",
+  "summary": "マス内のランダムな位置から色を拾う，グネグネ動かせるモザイク",
+  "repo": "https://github.com/sigma-axis/aviutl2_script_MovingMosaic_S",
+  "licenses": [
+   {
+    "type": "Unlicense",
+    "copyrights": [],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.LoudnessNormalize_H",
+  "name": "ラウドネスノーマライズ_H",
+  "type": "フィルタプラグイン",
+  "author": "HexBrowns",
+  "summary": "EBU R128 に沿って音声の音量をそろえる",
+  "repo": "https://github.com/HexBrowns/LoudnessNormalize_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.FullSizePreview_H",
+  "name": "FullSizePreview_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "空白キーでの再生を等倍の別ウィンドウに映す",
+  "repo": "https://github.com/HexBrowns/FullSizePreview_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.FileFinder_H",
+  "name": "FileFinder_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "フォルダ内のファイルをあいまい検索してタイムラインに挿入",
+  "repo": "https://github.com/HexBrowns/FileFinder_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.svg_trace",
+  "name": "SVG_TRACE",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "画像やレイヤーをベクター化して SVG で描画・書き出す",
+  "repo": "https://github.com/HexBrowns/svg_trace",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.ColoredEchoImg",
+  "name": "色付き残像(画像履歴)",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "過去のフレームの絵を色付きの残像として重ねる",
+  "repo": "https://github.com/HexBrowns/ColoredEchoImg",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.ExtendedParticle_H",
+  "name": "拡張パーティクル_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "画像を粒子として放出し、32 種の拡張で動きと見た目を組む",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sagami121.HEIF-HEIC-Input",
+  "name": "HEIF_HEIC Input Plugin",
+  "type": "入力プラグイン",
+  "author": "3aGaM1",
+  "summary": "HEIC/HEIFをAviutl2で読み込める入力プラグイン",
+  "repo": "https://github.com/sagami121/HEIF-HEIC-Input",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "3aGaM1"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "hinodeisuzu.sliceglitch",
+  "name": "SliceGlitch",
+  "type": "スクリプト",
+  "author": "暘 弥涼",
+  "summary": "簡単な操作でスライスグリッチを作成できるエフェクトです。",
+  "repo": "https://note.com/isuzu_hinode/n/n3a7d7b761b98",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "暘 弥涼"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "momo_neeeko.RainbowGradationM",
+  "name": "虹色グラデーションM",
+  "type": "スクリプト",
+  "author": "もも猫",
+  "summary": "オブジェクトに虹色のグラデーションをかけます。",
+  "repo": "https://x.com/momo_neeeko/status/2108488871327764937",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "もも猫"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.PlanarTracking_H",
+  "name": "平面トラッキング_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "動画の中の平らな面を追い、別の画像を四隅に貼る",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.ContentAwareFill_H",
+  "name": "コンテンツに応じた塗りつぶし_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "範囲の中を周りの絵で埋めて、写り込んだ物を消す",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.Extrude_H",
+  "name": "押し出し_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "形を奥行き方向に押し出し、縁に面取りか丸みを付ける",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.TimeWarp_H",
+  "name": "タイムワープ_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "動画のフレームの間を動きから補間してスロー再生する",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.BallAction_H",
+  "name": "ボールアクション_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "画像を光の当たったボールの集まりにして散らす",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.Caustics_H",
+  "name": "コースティクス_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "水面の揺れによる屈折と、底に映る光の網目を描く",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.CardDance_H",
+  "name": "カードダンス_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "画像をカードに分けて、勾配の順に裏返す・飛ばす",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.VectorBlur_H",
+  "name": "ベクトルブラー_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "画像の明るさの流れに沿って、筆で流したようにぼかす",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.RadioWaves_H",
+  "name": "電波_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "中心から広がる円・多角形・星の波を描く",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.EditScript_H",
+  "name": "EditScript_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "Lua スクリプトでタイムラインの編集を自動化する",
+  "repo": "https://github.com/HexBrowns/EditScript_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Fuji.voice_valet",
+  "name": "Voice Valet",
+  "type": "汎用プラグイン",
+  "author": "Fuji",
+  "summary": "音声合成ソフト間でショートカットキーの統一化 & プリセット機能を提供",
+  "repo": "https://github.com/Fuji07-2525/voice-valet",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Fuji"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.BackupDiff_H",
+  "name": "BackupDiff_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "自動バックアップの差分を一覧にし、前の値に戻す",
+  "repo": "https://github.com/HexBrowns/BackupDiff_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.AviUtl2Browser_H",
+  "name": "AviUtl2Browser_H",
+  "type": "スクリプトモジュール",
+  "author": "HexBrowns",
+  "summary": "HTML・CSS・JavaScript の表示をオブジェクトにする",
+  "repo": "https://github.com/HexBrowns/AviUtl2Browser_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2021",
+      "holder": "oov"
+     },
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.MidpointTable_H",
+  "name": "MidpointTable_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "中間点ごとの値を表で編集し、値をずらしながら周期的に複製する",
+  "repo": "https://github.com/HexBrowns/MidpointTable_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.LayerSilenceCut_H",
+  "name": "レイヤー指定無音カット_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "指定レイヤーの無音を探し、指定レイヤーだけ切って詰める",
+  "repo": "https://github.com/HexBrowns/LayerSilenceCut_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.TextReplace_H",
+  "name": "TextReplace_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "テキストの本文を一括で検索・置換し、文字数で改行する",
+  "repo": "https://github.com/HexBrowns/TextReplace_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "nctype.FilmPrintLUT",
+  "name": "FilmPrintLUT",
+  "type": "スクリプト",
+  "author": "nctype",
+  "summary": "LUTを読み込んで画面に適用するスクリプト",
+  "repo": "https://github.com/nctype/aviutl2_script_FilmPrintLUT",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "nctype"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.MediaProbe_H",
+  "name": "MediaProbe_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "素材のコーデック・fps・可変かどうかを調べる",
+  "repo": "https://github.com/HexBrowns/MediaProbe_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.ManuscriptPanel_H",
+  "name": "ManuscriptPanel_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "Markdown の原稿の行をクリックしてテロップを置く",
+  "repo": "https://github.com/HexBrowns/ManuscriptPanel_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.ColorHistory_H",
+  "name": "ColorHistory_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "オブジェクトで使った色を記録し、コピー・適用・一括置換する",
+  "repo": "https://github.com/HexBrowns/ColorHistory_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.CurveEditor_H",
+  "name": "CurveEditor_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "ベジェ・ばね・Lua で描いたカーブをトラックバーの移動方法にする",
+  "repo": "https://github.com/HexBrowns/CurveEditor_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.VideoScope_H",
+  "name": "VideoScope_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "輝度の波形・RGB パレード・ベクトルスコープで色を測る",
+  "repo": "https://github.com/HexBrowns/VideoScope_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Garech.ToggleLayers",
+  "name": "レイヤー一括切り替え",
+  "type": "MOD",
+  "author": "Garech",
+  "summary": "レイヤーの表示・ロック状態をドラッグで切り替えられるように",
+  "repo": "https://github.com/Garech-mas/AviUtl2_toggle_layers",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Garech"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Rhapthorne_0.SplitText_Rh",
+  "name": "区切り毎に個別化_Rh",
+  "type": "スクリプト",
+  "author": "ラプソーン",
+  "summary": "テキストを改行などの区切り毎に個別オブジェクト化できるスクリプト",
+  "repo": "https://twitter.com/Rhapthorne_0/status/2097230938032025798",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "ar-ca-na.layer-pin",
+  "name": "レイヤー固定",
+  "type": "MOD",
+  "author": "arcana",
+  "summary": "レイヤーを一番上に固定して、スクロールしても見失わない",
+  "repo": "https://github.com/ar-ca-na/aviutl2-layer-pin",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "arcana"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "hebiiro.al2_timeline_object_arranger",
+  "name": "タイムラインオブジェクト整列プラグイン",
+  "type": "汎用プラグイン",
+  "author": "蛇色",
+  "summary": "タイムラインオブジェクトを整列させるプラグイン",
+  "repo": "https://github.com/hebiiro/al2_timeline_object_arranger",
+  "licenses": [
+   {
+    "type": "BSL-1.0",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "JobsJoestar.RippleDelete",
+  "name": "リップル削除",
+  "type": "汎用プラグイン",
+  "author": "JobsJoestar",
+  "summary": "リップル削除を追加する汎用プラグイン",
+  "repo": "https://github.com/Joster777/Aviutl2_Plugin_RippleDelete",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "JobsJoestar"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.Lighting2D_H",
+  "name": "2Dライティング_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "光源の光を遮りながら広げる大域照明と、くぼみの陰の2種",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT No Attribution",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.ColorSpaceBlend_H",
+  "name": "色空間合成_H",
+  "type": "スクリプト",
+  "author": "HexBrowns",
+  "summary": "色相・彩度などをOklchで、加算などをリニアで合成",
+  "repo": "https://github.com/HexBrowns/HexScript",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "Nanashi."
+     },
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.MediaCollect_H",
+  "name": "MediaCollect_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "使っている素材を 1 つのフォルダに集め、プロジェクトを書き出す",
+  "repo": "https://github.com/HexBrowns/MediaCollect_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.PdfPage_H",
+  "name": "PdfPage_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "PDF のページを画像のオブジェクトとして置く",
+  "repo": "https://github.com/HexBrowns/PdfPage_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-scripts.legacy_glow-anm2",
+  "name": "旧発光.anm2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "AviUtl1の発光を再現するスクリプト",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E6%97%A7%E7%99%BA%E5%85%89",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "HexBrowns.SplitLayout_H",
+  "name": "SplitLayout_H",
+  "type": "汎用プラグイン",
+  "author": "HexBrowns",
+  "summary": "パネルを縦横に自由に分割した枠へドラッグで並べる",
+  "repo": "https://github.com/HexBrowns/SplitLayout_H",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "HexBrowns"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "Amai_28ftb.DTMerExtensionKit",
+  "name": "DTMer Extension Kit",
+  "type": "スクリプト",
+  "author": "甘井ふたば",
+  "summary": "Audio Visualizer Script群",
+  "repo": "https://tourmaline-rock-7c0.notion.site/DTMerExtensionKit-Wiki-844bea655f648287b0d48185565f8dc8",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "shidunami.3dcg_movie_animation",
+  "name": "3DCG Movie Animation",
+  "type": "MOD",
+  "author": "しづなみ",
+  "summary": "AviUtl2に3DCG編集用のウィンドウと機能を追加する",
+  "repo": "https://3dma.shidunami.com/",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "nctype.PuniCollision",
+  "name": "PuniCollision",
+  "type": "スクリプト",
+  "author": "nctype",
+  "summary": "2Dソフトボディアニメーション効果スクリプトです",
+  "repo": "https://github.com/nctype/aviutl2_script_PuniCollision",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "nctype"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "MonogoiNoobs.MFOutput",
+  "name": "MFOutput",
+  "type": "出力プラグイン",
+  "author": "依神紫苑",
+  "summary": "MP4・M4A・WMV・WMAを簡単に出力",
+  "repo": "https://github.com/MonogoiNoobs/aviutl2-media-foundation-output-plugin",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "rigaya.VVenCguiEx",
+  "name": "VVenCguiEx",
+  "type": "出力プラグイン",
+  "author": "rigaya",
+  "summary": "VVenCを使用してエンコードを行うAviutlの出力プラグインです。",
+  "repo": "https://github.com/rigaya/VVenCguiEx",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2022",
+      "holder": "rigaya"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ },
+ {
+  "id": "sevenc-nanashi.aviutl2-scripts.dokaben-anm2",
+  "name": "ドカベン.anm2",
+  "type": "スクリプト",
+  "author": "Nanashi.",
+  "summary": "ドカベン風に文字を登場させるスクリプト",
+  "repo": "https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%82%AB%E3%83%99%E3%83%B3",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "sinyaperu.rhythmical",
+  "name": "リズミカルP",
+  "type": "スクリプト",
+  "author": "深夜ぺる",
+  "summary": "ことぶき様の「リズミカルイージング」が時間制御で使えます。",
+  "repo": "https://www.nicovideo.jp/watch/sm46966158",
+  "licenses": [
+   {
+    "type": "カスタムライセンス",
+    "copyrights": [],
+    "custom": true
+   }
+  ]
+ },
+ {
+  "id": "nctype.ParametricBG",
+  "name": "ParametricBG",
+  "type": "スクリプト",
+  "author": "nctype",
+  "summary": "パラメトリックパターン背景を作るカスタムオブジェクトです",
+  "repo": "https://github.com/nctype/aviutl2_script_ParametricBG",
+  "licenses": [
+   {
+    "type": "MIT",
+    "copyrights": [
+     {
+      "years": "2026",
+      "holder": "nctype"
+     }
+    ],
+    "custom": false
+   }
+  ]
+ }
+]

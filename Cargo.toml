@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = ["sdk", "harness"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+znd-plugin-sdk = { path = "sdk" }
+
+[profile.dev]
+opt-level = 2
+debug = false
+incremental = false
+
+[profile.release]
+opt-level = 3
+debug = false

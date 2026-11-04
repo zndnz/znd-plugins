@@ -1,0 +1,13 @@
+[package]
+name = "harness"
+description = "移植したプラグインを znd 本体に読み込んで検証するテスト"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+znd-core = { path = "../../znd/crates/znd-core" }
+znd-render = { path = "../../znd/crates/znd-render" }
+znd-audio = { path = "../../znd/crates/znd-audio" }
+znd-script = { path = "../../znd/crates/znd-script" }
+serde_json = "1"
