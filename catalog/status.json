@@ -409,8 +409,9 @@
   "status": "ported"
  },
  "JobsJoestar.RippleDelete": {
-  "note": "",
-  "status": "pending"
+  "note": "リップル削除",
+  "path": "plugins/JobsJoestar.RippleDelete",
+  "status": "ported"
  },
  "KAZOON.KSA": {
   "note": "",

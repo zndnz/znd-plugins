@@ -1,0 +1,22 @@
+{
+  "id": "JobsJoestar.RippleDelete",
+  "name": "リップル削除",
+  "version": "1.0.0",
+  "vendor": "JobsJoestar（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "リップル削除を追加する汎用プラグイン",
+  "permissions": [],
+  "commands": [
+    {
+      "id": "ripple_delete",
+      "label": "リップル削除",
+      "script": "commands/ripple.js",
+      "function": "rippleDelete",
+      "menu": [
+        "plugins",
+        "layer"
+      ],
+      "description": "選んだレイヤーの先頭から再生ヘッドの手前までを取り除き、後ろを詰めます"
+    }
+  ]
+}
