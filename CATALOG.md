@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 121 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 122 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 4 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 22 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 195 | まだ手を付けていない |
+| 未着手 | 194 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -130,6 +130,7 @@
 | [リップル削除](https://github.com/Joster777/Aviutl2_Plugin_RippleDelete)<br>`JobsJoestar.RippleDelete` | 汎用プラグイン | JobsJoestar | MIT | [移植済み](plugins/JobsJoestar.RippleDelete) | リップル削除 |
 | [オブジェクト行複製](https://github.com/koisi0319/Aviutl2-Duplicate-objects-at-equal-intervals)<br>`koisi0319.Duplicate_objects` | 汎用プラグイン | koisi0319 | MIT | [移植済み](plugins/koisi0319.Duplicate_objects) | すき間を空けて続けて複製 |
 | [Rusty SRT File Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_srt_file` | 汎用プラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-rs.rusty_srt_file) | SRT の読み込み・書き出し |
+| [import_midi_tempos.aux2](https://github.com/sevenc-nanashi/import_midi_tempos.aux2)<br>`sevenc-nanashi.import_midi_tempos-aux2` | 汎用プラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.import_midi_tempos-aux2) | MIDI のテンポとマーカーを読む |
 | [insert.aux2](https://github.com/sevenc-nanashi/insert.aux2)<br>`sevenc-nanashi.insert-aux2` | 汎用プラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.insert-aux2) | メディアを挿入 |
 | [object_as_frame_selection.aux2](https://github.com/sevenc-nanashi/object_as_frame_selection.aux2)<br>`sevenc-nanashi.object_as_frame_selection-aux2` | 汎用プラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.object_as_frame_selection-aux2) | レイヤーの範囲をワークエリアに |
 | [open_project_directory.aux2](https://github.com/sevenc-nanashi/open_project_directory.aux2)<br>`sevenc-nanashi.open_project_directory-aux2` | 汎用プラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.open_project_directory-aux2) | プロジェクトのフォルダを開く・パスをコピー |
@@ -452,7 +453,6 @@
 | [discord_activity.aux2](https://github.com/sevenc-nanashi/discord_activity.aux2)<br>`sevenc-nanashi.discord_activity-aux2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [enhanced_tracks.aux2](https://github.com/sevenc-nanashi/enhanced_tracks.aux2)<br>`sevenc-nanashi.enhanced_tracks-aux2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [filter_effect_toggle.aux2](https://github.com/sevenc-nanashi/filter_effect_toggle.aux2)<br>`sevenc-nanashi.filter_effect_toggle-aux2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
-| [import_midi_tempos.aux2](https://github.com/sevenc-nanashi/import_midi_tempos.aux2)<br>`sevenc-nanashi.import_midi_tempos-aux2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [rikky_modoki.aux2](https://github.com/sevenc-nanashi/rikky_modoki.aux2)<br>`sevenc-nanashi.rikky_modoki-anm2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [TLショトカ移動2](https://github.com/sigma-axis/aviutl2_tl_walkaround2)<br>`sigma-axis.tl_walkaround2` | 汎用プラグイン | σ軸 | MIT | 未着手 |  |
 | [Palette History](https://github.com/teruyoshii/AviUtl2_Palette_History)<br>`teruyoshii.Palette_History` | 汎用プラグイン | てるよし | MIT | 未着手 |  |

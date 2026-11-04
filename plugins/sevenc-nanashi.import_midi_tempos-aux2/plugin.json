@@ -1,0 +1,31 @@
+{
+  "id": "sevenc-nanashi.import_midi_tempos-aux2",
+  "name": "import_midi_tempos.aux2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "MIDIファイルからBPMを取得し、タイムラインに反映するプラグイン",
+  "permissions": [
+    "filesystem"
+  ],
+  "commands": [
+    {
+      "id": "import",
+      "label": "MIDI ファイルから BPM グリッドとマーカーを設定",
+      "script": "commands/midi.js",
+      "function": "importMidi",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "reset",
+      "label": "BPM グリッドをリセット",
+      "script": "commands/midi.js",
+      "function": "resetGrid",
+      "menu": [
+        "plugins"
+      ]
+    }
+  ]
+}

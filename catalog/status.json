@@ -1553,8 +1553,9 @@
   "status": "pending"
  },
  "sevenc-nanashi.import_midi_tempos-aux2": {
-  "note": "",
-  "status": "pending"
+  "note": "MIDI のテンポとマーカーを読む",
+  "path": "plugins/sevenc-nanashi.import_midi_tempos-aux2",
+  "status": "ported"
  },
  "sevenc-nanashi.insert-aux2": {
   "note": "メディアを挿入",
