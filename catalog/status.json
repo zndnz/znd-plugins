@@ -1508,8 +1508,9 @@
   "status": "builtin"
  },
  "sevenc-nanashi.aviutl2-scripts.legacy_glow-anm2": {
-  "note": "",
-  "status": "pending"
+  "note": "旧発光",
+  "path": "plugins/sevenc-nanashi.aviutl2-scripts.legacy_glow-anm2",
+  "status": "ported"
  },
  "sevenc-nanashi.aviutl2-scripts.pixel-transform-anm2": {
   "note": "",

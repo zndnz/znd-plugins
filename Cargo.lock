@@ -1335,6 +1335,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-sevenc-nanashi-aviutl2-scripts-legacy-glow-anm2"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-sevenc-nanashi-extra-blend-mode-anm2"
 version = "1.0.0"
 dependencies = [

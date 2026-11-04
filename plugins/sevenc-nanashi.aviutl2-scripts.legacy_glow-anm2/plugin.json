@@ -1,0 +1,12 @@
+{
+  "id": "sevenc-nanashi.aviutl2-scripts.legacy_glow-anm2",
+  "name": "旧発光.anm2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "AviUtl1の発光を再現するスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sevenc_nanashi_aviutl2_scripts_legacy_glow_anm2"
+  ]
+}
