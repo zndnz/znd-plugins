@@ -1291,8 +1291,8 @@
   "status": "pending"
  },
  "oov.GCMZDrops2": {
-  "note": "",
-  "status": "pending"
+  "note": "AviUtl2 のファイルドロップを拡張する MOD で、znd には書き換える対象がない（znd はドロップで素材を読み込める）",
+  "status": "na"
  },
  "oov.PSDToolKit2": {
   "note": "",

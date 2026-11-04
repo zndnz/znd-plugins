@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 143 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 14 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 40 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 41 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 14 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 144 | まだ手を付けていない |
+| 未着手 | 143 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -179,6 +179,7 @@
 | [スリム化MOD](https://github.com/hebiiro/al2_slimming)<br>`hebiiro.al2_slimming` | MOD | 蛇色 | MIT | 対象外 | AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない |
 | [UIドレッシングMOD](https://github.com/hebiiro/al2_ui_dressing)<br>`hebiiro.al2_ui_dressing` | MOD | 蛇色 | MIT | 対象外 | AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない |
 | [フォント視覚化MOD](https://github.com/hebiiro/al2_visual_font)<br>`hebiiro.al2_visual_font` | MOD | 蛇色 | MIT | 対象外 | AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない |
+| [GCMZDrops2](https://github.com/oov/aviutl2_gcmzdrops2)<br>`oov.GCMZDrops2` | MOD | おおぶ | MIT | 対象外 | AviUtl2 のファイルドロップを拡張する MOD で、znd には書き換える対象がない（znd はドロップで素材を読み込める） |
 | [DockLayout](https://github.com/routersys/AUE2-DockLayout)<br>`routersys.DockLayout` | MOD | routersys | MIT | 対象外 | AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない |
 | [Composite](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Composite` | スクリプト | こんにゃくねこ | CC0-1.0 | 対象外 | znd のエフェクトは後に続くエフェクトの結果を受け取れない（エフェクトの順番と合成モードで代わりになる） |
 | [midi2EAP2](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.midi2EAP2` | スクリプト | 黒猫大福 | MIT | 対象外 | EAP2 の MIDI Visualizer オブジェクトを作る GCMZDrops2 のハンドラーで、EAP2 は znd にない |
@@ -317,7 +318,6 @@
 | [チャプターマーカー読み込みプラグイン](https://drive.google.com/drive/u/2/folders/1GhO8jXWakX3DZUptUNLVafKBb7Kmnnc0)<br>`Yuzuriha.ChapterMarker` | 汎用プラグイン | ゆずりは | 不明 | ライセンス不適合 | ライセンス: 不明（組み込めるライセンスではない） |
 | [ラウドネス視覚分析](https://drive.google.com/drive/folders/1scs7pYc-EUqhfItoDdPXlV1DKFZ9iYQf?usp=sharing)<br>`Yuzuriha.LoudnessVisualExplorer` | 汎用プラグイン | ゆずりは | 不明 | ライセンス不適合 | ライセンス: 不明（組み込めるライセンスではない） |
 | [シンプルレコーダー](https://drive.google.com/drive/u/2/folders/1p3wHfas0d7fLNMffXFM2X6bJU9fW1dWt)<br>`Yuzuriha.SimpleRecorder` | 汎用プラグイン | ゆずりは | 不明 | ライセンス不適合 | ライセンス: 不明（組み込めるライセンスではない） |
-| [GCMZDrops2](https://github.com/oov/aviutl2_gcmzdrops2)<br>`oov.GCMZDrops2` | MOD | おおぶ | MIT | 未着手 |  |
 | [グランジ背景を生成](https://github.com/ar-ca-na/aviutl2-grunge-bg)<br>`ar-ca-na.grunge-bg` | スクリプト | arcana | MIT | 未着手 |  |
 | [レイヤーグリッド表示](https://github.com/azurite581/AviUtl2-LayerGridView)<br>`azurite.LayerGridView` | スクリプト | azurite | MIT | 未着手 |  |
 | [ペン&矩形ツール](https://github.com/ColorJellyFish/aviutl2_cjf_pentool)<br>`CJF.PenTool` | スクリプト | CJF | MIT | 未着手 |  |
