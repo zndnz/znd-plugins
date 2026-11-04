@@ -901,6 +901,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-korarei-pixelsorter-k"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-mes51-unmult"
 version = "1.0.0"
 dependencies = [
@@ -909,6 +916,13 @@ dependencies = [
 
 [[package]]
 name = "zp-nctype-reflectiononpane"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-neac-bezierpath"
 version = "1.0.0"
 dependencies = [
  "znd-plugin-sdk",
@@ -965,6 +979,13 @@ dependencies = [
 
 [[package]]
 name = "zp-seilor0-roundedpolygonsl"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-seilor0-twinkle-sl"
 version = "1.0.0"
 dependencies = [
  "znd-plugin-sdk",

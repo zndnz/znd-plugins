@@ -1,0 +1,28 @@
+{
+  "id": "NeAc.BezierPath",
+  "name": "BezierPath",
+  "version": "1.0.0",
+  "vendor": "猫愛（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "ベジェ曲線としてパスを描き、それに沿っての移動や配置が可能なスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_neac_bezierpath"
+  ],
+  "commands": [
+    {
+      "id": "arrange",
+      "label": "選んだレイヤーを曲線に並べる（BezierPath）",
+      "script": "commands/arrange.js",
+      "function": "arrange",
+      "menu": [
+        "plugins",
+        "layer"
+      ],
+      "description": "BezierPath のガイドの曲線に沿って、選んだ順にレイヤーを並べます（ガイドが無ければ作ります）"
+    }
+  ],
+  "expressions": [
+    "expressions/bezierpath.js"
+  ]
+}

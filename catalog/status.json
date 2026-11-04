@@ -543,8 +543,9 @@
   "status": "pending"
  },
  "NeAc.BezierPath": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（ガイド）＋コマンド＋エクスプレッション用ライブラリ",
+  "path": "plugins/NeAc.BezierPath",
+  "status": "ported"
  },
  "NeAc.CinemaScope": {
   "note": "エフェクト（コンポの大きさの平面に掛ける）",
