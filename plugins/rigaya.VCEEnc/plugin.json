@@ -1,0 +1,96 @@
+{
+  "id": "rigaya.VCEEnc",
+  "name": "VCEEnc",
+  "version": "1.0.0",
+  "vendor": "rigaya（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "VCEによる高速エンコードの性能実験",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "vce",
+      "label": "VCEEnc（AMD GPU）",
+      "extension": "mp4",
+      "even": true,
+      "video_args": [
+        "-c:v",
+        "{codec}",
+        "-quality",
+        "{preset}",
+        "-rc",
+        "cqp",
+        "-qp_i",
+        "{q}",
+        "-qp_p",
+        "{q}",
+        "-pix_fmt",
+        "yuv420p",
+        "{extra}",
+        "-movflags",
+        "+faststart"
+      ],
+      "audio_args": [
+        "-c:a",
+        "aac",
+        "-b:a",
+        "{abr}k"
+      ],
+      "params": [
+        {
+          "id": "codec",
+          "label": "コーデック",
+          "type": "choice",
+          "default": 0,
+          "options": [
+            {
+              "label": "H.264",
+              "value": "h264_amf"
+            },
+            {
+              "label": "HEVC",
+              "value": "hevc_amf"
+            },
+            {
+              "label": "AV1",
+              "value": "av1_amf"
+            }
+          ]
+        },
+        {
+          "id": "q",
+          "label": "画質（小さいほど高画質）",
+          "type": "number",
+          "default": 23,
+          "min": 0,
+          "max": 51
+        },
+        {
+          "id": "preset",
+          "label": "プリセット",
+          "type": "choice",
+          "default": 1,
+          "options": [
+            "speed",
+            "balanced",
+            "quality"
+          ]
+        },
+        {
+          "id": "abr",
+          "label": "音声ビットレート（kbps）",
+          "type": "number",
+          "default": 256,
+          "min": 32,
+          "max": 512
+        },
+        {
+          "id": "extra",
+          "label": "追加の引数",
+          "type": "args",
+          "default": ""
+        }
+      ],
+      "description": "AMD の GPU（AMF）と、対応した FFmpeg が必要"
+    }
+  ]
+}
