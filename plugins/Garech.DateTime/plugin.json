@@ -1,0 +1,20 @@
+{
+  "id": "Garech.DateTime",
+  "name": "日付と時刻",
+  "version": "1.0.0",
+  "vendor": "Garech（znd 移植: znd-plugins）",
+  "license": "CC0-1.0",
+  "description": "時間変化する日付と時刻を表示します。カウンターとしても使えます。",
+  "permissions": [],
+  "expressions": [
+    "expressions/datetime.js"
+  ],
+  "panels": [
+    {
+      "id": "datetime",
+      "title": "日付と時刻",
+      "script": "panels/datetime.js",
+      "width": 340
+    }
+  ]
+}

@@ -175,8 +175,9 @@
   "status": "closed"
  },
  "Garech.DateTime": {
-  "note": "",
-  "status": "pending"
+  "note": "日付と時刻",
+  "path": "plugins/Garech.DateTime",
+  "status": "ported"
  },
  "Garech.DoubleBPMGrid": {
   "note": "BPM グリッドの倍化・測定",

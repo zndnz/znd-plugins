@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 143 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 144 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 14 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 41 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 14 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 143 | まだ手を付けていない |
+| 未着手 | 142 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -42,6 +42,7 @@
 | [Wave Warp](https://github.com/CatWithNeko/aviutl2-scripts#wave-warp)<br>`CatWithNeko.WaveWarp` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.WaveWarp) | ラスター |
 | [プレースホルダー](https://github.com/eizo-gak/aviutl2-Placeholder)<br>`eizo-gak.aviutl2-Placeholder` | スクリプト | 映像学区 | MIT | [移植済み](plugins/eizo-gak.aviutl2-Placeholder) | エフェクト（平面に掛けると指定の大きさで描く） |
 | [多角形モーフ_F](https://github.com/fu-majime/AviUtl2_PolygonMorph_F)<br>`Fu-Majime.AviUtl2_PolygonMorph_F` | スクリプト | フマジメ | MIT | [移植済み](plugins/Fu-Majime.AviUtl2_PolygonMorph_F) | エフェクト（モーフ元・先と進行度はパラメータで指定） |
+| [日付と時刻](https://www.nicovideo.jp/watch/sm36307237)<br>`Garech.DateTime` | スクリプト | Garech | CC0-1.0 | [移植済み](plugins/Garech.DateTime) | 日付と時刻 |
 | [SliceGlitch](https://note.com/isuzu_hinode/n/n3a7d7b761b98)<br>`hinodeisuzu.sliceglitch` | スクリプト | 暘 弥涼 | MIT | [移植済み](plugins/hinodeisuzu.sliceglitch) | スライスグリッチ |
 | [ColorLink](https://github.com/InuyoshiAtom/aviutl2-colorlink)<br>`InuyoshiAtom.ColorLink` | スクリプト | 犬好アトム | MIT | [移植済み](plugins/InuyoshiAtom.ColorLink) | エフェクト＋コマンド（色はエクスプレッションでつなぐ） |
 | [Open Glow](https://github.com/IZUisMe/aviutl2-open-glow)<br>`IZUisMe.OpenGlow` | スクリプト | 絵に描いた虹 | MIT | [移植済み](plugins/IZUisMe.OpenGlow) | 物理減衰グロー |
@@ -322,7 +323,6 @@
 | [レイヤーグリッド表示](https://github.com/azurite581/AviUtl2-LayerGridView)<br>`azurite.LayerGridView` | スクリプト | azurite | MIT | 未着手 |  |
 | [ペン&矩形ツール](https://github.com/ColorJellyFish/aviutl2_cjf_pentool)<br>`CJF.PenTool` | スクリプト | CJF | MIT | 未着手 |  |
 | [PSD連携アニメーション(非公式)](https://github.com/ColorJellyFish/aviutl2_cjf_psdanimation)<br>`CJF.PSD_anime` | スクリプト | CJF | MIT | 未着手 |  |
-| [日付と時刻](https://www.nicovideo.jp/watch/sm36307237)<br>`Garech.DateTime` | スクリプト | Garech | CC0-1.0 | 未着手 |  |
 | [リッチな音声波形_Gk](https://github.com/Gohankaiju/aviutl2-rich-audio-spectrum)<br>`Gohankaiju.rich-audio-spectrum` | スクリプト | Gohankaiju | MIT | 未着手 |  |
 | [PSDToolkit用自然な口パク](https://github.com/gomi1124/PSDToolKit-Natural-LipSync)<br>`gomi1124.psdtoolkit-aviutl1-lipsync` | スクリプト | ただのごみ | MIT | 未着手 |  |
 | [枠内自動フィット_H](https://github.com/HexBrowns/HexScript)<br>`HexBrowns.AutoFitText_H` | スクリプト | HexBrowns | MIT No Attribution | 未着手 |  |
