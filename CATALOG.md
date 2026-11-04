@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 23 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 24 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 312 | まだ手を付けていない |
+| 未着手 | 311 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -21,6 +21,7 @@
 | [色覚シミュレーションKR](https://github.com/karoterra/aviutl2-ColorVisionSimulation)<br>`Karoterra.ColorVisionSimulation` | スクリプト | かろてら | Unlicense | [移植済み](plugins/Karoterra.ColorVisionSimulation) | エフェクト |
 | [油絵KR](https://github.com/karoterra/aviutl2-OilPainting)<br>`Karoterra.OilPainting` | スクリプト | かろてら | MIT | [移植済み](plugins/Karoterra.OilPainting) | エフェクト |
 | [AutoLyricAnimation_K](https://github.com/korarei/AviUtl2_AutoLyricAnimation_K_Script)<br>`korarei.AutoLyricAnimation_K` | スクリプト | Korarei | MIT | [移植済み](plugins/korarei.AutoLyricAnimation_K) | パネル＋エクスプレッション用ライブラリ（テキストのアニメーターを作る） |
+| [Kaleidoscope_K](https://github.com/korarei/AviUtl2_Kaleidoscope_K_Script)<br>`korarei.Kaleidoscope_K` | スクリプト | Korarei | MIT | [移植済み](plugins/korarei.Kaleidoscope_K) | エフェクト |
 | [Unmult](https://github.com/mes51/AVIUtl2_Unmult)<br>`mes51.Unmult` | スクリプト | mes51 | MIT | [移植済み](plugins/mes51.Unmult) | エフェクト |
 | [ReflectionOnPane](https://github.com/nctype/aviutl2_script_ReflectionOnPane)<br>`nctype.ReflectionOnPane` | スクリプト | nctype | MIT | [移植済み](plugins/nctype.ReflectionOnPane) | エフェクト（描画モードはレイヤーでスクリーンにする） |
 | [シネマスコープ](https://github.com/nea-c/aviutl2_script_CinemaScope)<br>`NeAc.CinemaScope` | スクリプト | 猫愛 | MIT | [移植済み](plugins/NeAc.CinemaScope) | エフェクト（コンポの大きさの平面に掛ける） |
@@ -232,7 +233,6 @@
 | [Constraint](https://gist.github.com/korarei/d5b089a69e0c8ba5903d641d677c89e8)<br>`korarei.Constraint` | スクリプト | Korarei | CC0-1.0 | 未着手 |  |
 | [Diffusion_K](https://github.com/korarei/AviUtl2_Diffusion_K_Script)<br>`korarei.Diffusion_K` | スクリプト | Korarei | MIT | 未着手 |  |
 | [FlowType_K](https://github.com/korarei/AviUtl2_FlowType_K_Script)<br>`korarei.FlowType_K` | スクリプト | Korarei | MIT | 未着手 |  |
-| [Kaleidoscope_K](https://github.com/korarei/AviUtl2_Kaleidoscope_K_Script)<br>`korarei.Kaleidoscope_K` | スクリプト | Korarei | MIT | 未着手 |  |
 | [PixelSorter_K](https://github.com/korarei/AviUtl2_PixelSorter_K_Script)<br>`korarei.PixelSorter_K` | スクリプト | Korarei | MIT | 未着手 |  |
 | [@Stylize_K](https://github.com/korarei/AviUtl2_Stylize_K_Script)<br>`korarei.Stylize_K` | スクリプト | Korarei | MIT | 未着手 |  |
 | [audio2obj](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.audio2obj` | スクリプト | 黒猫大福 | MIT | 未着手 |  |

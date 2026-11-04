@@ -1,0 +1,12 @@
+{
+  "id": "korarei.Kaleidoscope_K",
+  "name": "Kaleidoscope_K",
+  "version": "1.0.0",
+  "vendor": "Korarei（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "画像を万華鏡風に加工するスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_korarei_kaleidoscope_k"
+  ]
+}

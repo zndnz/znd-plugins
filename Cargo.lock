@@ -894,6 +894,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-korarei-kaleidoscope-k"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-mes51-unmult"
 version = "1.0.0"
 dependencies = [
@@ -943,6 +950,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-sagami121-glitch-t"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-sagyou-opticscompensation-s-for-aviutl2"
 version = "1.0.0"
 dependencies = [
@@ -958,6 +972,13 @@ dependencies = [
 
 [[package]]
 name = "zp-sigma-axis-autoclipping-s"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-sigma-axis-movingmosaic-s"
 version = "1.0.0"
 dependencies = [
  "znd-plugin-sdk",

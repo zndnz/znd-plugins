@@ -1058,8 +1058,9 @@
   "status": "license"
  },
  "korarei.Kaleidoscope_K": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト",
+  "path": "plugins/korarei.Kaleidoscope_K",
+  "status": "ported"
  },
  "korarei.ObjectMotionBlur_LK": {
   "note": "",
