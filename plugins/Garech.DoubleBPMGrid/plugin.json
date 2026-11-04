@@ -1,0 +1,17 @@
+{
+  "id": "Garech.DoubleBPMGrid",
+  "name": "BPMグリッド倍化",
+  "version": "1.0.0",
+  "vendor": "Garech（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "グリッドの設定のBPM値を倍々に変化&BPM測定",
+  "permissions": [],
+  "panels": [
+    {
+      "id": "bpm",
+      "title": "BPMグリッド倍化",
+      "script": "panels/bpm.js",
+      "width": 320
+    }
+  ]
+}

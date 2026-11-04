@@ -179,8 +179,9 @@
   "status": "pending"
  },
  "Garech.DoubleBPMGrid": {
-  "note": "",
-  "status": "pending"
+  "note": "BPM グリッドの倍化・測定",
+  "path": "plugins/Garech.DoubleBPMGrid",
+  "status": "ported"
  },
  "Garech.SplitFilters": {
   "note": "エフェクトの分離・結合",
