@@ -20,6 +20,7 @@
 //!
 //! 画像はすべて RGBA・リニアライト・プリマルチプライドの f32。座標は左上原点のバッファ画素。
 
+pub mod audio;
 pub mod aul;
 pub mod color;
 pub mod draw;
