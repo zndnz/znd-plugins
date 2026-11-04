@@ -1302,8 +1302,9 @@
   "status": "ported"
  },
  "rigaya.x265guiEx": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/rigaya.x265guiEx",
+  "status": "ported"
  },
  "ronin_gw.mojie": {
   "note": "",

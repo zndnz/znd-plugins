@@ -1,0 +1,80 @@
+{
+  "id": "rigaya.x265guiEx",
+  "name": "x265guiEx",
+  "version": "1.0.0",
+  "vendor": "rigaya（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "x265を使用してエンコードを行うAviutlの出力プラグインです。",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "x265",
+      "label": "x265（H.265/HEVC）",
+      "extension": "mp4",
+      "even": true,
+      "video_args": [
+        "-c:v",
+        "libx265",
+        "-preset",
+        "{preset}",
+        "-crf",
+        "{q}",
+        "-pix_fmt",
+        "yuv420p10le",
+        "-tag:v",
+        "hvc1",
+        "{extra}",
+        "-movflags",
+        "+faststart"
+      ],
+      "audio_args": [
+        "-c:a",
+        "aac",
+        "-b:a",
+        "{abr}k"
+      ],
+      "params": [
+        {
+          "id": "q",
+          "label": "画質 CRF",
+          "type": "number",
+          "default": 20,
+          "min": 0,
+          "max": 51
+        },
+        {
+          "id": "preset",
+          "label": "プリセット",
+          "type": "choice",
+          "default": 5,
+          "options": [
+            "ultrafast",
+            "superfast",
+            "veryfast",
+            "faster",
+            "fast",
+            "medium",
+            "slow",
+            "slower",
+            "veryslow",
+            "placebo"
+          ]
+        },
+        {
+          "id": "abr",
+          "label": "音声ビットレート（kbps）",
+          "type": "number",
+          "default": 256,
+          "min": 32,
+          "max": 512
+        },
+        {
+          "id": "extra",
+          "label": "追加の引数",
+          "type": "args",
+          "default": ""
+        }
+      ]
+    }
+  ]
+}
