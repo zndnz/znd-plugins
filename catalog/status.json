@@ -1447,8 +1447,8 @@
   "status": "pending"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_midi_player": {
-  "note": "",
-  "status": "pending"
+  "note": "入力プラグイン（素材の読み込み形式を足す）で、znd のプラグインには読み込み形式を足す仕組みがない",
+  "status": "na"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_pixelsort": {
   "note": "ピクセルソート",
