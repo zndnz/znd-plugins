@@ -1,0 +1,111 @@
+{
+  "id": "rigaya.ffmpegOut",
+  "name": "ffmpegOut",
+  "version": "1.0.0",
+  "vendor": "rigaya（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "Aviutlのffmpegを使用した出力プラグイン",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "mp4",
+      "label": "ffmpegOut（MP4・引数を指定）",
+      "extension": "mp4",
+      "video_args": [
+        "{vargs}"
+      ],
+      "audio_args": [
+        "{aargs}"
+      ],
+      "params": [
+        {
+          "id": "vargs",
+          "label": "映像の引数",
+          "type": "args",
+          "default": "-c:v libx264 -crf 18 -pix_fmt yuv420p"
+        },
+        {
+          "id": "aargs",
+          "label": "音声の引数",
+          "type": "args",
+          "default": "-c:a aac -b:a 256k"
+        }
+      ]
+    },
+    {
+      "id": "mkv",
+      "label": "ffmpegOut（MKV・引数を指定）",
+      "extension": "mkv",
+      "video_args": [
+        "{vargs}"
+      ],
+      "audio_args": [
+        "{aargs}"
+      ],
+      "params": [
+        {
+          "id": "vargs",
+          "label": "映像の引数",
+          "type": "args",
+          "default": "-c:v libx264 -crf 18 -pix_fmt yuv420p"
+        },
+        {
+          "id": "aargs",
+          "label": "音声の引数",
+          "type": "args",
+          "default": "-c:a aac -b:a 256k"
+        }
+      ]
+    },
+    {
+      "id": "mov",
+      "label": "ffmpegOut（MOV・引数を指定）",
+      "extension": "mov",
+      "video_args": [
+        "{vargs}"
+      ],
+      "audio_args": [
+        "{aargs}"
+      ],
+      "params": [
+        {
+          "id": "vargs",
+          "label": "映像の引数",
+          "type": "args",
+          "default": "-c:v libx264 -crf 18 -pix_fmt yuv420p"
+        },
+        {
+          "id": "aargs",
+          "label": "音声の引数",
+          "type": "args",
+          "default": "-c:a aac -b:a 256k"
+        }
+      ]
+    },
+    {
+      "id": "webm",
+      "label": "ffmpegOut（WEBM・引数を指定）",
+      "extension": "webm",
+      "video_args": [
+        "{vargs}"
+      ],
+      "audio_args": [
+        "{aargs}"
+      ],
+      "params": [
+        {
+          "id": "vargs",
+          "label": "映像の引数",
+          "type": "args",
+          "default": "-c:v libvpx-vp9 -crf 30 -b:v 0"
+        },
+        {
+          "id": "aargs",
+          "label": "音声の引数",
+          "type": "args",
+          "default": "-c:a libopus -b:a 192k"
+        }
+      ]
+    }
+  ]
+}

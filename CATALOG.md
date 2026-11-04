@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 57 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 58 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 278 | まだ手を付けていない |
+| 未着手 | 277 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -65,6 +65,7 @@
 | [WAVファイル出力](https://github.com/cycloawaodorin/wav_output_ks)<br>`KAZOON.wav_output_ks` | 出力プラグイン | KAZOON | MIT | [移植済み](plugins/KAZOON.wav_output_ks) | 書き出し形式（FFmpeg の引数の組） |
 | [MFOutput](https://github.com/MonogoiNoobs/aviutl2-media-foundation-output-plugin)<br>`MonogoiNoobs.MFOutput` | 出力プラグイン | 依神紫苑 | MIT | [移植済み](plugins/MonogoiNoobs.MFOutput) | 書き出し形式（FFmpeg の引数の組） |
 | [GIFベイヤーディザ出力](https://github.com/osakana4242/aviutl2-gif-bayer-dither-output)<br>`osakana4242.GifBayerDitherOutput` | 出力プラグイン | 三川おさかな | 0BSD | [移植済み](plugins/osakana4242.GifBayerDitherOutput) | 書き出し形式（FFmpeg の引数の組） |
+| [ffmpegOut](https://github.com/rigaya/ffmpegOut)<br>`rigaya.ffmpegOut` | 出力プラグイン | rigaya | MIT | [移植済み](plugins/rigaya.ffmpegOut) | 書き出し形式（FFmpeg の引数の組） |
 | [AudioEnc](https://github.com/sagami121/Aviutl2-AudioEnc)<br>`sagami121.AudioEnc` | 出力プラグイン | 3aGaM1 | MIT | [移植済み](plugins/sagami121.AudioEnc) | 書き出し形式（FFmpeg の引数の組） |
 | [APNG出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-apng` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-apng) | 書き出し形式（FFmpeg の引数の組） |
 | [AVIF出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-avif` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-avif) | 書き出し形式（FFmpeg の引数の組） |
@@ -371,7 +372,6 @@
 | [Rusty Piano Midi Player Input](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_midi_player` | 入力プラグイン | Nanashi. | MIT | 未着手 |  |
 | [SMR for F-ZERO GX](https://github.com/cycloawaodorin/fzgx_smr_ks)<br>`KAZOON.fzgx_smr_ks` | 出力プラグイン | KAZOON | MIT | 未着手 |  |
 | [セリフ準備から.srtファイル生成プラグイン](https://github.com/mugi995/Serifu-JunbiToSRT-for-AviUtl2)<br>`Mugi995.Serifu-JunbiToSRT` | 出力プラグイン | Mugi995 | MIT | 未着手 |  |
-| [ffmpegOut](https://github.com/rigaya/ffmpegOut)<br>`rigaya.ffmpegOut` | 出力プラグイン | rigaya | MIT | 未着手 |  |
 | [NVEnc](https://github.com/rigaya/NVEnc)<br>`rigaya.NVEnc` | 出力プラグイン | rigaya | MIT | 未着手 |  |
 | [QSVEnc](https://github.com/rigaya/QSVEnc)<br>`rigaya.QSVEnc` | 出力プラグイン | rigaya | MIT | 未着手 |  |
 | [svtAV1guiEx](https://github.com/rigaya/svtAV1guiEx)<br>`rigaya.svtAV1guiEx` | 出力プラグイン | rigaya | MIT | 未着手 |  |
