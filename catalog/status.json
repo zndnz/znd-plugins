@@ -1740,8 +1740,9 @@
   "status": "ported"
  },
  "sigma-axis.tl_walkaround2": {
-  "note": "",
-  "status": "pending"
+  "note": "タイムライン移動のコマンド集",
+  "path": "plugins/sigma-axis.tl_walkaround2",
+  "status": "ported"
  },
  "sigma-axis.translations_sigma-axis": {
   "note": "AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない",

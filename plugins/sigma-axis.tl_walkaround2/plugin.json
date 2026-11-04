@@ -1,0 +1,344 @@
+{
+  "id": "sigma-axis.tl_walkaround2",
+  "name": "TLショトカ移動2",
+  "version": "1.0.0",
+  "vendor": "σ軸（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "タイムライン操作のコマンドを追加するプラグイン",
+  "permissions": [],
+  "commands": [
+    {
+      "id": "nextPointLayer",
+      "label": "TLショトカ移動2: 右の中間点(レイヤー)",
+      "script": "commands/walk.js",
+      "function": "nextPointLayer",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "prevPointLayer",
+      "label": "TLショトカ移動2: 左の中間点(レイヤー)",
+      "script": "commands/walk.js",
+      "function": "prevPointLayer",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "nextEdgeLayer",
+      "label": "TLショトカ移動2: 右の境界(レイヤー)",
+      "script": "commands/walk.js",
+      "function": "nextEdgeLayer",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "prevEdgeLayer",
+      "label": "TLショトカ移動2: 左の境界(レイヤー)",
+      "script": "commands/walk.js",
+      "function": "prevEdgeLayer",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "nextPointComp",
+      "label": "TLショトカ移動2: 右の中間点(コンポ)",
+      "script": "commands/walk.js",
+      "function": "nextPointComp",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "prevPointComp",
+      "label": "TLショトカ移動2: 左の中間点(コンポ)",
+      "script": "commands/walk.js",
+      "function": "prevPointComp",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "nextEdgeComp",
+      "label": "TLショトカ移動2: 右の境界(コンポ)",
+      "script": "commands/walk.js",
+      "function": "nextEdgeComp",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "prevEdgeComp",
+      "label": "TLショトカ移動2: 左の境界(コンポ)",
+      "script": "commands/walk.js",
+      "function": "prevEdgeComp",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "nextMarker",
+      "label": "TLショトカ移動2: 右のマーカー",
+      "script": "commands/walk.js",
+      "function": "nextMarker",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "prevMarker",
+      "label": "TLショトカ移動2: 左のマーカー",
+      "script": "commands/walk.js",
+      "function": "prevMarker",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "marker1",
+      "label": "TLショトカ移動2: マーカーへ移動 1",
+      "script": "commands/walk.js",
+      "function": "marker1",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "marker2",
+      "label": "TLショトカ移動2: マーカーへ移動 2",
+      "script": "commands/walk.js",
+      "function": "marker2",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "marker3",
+      "label": "TLショトカ移動2: マーカーへ移動 3",
+      "script": "commands/walk.js",
+      "function": "marker3",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "marker4",
+      "label": "TLショトカ移動2: マーカーへ移動 4",
+      "script": "commands/walk.js",
+      "function": "marker4",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "marker5",
+      "label": "TLショトカ移動2: マーカーへ移動 5",
+      "script": "commands/walk.js",
+      "function": "marker5",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "marker6",
+      "label": "TLショトカ移動2: マーカーへ移動 6",
+      "script": "commands/walk.js",
+      "function": "marker6",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "marker7",
+      "label": "TLショトカ移動2: マーカーへ移動 7",
+      "script": "commands/walk.js",
+      "function": "marker7",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "marker8",
+      "label": "TLショトカ移動2: マーカーへ移動 8",
+      "script": "commands/walk.js",
+      "function": "marker8",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "marker9",
+      "label": "TLショトカ移動2: マーカーへ移動 9",
+      "script": "commands/walk.js",
+      "function": "marker9",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "marker10",
+      "label": "TLショトカ移動2: マーカーへ移動 10",
+      "script": "commands/walk.js",
+      "function": "marker10",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "gotoSelected",
+      "label": "TLショトカ移動2: 選択レイヤーへ移動",
+      "script": "commands/walk.js",
+      "function": "gotoSelected",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "nextBar",
+      "label": "TLショトカ移動2: 右の小節線へ移動(BPM)",
+      "script": "commands/walk.js",
+      "function": "nextBar",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "prevBar",
+      "label": "TLショトカ移動2: 左の小節線へ移動(BPM)",
+      "script": "commands/walk.js",
+      "function": "prevBar",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "nextBeat",
+      "label": "TLショトカ移動2: 右の拍へ移動(BPM)",
+      "script": "commands/walk.js",
+      "function": "nextBeat",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "prevBeat",
+      "label": "TLショトカ移動2: 左の拍へ移動(BPM)",
+      "script": "commands/walk.js",
+      "function": "prevBeat",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "nextSubBeat",
+      "label": "TLショトカ移動2: 右に1/N拍移動(BPM)",
+      "script": "commands/walk.js",
+      "function": "nextSubBeat",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "prevSubBeat",
+      "label": "TLショトカ移動2: 左に1/N拍移動(BPM)",
+      "script": "commands/walk.js",
+      "function": "prevSubBeat",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "gridOriginLeft",
+      "label": "TLショトカ移動2: グリッド基準線を左へ(BPM)",
+      "script": "commands/walk.js",
+      "function": "gridOriginLeft",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "gridOriginRight",
+      "label": "TLショトカ移動2: グリッド基準線を右へ(BPM)",
+      "script": "commands/walk.js",
+      "function": "gridOriginRight",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "gridOriginHere",
+      "label": "TLショトカ移動2: グリッド基準線を現在フレームに(BPM)",
+      "script": "commands/walk.js",
+      "function": "gridOriginHere",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "nearestBarHere",
+      "label": "TLショトカ移動2: 最寄りの小節線を現在フレームに(BPM)",
+      "script": "commands/walk.js",
+      "function": "nearestBarHere",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "selectAbove",
+      "label": "TLショトカ移動2: 上のレイヤーを選択",
+      "script": "commands/walk.js",
+      "function": "selectAbove",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "selectBelow",
+      "label": "TLショトカ移動2: 下のレイヤーを選択",
+      "script": "commands/walk.js",
+      "function": "selectBelow",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "extendStartHere",
+      "label": "TLショトカ移動2: 選択レイヤーの始点を現在フレームに",
+      "script": "commands/walk.js",
+      "function": "extendStartHere",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "extendEndHere",
+      "label": "TLショトカ移動2: 選択レイヤーの終点を現在フレームに",
+      "script": "commands/walk.js",
+      "function": "extendEndHere",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "toggleVisible",
+      "label": "TLショトカ移動2: 選択レイヤーを表示/非表示",
+      "script": "commands/walk.js",
+      "function": "toggleVisible",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "toggleMarker",
+      "label": "TLショトカ移動2: マーカーを追加/削除",
+      "script": "commands/walk.js",
+      "function": "toggleMarker",
+      "menu": [
+        "plugins"
+      ]
+    }
+  ]
+}

@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 142 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 143 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 12 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 31 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 14 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 156 | まだ手を付けていない |
+| 未着手 | 155 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -155,6 +155,7 @@
 | [open_project_directory.aux2](https://github.com/sevenc-nanashi/open_project_directory.aux2)<br>`sevenc-nanashi.open_project_directory-aux2` | 汎用プラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.open_project_directory-aux2) | プロジェクトのフォルダを開く・パスをコピー |
 | [quantizer.aux2](https://github.com/sevenc-nanashi/quantizer.aux2)<br>`sevenc-nanashi.quantizer-aux2` | 汎用プラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.quantizer-aux2) | BPM グリッドに合わせる |
 | [SrtImporter](https://github.com/shyachi/AviUtl2_SrtImporter)<br>`shyachi.SrtImporter` | 汎用プラグイン | shyachi | MIT | [移植済み](plugins/shyachi.SrtImporter) | SRT 読み込みパネル |
+| [TLショトカ移動2](https://github.com/sigma-axis/aviutl2_tl_walkaround2)<br>`sigma-axis.tl_walkaround2` | 汎用プラグイン | σ軸 | MIT | [移植済み](plugins/sigma-axis.tl_walkaround2) | タイムライン移動のコマンド集 |
 | [Palette History](https://github.com/teruyoshii/AviUtl2_Palette_History)<br>`teruyoshii.Palette_History` | 汎用プラグイン | てるよし | MIT | [移植済み](plugins/teruyoshii.Palette_History) | 色の履歴パネル |
 | [Tonecurve_C](https://x.com/CatWithNeko/status/1972685066963960255)<br>`CatWithNeko.ToneCurve` | スクリプト | こんにゃくねこ | CC0-1.0 | znd 本体で対応 | znd の組み込みエフェクト「トーンカーブ」で同じことができる |
 | [svg2obj](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.svg2obj` | スクリプト | 黒猫大福 | MIT | znd 本体で対応 | znd は SVG を素材として直接読み込める（ドロップでもよい） |
@@ -455,7 +456,6 @@
 | [clipboard.aux2](https://github.com/sevenc-nanashi/clipboard.aux2)<br>`sevenc-nanashi.clipboard-aux2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [enhanced_tracks.aux2](https://github.com/sevenc-nanashi/enhanced_tracks.aux2)<br>`sevenc-nanashi.enhanced_tracks-aux2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [rikky_modoki.aux2](https://github.com/sevenc-nanashi/rikky_modoki.aux2)<br>`sevenc-nanashi.rikky_modoki-anm2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
-| [TLショトカ移動2](https://github.com/sigma-axis/aviutl2_tl_walkaround2)<br>`sigma-axis.tl_walkaround2` | 汎用プラグイン | σ軸 | MIT | 未着手 |  |
 | [AutoZWJ](https://github.com/TNOTawa/AutoZWJ)<br>`tnotawa.autozwj` | 汎用プラグイン | TNOTawa | MIT | 未着手 |  |
 | [aviutl2_mcp_bridge](https://github.com/TranczMeq/aviutl2-live-mcp)<br>`tranczmeq.aviutl2-mcp-bridge` | 汎用プラグイン | TranczMeq | MIT | 未着手 |  |
 | [comfont.aux2](https://github.com/vandojapan/comfont)<br>`vandojapan.comfont` | 汎用プラグイン | 4vando | MIT | 未着手 |  |
