@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 97 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 98 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 3 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 7 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 235 | まだ手を付けていない |
+| 未着手 | 234 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -50,6 +50,7 @@
 | [ラスターM](https://x.com/momo_neeeko/status/2041081558011093323)<br>`momo_neeeko.RasterM` | スクリプト | もも猫 | MIT | [移植済み](plugins/momo_neeeko.RasterM) | 向きを選べるラスター |
 | [ルーローの多角形](https://drive.google.com/file/d/1X7q80FYOqJINB2CIKaJ5A9nHXAusRX0r/view?usp=drive_link)<br>`momo_neeeko.ReuleauxPolygon` | スクリプト | もも猫 | MIT | [移植済み](plugins/momo_neeeko.ReuleauxPolygon) | ルーローの多角形 |
 | [スカラップ円](https://x.com/momo_neeeko/status/2040680596410941589)<br>`momo_neeeko.ScallopedCircle` | スクリプト | もも猫 | MIT | [移植済み](plugins/momo_neeeko.ScallopedCircle) | スカラップ円 |
+| [ウェーブクリッピング](https://x.com/momo_neeeko/status/2037491184260784191)<br>`momo_neeeko.WaveClipping` | スクリプト | もも猫 | MIT | [移植済み](plugins/momo_neeeko.WaveClipping) | 波の形で斜めクリッピング |
 | [Pixelizer](https://github.com/nctype/aviutl2_script_Pixelizer)<br>`nctype.Pixelizer` | スクリプト | nctype | MIT | [移植済み](plugins/nctype.Pixelizer) | エフェクト（ドットはレイヤーに固定） |
 | [RainOnPane](https://github.com/nctype/aviutl2_script_RainOnPane)<br>`nctype.RainOnPane` | スクリプト | nctype | MIT | [移植済み](plugins/nctype.RainOnPane) | エフェクト（調整レイヤーに掛ける） |
 | [ReflectionOnPane](https://github.com/nctype/aviutl2_script_ReflectionOnPane)<br>`nctype.ReflectionOnPane` | スクリプト | nctype | MIT | [移植済み](plugins/nctype.ReflectionOnPane) | エフェクト（描画モードはレイヤーでスクリーンにする） |
@@ -292,7 +293,6 @@
 | [VariableFont](https://github.com/rokujyushi/Variable-Font-Plug-ins)<br>`KuroNeko.VariableFont` | スクリプト | 黒猫大福 | MIT | 未着手 |  |
 | [ベクターキャンバス](https://github.com/Mg32/aviutl2-vectorcanvas)<br>`mogesystem.VectorCanvas` | スクリプト | もげ | MIT | 未着手 |  |
 | [虹色グラデーションM](https://x.com/momo_neeeko/status/2108488871327764937)<br>`momo_neeeko.RainbowGradationM` | スクリプト | もも猫 | MIT | 未着手 |  |
-| [ウェーブクリッピング](https://x.com/momo_neeeko/status/2037491184260784191)<br>`momo_neeeko.WaveClipping` | スクリプト | もも猫 | MIT | 未着手 |  |
 | [SoftAnchorBone](https://github.com/Natadecoco2539/AviUtl2-SoftAnchorBone)<br>`Natadecoco.SoftAnchorBone` | スクリプト | なたのこ | MIT | 未着手 |  |
 | [TextBackplate](https://github.com/Natadecoco2539/AviUtl2-TextBackplate)<br>`Natadecoco.TextBackplate` | スクリプト | なたのこ | MIT | 未着手 |  |
 | [吹き出し背景@テキスト](https://github.com/natuneko722/TextBackgroundBalloonScript)<br>`natuneko722.text-background-balloon-script` | スクリプト | 夏猫 | MIT | 未着手 |  |

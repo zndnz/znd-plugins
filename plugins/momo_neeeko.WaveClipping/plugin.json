@@ -1,0 +1,12 @@
+{
+  "id": "momo_neeeko.WaveClipping",
+  "name": "ウェーブクリッピング",
+  "version": "1.0.0",
+  "vendor": "もも猫（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "様々な波の形で斜めクリッピング",
+  "permissions": [],
+  "effects": [
+    "lib/zp_momo_neeeko_waveclipping"
+  ]
+}

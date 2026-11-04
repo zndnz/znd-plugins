@@ -1144,8 +1144,9 @@
   "status": "ported"
  },
  "momo_neeeko.WaveClipping": {
-  "note": "",
-  "status": "pending"
+  "note": "波の形で斜めクリッピング",
+  "path": "plugins/momo_neeeko.WaveClipping",
+  "status": "ported"
  },
  "momo_neeeko.bpm_shake": {
   "note": "ライセンス: 不明（組み込めるライセンスではない）",
