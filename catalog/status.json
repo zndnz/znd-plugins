@@ -1272,8 +1272,9 @@
   "status": "na"
  },
  "rigaya.NVEnc": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/rigaya.NVEnc",
+  "status": "ported"
  },
  "rigaya.QSVEnc": {
   "note": "",
