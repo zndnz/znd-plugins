@@ -1566,8 +1566,9 @@
   "status": "pending"
  },
  "sigma-axis.Layback": {
-  "note": "",
-  "status": "pending"
+  "note": "コマンド（レイヤーの重なり順を変える）",
+  "path": "plugins/sigma-axis.Layback",
+  "status": "ported"
  },
  "sigma-axis.Lens_S": {
   "note": "",
