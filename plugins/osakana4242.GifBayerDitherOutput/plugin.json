@@ -1,0 +1,48 @@
+{
+  "id": "osakana4242.GifBayerDitherOutput",
+  "name": "GIFベイヤーディザ出力",
+  "version": "1.0.0",
+  "vendor": "三川おさかな（znd 移植: znd-plugins）",
+  "license": "0BSD",
+  "description": "減色とベイヤーディザを適用した GIF を出力",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "gif_bayer",
+      "label": "GIF（減色＋ベイヤーディザ）",
+      "extension": "gif",
+      "video_args": [
+        "-vf",
+        "fps={fps},split[a][b];[a]palettegen=max_colors={colors}:reserve_transparent=0[p];[b][p]paletteuse=dither=bayer:bayer_scale={scale}",
+        "-loop",
+        "0"
+      ],
+      "params": [
+        {
+          "id": "colors",
+          "label": "色数",
+          "type": "number",
+          "default": 16,
+          "min": 2,
+          "max": 256
+        },
+        {
+          "id": "scale",
+          "label": "ベイヤーの粗さ（0〜5）",
+          "type": "number",
+          "default": 2,
+          "min": 0,
+          "max": 5
+        },
+        {
+          "id": "fps",
+          "label": "フレームレート",
+          "type": "number",
+          "default": 8,
+          "min": 1,
+          "max": 60
+        }
+      ]
+    }
+  ]
+}

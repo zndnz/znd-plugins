@@ -1257,8 +1257,9 @@
   "status": "pending"
  },
  "osakana4242.GifBayerDitherOutput": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/osakana4242.GifBayerDitherOutput",
+  "status": "ported"
  },
  "pon.Displace": {
   "note": "ライセンス: 不明（組み込めるライセンスではない）",
