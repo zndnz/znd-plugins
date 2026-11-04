@@ -130,8 +130,9 @@
   "status": "pending"
  },
  "CatWithNeko.Turbulent": {
-  "note": "",
-  "status": "pending"
+  "note": "簡易タービュレントディスプレイス",
+  "path": "plugins/CatWithNeko.Turbulent",
+  "status": "ported"
  },
  "CatWithNeko.WaveWarp": {
   "note": "",

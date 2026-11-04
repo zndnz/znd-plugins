@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 86 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 87 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 2 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 248 | まだ手を付けていない |
+| 未着手 | 247 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -30,6 +30,7 @@
 | [Level](https://github.com/CatWithNeko/aviutl2-scripts#level)<br>`CatWithNeko.Level` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Level) | レベル補正 |
 | [MaxMin](https://github.com/CatWithNeko/aviutl2-scripts#maxmin)<br>`CatWithNeko.MaxMin` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.MaxMin) | 最大値・最小値フィルタ |
 | [Mosaic_C](https://github.com/CatWithNeko/aviutl2-scripts#mosaic_c)<br>`CatWithNeko.Mosaic` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Mosaic) | シャープなモザイク |
+| [Turbulent](https://github.com/CatWithNeko/aviutl2-scripts#turbulent)<br>`CatWithNeko.Turbulent` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Turbulent) | 簡易タービュレントディスプレイス |
 | [プレースホルダー](https://github.com/eizo-gak/aviutl2-Placeholder)<br>`eizo-gak.aviutl2-Placeholder` | スクリプト | 映像学区 | MIT | [移植済み](plugins/eizo-gak.aviutl2-Placeholder) | エフェクト（平面に掛けると指定の大きさで描く） |
 | [多角形モーフ_F](https://github.com/fu-majime/AviUtl2_PolygonMorph_F)<br>`Fu-Majime.AviUtl2_PolygonMorph_F` | スクリプト | フマジメ | MIT | [移植済み](plugins/Fu-Majime.AviUtl2_PolygonMorph_F) | エフェクト（モーフ元・先と進行度はパラメータで指定） |
 | [ColorLink](https://github.com/InuyoshiAtom/aviutl2-colorlink)<br>`InuyoshiAtom.ColorLink` | スクリプト | 犬好アトム | MIT | [移植済み](plugins/InuyoshiAtom.ColorLink) | エフェクト＋コマンド（色はエクスプレッションでつなぐ） |
@@ -235,7 +236,6 @@
 | [LongShadow](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.LongShadow` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [SelfDisplace](https://github.com/CatWithNeko/aviutl2-scripts#selfdisplace)<br>`CatWithNeko.SelfDisplace` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [Tonecurve_C](https://x.com/CatWithNeko/status/1972685066963960255)<br>`CatWithNeko.ToneCurve` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
-| [Turbulent](https://github.com/CatWithNeko/aviutl2-scripts#turbulent)<br>`CatWithNeko.Turbulent` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [Wave Warp](https://github.com/CatWithNeko/aviutl2-scripts#wave-warp)<br>`CatWithNeko.WaveWarp` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [ペン&矩形ツール](https://github.com/ColorJellyFish/aviutl2_cjf_pentool)<br>`CJF.PenTool` | スクリプト | CJF | MIT | 未着手 |  |
 | [PSD連携アニメーション(非公式)](https://github.com/ColorJellyFish/aviutl2_cjf_psdanimation)<br>`CJF.PSD_anime` | スクリプト | CJF | MIT | 未着手 |  |
