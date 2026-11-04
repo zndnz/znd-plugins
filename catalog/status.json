@@ -1592,8 +1592,8 @@
   "status": "pending"
  },
  "sevenc-nanashi.reset_frame_selection_on_focus-aux2": {
-  "note": "",
-  "status": "pending"
+  "note": "AviUtl2 のフレーム選択の挙動を変える UI 用のもので、znd のワークエリアはレイヤーの選択で固定されない",
+  "status": "na"
  },
  "sevenc-nanashi.rikky_modoki-anm2": {
   "note": "",

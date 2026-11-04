@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 120 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 4 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 21 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 22 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 197 | まだ手を付けていない |
+| 未着手 | 196 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -153,6 +153,7 @@
 | [Rusty Restart Shortcut Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut` | 汎用プラグイン | Nanashi. | MIT | 対象外 | 作者が非推奨としている AviUtl2 の再起動メニューで、znd には対象がない |
 | [create_control_object.aux2](https://github.com/sevenc-nanashi/create_control_object.aux2)<br>`sevenc-nanashi.create_control_object-aux2` | 汎用プラグイン | Nanashi. | MIT | 対象外 | znd にはグループ制御（下のレイヤー数を対象にする制御オブジェクト）がなく、親子付けやプリコンポーズで代わりにする |
 | [modify_group_num_layers.aux2](https://github.com/sevenc-nanashi/modify_group_num_layers.aux2)<br>`sevenc-nanashi.modify_group_num_layers-aux2` | 汎用プラグイン | Nanashi. | MIT | 対象外 | znd にはグループ制御（下のレイヤー数を対象にする制御オブジェクト）がなく、親子付けやプリコンポーズで代わりにする |
+| [reset_frame_selection_on_focus.aux2](https://github.com/sevenc-nanashi/reset_frame_selection_on_focus.aux2)<br>`sevenc-nanashi.reset_frame_selection_on_focus-aux2` | 汎用プラグイン | Nanashi. | MIT | 対象外 | AviUtl2 のフレーム選択の挙動を変える UI 用のもので、znd のワークエリアはレイヤーの選択で固定されない |
 | [Tinted AviUtl2](https://github.com/sevenc-nanashi/tinted-aviutl2)<br>`sevenc-nanashi.tinted-aviutl2` | 汎用プラグイン | Nanashi. | MIT | 対象外 | AviUtl2 本体の配色を書き換えるプラグインで、znd には書き換える対象がない |
 | [AviUtl2 Community Translation Companion](https://github.com/aviutl2/aviutl2-community-translation)<br>`aviutl2-community.aviutl2_community_translation_companion` | 言語ファイル | Nanashi. | MIT | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
 | [アクセスキー付き日本語リソース](https://github.com/Garech-mas/jp_akey.aul2)<br>`Garech.jp_akey.aul2` | 言語ファイル | Garech | CC0-1.0 | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
@@ -452,7 +453,6 @@
 | [filter_effect_toggle.aux2](https://github.com/sevenc-nanashi/filter_effect_toggle.aux2)<br>`sevenc-nanashi.filter_effect_toggle-aux2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [import_midi_tempos.aux2](https://github.com/sevenc-nanashi/import_midi_tempos.aux2)<br>`sevenc-nanashi.import_midi_tempos-aux2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [quantizer.aux2](https://github.com/sevenc-nanashi/quantizer.aux2)<br>`sevenc-nanashi.quantizer-aux2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
-| [reset_frame_selection_on_focus.aux2](https://github.com/sevenc-nanashi/reset_frame_selection_on_focus.aux2)<br>`sevenc-nanashi.reset_frame_selection_on_focus-aux2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [rikky_modoki.aux2](https://github.com/sevenc-nanashi/rikky_modoki.aux2)<br>`sevenc-nanashi.rikky_modoki-anm2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [TLショトカ移動2](https://github.com/sigma-axis/aviutl2_tl_walkaround2)<br>`sigma-axis.tl_walkaround2` | 汎用プラグイン | σ軸 | MIT | 未着手 |  |
 | [Palette History](https://github.com/teruyoshii/AviUtl2_Palette_History)<br>`teruyoshii.Palette_History` | 汎用プラグイン | てるよし | MIT | 未着手 |  |
