@@ -97,8 +97,9 @@
   "status": "pending"
  },
  "CatWithNeko.Lens": {
-  "note": "",
-  "status": "pending"
+  "note": "レンズディストーション",
+  "path": "plugins/CatWithNeko.Lens",
+  "status": "ported"
  },
  "CatWithNeko.Level": {
   "note": "レベル補正",
