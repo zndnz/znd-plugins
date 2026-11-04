@@ -1867,8 +1867,9 @@
   "status": "pending"
  },
  "zopty.BlindLoop": {
-  "note": "",
-  "status": "pending"
+  "note": "斜めクリッピングの連続",
+  "path": "plugins/zopty.BlindLoop",
+  "status": "ported"
  },
  "zopty.DokodemoBuffer": {
   "note": "エフェクト 4 つ（他のレイヤーは LAYER パラメータ、過去の絵は時刻を指定して取得）",

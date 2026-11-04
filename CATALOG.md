@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 100 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 101 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 3 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 7 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 232 | まだ手を付けていない |
+| 未着手 | 231 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -92,6 +92,7 @@
 | [IDgen_Su](https://github.com/Suzukeh/IDgen_Su)<br>`Suzuke.IDgen_Su` | スクリプト | Suzuke | MIT | [移植済み](plugins/Suzuke.IDgen_Su) | パネル＋エクスプレッション用ライブラリ（テキストの本文のエクスプレッション） |
 | [Liquid Glass エフェクト](https://github.com/Tettu0530/Liquid-Glass)<br>`tettu0530.LiquidGlass` | スクリプト | tettu0530 | MIT | [移植済み](plugins/tettu0530.LiquidGlass) | エフェクト（背景は LAYER パラメータで選ぶ） |
 | [NCS風音声波形 (NCSAudioVisualizer)](https://github.com/Tettu0530/NCSAudioVisualizer)<br>`tettu0530.NCSVisualizer` | スクリプト | tettu0530 | MIT | [移植済み](plugins/tettu0530.NCSVisualizer) | エフェクト（音は LAYER パラメータで受け取る） |
+| [ブラインドループ](https://gist.github.com/zopty/ff3439d79fe609c7714d6db4ef1a39a6)<br>`zopty.BlindLoop` | スクリプト | zopty | BSD-3-Clause | [移植済み](plugins/zopty.BlindLoop) | 斜めクリッピングの連続 |
 | [どこでもバッファ](https://github.com/zopty/DokodemoBuffer)<br>`zopty.DokodemoBuffer` | スクリプト | zopty | BSD-3-Clause | [移植済み](plugins/zopty.DokodemoBuffer) | エフェクト 4 つ（他のレイヤーは LAYER パラメータ、過去の絵は時刻を指定して取得） |
 | [ImageCropExport](https://github.com/azurite581/AviUtl2-ImageCropExport)<br>`azurite.ImageCropExport` | 出力プラグイン | azurite | MIT | [移植済み](plugins/azurite.ImageCropExport) | 書き出し形式（FFmpeg の引数の組） |
 | [WAVファイル出力](https://github.com/hebiiro/al2_wav_saver/)<br>`hebiiro.al2_wav_saver` | 出力プラグイン | 蛇色 | MIT | [移植済み](plugins/hebiiro.al2_wav_saver) | 書き出し形式（FFmpeg の引数の組） |
@@ -334,7 +335,6 @@
 | [段階グラデーション](https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E6%AE%B5%E9%9A%8E%E3%82%B0%E3%83%A9%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.anm2)<br>`teruyoshii.stepGradation` | スクリプト | てるよし | MIT | 未着手 |  |
 | [トラックバー音声同期](https://x.com/teruyoshi_uec/status/1965389717224276231)<br>`teruyoshii.TrackbarAudioSync` | スクリプト | てるよし | MIT | 未着手 |  |
 | [TypingEffect](https://github.com/vandojapan/TypingEffect.obj2)<br>`vandojapan.typing-effect` | スクリプト | 4vando | MIT | 未着手 |  |
-| [ブラインドループ](https://gist.github.com/zopty/ff3439d79fe609c7714d6db4ef1a39a6)<br>`zopty.BlindLoop` | スクリプト | zopty | BSD-3-Clause | 未着手 |  |
 | [光学モーションブラー](https://gist.github.com/zopty/51deda495876451c1dcfb09ceb05345d)<br>`zopty.OpticalFlowMotionBlur` | スクリプト | zopty | BSD-3-Clause | 未着手 |  |
 | [AviUtl2Browser_H](https://github.com/HexBrowns/AviUtl2Browser_H)<br>`HexBrowns.AviUtl2Browser_H` | スクリプトモジュール | HexBrowns | MIT | 未着手 |  |
 | [AI S-R ONNX](https://github.com/animeojisan/AI-S-R-ONNX)<br>`animeojisan.AI_S-R_ONNX` | フィルタプラグイン | animeojisan | MIT | 未着手 |  |
