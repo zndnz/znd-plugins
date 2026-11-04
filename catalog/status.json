@@ -1195,8 +1195,9 @@
   "status": "pending"
  },
  "nctype.ReflectionOnPane": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（描画モードはレイヤーでスクリーンにする）",
+  "path": "plugins/nctype.ReflectionOnPane",
+  "status": "ported"
  },
  "nctype.SomethingLikeGlitch": {
   "note": "",
