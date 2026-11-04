@@ -1,0 +1,20 @@
+{
+  "id": "sevenc-nanashi.time_control_assistant-tra2",
+  "name": "time_control_assistant.tra2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "区間長指定で繰り返したり反復したりオブジェクト外を繰り返したり",
+  "permissions": [],
+  "panels": [
+    {
+      "id": "tca",
+      "title": "time_control_assistant",
+      "script": "panels/tca.js",
+      "width": 330
+    }
+  ],
+  "expressions": [
+    "expressions/tca.js"
+  ]
+}

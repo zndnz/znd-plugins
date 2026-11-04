@@ -1565,8 +1565,9 @@
   "status": "pending"
  },
  "sevenc-nanashi.time_control_assistant-tra2": {
-  "note": "",
-  "status": "pending"
+  "note": "パネル＋エクスプレッション用ライブラリ（タイムリマップ）",
+  "path": "plugins/sevenc-nanashi.time_control_assistant-tra2",
+  "status": "ported"
  },
  "sevenc-nanashi.tinted-aviutl2": {
   "note": "",
