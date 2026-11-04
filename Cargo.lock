@@ -858,6 +858,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-ar-ca-na-waveform-line"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-arcana-connection-line"
 version = "1.0.0"
 dependencies = [

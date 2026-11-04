@@ -1,0 +1,12 @@
+{
+  "id": "ar-ca-na.waveform-line",
+  "name": "波形ライン",
+  "version": "1.0.0",
+  "vendor": "arcana（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "マウスで描いた線を音声波形で揺らすカスタムオブジェクト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_ar_ca_na_waveform_line"
+  ]
+}

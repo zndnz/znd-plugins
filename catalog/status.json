@@ -878,8 +878,9 @@
   "status": "pending"
  },
  "ar-ca-na.waveform-line": {
-  "note": "",
-  "status": "pending"
+  "note": "マスクのパスを線として描く",
+  "path": "plugins/ar-ca-na.waveform-line",
+  "status": "ported"
  },
  "arcana.connection_line": {
   "note": "エフェクト＋コマンド（端点はエクスプレッションでレイヤーに追従）",
