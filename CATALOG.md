@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 99 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 100 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 3 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 7 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 233 | まだ手を付けていない |
+| 未着手 | 232 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -40,6 +40,7 @@
 | [Wave Warp](https://github.com/CatWithNeko/aviutl2-scripts#wave-warp)<br>`CatWithNeko.WaveWarp` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.WaveWarp) | ラスター |
 | [プレースホルダー](https://github.com/eizo-gak/aviutl2-Placeholder)<br>`eizo-gak.aviutl2-Placeholder` | スクリプト | 映像学区 | MIT | [移植済み](plugins/eizo-gak.aviutl2-Placeholder) | エフェクト（平面に掛けると指定の大きさで描く） |
 | [多角形モーフ_F](https://github.com/fu-majime/AviUtl2_PolygonMorph_F)<br>`Fu-Majime.AviUtl2_PolygonMorph_F` | スクリプト | フマジメ | MIT | [移植済み](plugins/Fu-Majime.AviUtl2_PolygonMorph_F) | エフェクト（モーフ元・先と進行度はパラメータで指定） |
+| [SliceGlitch](https://note.com/isuzu_hinode/n/n3a7d7b761b98)<br>`hinodeisuzu.sliceglitch` | スクリプト | 暘 弥涼 | MIT | [移植済み](plugins/hinodeisuzu.sliceglitch) | スライスグリッチ |
 | [ColorLink](https://github.com/InuyoshiAtom/aviutl2-colorlink)<br>`InuyoshiAtom.ColorLink` | スクリプト | 犬好アトム | MIT | [移植済み](plugins/InuyoshiAtom.ColorLink) | エフェクト＋コマンド（色はエクスプレッションでつなぐ） |
 | [色覚シミュレーションKR](https://github.com/karoterra/aviutl2-ColorVisionSimulation)<br>`Karoterra.ColorVisionSimulation` | スクリプト | かろてら | Unlicense | [移植済み](plugins/Karoterra.ColorVisionSimulation) | エフェクト |
 | [油絵KR](https://github.com/karoterra/aviutl2-OilPainting)<br>`Karoterra.OilPainting` | スクリプト | かろてら | MIT | [移植済み](plugins/Karoterra.OilPainting) | エフェクト |
@@ -278,7 +279,6 @@
 | [タイムワープ_H](https://github.com/HexBrowns/HexScript)<br>`HexBrowns.TimeWarp_H` | スクリプト | HexBrowns | MIT No Attribution | 未着手 |  |
 | [ベクトルブラー_H](https://github.com/HexBrowns/HexScript)<br>`HexBrowns.VectorBlur_H` | スクリプト | HexBrowns | MIT No Attribution | 未着手 |  |
 | [テキスト縦書き化](https://github.com/HexBrowns/HexScript)<br>`HexBrowns.VerticalText` | スクリプト | HexBrowns | MIT No Attribution | 未着手 |  |
-| [SliceGlitch](https://note.com/isuzu_hinode/n/n3a7d7b761b98)<br>`hinodeisuzu.sliceglitch` | スクリプト | 暘 弥涼 | MIT | 未着手 |  |
 | [Open Glow](https://github.com/IZUisMe/aviutl2-open-glow)<br>`IZUisMe.OpenGlow` | スクリプト | 絵に描いた虹 | MIT | 未着手 |  |
 | [曲げKR](https://github.com/karoterra/aviutl2-Bend)<br>`Karoterra.Bend` | スクリプト | かろてら | MIT | 未着手 |  |
 | [KSA](https://github.com/cycloawaodorin/ksa)<br>`KAZOON.KSA` | スクリプト | KAZOON | MIT | 未着手 |  |

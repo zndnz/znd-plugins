@@ -1,0 +1,12 @@
+{
+  "id": "hinodeisuzu.sliceglitch",
+  "name": "SliceGlitch",
+  "version": "1.0.0",
+  "vendor": "暘 弥涼（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "簡単な操作でスライスグリッチを作成できるエフェクトです。",
+  "permissions": [],
+  "effects": [
+    "lib/zp_hinodeisuzu_sliceglitch"
+  ]
+}

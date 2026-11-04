@@ -1040,6 +1040,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-hinodeisuzu-sliceglitch"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-inuyoshiatom-colorlink"
 version = "1.0.0"
 dependencies = [
@@ -1329,6 +1336,13 @@ dependencies = [
 
 [[package]]
 name = "zp-tettu0530-ncsvisualizer"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-zopty-blindloop"
 version = "1.0.0"
 dependencies = [
  "znd-plugin-sdk",

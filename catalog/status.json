@@ -1045,8 +1045,9 @@
   "status": "ported"
  },
  "hinodeisuzu.sliceglitch": {
-  "note": "",
-  "status": "pending"
+  "note": "スライスグリッチ",
+  "path": "plugins/hinodeisuzu.sliceglitch",
+  "status": "ported"
  },
  "kanade-ak.TextCharEditor": {
   "note": "",
