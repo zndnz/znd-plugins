@@ -1,0 +1,12 @@
+{
+  "id": "azurite.ColorHalftone",
+  "name": "ColorHalftone",
+  "version": "1.0.0",
+  "vendor": "azurite（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "カラーハーフトーン加工をするスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_azurite_colorhalftone"
+  ]
+}

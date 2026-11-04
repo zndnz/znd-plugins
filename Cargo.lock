@@ -872,6 +872,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-azurite-colorhalftone"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-azurite-hex-tiling"
 version = "1.0.0"
 dependencies = [
