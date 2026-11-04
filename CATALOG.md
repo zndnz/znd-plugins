@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 123 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 124 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 4 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 22 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 193 | まだ手を付けていない |
+| 未着手 | 192 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -127,6 +127,7 @@
 | [GIF出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-gif` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-gif) | 書き出し形式（FFmpeg の引数の組） |
 | [JXL出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-jxl` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-jxl) | 書き出し形式（FFmpeg の引数の組） |
 | [WebP出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-webp` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-webp) | 書き出し形式（FFmpeg の引数の組） |
+| [フィルタ分離](https://github.com/Garech-mas/AviUtl2_SplitFilters)<br>`Garech.SplitFilters` | 汎用プラグイン | Garech | MIT | [移植済み](plugins/Garech.SplitFilters) | エフェクトの分離・結合 |
 | [リップル削除](https://github.com/Joster777/Aviutl2_Plugin_RippleDelete)<br>`JobsJoestar.RippleDelete` | 汎用プラグイン | JobsJoestar | MIT | [移植済み](plugins/JobsJoestar.RippleDelete) | リップル削除 |
 | [オブジェクト行複製](https://github.com/koisi0319/Aviutl2-Duplicate-objects-at-equal-intervals)<br>`koisi0319.Duplicate_objects` | 汎用プラグイン | koisi0319 | MIT | [移植済み](plugins/koisi0319.Duplicate_objects) | すき間を空けて続けて複製 |
 | [Rusty SRT File Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_srt_file` | 汎用プラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-rs.rusty_srt_file) | SRT の読み込み・書き出し |
@@ -407,7 +408,6 @@
 | [AviUtl2 relink](https://github.com/Book-0225/aviutl2_relink)<br>`Book-0225.relink` | 汎用プラグイン | Book0225 | MIT | 未着手 |  |
 | [1クリック動画切り抜き](https://github.com/clean262/sam3_bb_gb_generator)<br>`cleaning.sam3_bb_gb_generator` | 汎用プラグイン | クリーニング | MIT | 未着手 |  |
 | [BPMグリッド倍化](https://github.com/Garech-mas/DoubleBPMGrid)<br>`Garech.DoubleBPMGrid` | 汎用プラグイン | Garech | MIT | 未着手 |  |
-| [フィルタ分離](https://github.com/Garech-mas/AviUtl2_SplitFilters)<br>`Garech.SplitFilters` | 汎用プラグイン | Garech | MIT | 未着手 |  |
 | [HL_Ezing for AviUtl2](https://github.com/Hallkun19/HL_Ezing-for-aul2)<br>`halkun19.HL_Ezing` | 汎用プラグイン | はるくん / harukun19 | MIT | 未着手 |  |
 | [HL_FxWheel for AviUtl2](https://github.com/Hallkun19/HL_FxWheel-for-aul2)<br>`halkun19.HL_FxWheel` | 汎用プラグイン | はるくん / harukun19 | MIT | 未着手 |  |
 | [メモ帳プラグイン](https://github.com/hebiiro/al2_memo)<br>`hebiiro.al2_memo` | 汎用プラグイン | 蛇色 | MIT | 未着手 |  |

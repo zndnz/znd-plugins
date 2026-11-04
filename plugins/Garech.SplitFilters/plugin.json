@@ -1,0 +1,42 @@
+{
+  "id": "Garech.SplitFilters",
+  "name": "フィルタ分離",
+  "version": "1.0.0",
+  "vendor": "Garech（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "オブジェクト上のフィルタ効果群を個別オブジェクト化するプラグイン",
+  "permissions": [],
+  "commands": [
+    {
+      "id": "split",
+      "label": "フィルタ分離",
+      "script": "commands/split.js",
+      "function": "splitFilters",
+      "menu": [
+        "plugins",
+        "layer"
+      ],
+      "description": "エフェクトを 1 つずつ調整レイヤーに分けます"
+    },
+    {
+      "id": "join",
+      "label": "上のレイヤーへフィルタ結合",
+      "script": "commands/split.js",
+      "function": "joinUp",
+      "menu": [
+        "plugins",
+        "layer"
+      ]
+    },
+    {
+      "id": "join_first",
+      "label": "上のレイヤーへ先頭フィルタを結合",
+      "script": "commands/split.js",
+      "function": "joinFirstUp",
+      "menu": [
+        "plugins",
+        "layer"
+      ]
+    }
+  ]
+}

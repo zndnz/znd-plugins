@@ -183,8 +183,9 @@
   "status": "pending"
  },
  "Garech.SplitFilters": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクトの分離・結合",
+  "path": "plugins/Garech.SplitFilters",
+  "status": "ported"
  },
  "Garech.ToggleLayers": {
   "note": "AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない",
