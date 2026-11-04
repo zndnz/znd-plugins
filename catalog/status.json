@@ -1227,8 +1227,9 @@
   "status": "ported"
  },
  "nctype.SomethingLikeGlitch": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト",
+  "path": "plugins/nctype.SomethingLikeGlitch",
+  "status": "ported"
  },
  "ngw.anm2": {
   "note": "ライセンス: 不明（組み込めるライセンスではない）",

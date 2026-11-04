@@ -1,0 +1,12 @@
+{
+  "id": "nctype.SomethingLikeGlitch",
+  "name": "SomethingLikeGlitch",
+  "version": "1.0.0",
+  "vendor": "nctype（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "グリッチっぽいエフェクト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_nctype_somethinglikeglitch"
+  ]
+}

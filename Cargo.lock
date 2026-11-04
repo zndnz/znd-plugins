@@ -956,6 +956,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-nctype-somethinglikeglitch"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-neac-aviutlnoise"
 version = "1.0.0"
 dependencies = [
