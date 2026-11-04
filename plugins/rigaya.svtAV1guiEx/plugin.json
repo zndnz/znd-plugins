@@ -1,0 +1,82 @@
+{
+  "id": "rigaya.svtAV1guiEx",
+  "name": "svtAV1guiEx",
+  "version": "1.0.0",
+  "vendor": "rigaya（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "拡張 SVT-AV1 出力(GUI) Ex",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "svtav1",
+      "label": "SVT-AV1（AV1）",
+      "extension": "mp4",
+      "even": true,
+      "video_args": [
+        "-c:v",
+        "libsvtav1",
+        "-preset",
+        "{preset}",
+        "-crf",
+        "{q}",
+        "-pix_fmt",
+        "yuv420p10le",
+        "{extra}",
+        "-movflags",
+        "+faststart"
+      ],
+      "audio_args": [
+        "-c:a",
+        "aac",
+        "-b:a",
+        "{abr}k"
+      ],
+      "params": [
+        {
+          "id": "q",
+          "label": "画質 CRF",
+          "type": "number",
+          "default": 30,
+          "min": 0,
+          "max": 63
+        },
+        {
+          "id": "preset",
+          "label": "プリセット",
+          "type": "choice",
+          "default": 8,
+          "options": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ]
+        },
+        {
+          "id": "abr",
+          "label": "音声ビットレート（kbps）",
+          "type": "number",
+          "default": 256,
+          "min": 32,
+          "max": 512
+        },
+        {
+          "id": "extra",
+          "label": "追加の引数",
+          "type": "args",
+          "default": ""
+        }
+      ]
+    }
+  ]
+}

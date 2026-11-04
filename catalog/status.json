@@ -1293,8 +1293,9 @@
   "status": "ported"
  },
  "rigaya.svtAV1guiEx": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/rigaya.svtAV1guiEx",
+  "status": "ported"
  },
  "rigaya.x264guiEx": {
   "note": "書き出し形式（FFmpeg の引数の組）",
