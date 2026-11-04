@@ -1,0 +1,12 @@
+{
+  "id": "seilor0.roundedPolygonSl",
+  "name": "角丸正多角形_sl",
+  "version": "1.0.0",
+  "vendor": "セイル（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "角丸や星形にもできる正多角形のカスタムオブジェクト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_seilor0_roundedpolygonsl"
+  ]
+}

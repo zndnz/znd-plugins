@@ -1324,8 +1324,9 @@
   "status": "pending"
  },
  "seilor0.roundedPolygonSl": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（平面に掛ける）",
+  "path": "plugins/seilor0.roundedPolygonSl",
+  "status": "ported"
  },
  "seilor0.twinkle_sl": {
   "note": "",
