@@ -941,8 +941,9 @@
   "status": "pending"
  },
  "eizo-gak.aviutl2-Placeholder": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（平面に掛けると指定の大きさで描く）",
+  "path": "plugins/eizo-gak.aviutl2-Placeholder",
+  "status": "ported"
  },
  "eizo-gak.aviutl2-SourceMonitor": {
   "note": "ソースが公開されていない（配布物のみ）",

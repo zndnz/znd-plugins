@@ -1,0 +1,12 @@
+{
+  "id": "eizo-gak.aviutl2-Placeholder",
+  "name": "プレースホルダー",
+  "version": "1.0.0",
+  "vendor": "映像学区（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "画像プレースホルダーを作れるカスタムオブジェクト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_eizo_gak_aviutl2_placeholder"
+  ]
+}
