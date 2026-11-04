@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 40 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 41 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 295 | まだ手を付けていない |
+| 未着手 | 294 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -26,6 +26,7 @@
 | [Kaleidoscope_K](https://github.com/korarei/AviUtl2_Kaleidoscope_K_Script)<br>`korarei.Kaleidoscope_K` | スクリプト | Korarei | MIT | [移植済み](plugins/korarei.Kaleidoscope_K) | エフェクト |
 | [PixelSorter_K](https://github.com/korarei/AviUtl2_PixelSorter_K_Script)<br>`korarei.PixelSorter_K` | スクリプト | Korarei | MIT | [移植済み](plugins/korarei.PixelSorter_K) | エフェクト |
 | [Unmult](https://github.com/mes51/AVIUtl2_Unmult)<br>`mes51.Unmult` | スクリプト | mes51 | MIT | [移植済み](plugins/mes51.Unmult) | エフェクト |
+| [Pixelizer](https://github.com/nctype/aviutl2_script_Pixelizer)<br>`nctype.Pixelizer` | スクリプト | nctype | MIT | [移植済み](plugins/nctype.Pixelizer) | エフェクト（ドットはレイヤーに固定） |
 | [ReflectionOnPane](https://github.com/nctype/aviutl2_script_ReflectionOnPane)<br>`nctype.ReflectionOnPane` | スクリプト | nctype | MIT | [移植済み](plugins/nctype.ReflectionOnPane) | エフェクト（描画モードはレイヤーでスクリーンにする） |
 | [無印ノイズ](https://github.com/nea-c/aviutl2_script_AviUtlNoise)<br>`NeAc.AviUtlNoise` | スクリプト | 猫愛 | MIT | [移植済み](plugins/NeAc.AviUtlNoise) | エフェクト（AviUtl の表を同梱） |
 | [BezierPath](https://github.com/nea-c/aviutl2_script_BezierPath)<br>`NeAc.BezierPath` | スクリプト | 猫愛 | MIT | [移植済み](plugins/NeAc.BezierPath) | エフェクト（ガイド）＋コマンド＋エクスプレッション用ライブラリ |
@@ -265,7 +266,6 @@
 | [AutoBlendLight](https://github.com/nctype/aviutl2_script_AutoBlendLight)<br>`nctype.AutoBlendLight` | スクリプト | nctype | MIT | 未着手 |  |
 | [FilmPrintLUT](https://github.com/nctype/aviutl2_script_FilmPrintLUT)<br>`nctype.FilmPrintLUT` | スクリプト | nctype | MIT | 未着手 |  |
 | [ParametricBG](https://github.com/nctype/aviutl2_script_ParametricBG)<br>`nctype.ParametricBG` | スクリプト | nctype | MIT | 未着手 |  |
-| [Pixelizer](https://github.com/nctype/aviutl2_script_Pixelizer)<br>`nctype.Pixelizer` | スクリプト | nctype | MIT | 未着手 |  |
 | [PuniCollision](https://github.com/nctype/aviutl2_script_PuniCollision)<br>`nctype.PuniCollision` | スクリプト | nctype | MIT | 未着手 |  |
 | [RainOnPane](https://github.com/nctype/aviutl2_script_RainOnPane)<br>`nctype.RainOnPane` | スクリプト | nctype | MIT | 未着手 |  |
 | [SomethingLikeGlitch](https://github.com/nctype/aviutl2_script_SomethingLikeGlitch)<br>`nctype.SomethingLikeGlitch` | スクリプト | nctype | MIT | 未着手 |  |

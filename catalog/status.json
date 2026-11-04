@@ -1203,8 +1203,9 @@
   "status": "pending"
  },
  "nctype.Pixelizer": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（ドットはレイヤーに固定）",
+  "path": "plugins/nctype.Pixelizer",
+  "status": "ported"
  },
  "nctype.PuniCollision": {
   "note": "",

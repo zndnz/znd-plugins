@@ -1,0 +1,12 @@
+{
+  "id": "nctype.Pixelizer",
+  "name": "Pixelizer",
+  "version": "1.0.0",
+  "vendor": "nctype（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "Pixelizerは、リアルタイムドット絵化スクリプトです。",
+  "permissions": [],
+  "effects": [
+    "lib/zp_nctype_pixelizer"
+  ]
+}
