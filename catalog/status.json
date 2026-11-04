@@ -81,8 +81,9 @@
   "status": "pending"
  },
  "CatWithNeko.Gamma": {
-  "note": "",
-  "status": "pending"
+  "note": "ガンマ補正",
+  "path": "plugins/CatWithNeko.Gamma",
+  "status": "ported"
  },
  "CatWithNeko.Halftone": {
   "note": "",
