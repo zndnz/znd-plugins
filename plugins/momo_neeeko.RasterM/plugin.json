@@ -1,0 +1,12 @@
+{
+  "id": "momo_neeeko.RasterM",
+  "name": "ラスターM",
+  "version": "1.0.0",
+  "vendor": "もも猫（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "様々な波形で向きが指定できるラスター",
+  "permissions": [],
+  "effects": [
+    "lib/zp_momo_neeeko_rasterm"
+  ]
+}

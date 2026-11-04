@@ -1129,8 +1129,9 @@
   "status": "pending"
  },
  "momo_neeeko.RasterM": {
-  "note": "",
-  "status": "pending"
+  "note": "向きを選べるラスター",
+  "path": "plugins/momo_neeeko.RasterM",
+  "status": "ported"
  },
  "momo_neeeko.ReuleauxPolygon": {
   "note": "ルーローの多角形",
