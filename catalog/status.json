@@ -1574,8 +1574,9 @@
   "status": "pending"
  },
  "sevenc-nanashi.transform_specific_chars-anm2": {
-  "note": "",
-  "status": "pending"
+  "note": "パネル（テキストのアニメーターを作る）",
+  "path": "plugins/sevenc-nanashi.transform_specific_chars-anm2",
+  "status": "ported"
  },
  "sevenc-nanashi.vintage-auf2": {
   "note": "",

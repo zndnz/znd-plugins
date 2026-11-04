@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 72 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 73 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 2 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 262 | まだ手を付けていない |
+| 未着手 | 261 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -50,6 +50,7 @@
 | [twinkle_sl](https://github.com/seilor0/twinkle_sl)<br>`seilor0.twinkle_sl` | スクリプト | セイル | MIT | [移植済み](plugins/seilor0.twinkle_sl) | エフェクト 2 つ（平面に掛ける） |
 | [extra_blend_mode.anm2](https://github.com/sevenc-nanashi/extra_blend_mode.anm2)<br>`sevenc-nanashi.extra_blend_mode-anm2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.extra_blend_mode-anm2) | エフェクト（背景は LAYER パラメータで選ぶ） |
 | [time_control_assistant.tra2](https://github.com/sevenc-nanashi/time_control_assistant.tra2)<br>`sevenc-nanashi.time_control_assistant-tra2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.time_control_assistant-tra2) | パネル＋エクスプレッション用ライブラリ（タイムリマップ） |
+| [transform_specific_chars.anm2](https://github.com/sevenc-nanashi/transform_specific_chars.anm2)<br>`sevenc-nanashi.transform_specific_chars-anm2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.transform_specific_chars-anm2) | パネル（テキストのアニメーターを作る） |
 | [AutoClipping_S](https://github.com/sigma-axis/aviutl2_script_AutoClipping_S)<br>`sigma-axis.AutoClipping_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.AutoClipping_S) | エフェクト。大きさの変更は ABI 3 の set_output で行う |
 | [ColoredCollar_S](https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S)<br>`sigma-axis.ColoredCollar_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.ColoredCollar_S) | エフェクト（画像を広げて縁を付ける） |
 | [Histogram_S](https://github.com/sigma-axis/aviutl2_script_Histogram_S)<br>`sigma-axis.Histogram_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.Histogram_S) | エフェクト（対象は LAYER パラメータ） |
@@ -316,7 +317,6 @@
 | [disassembler.anm2](https://github.com/sevenc-nanashi/disassembler.anm2)<br>`sevenc-nanashi.disassembler-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [ntsc-rs.anm2](https://github.com/sevenc-nanashi/ntsc-rs.anm2)<br>`sevenc-nanashi.ntsc-rs` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [ported_tim](https://github.com/sevenc-nanashi/ported_tim)<br>`sevenc-nanashi.ported_tim` | スクリプト | Nanashi. | MIT | 未着手 |  |
-| [transform_specific_chars.anm2](https://github.com/sevenc-nanashi/transform_specific_chars.anm2)<br>`sevenc-nanashi.transform_specific_chars-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S)<br>`sigma-axis.Basic_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [GroundShadow2_S](https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S)<br>`sigma-axis.GroundShadow2_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [Lens_S](https://github.com/sigma-axis/aviutl2_script_Lens_S)<br>`sigma-axis.Lens_S` | スクリプト | σ軸 | MIT | 未着手 |  |

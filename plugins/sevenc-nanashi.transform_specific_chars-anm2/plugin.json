@@ -1,0 +1,17 @@
+{
+  "id": "sevenc-nanashi.transform_specific_chars-anm2",
+  "name": "transform_specific_chars.anm2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "指定した文字のみに加工を行うスクリプト",
+  "permissions": [],
+  "panels": [
+    {
+      "id": "tsc",
+      "title": "特定の文字を変形",
+      "script": "panels/tsc.js",
+      "width": 320
+    }
+  ]
+}
