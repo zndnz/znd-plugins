@@ -1293,6 +1293,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-sevenc-nanashi-aviutl2-rs-rusty-binaural"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-sevenc-nanashi-aviutl2-rs-rusty-chiptune"
 version = "1.0.0"
 dependencies = [

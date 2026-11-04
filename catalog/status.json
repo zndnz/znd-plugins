@@ -1406,8 +1406,9 @@
   "status": "ported"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_binaural": {
-  "note": "",
-  "status": "pending"
+  "note": "頭の模型によるバイノーラル",
+  "path": "plugins/sevenc-nanashi.aviutl2-rs.rusty_binaural",
+  "status": "ported"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_chiptune": {
   "note": "チップチューン音源",
