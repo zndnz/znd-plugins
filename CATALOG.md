@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 140 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 141 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 12 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 31 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 159 | まだ手を付けていない |
+| 未着手 | 158 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -52,6 +52,7 @@
 | [Constraint](https://gist.github.com/korarei/d5b089a69e0c8ba5903d641d677c89e8)<br>`korarei.Constraint` | スクリプト | Korarei | CC0-1.0 | [移植済み](plugins/korarei.Constraint) | アイコンを横に並べる |
 | [Kaleidoscope_K](https://github.com/korarei/AviUtl2_Kaleidoscope_K_Script)<br>`korarei.Kaleidoscope_K` | スクリプト | Korarei | MIT | [移植済み](plugins/korarei.Kaleidoscope_K) | エフェクト |
 | [PixelSorter_K](https://github.com/korarei/AviUtl2_PixelSorter_K_Script)<br>`korarei.PixelSorter_K` | スクリプト | Korarei | MIT | [移植済み](plugins/korarei.PixelSorter_K) | エフェクト |
+| [audio2obj](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.audio2obj` | スクリプト | 黒猫大福 | MIT | [移植済み](plugins/KuroNeko.audio2obj) | 音声のファイル名からセリフ |
 | [Unmult](https://github.com/mes51/AVIUtl2_Unmult)<br>`mes51.Unmult` | スクリプト | mes51 | MIT | [移植済み](plugins/mes51.Unmult) | エフェクト |
 | [虹色グラデーションM](https://x.com/momo_neeeko/status/2108488871327764937)<br>`momo_neeeko.RainbowGradationM` | スクリプト | もも猫 | MIT | [移植済み](plugins/momo_neeeko.RainbowGradationM) | 虹色グラデーション |
 | [ラスターM](https://x.com/momo_neeeko/status/2041081558011093323)<br>`momo_neeeko.RasterM` | スクリプト | もも猫 | MIT | [移植済み](plugins/momo_neeeko.RasterM) | 向きを選べるラスター |
@@ -346,7 +347,6 @@
 | [Diffusion_K](https://github.com/korarei/AviUtl2_Diffusion_K_Script)<br>`korarei.Diffusion_K` | スクリプト | Korarei | MIT | 未着手 |  |
 | [FlowType_K](https://github.com/korarei/AviUtl2_FlowType_K_Script)<br>`korarei.FlowType_K` | スクリプト | Korarei | MIT | 未着手 |  |
 | [@Stylize_K](https://github.com/korarei/AviUtl2_Stylize_K_Script)<br>`korarei.Stylize_K` | スクリプト | Korarei | MIT | 未着手 |  |
-| [audio2obj](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.audio2obj` | スクリプト | 黒猫大福 | MIT | 未着手 |  |
 | [VariableFont](https://github.com/rokujyushi/Variable-Font-Plug-ins)<br>`KuroNeko.VariableFont` | スクリプト | 黒猫大福 | MIT | 未着手 |  |
 | [ベクターキャンバス](https://github.com/Mg32/aviutl2-vectorcanvas)<br>`mogesystem.VectorCanvas` | スクリプト | もげ | MIT | 未着手 |  |
 | [SoftAnchorBone](https://github.com/Natadecoco2539/AviUtl2-SoftAnchorBone)<br>`Natadecoco.SoftAnchorBone` | スクリプト | なたのこ | MIT | 未着手 |  |

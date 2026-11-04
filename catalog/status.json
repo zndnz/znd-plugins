@@ -492,8 +492,9 @@
   "status": "pending"
  },
  "KuroNeko.audio2obj": {
-  "note": "",
-  "status": "pending"
+  "note": "音声のファイル名からセリフ",
+  "path": "plugins/KuroNeko.audio2obj",
+  "status": "ported"
  },
  "KuroNeko.midi2EAP2": {
   "note": "EAP2 の MIDI Visualizer オブジェクトを作る GCMZDrops2 のハンドラーで、EAP2 は znd にない",

@@ -1,0 +1,31 @@
+{
+  "id": "KuroNeko.audio2obj",
+  "name": "audio2obj",
+  "version": "1.0.0",
+  "vendor": "黒猫大福（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "音声ファイル名からオブジェクト生成",
+  "permissions": [],
+  "commands": [
+    {
+      "id": "make",
+      "label": "音声のファイル名からセリフを作る",
+      "script": "commands/audio2obj.js",
+      "function": "fromFileName",
+      "menu": [
+        "plugins",
+        "layer"
+      ]
+    },
+    {
+      "id": "make_id",
+      "label": "音声のファイル名からセリフを作る（キャラクターID_セリフ）",
+      "script": "commands/audio2obj.js",
+      "function": "fromFileNameWithId",
+      "menu": [
+        "plugins",
+        "layer"
+      ]
+    }
+  ]
+}
