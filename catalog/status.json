@@ -484,8 +484,8 @@
   "status": "na"
  },
  "KuroNeko.TTSFileRename": {
-  "note": "",
-  "status": "pending"
+  "note": "ドロップしたファイルの名前をディスク上で書き換える GCMZDrops2 のハンドラーで、znd のスクリプトにはファイルの名前を変える手段がない",
+  "status": "na"
  },
  "KuroNeko.VariableFont": {
   "note": "",
