@@ -1387,8 +1387,8 @@
   "status": "na"
  },
  "sagami121.NEF-Input": {
-  "note": "",
-  "status": "pending"
+  "note": "入力プラグイン（素材の読み込み形式を足す）で、znd のプラグインには読み込み形式を足す仕組みがない",
+  "status": "na"
  },
  "sagami121.QRCode": {
   "note": "エフェクト（符号化は qrcodegen）",
