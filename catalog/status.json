@@ -48,8 +48,9 @@
   "status": "pending"
  },
  "CatWithNeko.AlphaDither": {
-  "note": "",
-  "status": "pending"
+  "note": "ディザ合成",
+  "path": "plugins/CatWithNeko.AlphaDither",
+  "status": "ported"
  },
  "CatWithNeko.Canny": {
   "note": "",
