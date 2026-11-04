@@ -1630,8 +1630,9 @@
   "status": "license"
  },
  "shyachi.SrtImporter": {
-  "note": "",
-  "status": "pending"
+  "note": "SRT 読み込みパネル",
+  "path": "plugins/shyachi.SrtImporter",
+  "status": "ported"
  },
  "sigma-axis.AutoClipping_S": {
   "note": "エフェクト。大きさの変更は ABI 3 の set_output で行う",

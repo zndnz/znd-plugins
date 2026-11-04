@@ -1,0 +1,19 @@
+{
+  "id": "shyachi.SrtImporter",
+  "name": "SrtImporter",
+  "version": "1.0.0",
+  "vendor": "shyachi（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "SRT字幕ファイルをインポートするプラグイン",
+  "permissions": [
+    "filesystem"
+  ],
+  "panels": [
+    {
+      "id": "srt_importer",
+      "title": "SRT Importer",
+      "script": "panels/srt_importer.js",
+      "width": 300
+    }
+  ]
+}
