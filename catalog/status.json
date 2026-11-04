@@ -586,8 +586,9 @@
   "status": "ported"
  },
  "NeAc.SpeedLine": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（組み込みフィルタの組み合わせを 1 つのエフェクトで再現）",
+  "path": "plugins/NeAc.SpeedLine",
+  "status": "ported"
  },
  "Number-0621.SelectEasing": {
   "note": "",

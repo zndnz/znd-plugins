@@ -1,0 +1,12 @@
+{
+  "id": "NeAc.SpeedLine",
+  "name": "スピード線",
+  "version": "1.0.0",
+  "vendor": "猫愛（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "横や縦に流れるスピード線を描画するスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_neac_speedline"
+  ]
+}
