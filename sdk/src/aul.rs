@@ -98,3 +98,74 @@ pub fn screen(dst: &mut Image, src: &Image) {
         d[3] = d[3] + s[3] - d[3] * s[3];
     }
 }
+
+/// AviUtl の合成モードの番号（`obj.setoption("blend", n)`）で、1 色ぶん（表示値）を混ぜる。
+/// 0 通常 / 1 加算 / 2 減算 / 3 乗算 / 4 スクリーン / 5 オーバーレイ / 6 比較(明) / 7 比較(暗) /
+/// 8 輝度 / 9 色差 / 10 陰影 / 11 明暗 / 12 差分。知らない番号は通常。
+pub fn blend_color(mode: usize, b: [f32; 3], s: [f32; 3]) -> [f32; 3] {
+    let lum = |c: [f32; 3]| 0.299 * c[0] + 0.587 * c[1] + 0.114 * c[2];
+    let set_lum = |c: [f32; 3], l: f32| {
+        let d = l - lum(c);
+        let c = [c[0] + d, c[1] + d, c[2] + d];
+        let (l, n, x) = (lum(c), c[0].min(c[1]).min(c[2]), c[0].max(c[1]).max(c[2]));
+        c.map(|v| {
+            let mut v = v;
+            if n < 0.0 {
+                v = l + (v - l) * l / (l - n).max(1e-6);
+            }
+            if x > 1.0 {
+                v = l + (v - l) * (1.0 - l) / (x - l).max(1e-6);
+            }
+            v
+        })
+    };
+    let per = |f: fn(f32, f32) -> f32| [f(b[0], s[0]), f(b[1], s[1]), f(b[2], s[2])];
+    match mode {
+        1 => per(|b, s| (b + s).min(1.0)),
+        2 => per(|b, s| (b - s).max(0.0)),
+        3 => per(|b, s| b * s),
+        4 => per(|b, s| b + s - b * s),
+        5 => per(|b, s| if b < 0.5 { 2.0 * b * s } else { 1.0 - 2.0 * (1.0 - b) * (1.0 - s) }),
+        6 => per(f32::max),
+        7 => per(f32::min),
+        8 => set_lum(b, lum(s)),
+        9 => set_lum(s, lum(b)),
+        // 陰影: 焼き込み（カラー）、明暗: ビビッドライト に近い計算
+        10 => per(|b, s| if s <= 0.0 { 0.0 } else { (1.0 - (1.0 - b) / s).max(0.0) }),
+        11 => per(|b, s| {
+            if s < 0.5 {
+                if s <= 0.0 { 0.0 } else { (1.0 - (1.0 - b) / (2.0 * s)).max(0.0) }
+            } else if s >= 1.0 {
+                1.0
+            } else {
+                (b / (2.0 * (1.0 - s))).min(1.0)
+            }
+        }),
+        12 => per(|b, s| (b - s).abs()),
+        _ => s,
+    }
+}
+
+/// `src` を `dst` の上に合成モード `mode`（[`blend_color`] の番号）・不透明度 `opacity` で重ねる。
+/// どちらもプリマルチプライドのリニア、同じ大きさ。色の計算は表示値で行う。
+pub fn blend(dst: &mut Image, src: &Image, mode: usize, opacity: f32) {
+    for (d, s) in dst.data.chunks_exact_mut(4).zip(src.data.chunks_exact(4)) {
+        let sa = s[3] * opacity;
+        if sa <= 0.0 {
+            continue;
+        }
+        let cd = to_display([d[0], d[1], d[2], d[3]]);
+        let cs = to_display([s[0], s[1], s[2], s[3]]);
+        let da = cd[3];
+        let bl = blend_color(mode, [cd[0], cd[1], cd[2]], [cs[0], cs[1], cs[2]]);
+        let ao = sa + da * (1.0 - sa);
+        let mut o = [0.0; 4];
+        for k in 0..3 {
+            // W3C の合成: 下が透明なところは上の色そのまま
+            let mix = cs[k] * sa * (1.0 - da) + bl[k] * sa * da + cd[k] * da * (1.0 - sa);
+            o[k] = (mix / ao.max(1e-8)).clamp(0.0, 1.0);
+        }
+        o[3] = ao;
+        d.copy_from_slice(&from_display(o));
+    }
+}
