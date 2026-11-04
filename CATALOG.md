@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 15 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 5 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 321 | まだ手を付けていない |
+| 未着手 | 320 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -30,6 +30,7 @@
 | [シーンチェンジ自作キット](https://github.com/sigma-axis/aviutl2_script_SceneChangeKit_S)<br>`sigma-axis.SceneChangeKit_S` | スクリプト | σ軸 | Unlicense | [移植済み](plugins/sigma-axis.SceneChangeKit_S) | エフェクト（他のレイヤーの絵を取り込む） |
 | [放射クリッピング](https://github.com/supernyan74/Radial-Clipping)<br>`supernyan74.RadialClipping` | スクリプト | スーパーNyan | MIT | [移植済み](plugins/supernyan74.RadialClipping) | エフェクト |
 | [L-SMASH-Works](https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds)<br>`Mr-Ojii.L-SMASH-Works` | 入力プラグイン | Mr-Ojii | MIT | znd 本体で対応 | 動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ |
+| [OSC4AU2](https://github.com/zopty/osc4au2)<br>`zopty.osc4au2` | スクリプト | zopty | BSD-3-Clause | 対象外 | OSC（UDP）で外部から値を受け取り、トラックバーを動かすライブ演奏用のプラグイン。znd のエクスプレッションとスクリプトは通信できない設計で、外部からの入力を時間軸に結び付ける仕組みも無い |
 | [AviUtl2 Community Translation Companion](https://github.com/aviutl2/aviutl2-community-translation)<br>`aviutl2-community.aviutl2_community_translation_companion` | 言語ファイル | Nanashi. | MIT | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
 | [アクセスキー付き日本語リソース](https://github.com/Garech-mas/jp_akey.aul2)<br>`Garech.jp_akey.aul2` | 言語ファイル | Garech | CC0-1.0 | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
 | [非公式言語ファイル(Japanese_Mod)](https://github.com/reindex-ot/reindex_AviUtl2_Language)<br>`reindex-ot.reindex_AviUtl2_Language` | 言語ファイル | Re*Index. (ot_inc) | WTFPL license | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
@@ -313,7 +314,6 @@
 | [ブラインドループ](https://gist.github.com/zopty/ff3439d79fe609c7714d6db4ef1a39a6)<br>`zopty.BlindLoop` | スクリプト | zopty | BSD-3-Clause | 未着手 |  |
 | [どこでもバッファ](https://github.com/zopty/DokodemoBuffer)<br>`zopty.DokodemoBuffer` | スクリプト | zopty | BSD-3-Clause | 未着手 |  |
 | [光学モーションブラー](https://gist.github.com/zopty/51deda495876451c1dcfb09ceb05345d)<br>`zopty.OpticalFlowMotionBlur` | スクリプト | zopty | BSD-3-Clause | 未着手 |  |
-| [OSC4AU2](https://github.com/zopty/osc4au2)<br>`zopty.osc4au2` | スクリプト | zopty | BSD-3-Clause | 未着手 |  |
 | [AviUtl2Browser_H](https://github.com/HexBrowns/AviUtl2Browser_H)<br>`HexBrowns.AviUtl2Browser_H` | スクリプトモジュール | HexBrowns | MIT | 未着手 |  |
 | [AI S-R ONNX](https://github.com/animeojisan/AI-S-R-ONNX)<br>`animeojisan.AI_S-R_ONNX` | フィルタプラグイン | animeojisan | MIT | 未着手 |  |
 | [DepthMapFilter](https://github.com/azurite581/AviUtl2-DepthMapFilter)<br>`azurite.DepthMapFilter` | フィルタプラグイン | azurite | MIT | 未着手 |  |
