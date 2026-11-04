@@ -1774,8 +1774,9 @@
   "status": "pending"
  },
  "teruyoshii.noiseGradation": {
-  "note": "",
-  "status": "pending"
+  "note": "ノイズグラデーション",
+  "path": "plugins/teruyoshii.noiseGradation",
+  "status": "ported"
  },
  "teruyoshii.noiseTe": {
   "note": "",

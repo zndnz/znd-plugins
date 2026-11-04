@@ -1,0 +1,12 @@
+{
+  "id": "teruyoshii.noiseGradation",
+  "name": "ノイズグラデーション",
+  "version": "1.0.0",
+  "vendor": "てるよし（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "時間制御カーブで自由に調整できるノイズグラデーション",
+  "permissions": [],
+  "effects": [
+    "lib/zp_teruyoshii_noisegradation"
+  ]
+}
