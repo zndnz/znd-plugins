@@ -929,8 +929,9 @@
   "status": "pending"
  },
  "beive60.scene-lighting": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（背景はレイヤーで選ぶ）",
+  "path": "plugins/beive60.scene-lighting",
+  "status": "ported"
  },
  "c30.midiinfoobject": {
   "note": "ソースが公開されていない（配布物のみ）",

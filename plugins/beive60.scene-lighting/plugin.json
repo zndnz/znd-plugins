@@ -1,0 +1,12 @@
+{
+  "id": "beive60.scene-lighting",
+  "name": "scene-lighting",
+  "version": "1.0.0",
+  "vendor": "Beive60（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "背景レイヤーの環境光を前景オブジェクト（キャラクターイラスト等）に反映",
+  "permissions": [],
+  "effects": [
+    "lib/zp_beive60_scene_lighting"
+  ]
+}

@@ -866,6 +866,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-beive60-scene-lighting"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-eizo-gak-aviutl2-placeholder"
 version = "1.0.0"
 dependencies = [
@@ -957,6 +964,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-neac-speedline"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-sagami121-blocknoise"
 version = "1.0.0"
 dependencies = [
@@ -965,6 +979,13 @@ dependencies = [
 
 [[package]]
 name = "zp-sagami121-glitch-t"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-sagami121-gparticle"
 version = "1.0.0"
 dependencies = [
  "znd-plugin-sdk",
