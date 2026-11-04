@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 131 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 132 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 5 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 24 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 182 | まだ手を付けていない |
+| 未着手 | 181 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -80,6 +80,7 @@
 | [墨だまり](https://github.com/5qlufz-1536/AviUtl2_SumiDamari)<br>`saluf.SumiDamari` | スクリプト | saluf | MIT | [移植済み](plugins/saluf.SumiDamari) | エフェクト |
 | [角丸正多角形_sl](https://github.com/seilor0/roundedPolygon_sl)<br>`seilor0.roundedPolygonSl` | スクリプト | セイル | MIT | [移植済み](plugins/seilor0.roundedPolygonSl) | エフェクト（平面に掛ける） |
 | [twinkle_sl](https://github.com/seilor0/twinkle_sl)<br>`seilor0.twinkle_sl` | スクリプト | セイル | MIT | [移植済み](plugins/seilor0.twinkle_sl) | エフェクト 2 つ（平面に掛ける） |
+| [カメラフレーム.obj2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/README.md)<br>`sevenc-nanashi.aviutl2-scripts.camera_frame-obj2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-scripts.camera_frame-obj2) | カメラフレーム |
 | [目標指定拡大縮小.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%9B%AE%E6%A8%99%E6%8C%87%E5%AE%9A%E6%8B%A1%E5%A4%A7%E7%B8%AE%E5%B0%8F/README.md)<br>`sevenc-nanashi.aviutl2-scripts.targeted-scale-anm2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-scripts.targeted-scale-anm2) | 目標のピクセル数に拡大縮小 |
 | [extra_blend_mode.anm2](https://github.com/sevenc-nanashi/extra_blend_mode.anm2)<br>`sevenc-nanashi.extra_blend_mode-anm2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.extra_blend_mode-anm2) | エフェクト（背景は LAYER パラメータで選ぶ） |
 | [time_control_assistant.tra2](https://github.com/sevenc-nanashi/time_control_assistant.tra2)<br>`sevenc-nanashi.time_control_assistant-tra2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.time_control_assistant-tra2) | パネル＋エクスプレッション用ライブラリ（タイムリマップ） |
@@ -340,7 +341,6 @@
 | [VRM Toolkit for AviUtl2](https://github.com/nove-nove/aviutl2-vrm-toolkit)<br>`novenove.VRMToolkit` | スクリプト | novenove | MIT | 未着手 |  |
 | [DVD](https://github.com/SagyouDarui900/AviUtl2_Script_SagyouDarui)<br>`Sagyou.DVD` | スクリプト | サ行 | MIT | 未着手 |  |
 | [ベベルとエンボス.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%83%99%E3%83%99%E3%83%AB%E3%81%A8%E3%82%A8%E3%83%B3%E3%83%9C%E3%82%B9/README.md)<br>`sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
-| [カメラフレーム.obj2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/README.md)<br>`sevenc-nanashi.aviutl2-scripts.camera_frame-obj2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [CRTディスプレイ風.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/CRT%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E9%A2%A8/README.md)<br>`sevenc-nanashi.aviutl2-scripts.crt-display.anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [ドカベン.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%82%AB%E3%83%99%E3%83%B3)<br>`sevenc-nanashi.aviutl2-scripts.dokaben-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [GPUピクセルソート.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88/README.md)<br>`sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |

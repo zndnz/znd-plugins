@@ -1,0 +1,12 @@
+{
+  "id": "sevenc-nanashi.aviutl2-scripts.camera_frame-obj2",
+  "name": "カメラフレーム.obj2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "カメラフレームっぽい図形を描画するスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sevenc_nanashi_aviutl2_scripts_camera_frame_obj2"
+  ]
+}
