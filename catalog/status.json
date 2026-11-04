@@ -95,8 +95,9 @@
   "status": "ported"
  },
  "CatWithNeko.LeaveColor": {
-  "note": "",
-  "status": "pending"
+  "note": "色抜き",
+  "path": "plugins/CatWithNeko.LeaveColor",
+  "status": "ported"
  },
  "CatWithNeko.Lens": {
   "note": "レンズディストーション",

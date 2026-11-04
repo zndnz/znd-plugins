@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 88 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 89 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 2 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 7 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 245 | まだ手を付けていない |
+| 未着手 | 244 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -27,6 +27,7 @@
 | [Exposure](https://github.com/CatWithNeko/aviutl2-scripts#exposure)<br>`CatWithNeko.Exposure` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Exposure) | 露出・ガンマ・オフセット |
 | [Gamma](https://github.com/CatWithNeko/aviutl2-scripts#gamma)<br>`CatWithNeko.Gamma` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Gamma) | ガンマ補正 |
 | [Halftone](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Halftone` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Halftone) | なんちゃってハーフトーン |
+| [Leave Color](https://github.com/CatWithNeko/aviutl2-scripts#leave-color)<br>`CatWithNeko.LeaveColor` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.LeaveColor) | 色抜き |
 | [Lens](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Lens` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Lens) | レンズディストーション |
 | [Level](https://github.com/CatWithNeko/aviutl2-scripts#level)<br>`CatWithNeko.Level` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Level) | レベル補正 |
 | [MaxMin](https://github.com/CatWithNeko/aviutl2-scripts#maxmin)<br>`CatWithNeko.MaxMin` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.MaxMin) | 最大値・最小値フィルタ |
@@ -232,7 +233,6 @@
 | [レイヤーグリッド表示](https://github.com/azurite581/AviUtl2-LayerGridView)<br>`azurite.LayerGridView` | スクリプト | azurite | MIT | 未着手 |  |
 | [Canny](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Canny` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [Colorama](https://github.com/CatWithNeko/aviutl2-scripts#colorama)<br>`CatWithNeko.Colorama` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
-| [Leave Color](https://github.com/CatWithNeko/aviutl2-scripts#leave-color)<br>`CatWithNeko.LeaveColor` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [LongShadow](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.LongShadow` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [SelfDisplace](https://github.com/CatWithNeko/aviutl2-scripts#selfdisplace)<br>`CatWithNeko.SelfDisplace` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [Tonecurve_C](https://x.com/CatWithNeko/status/1972685066963960255)<br>`CatWithNeko.ToneCurve` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
