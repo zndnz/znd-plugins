@@ -53,8 +53,9 @@
   "status": "ported"
  },
  "CatWithNeko.Canny": {
-  "note": "",
-  "status": "pending"
+  "note": "Canny 風エッジ抽出",
+  "path": "plugins/CatWithNeko.Canny",
+  "status": "ported"
  },
  "CatWithNeko.ChromaticAberration": {
   "note": "簡易色収差",

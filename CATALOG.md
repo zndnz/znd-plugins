@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 92 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 93 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 2 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 7 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 241 | まだ手を付けていない |
+| 未着手 | 240 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -21,6 +21,7 @@
 | [ポイントズーム](https://github.com/azurite581/AviUtl2-PointZoom)<br>`azurite.PointZoom` | スクリプト | azurite | MIT | [移植済み](plugins/azurite.PointZoom) | エフェクト |
 | [scene-lighting](https://github.com/beive60/aviutl2-scene-lighting)<br>`beive60.scene-lighting` | スクリプト | Beive60 | MIT | [移植済み](plugins/beive60.scene-lighting) | エフェクト（背景はレイヤーで選ぶ） |
 | [AlphaDither_C](https://github.com/CatWithNeko/aviutl2-scripts#alphadither_c)<br>`CatWithNeko.AlphaDither` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.AlphaDither) | ディザ合成 |
+| [Canny](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Canny` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Canny) | Canny 風エッジ抽出 |
 | [Chromatic Aberration](https://github.com/CatWithNeko/aviutl2-scripts#chromatic-aberration)<br>`CatWithNeko.ChromaticAberration` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.ChromaticAberration) | 簡易色収差 |
 | [Dither](https://github.com/CatWithNeko/aviutl2-scripts#dither)<br>`CatWithNeko.Dither` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Dither) | 乱数閾値の二値化 |
 | [Erosion](https://github.com/CatWithNeko/aviutl2-scripts#erosion)<br>`CatWithNeko.Erosion` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Erosion) | 輪郭を削る |
@@ -234,7 +235,6 @@
 | [中心ずらし_A](https://github.com/azurite581/AviUtl2-AdjustPivot_A)<br>`azurite.AdjustPivot_A` | スクリプト | azurite | MIT | 未着手 |  |
 | [グラデーション+](https://github.com/azurite581/AviUtl2-GradientPlus)<br>`azurite.GradientPlus` | スクリプト | azurite | CC0-1.0 | 未着手 |  |
 | [レイヤーグリッド表示](https://github.com/azurite581/AviUtl2-LayerGridView)<br>`azurite.LayerGridView` | スクリプト | azurite | MIT | 未着手 |  |
-| [Canny](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Canny` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [Colorama](https://github.com/CatWithNeko/aviutl2-scripts#colorama)<br>`CatWithNeko.Colorama` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [Tonecurve_C](https://x.com/CatWithNeko/status/1972685066963960255)<br>`CatWithNeko.ToneCurve` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [ペン&矩形ツール](https://github.com/ColorJellyFish/aviutl2_cjf_pentool)<br>`CJF.PenTool` | スクリプト | CJF | MIT | 未着手 |  |
