@@ -1064,8 +1064,9 @@
   "status": "license"
  },
  "mes51.Unmult": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト",
+  "path": "plugins/mes51.Unmult",
+  "status": "ported"
  },
  "mogesystem.VectorCanvas": {
   "note": "",

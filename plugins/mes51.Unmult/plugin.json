@@ -1,0 +1,12 @@
+{
+  "id": "mes51.Unmult",
+  "name": "Unmult",
+  "version": "1.0.0",
+  "vendor": "mes51（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "黒背景または白背景に重ねられた素材を復元するスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_mes51_unmult"
+  ]
+}
