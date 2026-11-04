@@ -1392,8 +1392,8 @@
   "status": "pending"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_image_rs_output": {
-  "note": "",
-  "status": "pending"
+  "note": "画像の連番の書き出し。znd 本体の書き出し形式に PNG 連番（8/16bit）・EXR 連番があり、静止画 1 枚は rusty_single_image_output の移植で書き出せる",
+  "status": "builtin"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin": {
   "note": "",

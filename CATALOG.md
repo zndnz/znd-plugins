@@ -6,11 +6,11 @@
 | 状況 | 数 | 意味 |
 |---|---|---|
 | 移植済み | 67 | `plugins/` に znd のプラグインとして再実装した |
-| znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
+| znd 本体で対応 | 2 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 268 | まだ手を付けていない |
+| 未着手 | 267 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -82,6 +82,7 @@
 | [JXL出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-jxl` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-jxl) | 書き出し形式（FFmpeg の引数の組） |
 | [WebP出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-webp` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-webp) | 書き出し形式（FFmpeg の引数の組） |
 | [L-SMASH-Works](https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds)<br>`Mr-Ojii.L-SMASH-Works` | 入力プラグイン | Mr-Ojii | MIT | znd 本体で対応 | 動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ |
+| [Rusty Image Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_image_rs_output` | 出力プラグイン | Nanashi. | MIT | znd 本体で対応 | 画像の連番の書き出し。znd 本体の書き出し形式に PNG 連番（8/16bit）・EXR 連番があり、静止画 1 枚は rusty_single_image_output の移植で書き出せる |
 | [OSC4AU2](https://github.com/zopty/osc4au2)<br>`zopty.osc4au2` | スクリプト | zopty | BSD-3-Clause | 対象外 | OSC（UDP）で外部から値を受け取り、トラックバーを動かすライブ演奏用のプラグイン。znd のエクスプレッションとスクリプトは通信できない設計で、外部からの入力を時間軸に結び付ける仕組みも無い |
 | [AviUtl2 Community Translation Companion](https://github.com/aviutl2/aviutl2-community-translation)<br>`aviutl2-community.aviutl2_community_translation_companion` | 言語ファイル | Nanashi. | MIT | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
 | [アクセスキー付き日本語リソース](https://github.com/Garech-mas/jp_akey.aul2)<br>`Garech.jp_akey.aul2` | 言語ファイル | Garech | CC0-1.0 | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
@@ -381,7 +382,6 @@
 | [Rusty Piano Midi Player Input](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_midi_player` | 入力プラグイン | Nanashi. | MIT | 未着手 |  |
 | [SMR for F-ZERO GX](https://github.com/cycloawaodorin/fzgx_smr_ks)<br>`KAZOON.fzgx_smr_ks` | 出力プラグイン | KAZOON | MIT | 未着手 |  |
 | [セリフ準備から.srtファイル生成プラグイン](https://github.com/mugi995/Serifu-JunbiToSRT-for-AviUtl2)<br>`Mugi995.Serifu-JunbiToSRT` | 出力プラグイン | Mugi995 | MIT | 未着手 |  |
-| [Rusty Image Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_image_rs_output` | 出力プラグイン | Nanashi. | MIT | 未着手 |  |
 | [Rusty Statistics Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_statistics` | 出力プラグイン | Nanashi. | MIT | 未着手 |  |
 | [aup2 リンク修復](https://github.com/ar-ca-na/aviutl2-aup2-relink)<br>`ar-ca-na.aup2-relink` | 外部プログラム | arcana | MIT | 未着手 |  |
 | [前回のプロジェクトを開く](https://github.com/ar-ca-na/aviutl2-open-last-project)<br>`ar-ca-na.open-last-project` | 外部プログラム | arcana | MIT | 未着手 |  |
