@@ -1524,8 +1524,9 @@
   "status": "ported"
  },
  "sevenc-nanashi.aviutl2-scripts.vertical-video-obj2": {
-  "note": "",
-  "status": "pending"
+  "note": "縦動画ガイド",
+  "path": "plugins/sevenc-nanashi.aviutl2-scripts.vertical-video-obj2",
+  "status": "ported"
  },
  "sevenc-nanashi.budoux-obj2": {
   "note": "",

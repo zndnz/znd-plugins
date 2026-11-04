@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 135 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 136 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 5 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 24 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 178 | まだ手を付けていない |
+| 未着手 | 177 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -85,6 +85,7 @@
 | [ドカベン.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%82%AB%E3%83%99%E3%83%B3)<br>`sevenc-nanashi.aviutl2-scripts.dokaben-anm2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-scripts.dokaben-anm2) | ドカベン風の登場 |
 | [旧発光.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E6%97%A7%E7%99%BA%E5%85%89)<br>`sevenc-nanashi.aviutl2-scripts.legacy_glow-anm2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-scripts.legacy_glow-anm2) | 旧発光 |
 | [目標指定拡大縮小.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%9B%AE%E6%A8%99%E6%8C%87%E5%AE%9A%E6%8B%A1%E5%A4%A7%E7%B8%AE%E5%B0%8F/README.md)<br>`sevenc-nanashi.aviutl2-scripts.targeted-scale-anm2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-scripts.targeted-scale-anm2) | 目標のピクセル数に拡大縮小 |
+| [縦動画ガイド.obj2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%B8%A6%E5%8B%95%E7%94%BB%E3%82%AC%E3%82%A4%E3%83%89/README.md)<br>`sevenc-nanashi.aviutl2-scripts.vertical-video-obj2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-scripts.vertical-video-obj2) | 縦動画ガイド |
 | [extra_blend_mode.anm2](https://github.com/sevenc-nanashi/extra_blend_mode.anm2)<br>`sevenc-nanashi.extra_blend_mode-anm2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.extra_blend_mode-anm2) | エフェクト（背景は LAYER パラメータで選ぶ） |
 | [time_control_assistant.tra2](https://github.com/sevenc-nanashi/time_control_assistant.tra2)<br>`sevenc-nanashi.time_control_assistant-tra2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.time_control_assistant-tra2) | パネル＋エクスプレッション用ライブラリ（タイムリマップ） |
 | [transform_specific_chars.anm2](https://github.com/sevenc-nanashi/transform_specific_chars.anm2)<br>`sevenc-nanashi.transform_specific_chars-anm2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.transform_specific_chars-anm2) | パネル（テキストのアニメーターを作る） |
@@ -346,7 +347,6 @@
 | [ベベルとエンボス.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%83%99%E3%83%99%E3%83%AB%E3%81%A8%E3%82%A8%E3%83%B3%E3%83%9C%E3%82%B9/README.md)<br>`sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [GPUピクセルソート.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88/README.md)<br>`sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [ドット絵変形.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2#%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2anm2)<br>`sevenc-nanashi.aviutl2-scripts.pixel-transform-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
-| [縦動画ガイド.obj2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%B8%A6%E5%8B%95%E7%94%BB%E3%82%AC%E3%82%A4%E3%83%89/README.md)<br>`sevenc-nanashi.aviutl2-scripts.vertical-video-obj2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [budoux.obj2](https://github.com/sevenc-nanashi/budoux.obj2)<br>`sevenc-nanashi.budoux-obj2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [disassembler.anm2](https://github.com/sevenc-nanashi/disassembler.anm2)<br>`sevenc-nanashi.disassembler-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [ntsc-rs.anm2](https://github.com/sevenc-nanashi/ntsc-rs.anm2)<br>`sevenc-nanashi.ntsc-rs` | スクリプト | Nanashi. | MIT | 未着手 |  |
