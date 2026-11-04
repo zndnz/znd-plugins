@@ -1027,6 +1027,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-sigma-axis-coloredcollar-s"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-sigma-axis-movingmosaic-s"
 version = "1.0.0"
 dependencies = [

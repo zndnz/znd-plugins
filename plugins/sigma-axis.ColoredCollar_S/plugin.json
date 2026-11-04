@@ -1,0 +1,12 @@
+{
+  "id": "sigma-axis.ColoredCollar_S",
+  "name": "ColoredCollar_S",
+  "version": "1.0.0",
+  "vendor": "σ軸（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "オブジェクトの境界部分の色を引き伸ばして縁取りをするスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sigma_axis_coloredcollar_s"
+  ]
+}

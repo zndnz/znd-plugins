@@ -1581,8 +1581,9 @@
   "status": "pending"
  },
  "sigma-axis.ColoredCollar_S": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（画像を広げて縁を付ける）",
+  "path": "plugins/sigma-axis.ColoredCollar_S",
+  "status": "ported"
  },
  "sigma-axis.GroundShadow2_S": {
   "note": "",
