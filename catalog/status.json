@@ -1575,8 +1575,9 @@
   "status": "ported"
  },
  "sevenc-nanashi.open_project_directory-aux2": {
-  "note": "",
-  "status": "pending"
+  "note": "プロジェクトのフォルダを開く・パスをコピー",
+  "path": "plugins/sevenc-nanashi.open_project_directory-aux2",
+  "status": "ported"
  },
  "sevenc-nanashi.ported_satsuki": {
   "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",

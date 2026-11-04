@@ -1,0 +1,38 @@
+{
+  "id": "sevenc-nanashi.open_project_directory-aux2",
+  "name": "open_project_directory.aux2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "「プロジェクトファイルのフォルダを開く」ボタンを追加する汎用プラグイン",
+  "permissions": [],
+  "commands": [
+    {
+      "id": "open",
+      "label": "プロジェクトファイルのフォルダを開く",
+      "script": "commands/project.js",
+      "function": "openFolder",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "copy_dir",
+      "label": "プロジェクトファイルのフォルダのパスをコピー",
+      "script": "commands/project.js",
+      "function": "copyFolderPath",
+      "menu": [
+        "plugins"
+      ]
+    },
+    {
+      "id": "copy_file",
+      "label": "プロジェクトファイルのパスをコピー",
+      "script": "commands/project.js",
+      "function": "copyFilePath",
+      "menu": [
+        "plugins"
+      ]
+    }
+  ]
+}
