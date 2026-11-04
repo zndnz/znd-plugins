@@ -916,8 +916,9 @@
   "status": "ported"
  },
  "azurite.ImageCropExport": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/azurite.ImageCropExport",
+  "status": "ported"
  },
  "azurite.LayerGridView": {
   "note": "",

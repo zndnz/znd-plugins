@@ -1,0 +1,58 @@
+{
+  "id": "azurite.ImageCropExport",
+  "name": "ImageCropExport",
+  "version": "1.0.0",
+  "vendor": "azurite（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "現在フレームの一部を切り抜いて画像として出力する出力プラグイン",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "crop",
+      "label": "今のフレームを切り抜いて画像に",
+      "extension": "png",
+      "alpha": true,
+      "single_frame": true,
+      "video_args": [
+        "-vf",
+        "crop={w}:{h}:{x}:{y}",
+        "-frames:v",
+        "1"
+      ],
+      "params": [
+        {
+          "id": "x",
+          "label": "左（px）",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 16384
+        },
+        {
+          "id": "y",
+          "label": "上（px）",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 16384
+        },
+        {
+          "id": "w",
+          "label": "幅（px）",
+          "type": "number",
+          "default": 640,
+          "min": 1,
+          "max": 16384
+        },
+        {
+          "id": "h",
+          "label": "高さ（px）",
+          "type": "number",
+          "default": 360,
+          "min": 1,
+          "max": 16384
+        }
+      ]
+    }
+  ]
+}
