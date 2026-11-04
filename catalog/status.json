@@ -893,8 +893,8 @@
   "status": "na"
  },
  "ar-ca-na.open-last-project": {
-  "note": "",
-  "status": "pending"
+  "note": "AviUtl2 の起動を外から操作する外部プログラムで、znd には対象がない",
+  "status": "na"
  },
  "ar-ca-na.waveform-line": {
   "note": "マスクのパスを線として描く",
