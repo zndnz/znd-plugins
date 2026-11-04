@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 143 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 12 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 31 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 32 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 14 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 155 | まだ手を付けていない |
+| 未着手 | 154 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -182,6 +182,7 @@
 | [midi2EAP2](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.midi2EAP2` | スクリプト | 黒猫大福 | MIT | 対象外 | EAP2 の MIDI Visualizer オブジェクトを作る GCMZDrops2 のハンドラーで、EAP2 は znd にない |
 | [TTSFileRename](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.TTSFileRename` | スクリプト | 黒猫大福 | MIT | 対象外 | ドロップしたファイルの名前をディスク上で書き換える GCMZDrops2 のハンドラーで、znd のスクリプトにはファイルの名前を変える手段がない |
 | [OSC4AU2](https://github.com/zopty/osc4au2)<br>`zopty.osc4au2` | スクリプト | zopty | BSD-3-Clause | 対象外 | OSC（UDP）で外部から値を受け取り、トラックバーを動かすライブ演奏用のプラグイン。znd のエクスプレッションとスクリプトは通信できない設計で、外部からの入力を時間軸に結び付ける仕組みも無い |
+| [vsr4aviutl](https://github.com/Pachira762/vsr4aviutl)<br>`Pachira762.vsr4aviutl` | フィルタプラグイン | Pachira762 | MIT | 対象外 | NVIDIA RTX Video Super Resolution（Windows の NVIDIA ドライバーの機能）を呼ぶプラグインで、znd が動く環境では使えない |
 | [HariboteReader](https://github.com/rokujyushi/Haribote)<br>`KuroNeko.Haribote` | 入力プラグイン | 黒猫大福 | MIT | 対象外 | GCMZDrops2 にメディア以外のファイルを渡すための AviUtl2 の入力プラグインで、znd には対象がない |
 | [WebPFileReader-Plugin](https://github.com/Mr-Ojii/AviUtl2-WebPFileReader-Plugin)<br>`Mr-Ojii.WebPFileReader-Plugin` | 入力プラグイン | Mr-Ojii | MIT | 対象外 | 入力プラグイン（素材の読み込み形式を足す）で、znd のプラグインには読み込み形式を足す仕組みがない（静止画の WebP は znd が読み込める） |
 | [HEIF_HEIC Input Plugin](https://github.com/sagami121/HEIF-HEIC-Input)<br>`sagami121.HEIF-HEIC-Input` | 入力プラグイン | 3aGaM1 | MIT | 対象外 | 入力プラグイン（素材の読み込み形式を足す）で、znd のプラグインには読み込み形式を足す仕組みがない |
@@ -398,7 +399,6 @@
 | [MorphBridge](https://github.com/nea-c/aviutl2_plugin_MorphBridge)<br>`NeAc.MorphBridge` | フィルタプラグイン | 猫愛 | Apache-2.0 | 未着手 |  |
 | [Karaoke Lyric Renderer](https://github.com/nove-nove/aviutl2-karaoke-lyric-renderer)<br>`novenove.KaraokeLyricRenderer` | フィルタプラグイン | novenove | MIT | 未着手 |  |
 | [アナログ風](https://github.com/Pachira762/AnalogFuu)<br>`Pachira762.AnalogFuu` | フィルタプラグイン | Pachira762 | MIT | 未着手 |  |
-| [vsr4aviutl](https://github.com/Pachira762/vsr4aviutl)<br>`Pachira762.vsr4aviutl` | フィルタプラグイン | Pachira762 | MIT | 未着手 |  |
 | [mojie](https://github.com/ronin-gw/aviutl2_mojie)<br>`ronin_gw.mojie` | フィルタプラグイン | Andy.F | MIT | 未着手 |  |
 | [svg.aux2](https://github.com/sevenc-nanashi/svg.aux2)<br>`sevenc-nanashi.svg-aux2` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
 | [tex.auf2](https://github.com/sevenc-nanashi/tex.auf2)<br>`sevenc-nanashi.tex-auf2` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |

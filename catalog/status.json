@@ -652,8 +652,8 @@
   "status": "pending"
  },
  "Pachira762.vsr4aviutl": {
-  "note": "",
-  "status": "pending"
+  "note": "NVIDIA RTX Video Super Resolution（Windows の NVIDIA ドライバーの機能）を呼ぶプラグインで、znd が動く環境では使えない",
+  "status": "na"
  },
  "Rhapthorne_0.BPMEffectToggle": {
   "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
