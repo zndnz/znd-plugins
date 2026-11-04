@@ -1669,8 +1669,9 @@
   "status": "pending"
  },
  "sigma-axis.WhiteBalance_S": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト 2 つ",
+  "path": "plugins/sigma-axis.WhiteBalance_S",
+  "status": "ported"
  },
  "sigma-axis.tl_walkaround2": {
   "note": "",
