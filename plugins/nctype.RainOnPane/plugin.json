@@ -1,0 +1,12 @@
+{
+  "id": "nctype.RainOnPane",
+  "name": "RainOnPane",
+  "version": "1.0.0",
+  "vendor": "nctype（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "雨に濡れた窓ガラスを再現するカスタムオブジェクトです。",
+  "permissions": [],
+  "effects": [
+    "lib/zp_nctype_rainonpane"
+  ]
+}

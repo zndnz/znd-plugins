@@ -1218,8 +1218,9 @@
   "status": "pending"
  },
  "nctype.RainOnPane": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（調整レイヤーに掛ける）",
+  "path": "plugins/nctype.RainOnPane",
+  "status": "ported"
  },
  "nctype.ReflectionOnPane": {
   "note": "エフェクト（描画モードはレイヤーでスクリーンにする）",

@@ -949,6 +949,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-nctype-rainonpane"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-nctype-reflectiononpane"
 version = "1.0.0"
 dependencies = [
