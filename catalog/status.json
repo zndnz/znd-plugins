@@ -63,8 +63,9 @@
   "status": "ported"
  },
  "CatWithNeko.Colorama": {
-  "note": "",
-  "status": "pending"
+  "note": "簡易コロラマ",
+  "path": "plugins/CatWithNeko.Colorama",
+  "status": "ported"
  },
  "CatWithNeko.Composite": {
   "note": "znd のエフェクトは後に続くエフェクトの結果を受け取れない（エフェクトの順番と合成モードで代わりになる）",

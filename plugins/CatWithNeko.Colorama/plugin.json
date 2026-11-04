@@ -1,0 +1,12 @@
+{
+  "id": "CatWithNeko.Colorama",
+  "name": "Colorama",
+  "version": "1.0.0",
+  "vendor": "こんにゃくねこ（znd 移植: znd-plugins）",
+  "license": "CC0-1.0",
+  "description": "簡易コロラマ",
+  "permissions": [],
+  "effects": [
+    "lib/zp_catwithneko_colorama"
+  ]
+}
