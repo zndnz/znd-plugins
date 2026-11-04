@@ -1024,8 +1024,9 @@
   "status": "pending"
  },
  "korarei.AutoLyricAnimation_K": {
-  "note": "",
-  "status": "pending"
+  "note": "パネル＋エクスプレッション用ライブラリ（テキストのアニメーターを作る）",
+  "path": "plugins/korarei.AutoLyricAnimation_K",
+  "status": "ported"
  },
  "korarei.CameraTransform_K": {
   "note": "",

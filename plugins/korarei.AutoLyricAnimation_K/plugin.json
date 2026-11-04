@@ -1,0 +1,20 @@
+{
+  "id": "korarei.AutoLyricAnimation_K",
+  "name": "AutoLyricAnimation_K",
+  "version": "1.0.0",
+  "vendor": "Korarei（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "リリックモーションを行うためのスクリプト",
+  "permissions": [],
+  "panels": [
+    {
+      "id": "ala",
+      "title": "AutoLyricAnimation_K",
+      "script": "panels/ala.js",
+      "width": 320
+    }
+  ],
+  "expressions": [
+    "expressions/ala.js"
+  ]
+}
