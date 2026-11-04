@@ -1,0 +1,17 @@
+{
+  "id": "teruyoshii.Palette_History",
+  "name": "Palette History",
+  "version": "1.0.0",
+  "vendor": "てるよし（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "色設定ウィンドウのパレットに使用した色の履歴を積み上げるプラグイン",
+  "permissions": [],
+  "panels": [
+    {
+      "id": "history",
+      "title": "色の履歴",
+      "script": "panels/history.js",
+      "width": 300
+    }
+  ]
+}

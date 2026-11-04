@@ -1766,8 +1766,9 @@
   "status": "ported"
  },
  "teruyoshii.Palette_History": {
-  "note": "",
-  "status": "pending"
+  "note": "色の履歴パネル",
+  "path": "plugins/teruyoshii.Palette_History",
+  "status": "ported"
  },
  "teruyoshii.TrackbarAudioSync": {
   "note": "",
