@@ -562,8 +562,9 @@
   "status": "pending"
  },
  "Natadecoco.TextSplitter": {
-  "note": "",
-  "status": "pending"
+  "note": "テキストを 1 文字ずつに分ける",
+  "path": "plugins/Natadecoco.TextSplitter",
+  "status": "ported"
  },
  "NeAc.AviUtlNoise": {
   "note": "エフェクト（AviUtl の表を同梱）",

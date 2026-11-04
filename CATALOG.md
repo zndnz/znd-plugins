@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 141 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 142 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 12 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 31 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 158 | まだ手を付けていない |
+| 未着手 | 157 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -145,6 +145,7 @@
 | [フィルタ分離](https://github.com/Garech-mas/AviUtl2_SplitFilters)<br>`Garech.SplitFilters` | 汎用プラグイン | Garech | MIT | [移植済み](plugins/Garech.SplitFilters) | エフェクトの分離・結合 |
 | [リップル削除](https://github.com/Joster777/Aviutl2_Plugin_RippleDelete)<br>`JobsJoestar.RippleDelete` | 汎用プラグイン | JobsJoestar | MIT | [移植済み](plugins/JobsJoestar.RippleDelete) | リップル削除 |
 | [オブジェクト行複製](https://github.com/koisi0319/Aviutl2-Duplicate-objects-at-equal-intervals)<br>`koisi0319.Duplicate_objects` | 汎用プラグイン | koisi0319 | MIT | [移植済み](plugins/koisi0319.Duplicate_objects) | すき間を空けて続けて複製 |
+| [TextSplitter](https://github.com/Natadecoco2539/AviUtl2-TextSplitter)<br>`Natadecoco.TextSplitter` | 汎用プラグイン | なたのこ | MIT | [移植済み](plugins/Natadecoco.TextSplitter) | テキストを 1 文字ずつに分ける |
 | [Aviutl2-Calculator](https://github.com/sagami121/Aviutl2-Calculator)<br>`sagami121.Calculator` | 汎用プラグイン | 3aGaM1 | MIT | [移植済み](plugins/sagami121.Calculator) | 電卓パネル |
 | [Rusty SRT File Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_srt_file` | 汎用プラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-rs.rusty_srt_file) | SRT の読み込み・書き出し |
 | [filter_effect_toggle.aux2](https://github.com/sevenc-nanashi/filter_effect_toggle.aux2)<br>`sevenc-nanashi.filter_effect_toggle-aux2` | 汎用プラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.filter_effect_toggle-aux2) | エフェクトと調整レイヤーの切り替え |
@@ -444,7 +445,6 @@
 | [Any Shortcut for AviUtl2](https://github.com/mugi995/Any_Shortcut_for_AviUtl2)<br>`Mugi995.Any_Shortcut_for_AviUtl2` | 汎用プラグイン | Mugi995 | MIT | 未着手 |  |
 | [MyAssetManager](https://github.com/Natadecoco2539/AviUtl2-MyAssetManager)<br>`Natadecoco.MyAssetManager` | 汎用プラグイン | なたのこ | MIT | 未着手 |  |
 | [TextEditor](https://github.com/Natadecoco2539/AviUtl2-TextEditor)<br>`Natadecoco.TextEditor` | 汎用プラグイン | なたのこ | MIT | 未着手 |  |
-| [TextSplitter](https://github.com/Natadecoco2539/AviUtl2-TextSplitter)<br>`Natadecoco.TextSplitter` | 汎用プラグイン | なたのこ | MIT | 未着手 |  |
 | [フレームキャプチャー](https://github.com/natuneko722/FrameCapturePlugin)<br>`natuneko722.FrameCapturePlugin` | 汎用プラグイン | 夏猫 | MIT | 未着手 |  |
 | [OCR文字抽出プラグイン](https://github.com/natuneko722/OCRTextExtractorPlugin)<br>`natuneko722.OCRTextExtractorPlugin` | 汎用プラグイン | 夏猫 | MIT | 未着手 |  |
 | [MotionTracking MK-II Plus for AviUtl2](https://github.com/nullruptr/MotionTracking_MK-II_Plus_for_AviUtl2)<br>`nullru.MotionTracking_MK-II_Plus_for_AviUtl2` | 汎用プラグイン | nullru | MIT | 未着手 |  |

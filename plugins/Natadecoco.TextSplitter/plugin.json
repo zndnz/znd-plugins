@@ -1,0 +1,22 @@
+{
+  "id": "Natadecoco.TextSplitter",
+  "name": "TextSplitter",
+  "version": "1.0.0",
+  "vendor": "なたのこ（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "テキストオブジェクトを1文字ずつのオブジェクトに一括分割するプラグイン",
+  "permissions": [],
+  "commands": [
+    {
+      "id": "split",
+      "label": "テキスト分割",
+      "script": "commands/split.js",
+      "function": "splitText",
+      "menu": [
+        "plugins",
+        "layer"
+      ],
+      "description": "テキストレイヤーを 1 文字ずつのレイヤーに分けます"
+    }
+  ]
+}
