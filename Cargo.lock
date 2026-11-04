@@ -1328,6 +1328,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-sevenc-nanashi-aviutl2-scripts-bevel-and-emboss-anm2"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-sevenc-nanashi-aviutl2-scripts-camera-frame-obj2"
 version = "1.0.0"
 dependencies = [

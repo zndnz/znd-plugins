@@ -1,0 +1,12 @@
+{
+  "id": "sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2",
+  "name": "ベベルとエンボス.anm2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "輪郭に光と影を付けベベル・エンボスを作るスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sevenc_nanashi_aviutl2_scripts_bevel_and_emboss_anm2"
+  ]
+}

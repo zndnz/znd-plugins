@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 137 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 138 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 5 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 24 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 176 | まだ手を付けていない |
+| 未着手 | 175 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -80,6 +80,7 @@
 | [墨だまり](https://github.com/5qlufz-1536/AviUtl2_SumiDamari)<br>`saluf.SumiDamari` | スクリプト | saluf | MIT | [移植済み](plugins/saluf.SumiDamari) | エフェクト |
 | [角丸正多角形_sl](https://github.com/seilor0/roundedPolygon_sl)<br>`seilor0.roundedPolygonSl` | スクリプト | セイル | MIT | [移植済み](plugins/seilor0.roundedPolygonSl) | エフェクト（平面に掛ける） |
 | [twinkle_sl](https://github.com/seilor0/twinkle_sl)<br>`seilor0.twinkle_sl` | スクリプト | セイル | MIT | [移植済み](plugins/seilor0.twinkle_sl) | エフェクト 2 つ（平面に掛ける） |
+| [ベベルとエンボス.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%83%99%E3%83%99%E3%83%AB%E3%81%A8%E3%82%A8%E3%83%B3%E3%83%9C%E3%82%B9/README.md)<br>`sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2) | ベベルとエンボス |
 | [カメラフレーム.obj2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/README.md)<br>`sevenc-nanashi.aviutl2-scripts.camera_frame-obj2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-scripts.camera_frame-obj2) | カメラフレーム |
 | [CRTディスプレイ風.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/CRT%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E9%A2%A8/README.md)<br>`sevenc-nanashi.aviutl2-scripts.crt-display.anm2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-scripts.crt-display.anm2) | CRT 風 |
 | [ドカベン.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%82%AB%E3%83%99%E3%83%B3)<br>`sevenc-nanashi.aviutl2-scripts.dokaben-anm2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-scripts.dokaben-anm2) | ドカベン風の登場 |
@@ -345,7 +346,6 @@
 | [LongShadowN](https://github.com/nea-c/aviutl2_script_LongShadowN)<br>`NeAc.LongShadowN` | スクリプト | 猫愛 | Apache-2.0 | 未着手 |  |
 | [VRM Toolkit for AviUtl2](https://github.com/nove-nove/aviutl2-vrm-toolkit)<br>`novenove.VRMToolkit` | スクリプト | novenove | MIT | 未着手 |  |
 | [DVD](https://github.com/SagyouDarui900/AviUtl2_Script_SagyouDarui)<br>`Sagyou.DVD` | スクリプト | サ行 | MIT | 未着手 |  |
-| [ベベルとエンボス.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%83%99%E3%83%99%E3%83%AB%E3%81%A8%E3%82%A8%E3%83%B3%E3%83%9C%E3%82%B9/README.md)<br>`sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [ドット絵変形.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2#%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2anm2)<br>`sevenc-nanashi.aviutl2-scripts.pixel-transform-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [budoux.obj2](https://github.com/sevenc-nanashi/budoux.obj2)<br>`sevenc-nanashi.budoux-obj2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [disassembler.anm2](https://github.com/sevenc-nanashi/disassembler.anm2)<br>`sevenc-nanashi.disassembler-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |

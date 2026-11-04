@@ -1483,8 +1483,9 @@
   "status": "pending"
  },
  "sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2": {
-  "note": "",
-  "status": "pending"
+  "note": "ベベルとエンボス",
+  "path": "plugins/sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2",
+  "status": "ported"
  },
  "sevenc-nanashi.aviutl2-scripts.camera_frame-obj2": {
   "note": "カメラフレーム",
