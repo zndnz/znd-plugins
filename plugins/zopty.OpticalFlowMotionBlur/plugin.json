@@ -1,0 +1,12 @@
+{
+  "id": "zopty.OpticalFlowMotionBlur",
+  "name": "光学モーションブラー",
+  "version": "1.0.0",
+  "vendor": "zopty（znd 移植: znd-plugins）",
+  "license": "BSD-3-Clause",
+  "description": "オプティカルフローを使った疑似モーションブラー",
+  "permissions": [],
+  "effects": [
+    "lib/zp_zopty_opticalflowmotionblur"
+  ]
+}

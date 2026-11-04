@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 144 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 145 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 14 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 41 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 14 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 142 | まだ手を付けていない |
+| 未着手 | 141 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -115,6 +115,7 @@
 | [NCS風音声波形 (NCSAudioVisualizer)](https://github.com/Tettu0530/NCSAudioVisualizer)<br>`tettu0530.NCSVisualizer` | スクリプト | tettu0530 | MIT | [移植済み](plugins/tettu0530.NCSVisualizer) | エフェクト（音は LAYER パラメータで受け取る） |
 | [ブラインドループ](https://gist.github.com/zopty/ff3439d79fe609c7714d6db4ef1a39a6)<br>`zopty.BlindLoop` | スクリプト | zopty | BSD-3-Clause | [移植済み](plugins/zopty.BlindLoop) | 斜めクリッピングの連続 |
 | [どこでもバッファ](https://github.com/zopty/DokodemoBuffer)<br>`zopty.DokodemoBuffer` | スクリプト | zopty | BSD-3-Clause | [移植済み](plugins/zopty.DokodemoBuffer) | エフェクト 4 つ（他のレイヤーは LAYER パラメータ、過去の絵は時刻を指定して取得） |
+| [光学モーションブラー](https://gist.github.com/zopty/51deda495876451c1dcfb09ceb05345d)<br>`zopty.OpticalFlowMotionBlur` | スクリプト | zopty | BSD-3-Clause | [移植済み](plugins/zopty.OpticalFlowMotionBlur) | オプティカルフローのモーションブラー |
 | [Rusty Binaural Filter](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_binaural` | フィルタプラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-rs.rusty_binaural) | 頭の模型によるバイノーラル |
 | [Rusty Chiptune Filter](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_chiptune` | フィルタプラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-rs.rusty_chiptune) | チップチューン音源 |
 | [Rusty Equalizer Filter](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_equalizer` | フィルタプラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-rs.rusty_equalizer) | 3 バンド EQ |
@@ -389,7 +390,6 @@
 | [パスグラデーション](https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E3%83%91%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.anm2)<br>`teruyoshii.pathGradation` | スクリプト | てるよし | MIT | 未着手 |  |
 | [トラックバー音声同期](https://x.com/teruyoshi_uec/status/1965389717224276231)<br>`teruyoshii.TrackbarAudioSync` | スクリプト | てるよし | MIT | 未着手 |  |
 | [TypingEffect](https://github.com/vandojapan/TypingEffect.obj2)<br>`vandojapan.typing-effect` | スクリプト | 4vando | MIT | 未着手 |  |
-| [光学モーションブラー](https://gist.github.com/zopty/51deda495876451c1dcfb09ceb05345d)<br>`zopty.OpticalFlowMotionBlur` | スクリプト | zopty | BSD-3-Clause | 未着手 |  |
 | [AviUtl2Browser_H](https://github.com/HexBrowns/AviUtl2Browser_H)<br>`HexBrowns.AviUtl2Browser_H` | スクリプトモジュール | HexBrowns | MIT | 未着手 |  |
 | [DepthMapFilter](https://github.com/azurite581/AviUtl2-DepthMapFilter)<br>`azurite.DepthMapFilter` | フィルタプラグイン | azurite | MIT | 未着手 |  |
 | [TrackingStabilizer for AviUtl ExEdit2](https://github.com/Bialis-dev/TrackingStabilizer-for-AviUtl-ExEdit2)<br>`Bialis.TrackingStabilizer-for-AviUtl-ExEdit2` | フィルタプラグイン | Bialis | MIT | 未着手 |  |
