@@ -1125,8 +1125,9 @@
   "status": "pending"
  },
  "momo_neeeko.RainbowGradationM": {
-  "note": "",
-  "status": "pending"
+  "note": "虹色グラデーション",
+  "path": "plugins/momo_neeeko.RainbowGradationM",
+  "status": "ported"
  },
  "momo_neeeko.RasterM": {
   "note": "向きを選べるラスター",

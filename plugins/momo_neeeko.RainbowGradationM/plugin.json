@@ -1,0 +1,12 @@
+{
+  "id": "momo_neeeko.RainbowGradationM",
+  "name": "虹色グラデーションM",
+  "version": "1.0.0",
+  "vendor": "もも猫（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "オブジェクトに虹色のグラデーションをかけます。",
+  "permissions": [],
+  "effects": [
+    "lib/zp_momo_neeeko_rainbowgradationm"
+  ]
+}
