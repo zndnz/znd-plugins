@@ -1,5 +1,5 @@
 //! ColorHalftone（azurite）の移植: 3 色の網点に分解するカラーハーフトーン。
-//! 計算は元のシェーダーと同じ（網点の形は Inigo Quilez の 2D SDF、MIT）。
+//! 計算は元のシェーダーと同じく表示値（sRGB）で行う（網点の形は Inigo Quilez の 2D SDF、MIT）。
 
 use znd_plugin_sdk::*;
 
@@ -142,9 +142,9 @@ impl Ctx<'_> {
         let (w, h) = (self.src.w as f64, self.src.h as f64);
         let u = ((cu[0] + 0.5) * w) as f32;
         let v = ((cu[1] * self.aspect + 0.5) * h) as f32;
-        let c = self.src.sample_clamped(u, v);
+        let c = color::to_display(self.src.sample_clamped(u, v));
         let a = c[3] as f64;
-        let s = |i: usize| if a > 1e-6 { c[i] as f64 / a } else { 0.0 };
+        let s = |i: usize| c[i] as f64;
         [lerp(self.bg[0], s(0), a), lerp(self.bg[1], s(1), a), lerp(self.bg[2], s(2), a)]
     }
 
@@ -237,8 +237,9 @@ impl Ctx<'_> {
     }
 }
 
+/// パラメータの色（リニア）を表示値にする。
 fn rgb(c: [f32; 4]) -> [f64; 3] {
-    [c[0] as f64, c[1] as f64, c[2] as f64]
+    [0, 1, 2].map(|i| color::linear_to_srgb(c[i]) as f64)
 }
 
 fn render(f: &mut Frame) -> FxResult {
@@ -284,7 +285,8 @@ fn render(f: &mut Frame) -> FxResult {
         src.gaussian_blur((smooth * f.scale()) as f32 * 0.5);
     }
     let screen = (w as f64 * 0.25 * ((100.0 - size) / 100.0)).max(1e-3);
-    let bg = [bgc[0] as f64, bgc[1] as f64, bgc[2] as f64, (100.0 - bg_alpha) / 100.0];
+    let bc = rgb(bgc);
+    let bg = [bc[0], bc[1], bc[2], (100.0 - bg_alpha) / 100.0];
     let cx = Ctx { src: &src, w: w as f64, aspect: w as f64 / h as f64, screen, shape, offset, fusion, additive, bg, aa: screen / w as f64 };
     let hidden = [bg[0], bg[1], bg[2], 0.0];
     for y in 0..h {
@@ -308,7 +310,9 @@ fn render(f: &mut Frame) -> FxResult {
                 }
                 a *= ta;
             }
-            f.rgba[(y * w + x) * 4..(y * w + x) * 4 + 4].copy_from_slice(&[out[0] as f32, out[1] as f32, out[2] as f32, a as f32]);
+            // 表示値（乗算済み）→ リニア
+            let o = if a > 1e-6 { color::from_display([(out[0] / a) as f32, (out[1] / a) as f32, (out[2] / a) as f32, a as f32]) } else { [0.0; 4] };
+            f.rgba[(y * w + x) * 4..(y * w + x) * 4 + 4].copy_from_slice(&o);
         }
     }
     Ok(())
