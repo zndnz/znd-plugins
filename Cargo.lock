@@ -907,6 +907,27 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-catwithneko-canny"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-catwithneko-chromaticaberration"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-catwithneko-colorama"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-catwithneko-dither"
 version = "1.0.0"
 dependencies = [
@@ -942,6 +963,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-catwithneko-leavecolor"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-catwithneko-lens"
 version = "1.0.0"
 dependencies = [
@@ -950,6 +978,13 @@ dependencies = [
 
 [[package]]
 name = "zp-catwithneko-level"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-catwithneko-longshadow"
 version = "1.0.0"
 dependencies = [
  "znd-plugin-sdk",
@@ -970,7 +1005,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-catwithneko-selfdisplace"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-catwithneko-turbulent"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-catwithneko-wavewarp"
 version = "1.0.0"
 dependencies = [
  "znd-plugin-sdk",

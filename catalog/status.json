@@ -57,8 +57,9 @@
   "status": "pending"
  },
  "CatWithNeko.ChromaticAberration": {
-  "note": "",
-  "status": "pending"
+  "note": "簡易色収差",
+  "path": "plugins/CatWithNeko.ChromaticAberration",
+  "status": "ported"
  },
  "CatWithNeko.Colorama": {
   "note": "",
