@@ -1540,8 +1540,9 @@
   "status": "pending"
  },
  "sigma-axis.AutoClipping_S": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト。大きさの変更は ABI 3 の set_output で行う",
+  "path": "plugins/sigma-axis.AutoClipping_S",
+  "status": "ported"
  },
  "sigma-axis.Basic_S": {
   "note": "",

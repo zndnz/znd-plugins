@@ -1,0 +1,12 @@
+{
+  "id": "sigma-axis.AutoClipping_S",
+  "name": "AutoClipping_S",
+  "version": "1.0.0",
+  "vendor": "σ軸（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "オブジェクトの上下左右の透明領域をクリッピングするスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sigma_axis_autoclipping_s"
+  ]
+}
