@@ -1596,8 +1596,9 @@
   "status": "pending"
  },
  "sigma-axis.PixelSnap_S": {
-  "note": "",
-  "status": "pending"
+  "note": "コマンド＋エクスプレッション用ライブラリ",
+  "path": "plugins/sigma-axis.PixelSnap_S",
+  "status": "ported"
  },
  "sigma-axis.RadRotDirBlur_S": {
   "note": "",

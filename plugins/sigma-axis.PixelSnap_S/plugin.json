@@ -1,0 +1,35 @@
+{
+  "id": "sigma-axis.PixelSnap_S",
+  "name": "PixelSnap_S",
+  "version": "1.0.0",
+  "vendor": "σ軸（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "小数点以下のピクセルずれで余計なボケが入るのを抑えるスクリプト",
+  "permissions": [],
+  "commands": [
+    {
+      "id": "snap",
+      "label": "ピクセルに合わせる（PixelSnap_S）",
+      "script": "commands/pixelsnap.js",
+      "function": "snap",
+      "menu": [
+        "plugins",
+        "layer"
+      ],
+      "description": "選んだレイヤーの位置を、左上が整数のピクセルに来るよう丸めるエクスプレッションを付けます"
+    },
+    {
+      "id": "unsnap",
+      "label": "ピクセルに合わせるのをやめる",
+      "script": "commands/pixelsnap.js",
+      "function": "unsnap",
+      "menu": [
+        "plugins",
+        "layer"
+      ]
+    }
+  ],
+  "expressions": [
+    "expressions/pixelsnap.js"
+  ]
+}

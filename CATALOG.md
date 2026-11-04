@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 14 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 15 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 5 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 322 | まだ手を付けていない |
+| 未着手 | 321 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -26,6 +26,7 @@
 | [角丸正多角形_sl](https://github.com/seilor0/roundedPolygon_sl)<br>`seilor0.roundedPolygonSl` | スクリプト | セイル | MIT | [移植済み](plugins/seilor0.roundedPolygonSl) | エフェクト（平面に掛ける） |
 | [AutoClipping_S](https://github.com/sigma-axis/aviutl2_script_AutoClipping_S)<br>`sigma-axis.AutoClipping_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.AutoClipping_S) | エフェクト。大きさの変更は ABI 3 の set_output で行う |
 | [最背面に配置](https://github.com/sigma-axis/aviutl2_script_Layback)<br>`sigma-axis.Layback` | スクリプト | σ軸 | Unlicense | [移植済み](plugins/sigma-axis.Layback) | コマンド（レイヤーの重なり順を変える） |
+| [PixelSnap_S](https://github.com/sigma-axis/aviutl2_script_PixelSnap_S)<br>`sigma-axis.PixelSnap_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.PixelSnap_S) | コマンド＋エクスプレッション用ライブラリ |
 | [シーンチェンジ自作キット](https://github.com/sigma-axis/aviutl2_script_SceneChangeKit_S)<br>`sigma-axis.SceneChangeKit_S` | スクリプト | σ軸 | Unlicense | [移植済み](plugins/sigma-axis.SceneChangeKit_S) | エフェクト（他のレイヤーの絵を取り込む） |
 | [放射クリッピング](https://github.com/supernyan74/Radial-Clipping)<br>`supernyan74.RadialClipping` | スクリプト | スーパーNyan | MIT | [移植済み](plugins/supernyan74.RadialClipping) | エフェクト |
 | [L-SMASH-Works](https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds)<br>`Mr-Ojii.L-SMASH-Works` | 入力プラグイン | Mr-Ojii | MIT | znd 本体で対応 | 動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ |
@@ -291,7 +292,6 @@
 | [MovingMosaic_S](https://github.com/sigma-axis/aviutl2_script_MovingMosaic_S)<br>`sigma-axis.MovingMosaic_S` | スクリプト | σ軸 | Unlicense | 未着手 |  |
 | [PageRoll_S](https://github.com/sigma-axis/aviutl2_script_PageRoll_S)<br>`sigma-axis.PageRoll_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [Path_S](https://github.com/sigma-axis/aviutl2_script_Path_S/)<br>`sigma-axis.Path_S` | スクリプト | σ軸 | MIT | 未着手 |  |
-| [PixelSnap_S](https://github.com/sigma-axis/aviutl2_script_PixelSnap_S)<br>`sigma-axis.PixelSnap_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [RadRotDirBlur_S](https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S)<br>`sigma-axis.RadRotDirBlur_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [Region_S](https://github.com/sigma-axis/aviutl2_script_Region_S)<br>`sigma-axis.Region_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [Resize_S](https://github.com/sigma-axis/aviutl2_script_Resize_S)<br>`sigma-axis.Resize_S` | スクリプト | σ軸 | MIT | 未着手 |  |
