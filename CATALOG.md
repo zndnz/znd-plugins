@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 140 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 11 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 28 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 29 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 163 | まだ手を付けていない |
+| 未着手 | 162 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -176,6 +176,7 @@
 | [DockLayout](https://github.com/routersys/AUE2-DockLayout)<br>`routersys.DockLayout` | MOD | routersys | MIT | 対象外 | AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない |
 | [Composite](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Composite` | スクリプト | こんにゃくねこ | CC0-1.0 | 対象外 | znd のエフェクトは後に続くエフェクトの結果を受け取れない（エフェクトの順番と合成モードで代わりになる） |
 | [OSC4AU2](https://github.com/zopty/osc4au2)<br>`zopty.osc4au2` | スクリプト | zopty | BSD-3-Clause | 対象外 | OSC（UDP）で外部から値を受け取り、トラックバーを動かすライブ演奏用のプラグイン。znd のエクスプレッションとスクリプトは通信できない設計で、外部からの入力を時間軸に結び付ける仕組みも無い |
+| [HariboteReader](https://github.com/rokujyushi/Haribote)<br>`KuroNeko.Haribote` | 入力プラグイン | 黒猫大福 | MIT | 対象外 | GCMZDrops2 にメディア以外のファイルを渡すための AviUtl2 の入力プラグインで、znd には対象がない |
 | [WebPFileReader-Plugin](https://github.com/Mr-Ojii/AviUtl2-WebPFileReader-Plugin)<br>`Mr-Ojii.WebPFileReader-Plugin` | 入力プラグイン | Mr-Ojii | MIT | 対象外 | 入力プラグイン（素材の読み込み形式を足す）で、znd のプラグインには読み込み形式を足す仕組みがない（静止画の WebP は znd が読み込める） |
 | [HEIF_HEIC Input Plugin](https://github.com/sagami121/HEIF-HEIC-Input)<br>`sagami121.HEIF-HEIC-Input` | 入力プラグイン | 3aGaM1 | MIT | 対象外 | 入力プラグイン（素材の読み込み形式を足す）で、znd のプラグインには読み込み形式を足す仕組みがない |
 | [NEF Input Plugin](https://github.com/sagami121/NEF-Input)<br>`sagami121.NEF-Input` | 入力プラグイン | 3aGaM1 | MIT | 対象外 | 入力プラグイン（素材の読み込み形式を足す）で、znd のプラグインには読み込み形式を足す仕組みがない |
@@ -406,7 +407,6 @@
 | [画面レイアウト](https://github.com/vramwiz/SYNC_ScreenLayout/)<br>`VRAMWIZ.SYNC_ScreenLayout` | フィルタプラグイン | VRAMの魔術師 | MIT | 未着手 |  |
 | [パンチラ](https://github.com/vramwiz/TurnOver_PPP)<br>`VRAMWIZ.TurnOver_PPP` | フィルタプラグイン | VRAMの魔術師 | MIT | 未着手 |  |
 | [手ブレ補正プラグイン](https://github.com/yu7400ki/aviutl2-stabilizer-plugin)<br>`yu7400ki.stabilizer` | フィルタプラグイン | yu7400ki | MIT | 未着手 |  |
-| [HariboteReader](https://github.com/rokujyushi/Haribote)<br>`KuroNeko.Haribote` | 入力プラグイン | 黒猫大福 | MIT | 未着手 |  |
 | [SMR for F-ZERO GX](https://github.com/cycloawaodorin/fzgx_smr_ks)<br>`KAZOON.fzgx_smr_ks` | 出力プラグイン | KAZOON | MIT | 未着手 |  |
 | [セリフ準備から.srtファイル生成プラグイン](https://github.com/mugi995/Serifu-JunbiToSRT-for-AviUtl2)<br>`Mugi995.Serifu-JunbiToSRT` | 出力プラグイン | Mugi995 | MIT | 未着手 |  |
 | [Rusty Statistics Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_statistics` | 出力プラグイン | Nanashi. | MIT | 未着手 |  |

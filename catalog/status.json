@@ -480,8 +480,8 @@
   "status": "pending"
  },
  "KuroNeko.Haribote": {
-  "note": "",
-  "status": "pending"
+  "note": "GCMZDrops2 にメディア以外のファイルを渡すための AviUtl2 の入力プラグインで、znd には対象がない",
+  "status": "na"
  },
  "KuroNeko.TTSFileRename": {
   "note": "",
