@@ -1064,8 +1064,9 @@
   "status": "pending"
  },
  "koisi0319.Duplicate_objects": {
-  "note": "",
-  "status": "pending"
+  "note": "すき間を空けて続けて複製",
+  "path": "plugins/koisi0319.Duplicate_objects",
+  "status": "ported"
  },
  "korarei.AutoLyricAnimation_K": {
   "note": "パネル＋エクスプレッション用ライブラリ（テキストのアニメーターを作る）",

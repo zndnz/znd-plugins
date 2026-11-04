@@ -1,0 +1,17 @@
+{
+  "id": "koisi0319.Duplicate_objects",
+  "name": "オブジェクト行複製",
+  "version": "1.0.0",
+  "vendor": "koisi0319（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "選択したオブジェクトをそのレイヤーに複製するスクリプト",
+  "permissions": [],
+  "panels": [
+    {
+      "id": "dup",
+      "title": "オブジェクト行複製",
+      "script": "panels/dup.js",
+      "width": 280
+    }
+  ]
+}
