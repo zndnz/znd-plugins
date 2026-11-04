@@ -1345,8 +1345,8 @@
   "status": "pending"
  },
  "routersys.DockLayout": {
-  "note": "",
-  "status": "pending"
+  "note": "AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない",
+  "status": "na"
  },
  "sagami121.AudioEnc": {
   "note": "書き出し形式（FFmpeg の引数の組）",
