@@ -1801,8 +1801,9 @@
   "status": "pending"
  },
  "yu7400ki.anmImOutput-gif": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/yu7400ki.anmImOutput-gif",
+  "status": "ported"
  },
  "yu7400ki.anmImOutput-jxl": {
   "note": "",

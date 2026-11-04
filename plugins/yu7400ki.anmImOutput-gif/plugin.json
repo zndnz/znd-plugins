@@ -1,0 +1,52 @@
+{
+  "id": "yu7400ki.anmImOutput-gif",
+  "name": "GIF出力プラグイン",
+  "version": "1.0.0",
+  "vendor": "yu7400ki（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "動画をGIFとして出力するプラグイン",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "gif",
+      "label": "GIF（高画質パレット）",
+      "extension": "gif",
+      "video_args": [
+        "-vf",
+        "split[a][b];[a]palettegen=max_colors={colors}:stats_mode=diff[p];[b][p]paletteuse=dither={dither}",
+        "-loop",
+        "{loop}"
+      ],
+      "params": [
+        {
+          "id": "colors",
+          "label": "色数",
+          "type": "number",
+          "default": 256,
+          "min": 2,
+          "max": 256
+        },
+        {
+          "id": "dither",
+          "label": "ディザ",
+          "type": "choice",
+          "default": 0,
+          "options": [
+            "sierra2_4a",
+            "floyd_steinberg",
+            "bayer",
+            "none"
+          ]
+        },
+        {
+          "id": "loop",
+          "label": "ループ（0 で無限、-1 で 1 回）",
+          "type": "number",
+          "default": 0,
+          "min": -1,
+          "max": 1000
+        }
+      ]
+    }
+  ]
+}
