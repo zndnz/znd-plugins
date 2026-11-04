@@ -1714,8 +1714,9 @@
   "status": "pending"
  },
  "tettu0530.NCSVisualizer": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（音は LAYER パラメータで受け取る）",
+  "path": "plugins/tettu0530.NCSVisualizer",
+  "status": "ported"
  },
  "tikubonn.Alignment": {
   "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",

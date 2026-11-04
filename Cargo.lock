@@ -1048,6 +1048,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-tettu0530-ncsvisualizer"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zune-core"
 version = "0.5.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"

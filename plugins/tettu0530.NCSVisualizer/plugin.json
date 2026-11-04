@@ -1,0 +1,12 @@
+{
+  "id": "tettu0530.NCSVisualizer",
+  "name": "NCS風音声波形 (NCSAudioVisualizer)",
+  "version": "1.0.0",
+  "vendor": "tettu0530（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "パーリンノイズを用いた、NCS風の音声波形を再現するスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_tettu0530_ncsvisualizer"
+  ]
+}
