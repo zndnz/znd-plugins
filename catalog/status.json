@@ -985,8 +985,8 @@
   "status": "na"
  },
  "cleaning.sam_frame_export_filter": {
-  "note": "",
-  "status": "pending"
+  "note": "SAM（Python の AI モデル）で背景を消すプラグインで、znd のプラグインからは外部のプログラムや AI モデルを動かせない",
+  "status": "na"
  },
  "eizo-gak.aviutl2-Placeholder": {
   "note": "エフェクト（平面に掛けると指定の大きさで描く）",

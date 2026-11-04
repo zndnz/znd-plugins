@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 143 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 12 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 34 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 35 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 14 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 152 | まだ手を付けていない |
+| 未着手 | 151 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -183,6 +183,7 @@
 | [TTSFileRename](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.TTSFileRename` | スクリプト | 黒猫大福 | MIT | 対象外 | ドロップしたファイルの名前をディスク上で書き換える GCMZDrops2 のハンドラーで、znd のスクリプトにはファイルの名前を変える手段がない |
 | [OSC4AU2](https://github.com/zopty/osc4au2)<br>`zopty.osc4au2` | スクリプト | zopty | BSD-3-Clause | 対象外 | OSC（UDP）で外部から値を受け取り、トラックバーを動かすライブ演奏用のプラグイン。znd のエクスプレッションとスクリプトは通信できない設計で、外部からの入力を時間軸に結び付ける仕組みも無い |
 | [AI S-R ONNX](https://github.com/animeojisan/AI-S-R-ONNX)<br>`animeojisan.AI_S-R_ONNX` | フィルタプラグイン | animeojisan | MIT | 対象外 | ONNX / WinML の AI モデルで超解像するプラグインで、znd のプラグインには機械学習の実行環境がない |
+| [1クリック物体切り抜き（静止画）](https://github.com/clean262/sam_frame_export_filter)<br>`cleaning.sam_frame_export_filter` | フィルタプラグイン | クリーニング | MIT | 対象外 | SAM（Python の AI モデル）で背景を消すプラグインで、znd のプラグインからは外部のプログラムや AI モデルを動かせない |
 | [vsr4aviutl](https://github.com/Pachira762/vsr4aviutl)<br>`Pachira762.vsr4aviutl` | フィルタプラグイン | Pachira762 | MIT | 対象外 | NVIDIA RTX Video Super Resolution（Windows の NVIDIA ドライバーの機能）を呼ぶプラグインで、znd が動く環境では使えない |
 | [HariboteReader](https://github.com/rokujyushi/Haribote)<br>`KuroNeko.Haribote` | 入力プラグイン | 黒猫大福 | MIT | 対象外 | GCMZDrops2 にメディア以外のファイルを渡すための AviUtl2 の入力プラグインで、znd には対象がない |
 | [WebPFileReader-Plugin](https://github.com/Mr-Ojii/AviUtl2-WebPFileReader-Plugin)<br>`Mr-Ojii.WebPFileReader-Plugin` | 入力プラグイン | Mr-Ojii | MIT | 対象外 | 入力プラグイン（素材の読み込み形式を足す）で、znd のプラグインには読み込み形式を足す仕組みがない（静止画の WebP は znd が読み込める） |
@@ -387,7 +388,6 @@
 | [TrackingStabilizer for AviUtl ExEdit2](https://github.com/Bialis-dev/TrackingStabilizer-for-AviUtl-ExEdit2)<br>`Bialis.TrackingStabilizer-for-AviUtl-ExEdit2` | フィルタプラグイン | Bialis | MIT | 未着手 |  |
 | [External Audio Processing 2 (EAP2)](https://github.com/Book-0225/aviutl2_External_Audio_Processing)<br>`Book-0225.EAP2` | フィルタプラグイン | Book0225 | MIT | 未着手 |  |
 | [選択ツール式マスク&クリッピング](https://github.com/ColorJellyFish/aviutl2_cjf_maskselector)<br>`CJF.MaskSelector` | フィルタプラグイン | CJF | MIT | 未着手 |  |
-| [1クリック物体切り抜き（静止画）](https://github.com/clean262/sam_frame_export_filter)<br>`cleaning.sam_frame_export_filter` | フィルタプラグイン | クリーニング | MIT | 未着手 |  |
 | [AviUtl2-LaTeX](https://github.com/Estellellet/AviUtl2-LaTeX)<br>`Estelle.AviUtl2-LaTeX` | フィルタプラグイン | Estelle | MIT | 未着手 |  |
 | [HL_Blobox for AviUtl2](https://github.com/Hallkun19/HL_Blobox-for-aul2)<br>`halkun19.HL_Blobox` | フィルタプラグイン | はるくん / harukun19 | MIT | 未着手 |  |
 | [ラウドネスノーマライズ_H](https://github.com/HexBrowns/LoudnessNormalize_H)<br>`HexBrowns.LoudnessNormalize_H` | フィルタプラグイン | HexBrowns | MIT | 未着手 |  |
