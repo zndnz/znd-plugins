@@ -907,6 +907,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-catwithneko-dither"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-catwithneko-erosion"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-catwithneko-exposure"
 version = "1.0.0"
 dependencies = [
@@ -915,6 +929,20 @@ dependencies = [
 
 [[package]]
 name = "zp-catwithneko-gamma"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-catwithneko-halftone"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-catwithneko-lens"
 version = "1.0.0"
 dependencies = [
  "znd-plugin-sdk",
@@ -936,6 +964,13 @@ dependencies = [
 
 [[package]]
 name = "zp-catwithneko-mosaic"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-catwithneko-turbulent"
 version = "1.0.0"
 dependencies = [
  "znd-plugin-sdk",
