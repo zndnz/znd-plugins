@@ -6,11 +6,11 @@
 | 状況 | 数 | 意味 |
 |---|---|---|
 | 移植済み | 107 | `plugins/` に znd のプラグインとして再実装した |
-| znd 本体で対応 | 3 | znd 本体に同じ機能があるため、プラグインにしていない |
+| znd 本体で対応 | 4 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 19 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 213 | まだ手を付けていない |
+| 未着手 | 212 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -122,6 +122,7 @@
 | [JXL出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-jxl` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-jxl) | 書き出し形式（FFmpeg の引数の組） |
 | [WebP出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-webp` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-webp) | 書き出し形式（FFmpeg の引数の組） |
 | [Tonecurve_C](https://x.com/CatWithNeko/status/1972685066963960255)<br>`CatWithNeko.ToneCurve` | スクリプト | こんにゃくねこ | CC0-1.0 | znd 本体で対応 | znd の組み込みエフェクト「トーンカーブ」で同じことができる |
+| [void.auf2](https://github.com/sevenc-nanashi/void.auf2)<br>`sevenc-nanashi.void-auf2` | フィルタプラグイン | Nanashi. | MIT | znd 本体で対応 | znd の組み込みのヌルレイヤーで同じことができる |
 | [L-SMASH-Works](https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds)<br>`Mr-Ojii.L-SMASH-Works` | 入力プラグイン | Mr-Ojii | MIT | znd 本体で対応 | 動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ |
 | [Rusty Image Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_image_rs_output` | 出力プラグイン | Nanashi. | MIT | znd 本体で対応 | 画像の連番の書き出し。znd 本体の書き出し形式に PNG 連番（8/16bit）・EXR 連番があり、静止画 1 枚は rusty_single_image_output の移植で書き出せる |
 | [レイヤー固定](https://github.com/ar-ca-na/aviutl2-layer-pin)<br>`ar-ca-na.layer-pin` | MOD | arcana | MIT | 対象外 | AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない |
@@ -368,7 +369,6 @@
 | [svg.aux2](https://github.com/sevenc-nanashi/svg.aux2)<br>`sevenc-nanashi.svg-aux2` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
 | [tex.auf2](https://github.com/sevenc-nanashi/tex.auf2)<br>`sevenc-nanashi.tex-auf2` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
 | [vintage.auf2](https://github.com/sevenc-nanashi/vintage.auf2)<br>`sevenc-nanashi.vintage-auf2` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
-| [void.auf2](https://github.com/sevenc-nanashi/void.auf2)<br>`sevenc-nanashi.void-auf2` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
 | [Border_S](https://github.com/sigma-axis/aviutl2_Border_S)<br>`sigma-axis.Border_S` | フィルタプラグイン | σ軸 | MIT | 未着手 |  |
 | [AudioFilter](https://github.com/vramwiz/Aul2AudioFilter)<br>`VRAMWIZ.AudioFilter` | フィルタプラグイン | VRAMの魔術師 | MIT | 未着手 |  |
 | [呼吸](https://github.com/vramwiz/SYNC_Breath/)<br>`VRAMWIZ.SYNC_Breath` | フィルタプラグイン | VRAMの魔術師 | MIT | 未着手 |  |

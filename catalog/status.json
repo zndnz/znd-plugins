@@ -1615,8 +1615,8 @@
   "status": "pending"
  },
  "sevenc-nanashi.void-auf2": {
-  "note": "",
-  "status": "pending"
+  "note": "znd の組み込みのヌルレイヤーで同じことができる",
+  "status": "builtin"
  },
  "shidunami.3dcg_movie_animation": {
   "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
