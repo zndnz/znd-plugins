@@ -1,0 +1,12 @@
+{
+  "id": "Karoterra.Bend",
+  "name": "曲げKR",
+  "version": "1.0.0",
+  "vendor": "かろてら（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "画像を曲線に沿って曲げるスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_karoterra_bend"
+  ]
+}

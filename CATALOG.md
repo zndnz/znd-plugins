@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 105 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 106 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 3 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 19 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 215 | まだ手を付けていない |
+| 未着手 | 214 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -45,6 +45,7 @@
 | [SliceGlitch](https://note.com/isuzu_hinode/n/n3a7d7b761b98)<br>`hinodeisuzu.sliceglitch` | スクリプト | 暘 弥涼 | MIT | [移植済み](plugins/hinodeisuzu.sliceglitch) | スライスグリッチ |
 | [ColorLink](https://github.com/InuyoshiAtom/aviutl2-colorlink)<br>`InuyoshiAtom.ColorLink` | スクリプト | 犬好アトム | MIT | [移植済み](plugins/InuyoshiAtom.ColorLink) | エフェクト＋コマンド（色はエクスプレッションでつなぐ） |
 | [Open Glow](https://github.com/IZUisMe/aviutl2-open-glow)<br>`IZUisMe.OpenGlow` | スクリプト | 絵に描いた虹 | MIT | [移植済み](plugins/IZUisMe.OpenGlow) | 物理減衰グロー |
+| [曲げKR](https://github.com/karoterra/aviutl2-Bend)<br>`Karoterra.Bend` | スクリプト | かろてら | MIT | [移植済み](plugins/Karoterra.Bend) | 円弧・ベジェ曲線に沿って曲げる |
 | [色覚シミュレーションKR](https://github.com/karoterra/aviutl2-ColorVisionSimulation)<br>`Karoterra.ColorVisionSimulation` | スクリプト | かろてら | Unlicense | [移植済み](plugins/Karoterra.ColorVisionSimulation) | エフェクト |
 | [油絵KR](https://github.com/karoterra/aviutl2-OilPainting)<br>`Karoterra.OilPainting` | スクリプト | かろてら | MIT | [移植済み](plugins/Karoterra.OilPainting) | エフェクト |
 | [AutoLyricAnimation_K](https://github.com/korarei/AviUtl2_AutoLyricAnimation_K_Script)<br>`korarei.AutoLyricAnimation_K` | スクリプト | Korarei | MIT | [移植済み](plugins/korarei.AutoLyricAnimation_K) | パネル＋エクスプレッション用ライブラリ（テキストのアニメーターを作る） |
@@ -285,7 +286,6 @@
 | [タイムワープ_H](https://github.com/HexBrowns/HexScript)<br>`HexBrowns.TimeWarp_H` | スクリプト | HexBrowns | MIT No Attribution | 未着手 |  |
 | [ベクトルブラー_H](https://github.com/HexBrowns/HexScript)<br>`HexBrowns.VectorBlur_H` | スクリプト | HexBrowns | MIT No Attribution | 未着手 |  |
 | [テキスト縦書き化](https://github.com/HexBrowns/HexScript)<br>`HexBrowns.VerticalText` | スクリプト | HexBrowns | MIT No Attribution | 未着手 |  |
-| [曲げKR](https://github.com/karoterra/aviutl2-Bend)<br>`Karoterra.Bend` | スクリプト | かろてら | MIT | 未着手 |  |
 | [KSA](https://github.com/cycloawaodorin/ksa)<br>`KAZOON.KSA` | スクリプト | KAZOON | MIT | 未着手 |  |
 | [CameraTransform_K](https://github.com/korarei/AviUtl2_CameraTransform_K_Script)<br>`korarei.CameraTransform_K` | スクリプト | Korarei | MIT | 未着手 |  |
 | [Constraint](https://gist.github.com/korarei/d5b089a69e0c8ba5903d641d677c89e8)<br>`korarei.Constraint` | スクリプト | Korarei | CC0-1.0 | 未着手 |  |

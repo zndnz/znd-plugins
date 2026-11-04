@@ -442,8 +442,9 @@
   "status": "pending"
  },
  "Karoterra.Bend": {
-  "note": "",
-  "status": "pending"
+  "note": "円弧・ベジェ曲線に沿って曲げる",
+  "path": "plugins/Karoterra.Bend",
+  "status": "ported"
  },
  "Karoterra.ColorVisionSimulation": {
   "note": "エフェクト",
