@@ -108,8 +108,9 @@
   "status": "pending"
  },
  "CatWithNeko.Mosaic": {
-  "note": "",
-  "status": "pending"
+  "note": "シャープなモザイク",
+  "path": "plugins/CatWithNeko.Mosaic",
+  "status": "ported"
  },
  "CatWithNeko.SelfDisplace": {
   "note": "",
