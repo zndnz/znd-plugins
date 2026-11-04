@@ -1539,8 +1539,8 @@
   "status": "pending"
  },
  "sevenc-nanashi.discord_activity-aux2": {
-  "note": "",
-  "status": "pending"
+  "note": "Discord のアプリと通信する機能で、znd のプラグインのスクリプトには外部と通信する手段がなく、ネイティブの通信は安全性スキャンで止められる",
+  "status": "na"
  },
  "sevenc-nanashi.enhanced_tracks-aux2": {
   "note": "",
