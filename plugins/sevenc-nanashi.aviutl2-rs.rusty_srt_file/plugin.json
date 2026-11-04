@@ -1,0 +1,35 @@
+{
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_srt_file",
+  "name": "Rusty SRT File Plugin",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "SRTファイル(字幕)のインポート/エクスポートを行うプラグイン",
+  "permissions": [
+    "filesystem"
+  ],
+  "commands": [
+    {
+      "id": "import",
+      "label": "SRT ファイルを読み込む",
+      "script": "commands/srt.js",
+      "function": "importSrt",
+      "menu": [
+        "plugins",
+        "layer"
+      ],
+      "description": "選んだテキストレイヤーをひな形にして、字幕ごとのテキストレイヤーを作ります"
+    },
+    {
+      "id": "export",
+      "label": "SRT ファイルに書き出す",
+      "script": "commands/srt.js",
+      "function": "exportSrt",
+      "menu": [
+        "plugins",
+        "layer"
+      ],
+      "description": "テキストレイヤーの時刻と文字を SRT ファイルに書き出します"
+    }
+  ]
+}

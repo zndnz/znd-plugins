@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 113 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 114 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 4 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 19 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 206 | まだ手を付けていない |
+| 未着手 | 205 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -127,6 +127,7 @@
 | [GIF出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-gif` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-gif) | 書き出し形式（FFmpeg の引数の組） |
 | [JXL出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-jxl` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-jxl) | 書き出し形式（FFmpeg の引数の組） |
 | [WebP出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-webp` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-webp) | 書き出し形式（FFmpeg の引数の組） |
+| [Rusty SRT File Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_srt_file` | 汎用プラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-rs.rusty_srt_file) | SRT の読み込み・書き出し |
 | [Tonecurve_C](https://x.com/CatWithNeko/status/1972685066963960255)<br>`CatWithNeko.ToneCurve` | スクリプト | こんにゃくねこ | CC0-1.0 | znd 本体で対応 | znd の組み込みエフェクト「トーンカーブ」で同じことができる |
 | [void.auf2](https://github.com/sevenc-nanashi/void.auf2)<br>`sevenc-nanashi.void-auf2` | フィルタプラグイン | Nanashi. | MIT | znd 本体で対応 | znd の組み込みのヌルレイヤーで同じことができる |
 | [L-SMASH-Works](https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds)<br>`Mr-Ojii.L-SMASH-Works` | 入力プラグイン | Mr-Ojii | MIT | znd 本体で対応 | 動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ |
@@ -439,7 +440,6 @@
 | [Rusty Local Alias Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [Rusty Metronome Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_metronome_plugin` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [Rusty Scripts Search Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_scripts_search` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
-| [Rusty SRT File Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_srt_file` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [clipboard.aux2](https://github.com/sevenc-nanashi/clipboard.aux2)<br>`sevenc-nanashi.clipboard-aux2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [create_control_object.aux2](https://github.com/sevenc-nanashi/create_control_object.aux2)<br>`sevenc-nanashi.create_control_object-aux2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
 | [discord_activity.aux2](https://github.com/sevenc-nanashi/discord_activity.aux2)<br>`sevenc-nanashi.discord_activity-aux2` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |

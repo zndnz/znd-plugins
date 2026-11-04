@@ -1469,8 +1469,9 @@
   "status": "ported"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_srt_file": {
-  "note": "",
-  "status": "pending"
+  "note": "SRT の読み込み・書き出し",
+  "path": "plugins/sevenc-nanashi.aviutl2-rs.rusty_srt_file",
+  "status": "ported"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_statistics": {
   "note": "",
