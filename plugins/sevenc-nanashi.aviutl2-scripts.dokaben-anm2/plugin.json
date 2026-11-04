@@ -1,0 +1,12 @@
+{
+  "id": "sevenc-nanashi.aviutl2-scripts.dokaben-anm2",
+  "name": "ドカベン.anm2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "ドカベン風に文字を登場させるスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sevenc_nanashi_aviutl2_scripts_dokaben_anm2"
+  ]
+}

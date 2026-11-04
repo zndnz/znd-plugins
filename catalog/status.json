@@ -1497,8 +1497,9 @@
   "status": "ported"
  },
  "sevenc-nanashi.aviutl2-scripts.dokaben-anm2": {
-  "note": "",
-  "status": "pending"
+  "note": "ドカベン風の登場",
+  "path": "plugins/sevenc-nanashi.aviutl2-scripts.dokaben-anm2",
+  "status": "ported"
  },
  "sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2": {
   "note": "",
