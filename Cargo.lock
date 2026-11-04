@@ -852,6 +852,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-inuyoshiatom-colorlink"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-mes51-unmult"
 version = "1.0.0"
 dependencies = [
@@ -859,7 +866,35 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-nctype-reflectiononpane"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-neac-cinemascope"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-neac-screenaspect"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-sigma-axis-autoclipping-s"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-sigma-axis-scenechangekit-s"
 version = "1.0.0"
 dependencies = [
  "znd-plugin-sdk",

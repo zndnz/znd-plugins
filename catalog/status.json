@@ -384,8 +384,9 @@
   "status": "pending"
  },
  "InuyoshiAtom.ColorLink": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト＋コマンド（色はエクスプレッションでつなぐ）",
+  "path": "plugins/InuyoshiAtom.ColorLink",
+  "status": "ported"
  },
  "JobsJoestar.RippleDelete": {
   "note": "",

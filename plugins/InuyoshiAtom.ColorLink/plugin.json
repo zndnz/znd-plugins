@@ -1,0 +1,55 @@
+{
+  "id": "InuyoshiAtom.ColorLink",
+  "name": "ColorLink",
+  "version": "1.0.0",
+  "vendor": "犬好アトム（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "複数オブジェクトの色を1つのカラーマスターから変更できる連動スクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_inuyoshiatom_colorlink"
+  ],
+  "commands": [
+    {
+      "id": "master",
+      "label": "カラーマスターを付ける",
+      "script": "commands/link.js",
+      "function": "addMaster",
+      "menu": [
+        "plugins",
+        "layer"
+      ],
+      "description": "選んだレイヤーに、3 色を持つカラーマスターを付けます（そのレイヤー自体の見た目は変わりません）"
+    },
+    {
+      "id": "link_a",
+      "label": "カラーリンク: 色A につなぐ",
+      "script": "commands/link.js",
+      "function": "linkA",
+      "menu": [
+        "plugins",
+        "layer"
+      ]
+    },
+    {
+      "id": "link_b",
+      "label": "カラーリンク: 色B につなぐ",
+      "script": "commands/link.js",
+      "function": "linkB",
+      "menu": [
+        "plugins",
+        "layer"
+      ]
+    },
+    {
+      "id": "link_c",
+      "label": "カラーリンク: 色C につなぐ",
+      "script": "commands/link.js",
+      "function": "linkC",
+      "menu": [
+        "plugins",
+        "layer"
+      ]
+    }
+  ]
+}

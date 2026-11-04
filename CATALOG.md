@@ -5,15 +5,16 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 5 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 6 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 5 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 331 | まだ手を付けていない |
+| 未着手 | 330 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
+| [ColorLink](https://github.com/InuyoshiAtom/aviutl2-colorlink)<br>`InuyoshiAtom.ColorLink` | スクリプト | 犬好アトム | MIT | [移植済み](plugins/InuyoshiAtom.ColorLink) | エフェクト＋コマンド（色はエクスプレッションでつなぐ） |
 | [Unmult](https://github.com/mes51/AVIUtl2_Unmult)<br>`mes51.Unmult` | スクリプト | mes51 | MIT | [移植済み](plugins/mes51.Unmult) | エフェクト |
 | [Scatter](https://github.com/nea-c/aviutl2_script_Scatter)<br>`NeAc.Scatter` | スクリプト | 猫愛 | MIT | [移植済み](plugins/NeAc.Scatter) | パネル＋エクスプレッション用ライブラリ |
 | [AutoClipping_S](https://github.com/sigma-axis/aviutl2_script_AutoClipping_S)<br>`sigma-axis.AutoClipping_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.AutoClipping_S) | エフェクト。大きさの変更は ABI 3 の set_output で行う |
@@ -209,7 +210,6 @@
 | [ベクトルブラー_H](https://github.com/HexBrowns/HexScript)<br>`HexBrowns.VectorBlur_H` | スクリプト | HexBrowns | MIT No Attribution | 未着手 |  |
 | [テキスト縦書き化](https://github.com/HexBrowns/HexScript)<br>`HexBrowns.VerticalText` | スクリプト | HexBrowns | MIT No Attribution | 未着手 |  |
 | [SliceGlitch](https://note.com/isuzu_hinode/n/n3a7d7b761b98)<br>`hinodeisuzu.sliceglitch` | スクリプト | 暘 弥涼 | MIT | 未着手 |  |
-| [ColorLink](https://github.com/InuyoshiAtom/aviutl2-colorlink)<br>`InuyoshiAtom.ColorLink` | スクリプト | 犬好アトム | MIT | 未着手 |  |
 | [Open Glow](https://github.com/IZUisMe/aviutl2-open-glow)<br>`IZUisMe.OpenGlow` | スクリプト | 絵に描いた虹 | MIT | 未着手 |  |
 | [曲げKR](https://github.com/karoterra/aviutl2-Bend)<br>`Karoterra.Bend` | スクリプト | かろてら | MIT | 未着手 |  |
 | [色覚シミュレーションKR](https://github.com/karoterra/aviutl2-ColorVisionSimulation)<br>`Karoterra.ColorVisionSimulation` | スクリプト | かろてら | Unlicense | 未着手 |  |
