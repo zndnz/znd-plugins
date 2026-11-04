@@ -1,0 +1,12 @@
+{
+  "id": "CatWithNeko.Exposure",
+  "name": "Exposure",
+  "version": "1.0.0",
+  "vendor": "こんにゃくねこ（znd 移植: znd-plugins）",
+  "license": "CC0-1.0",
+  "description": "露出・ガンマ・オフセットの補正をかける",
+  "permissions": [],
+  "effects": [
+    "lib/zp_catwithneko_exposure"
+  ]
+}

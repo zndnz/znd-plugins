@@ -77,8 +77,9 @@
   "status": "pending"
  },
  "CatWithNeko.Exposure": {
-  "note": "",
-  "status": "pending"
+  "note": "露出・ガンマ・オフセット",
+  "path": "plugins/CatWithNeko.Exposure",
+  "status": "ported"
  },
  "CatWithNeko.Gamma": {
   "note": "ガンマ補正",
