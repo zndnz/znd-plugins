@@ -1,0 +1,12 @@
+{
+  "id": "korarei.Constraint",
+  "name": "Constraint",
+  "version": "1.0.0",
+  "vendor": "Korarei（znd 移植: znd-plugins）",
+  "license": "CC0-1.0",
+  "description": "テキストの横にアイコン画像を表示",
+  "permissions": [],
+  "effects": [
+    "lib/zp_korarei_constraint"
+  ]
+}

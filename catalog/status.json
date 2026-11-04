@@ -1080,8 +1080,9 @@
   "status": "pending"
  },
  "korarei.Constraint": {
-  "note": "",
-  "status": "pending"
+  "note": "アイコンを横に並べる",
+  "path": "plugins/korarei.Constraint",
+  "status": "ported"
  },
  "korarei.Diffusion_K": {
   "note": "",
