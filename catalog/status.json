@@ -187,8 +187,8 @@
   "status": "pending"
  },
  "Garech.ToggleLayers": {
-  "note": "",
-  "status": "pending"
+  "note": "AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない",
+  "status": "na"
  },
  "Garech.jp_akey.aul2": {
   "note": "AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない",
