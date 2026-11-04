@@ -1,0 +1,43 @@
+{
+  "id": "yu7400ki.anmImOutput-jxl",
+  "name": "JXL出力プラグイン",
+  "version": "1.0.0",
+  "vendor": "yu7400ki（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "動画をJXLとして出力するプラグイン",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "jxl",
+      "label": "JPEG XL（アニメーション）",
+      "extension": "jxl",
+      "alpha": true,
+      "video_args": [
+        "-c:v",
+        "libjxl",
+        "-distance",
+        "{distance}",
+        "-effort",
+        "{effort}"
+      ],
+      "params": [
+        {
+          "id": "distance",
+          "label": "距離（0 で可逆、1 で高画質）",
+          "type": "number",
+          "default": 1,
+          "min": 0,
+          "max": 15
+        },
+        {
+          "id": "effort",
+          "label": "手間（1〜9）",
+          "type": "number",
+          "default": 7,
+          "min": 1,
+          "max": 9
+        }
+      ]
+    }
+  ]
+}
