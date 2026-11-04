@@ -568,8 +568,9 @@
   "status": "pending"
  },
  "NeAc.Scatter": {
-  "note": "",
-  "status": "pending"
+  "note": "パネル＋エクスプレッション用ライブラリ",
+  "path": "plugins/NeAc.Scatter",
+  "status": "ported"
  },
  "NeAc.ScreenAspect": {
   "note": "",

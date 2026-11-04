@@ -852,7 +852,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-mes51-unmult"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-sigma-axis-autoclipping-s"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-supernyan74-radialclipping"
 version = "1.0.0"
 dependencies = [
  "znd-plugin-sdk",

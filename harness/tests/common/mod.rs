@@ -49,3 +49,37 @@ pub fn render_opts(p: &Project, seconds: f64, opts: RenderOptions) -> FrameBuf {
 pub fn close(a: f32, b: f32, tol: f32, what: &str) {
     assert!((a - b).abs() <= tol, "{what}: {a} != {b}");
 }
+
+/// パネルの onEvent を呼んだ結果のプロジェクト（変更が無ければ元のまま）。
+pub fn panel_event(p: &Project, package: &str, panel: &str, id: &str, value: serde_json::Value, ctx: serde_json::Value) -> Project {
+    load();
+    let pan = znd_render::plugins::panels().into_iter().find(|x| x.key == format!("{package}/{panel}")).expect("パネルがありません");
+    let wrapper = format!(
+        "{}\n;function __event(id, value, state) {{ panel(state); if (typeof onEvent === 'function') onEvent(id, value, state); return state; }}",
+        pan.source
+    );
+    let run = znd_script::run_plugin(p, &wrapper, Some(("__event", &[serde_json::json!(id), value, serde_json::json!({})])), &ctx).unwrap();
+    run.project.unwrap_or_else(|| p.clone())
+}
+
+/// コマンドを実行した結果のプロジェクト。
+pub fn run_command(p: &Project, key: &str, ctx: serde_json::Value) -> (Project, Vec<serde_json::Value>) {
+    load();
+    let cmd = znd_render::plugins::commands().into_iter().find(|c| c.key == key).expect("コマンドがありません");
+    let call = cmd.function.as_deref().map(|f| (f, &[][..]));
+    let run = znd_script::run_plugin(p, &cmd.source, call, &ctx).unwrap();
+    (run.project.unwrap_or_else(|| p.clone()), run.actions)
+}
+
+pub fn context(comp: &str, layers: &[&str]) -> serde_json::Value {
+    serde_json::json!({ "comp": comp, "layer": layers.first(), "layers": layers, "frame": 0, "time": 0.0, "fps": 30.0, "plugin": { "id": "test", "dir": "" } })
+}
+
+/// エクスプレッション込みで描く。
+pub fn render_expr(p: &Project, seconds: f64) -> FrameBuf {
+    let engine = znd_script::ExprEngine::new();
+    Renderer::new(p, &NoFootage)
+        .with_resolver(&engine)
+        .render_frame(&CompId::new("main"), Time::from_seconds(seconds), RenderOptions { downsample: 1, background: false, guides: false })
+        .unwrap()
+}

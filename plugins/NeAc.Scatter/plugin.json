@@ -1,0 +1,20 @@
+{
+  "id": "NeAc.Scatter",
+  "name": "Scatter",
+  "version": "1.0.0",
+  "vendor": "猫愛（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "個別オブジェクトをランダムに拡散させるスクリプト",
+  "permissions": [],
+  "panels": [
+    {
+      "id": "scatter",
+      "title": "Scatter",
+      "script": "panels/scatter.js",
+      "width": 320
+    }
+  ],
+  "expressions": [
+    "expressions/scatter.js"
+  ]
+}
