@@ -1,0 +1,12 @@
+{
+  "id": "Karoterra.OilPainting",
+  "name": "油絵KR",
+  "version": "1.0.0",
+  "vendor": "かろてら（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "油絵風の加工を施すスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_karoterra_oilpainting"
+  ]
+}

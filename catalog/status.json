@@ -429,8 +429,9 @@
   "status": "pending"
  },
  "Karoterra.OilPainting": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト",
+  "path": "plugins/Karoterra.OilPainting",
+  "status": "ported"
  },
  "Karoterra.Typst": {
   "note": "",

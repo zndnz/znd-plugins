@@ -852,7 +852,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-eizo-gak-aviutl2-placeholder"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-inuyoshiatom-colorlink"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-karoterra-oilpainting"
 version = "1.0.0"
 dependencies = [
  "znd-plugin-sdk",
@@ -881,6 +895,20 @@ dependencies = [
 
 [[package]]
 name = "zp-neac-screenaspect"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-sagami121-blocknoise"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-seilor0-roundedpolygonsl"
 version = "1.0.0"
 dependencies = [
  "znd-plugin-sdk",

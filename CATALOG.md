@@ -5,16 +5,17 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 10 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 11 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 5 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 326 | まだ手を付けていない |
+| 未着手 | 325 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
 | [ColorLink](https://github.com/InuyoshiAtom/aviutl2-colorlink)<br>`InuyoshiAtom.ColorLink` | スクリプト | 犬好アトム | MIT | [移植済み](plugins/InuyoshiAtom.ColorLink) | エフェクト＋コマンド（色はエクスプレッションでつなぐ） |
+| [油絵KR](https://github.com/karoterra/aviutl2-OilPainting)<br>`Karoterra.OilPainting` | スクリプト | かろてら | MIT | [移植済み](plugins/Karoterra.OilPainting) | エフェクト |
 | [Unmult](https://github.com/mes51/AVIUtl2_Unmult)<br>`mes51.Unmult` | スクリプト | mes51 | MIT | [移植済み](plugins/mes51.Unmult) | エフェクト |
 | [ReflectionOnPane](https://github.com/nctype/aviutl2_script_ReflectionOnPane)<br>`nctype.ReflectionOnPane` | スクリプト | nctype | MIT | [移植済み](plugins/nctype.ReflectionOnPane) | エフェクト（描画モードはレイヤーでスクリーンにする） |
 | [シネマスコープ](https://github.com/nea-c/aviutl2_script_CinemaScope)<br>`NeAc.CinemaScope` | スクリプト | 猫愛 | MIT | [移植済み](plugins/NeAc.CinemaScope) | エフェクト（コンポの大きさの平面に掛ける） |
@@ -217,7 +218,6 @@
 | [Open Glow](https://github.com/IZUisMe/aviutl2-open-glow)<br>`IZUisMe.OpenGlow` | スクリプト | 絵に描いた虹 | MIT | 未着手 |  |
 | [曲げKR](https://github.com/karoterra/aviutl2-Bend)<br>`Karoterra.Bend` | スクリプト | かろてら | MIT | 未着手 |  |
 | [色覚シミュレーションKR](https://github.com/karoterra/aviutl2-ColorVisionSimulation)<br>`Karoterra.ColorVisionSimulation` | スクリプト | かろてら | Unlicense | 未着手 |  |
-| [油絵KR](https://github.com/karoterra/aviutl2-OilPainting)<br>`Karoterra.OilPainting` | スクリプト | かろてら | MIT | 未着手 |  |
 | [KSA](https://github.com/cycloawaodorin/ksa)<br>`KAZOON.KSA` | スクリプト | KAZOON | MIT | 未着手 |  |
 | [AutoLyricAnimation_K](https://github.com/korarei/AviUtl2_AutoLyricAnimation_K_Script)<br>`korarei.AutoLyricAnimation_K` | スクリプト | Korarei | MIT | 未着手 |  |
 | [CameraTransform_K](https://github.com/korarei/AviUtl2_CameraTransform_K_Script)<br>`korarei.CameraTransform_K` | スクリプト | Korarei | MIT | 未着手 |  |
