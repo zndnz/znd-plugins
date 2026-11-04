@@ -1,0 +1,12 @@
+{
+  "id": "sevenc-nanashi.aviutl2-scripts.crt-display.anm2",
+  "name": "CRTディスプレイ風.anm2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "CRTディスプレイ風のエフェクト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sevenc_nanashi_aviutl2_scripts_crt_display_anm2"
+  ]
+}

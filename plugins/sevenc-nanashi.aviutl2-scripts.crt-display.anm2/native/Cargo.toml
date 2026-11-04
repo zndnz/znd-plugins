@@ -1,0 +1,13 @@
+[package]
+name = "zp-sevenc-nanashi-aviutl2-scripts-crt-display-anm2"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[dependencies]
+znd-plugin-sdk.workspace = true
