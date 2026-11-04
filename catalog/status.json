@@ -1448,8 +1448,9 @@
   "status": "ported"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_random_color": {
-  "note": "",
-  "status": "pending"
+  "note": "ランダムな色の図形",
+  "path": "plugins/sevenc-nanashi.aviutl2-rs.rusty_random_color",
+  "status": "ported"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut": {
   "note": "作者が非推奨としている AviUtl2 の再起動メニューで、znd には対象がない",
