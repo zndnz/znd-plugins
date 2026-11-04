@@ -1277,8 +1277,9 @@
   "status": "ported"
  },
  "rigaya.QSVEnc": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/rigaya.QSVEnc",
+  "status": "ported"
  },
  "rigaya.VCEEnc": {
   "note": "",

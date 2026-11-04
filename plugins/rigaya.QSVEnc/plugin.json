@@ -1,0 +1,96 @@
+{
+  "id": "rigaya.QSVEnc",
+  "name": "QSVEnc",
+  "version": "1.0.0",
+  "vendor": "rigaya（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "QSVによる高速エンコードの性能実験",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "qsv",
+      "label": "QSVEnc（Intel GPU）",
+      "extension": "mp4",
+      "even": true,
+      "video_args": [
+        "-c:v",
+        "{codec}",
+        "-preset",
+        "{preset}",
+        "-global_quality",
+        "{q}",
+        "-pix_fmt",
+        "yuv420p",
+        "{extra}",
+        "-movflags",
+        "+faststart"
+      ],
+      "audio_args": [
+        "-c:a",
+        "aac",
+        "-b:a",
+        "{abr}k"
+      ],
+      "params": [
+        {
+          "id": "codec",
+          "label": "コーデック",
+          "type": "choice",
+          "default": 0,
+          "options": [
+            {
+              "label": "H.264",
+              "value": "h264_qsv"
+            },
+            {
+              "label": "HEVC",
+              "value": "hevc_qsv"
+            },
+            {
+              "label": "AV1",
+              "value": "av1_qsv"
+            }
+          ]
+        },
+        {
+          "id": "q",
+          "label": "画質（小さいほど高画質）",
+          "type": "number",
+          "default": 23,
+          "min": 0,
+          "max": 51
+        },
+        {
+          "id": "preset",
+          "label": "プリセット",
+          "type": "choice",
+          "default": 3,
+          "options": [
+            "veryfast",
+            "faster",
+            "fast",
+            "medium",
+            "slow",
+            "slower",
+            "veryslow"
+          ]
+        },
+        {
+          "id": "abr",
+          "label": "音声ビットレート（kbps）",
+          "type": "number",
+          "default": 256,
+          "min": 32,
+          "max": 512
+        },
+        {
+          "id": "extra",
+          "label": "追加の引数",
+          "type": "args",
+          "default": ""
+        }
+      ],
+      "description": "Intel の GPU（Quick Sync Video）と、対応した FFmpeg が必要"
+    }
+  ]
+}
