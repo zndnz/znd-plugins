@@ -6,11 +6,11 @@
 | 状況 | 数 | 意味 |
 |---|---|---|
 | 移植済み | 143 | `plugins/` に znd のプラグインとして再実装した |
-| znd 本体で対応 | 12 | znd 本体に同じ機能があるため、プラグインにしていない |
+| znd 本体で対応 | 13 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 40 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 14 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 146 | まだ手を付けていない |
+| 未着手 | 145 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -167,6 +167,7 @@
 | [aup2 リンク修復](https://github.com/ar-ca-na/aviutl2-aup2-relink)<br>`ar-ca-na.aup2-relink` | 外部プログラム | arcana | MIT | znd 本体で対応 | znd の組み込みの「欠落した素材を再リンク」（移動先のフォルダから同名のファイルを探す）で同じことができる |
 | [AviUtl2 relink](https://github.com/Book-0225/aviutl2_relink)<br>`Book-0225.relink` | 汎用プラグイン | Book0225 | MIT | znd 本体で対応 | znd の組み込みの「欠落した素材を再リンク」（CLI は znd relink）で同じことができる |
 | [HL_Ezing for AviUtl2](https://github.com/Hallkun19/HL_Ezing-for-aul2)<br>`halkun19.HL_Ezing` | 汎用プラグイン | はるくん / harukun19 | MIT | znd 本体で対応 | znd のキーフレームの「イージングプリセット」とグラフ編集で同じことができる |
+| [Any Shortcut for AviUtl2](https://github.com/mugi995/Any_Shortcut_for_AviUtl2)<br>`Mugi995.Any_Shortcut_for_AviUtl2` | 汎用プラグイン | Mugi995 | MIT | znd 本体で対応 | znd はキーマップの設定で操作やプラグインのコマンドにショートカットを割り当てられる |
 | [Easing Quick Setup](https://github.com/NumberZero-0621/AviUtl2-easing-quick-setup)<br>`Number-0621.easing-quick-setup` | 汎用プラグイン | No.0 | MIT-0 License | znd 本体で対応 | znd のキーフレームの「イージングプリセット」で同じことができる |
 | [SelectEasing](https://github.com/NumberZero-0621/AviUtl2-Plugin-SelectEasing)<br>`Number-0621.SelectEasing` | 汎用プラグイン | No.0 | MIT-0  license | znd 本体で対応 | znd のキーフレームの「イージングプリセット」で同じことができる |
 | [レイヤー固定](https://github.com/ar-ca-na/aviutl2-layer-pin)<br>`ar-ca-na.layer-pin` | MOD | arcana | MIT | 対象外 | AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない |
@@ -446,7 +447,6 @@
 | [CopyAlias](https://github.com/rokujyushi/Copy_alias)<br>`KuroNeko.CopyAlias` | 汎用プラグイン | 黒猫大福 | MIT | 未着手 |  |
 | [FontPreview](https://github.com/rokujyushi/FontPreview)<br>`KuroNeko.FontPreview` | 汎用プラグイン | 黒猫大福 | MIT | 未着手 |  |
 | [LocusMotion](https://github.com/momoneeeko/LocusMotion.aux2)<br>`momo_neeeko.LocusMotion` | 汎用プラグイン | もも猫 | MIT | 未着手 |  |
-| [Any Shortcut for AviUtl2](https://github.com/mugi995/Any_Shortcut_for_AviUtl2)<br>`Mugi995.Any_Shortcut_for_AviUtl2` | 汎用プラグイン | Mugi995 | MIT | 未着手 |  |
 | [MyAssetManager](https://github.com/Natadecoco2539/AviUtl2-MyAssetManager)<br>`Natadecoco.MyAssetManager` | 汎用プラグイン | なたのこ | MIT | 未着手 |  |
 | [TextEditor](https://github.com/Natadecoco2539/AviUtl2-TextEditor)<br>`Natadecoco.TextEditor` | 汎用プラグイン | なたのこ | MIT | 未着手 |  |
 | [フレームキャプチャー](https://github.com/natuneko722/FrameCapturePlugin)<br>`natuneko722.FrameCapturePlugin` | 汎用プラグイン | 夏猫 | MIT | 未着手 |  |
