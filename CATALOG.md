@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 143 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 12 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 39 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 40 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 14 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 147 | まだ手を付けていない |
+| 未着手 | 146 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -193,6 +193,7 @@
 | [前回のプロジェクトを開く](https://github.com/ar-ca-na/aviutl2-open-last-project)<br>`ar-ca-na.open-last-project` | 外部プログラム | arcana | MIT | 対象外 | AviUtl2 の起動を外から操作する外部プログラムで、znd には対象がない |
 | [AviUtl2_Discord_RPC](https://github.com/amaii4/AviUtl2_Discord_RPC)<br>`amaii4.AviUtl2_Discord_RPC` | 汎用プラグイン | 甘味 | MIT | 対象外 | Discord のアプリと通信する機能で、znd のプラグインのスクリプトには外部と通信する手段がなく、ネイティブの通信は安全性スキャンで止められる |
 | [aviutl2-alias-inserter](https://github.com/beive60/aviutl2-alias-inserter)<br>`beive60.aviutl2-alias-inserter` | 汎用プラグイン | Beive60 | MIT | 対象外 | 外部の端末（Steam Deck など）から通信してエイリアスを入れるプラグインで、znd のプラグインには外部と通信する手段がない |
+| [aviutl2-audio-rec](https://github.com/beive60/aviutl2-audio-rec)<br>`beive60.aviutl2-audio-rec` | 汎用プラグイン | Beive60 | MIT | 対象外 | マイクから録音するプラグインで、znd のプラグインには録音の手段がない |
 | [1クリック動画切り抜き](https://github.com/clean262/sam3_bb_gb_generator)<br>`cleaning.sam3_bb_gb_generator` | 汎用プラグイン | クリーニング | MIT | 対象外 | SAM（Python の AI モデル）で背景を消すプラグインで、znd のプラグインからは外部のプログラムや AI モデルを動かせない |
 | [OCR文字抽出プラグイン](https://github.com/natuneko722/OCRTextExtractorPlugin)<br>`natuneko722.OCRTextExtractorPlugin` | 汎用プラグイン | 夏猫 | MIT | 対象外 | Windows 標準の OCR を呼ぶプラグインで、znd が動く環境では使えない |
 | [Rusty Restart Shortcut Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut` | 汎用プラグイン | Nanashi. | MIT | 対象外 | 作者が非推奨としている AviUtl2 の再起動メニューで、znd には対象がない |
@@ -419,7 +420,6 @@
 | [セリフ準備から.srtファイル生成プラグイン](https://github.com/mugi995/Serifu-JunbiToSRT-for-AviUtl2)<br>`Mugi995.Serifu-JunbiToSRT` | 出力プラグイン | Mugi995 | MIT | 未着手 |  |
 | [Rusty Statistics Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_statistics` | 出力プラグイン | Nanashi. | MIT | 未着手 |  |
 | [Gradient Editor](https://github.com/azurite581/AviUtl2-GradientEditor)<br>`azurite.GradientEditor` | 汎用プラグイン | azurite | MIT | 未着手 |  |
-| [aviutl2-audio-rec](https://github.com/beive60/aviutl2-audio-rec)<br>`beive60.aviutl2-audio-rec` | 汎用プラグイン | Beive60 | MIT | 未着手 |  |
 | [HL_FxWheel for AviUtl2](https://github.com/Hallkun19/HL_FxWheel-for-aul2)<br>`halkun19.HL_FxWheel` | 汎用プラグイン | はるくん / harukun19 | MIT | 未着手 |  |
 | [メモ帳プラグイン](https://github.com/hebiiro/al2_memo)<br>`hebiiro.al2_memo` | 汎用プラグイン | 蛇色 | MIT | 未着手 |  |
 | [タイムラインオブジェクト整列プラグイン](https://github.com/hebiiro/al2_timeline_object_arranger)<br>`hebiiro.al2_timeline_object_arranger` | 汎用プラグイン | 蛇色 | BSL-1.0 | 未着手 |  |

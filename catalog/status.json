@@ -964,8 +964,8 @@
   "status": "na"
  },
  "beive60.aviutl2-audio-rec": {
-  "note": "",
-  "status": "pending"
+  "note": "マイクから録音するプラグインで、znd のプラグインには録音の手段がない",
+  "status": "na"
  },
  "beive60.scene-lighting": {
   "note": "エフェクト（背景はレイヤーで選ぶ）",
