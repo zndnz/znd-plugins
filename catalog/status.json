@@ -618,8 +618,8 @@
   "status": "ported"
  },
  "Number-0621.SelectEasing": {
-  "note": "",
-  "status": "pending"
+  "note": "znd のキーフレームの「イージングプリセット」で同じことができる",
+  "status": "builtin"
  },
  "Number-0621.easing-quick-setup": {
   "note": "",
