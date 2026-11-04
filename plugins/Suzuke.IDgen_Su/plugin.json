@@ -1,0 +1,20 @@
+{
+  "id": "Suzuke.IDgen_Su",
+  "name": "IDgen_Su",
+  "version": "1.0.0",
+  "vendor": "Suzuke（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "UUIDv4等を表示するカスタムオブジェクト",
+  "permissions": [],
+  "panels": [
+    {
+      "id": "idgen",
+      "title": "IDgen_Su",
+      "script": "panels/idgen.js",
+      "width": 300
+    }
+  ],
+  "expressions": [
+    "expressions/idgen.js"
+  ]
+}

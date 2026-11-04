@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 45 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 46 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 290 | まだ手を付けていない |
+| 未着手 | 289 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -56,6 +56,7 @@
 | [シーンチェンジ自作キット](https://github.com/sigma-axis/aviutl2_script_SceneChangeKit_S)<br>`sigma-axis.SceneChangeKit_S` | スクリプト | σ軸 | Unlicense | [移植済み](plugins/sigma-axis.SceneChangeKit_S) | エフェクト（他のレイヤーの絵を取り込む） |
 | [SeiSa](https://github.com/samuelladoco/aviutl2-script-seisa)<br>`SLDC.SeiSa` | スクリプト | SLDC | MIT | [移植済み](plugins/SLDC.SeiSa) | パネル＋エクスプレッション用ライブラリ（テキストの本文のエクスプレッション） |
 | [放射クリッピング](https://github.com/supernyan74/Radial-Clipping)<br>`supernyan74.RadialClipping` | スクリプト | スーパーNyan | MIT | [移植済み](plugins/supernyan74.RadialClipping) | エフェクト |
+| [IDgen_Su](https://github.com/Suzukeh/IDgen_Su)<br>`Suzuke.IDgen_Su` | スクリプト | Suzuke | MIT | [移植済み](plugins/Suzuke.IDgen_Su) | パネル＋エクスプレッション用ライブラリ（テキストの本文のエクスプレッション） |
 | [Liquid Glass エフェクト](https://github.com/Tettu0530/Liquid-Glass)<br>`tettu0530.LiquidGlass` | スクリプト | tettu0530 | MIT | [移植済み](plugins/tettu0530.LiquidGlass) | エフェクト（背景は LAYER パラメータで選ぶ） |
 | [NCS風音声波形 (NCSAudioVisualizer)](https://github.com/Tettu0530/NCSAudioVisualizer)<br>`tettu0530.NCSVisualizer` | スクリプト | tettu0530 | MIT | [移植済み](plugins/tettu0530.NCSVisualizer) | エフェクト（音は LAYER パラメータで受け取る） |
 | [どこでもバッファ](https://github.com/zopty/DokodemoBuffer)<br>`zopty.DokodemoBuffer` | スクリプト | zopty | BSD-3-Clause | [移植済み](plugins/zopty.DokodemoBuffer) | エフェクト 4 つ（他のレイヤーは LAYER パラメータ、過去の絵は時刻を指定して取得） |
@@ -303,7 +304,6 @@
 | [Tile_S](https://github.com/sigma-axis/aviutl2_script_Tile_S)<br>`sigma-axis.Tile_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [WhiteBalance_S](https://github.com/sigma-axis/aviutl2_script_WhiteBalance_S)<br>`sigma-axis.WhiteBalance_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [JPEGCrush](https://note.com/sikemoti/n/n7017a0e6eabf)<br>`sikemoti.JPEGCrush` | スクリプト | しけもち | MIT | 未着手 |  |
-| [IDgen_Su](https://github.com/Suzukeh/IDgen_Su)<br>`Suzuke.IDgen_Su` | スクリプト | Suzuke | MIT | 未着手 |  |
 | [四隅に配置](https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E5%9B%9B%E9%9A%85%E3%81%AB%E9%85%8D%E7%BD%AE.anm2)<br>`teruyoshii.4corner` | スクリプト | てるよし | MIT | 未着手 |  |
 | [ノイズグラデーション](https://x.com/teruyoshi_uec/status/1979927691215471002)<br>`teruyoshii.noiseGradation` | スクリプト | てるよし | MIT | 未着手 |  |
 | [ノイズ_Te](https://github.com/teruyoshii/AviUtl2_Noise_Te)<br>`teruyoshii.noiseTe` | スクリプト | てるよし | MIT | 未着手 |  |

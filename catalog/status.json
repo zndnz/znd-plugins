@@ -747,8 +747,9 @@
   "status": "license"
  },
  "Suzuke.IDgen_Su": {
-  "note": "",
-  "status": "pending"
+  "note": "パネル＋エクスプレッション用ライブラリ（テキストの本文のエクスプレッション）",
+  "path": "plugins/Suzuke.IDgen_Su",
+  "status": "ported"
  },
  "UndoFish.Easing2020": {
   "note": "ライセンス: 不明（組み込めるライセンスではない）",
