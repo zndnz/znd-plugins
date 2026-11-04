@@ -1549,8 +1549,9 @@
   "status": "ported"
  },
  "sevenc-nanashi.filter_effect_toggle-aux2": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクトと調整レイヤーの切り替え",
+  "path": "plugins/sevenc-nanashi.filter_effect_toggle-aux2",
+  "status": "ported"
  },
  "sevenc-nanashi.import_midi_tempos-aux2": {
   "note": "MIDI のテンポとマーカーを読む",

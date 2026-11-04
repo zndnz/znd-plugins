@@ -1,0 +1,22 @@
+{
+  "id": "sevenc-nanashi.filter_effect_toggle-aux2",
+  "name": "filter_effect_toggle.aux2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "フィルタ効果とフィルタオブジェクトを切り替える機能を追加するプラグイン",
+  "permissions": [],
+  "commands": [
+    {
+      "id": "toggle",
+      "label": "エフェクトと調整レイヤーを切り替える",
+      "script": "commands/toggle.js",
+      "function": "toggleFilter",
+      "menu": [
+        "plugins",
+        "layer"
+      ],
+      "description": "レイヤーのエフェクトを調整レイヤーに移す／調整レイヤーのエフェクトを下のレイヤーに戻す"
+    }
+  ]
+}
