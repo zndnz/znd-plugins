@@ -1414,8 +1414,9 @@
   "status": "pending"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_equalizer": {
-  "note": "",
-  "status": "pending"
+  "note": "3 バンド EQ",
+  "path": "plugins/sevenc-nanashi.aviutl2-rs.rusty_equalizer",
+  "status": "ported"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg": {
   "note": "書き出し形式（FFmpeg の引数の組）",
