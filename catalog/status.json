@@ -871,8 +871,9 @@
   "status": "pending"
  },
  "arcana.connection_line": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト＋コマンド（端点はエクスプレッションでレイヤーに追従）",
+  "path": "plugins/arcana.connection_line",
+  "status": "ported"
  },
  "aviutl2-community.aviutl2_community_translation_companion": {
   "note": "AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない",

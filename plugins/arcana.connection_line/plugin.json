@@ -1,0 +1,25 @@
+{
+  "id": "arcana.connection_line",
+  "name": "連結ライン",
+  "version": "1.0.0",
+  "vendor": "arcana（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "指定した2つのオブジェクトを、実線または点線で繋ぎます。",
+  "permissions": [],
+  "effects": [
+    "lib/zp_arcana_connection_line"
+  ],
+  "commands": [
+    {
+      "id": "connect",
+      "label": "選んだ 2 つのレイヤーを線でつなぐ",
+      "script": "commands/connect.js",
+      "function": "connect",
+      "menu": [
+        "plugins",
+        "layer"
+      ],
+      "description": "コンポの大きさの平面に連結ラインを付け、端点を 2 つのレイヤーの位置へつなぎます"
+    }
+  ]
+}
