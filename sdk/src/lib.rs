@@ -253,6 +253,19 @@ impl<'a> Frame<'a> {
         Some(out)
     }
 
+    /// レイヤーが入っているコンポの大きさ（コンポの画素。`scale()` を掛けるとバッファの画素）。
+    /// AviUtl の `obj.screen_w` / `obj.screen_h` に当たる。ホストが無いときは 1920×1080。
+    pub fn comp_size(&self) -> (f64, f64) {
+        let Some(h) = self.host() else { return (1920.0, 1080.0) };
+        let (mut w, mut hh) = (0u32, 0u32);
+        unsafe { (h.comp_size)(h.ctx, &mut w, &mut hh) };
+        if w == 0 || hh == 0 {
+            (1920.0, 1080.0)
+        } else {
+            (w as f64, hh as f64)
+        }
+    }
+
     /// レイヤーのマスクのパス（バッファ画素座標の折れ線と、閉じているか）。
     pub fn masks(&self) -> Vec<(Vec<math::V2>, bool)> {
         let Some(h) = self.host() else { return Vec::new() };

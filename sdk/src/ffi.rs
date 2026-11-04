@@ -68,6 +68,7 @@ pub struct Host {
     pub set_output: unsafe extern "C" fn(*mut c_void, u32, u32, i32, i32, *mut Image) -> i32,
     pub mask_count: unsafe extern "C" fn(*mut c_void) -> u32,
     pub mask_points: unsafe extern "C" fn(*mut c_void, u32, *mut f64, u32, *mut u32) -> u32,
+    pub comp_size: unsafe extern "C" fn(*mut c_void, *mut u32, *mut u32),
 }
 
 #[repr(C)]
