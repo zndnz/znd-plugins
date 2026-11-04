@@ -1605,8 +1605,9 @@
   "status": "pending"
  },
  "sigma-axis.SceneChangeKit_S": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（他のレイヤーの絵を取り込む）",
+  "path": "plugins/sigma-axis.SceneChangeKit_S",
+  "status": "ported"
  },
  "sigma-axis.Tile_S": {
   "note": "",
