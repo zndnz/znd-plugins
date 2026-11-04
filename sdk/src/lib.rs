@@ -253,6 +253,21 @@ impl<'a> Frame<'a> {
         Some(out)
     }
 
+    /// レイヤーのマスクのパス（バッファ画素座標の折れ線と、閉じているか）。
+    pub fn masks(&self) -> Vec<(Vec<math::V2>, bool)> {
+        let Some(h) = self.host() else { return Vec::new() };
+        let n = unsafe { (h.mask_count)(h.ctx) };
+        (0..n)
+            .map(|i| unsafe {
+                let mut closed = 0u32;
+                let count = (h.mask_points)(h.ctx, i, std::ptr::null_mut(), 0, &mut closed);
+                let mut buf = vec![0.0f64; count as usize * 2];
+                (h.mask_points)(h.ctx, i, buf.as_mut_ptr(), count, &mut closed);
+                (buf.chunks_exact(2).map(|p| math::V2::new(p[0], p[1])).collect(), closed != 0)
+            })
+            .collect()
+    }
+
     /// 組み込みエフェクトを掛ける（`kind` は "gaussian_blur" など、`params` は JSON）。
     pub fn builtin(&self, kind: &str, params: &str, img: &mut Image) -> bool {
         let Some(h) = self.host() else { return false };

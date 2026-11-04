@@ -66,6 +66,8 @@ pub struct Host {
     pub audio: unsafe extern "C" fn(*mut c_void, u32, *mut f32, u32) -> i32,
     pub apply_effect: unsafe extern "C" fn(*mut c_void, *const c_char, *const c_char, *mut Image) -> i32,
     pub set_output: unsafe extern "C" fn(*mut c_void, u32, u32, i32, i32, *mut Image) -> i32,
+    pub mask_count: unsafe extern "C" fn(*mut c_void) -> u32,
+    pub mask_points: unsafe extern "C" fn(*mut c_void, u32, *mut f64, u32, *mut u32) -> u32,
 }
 
 #[repr(C)]
