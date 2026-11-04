@@ -1,0 +1,12 @@
+{
+  "id": "korarei.PixelSorter_K",
+  "name": "PixelSorter_K",
+  "version": "1.0.0",
+  "vendor": "Korarei（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "範囲とソート対象を指定できるピクセルソートスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_korarei_pixelsorter_k"
+  ]
+}

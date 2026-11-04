@@ -1068,8 +1068,9 @@
   "status": "pending"
  },
  "korarei.PixelSorter_K": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト",
+  "path": "plugins/korarei.PixelSorter_K",
+  "status": "ported"
  },
  "korarei.Stylize_K": {
   "note": "",
