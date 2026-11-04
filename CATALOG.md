@@ -6,11 +6,11 @@
 | 状況 | 数 | 意味 |
 |---|---|---|
 | 移植済み | 140 | `plugins/` に znd のプラグインとして再実装した |
-| znd 本体で対応 | 11 | znd 本体に同じ機能があるため、プラグインにしていない |
+| znd 本体で対応 | 12 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 29 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 162 | まだ手を付けていない |
+| 未着手 | 161 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -155,6 +155,7 @@
 | [SrtImporter](https://github.com/shyachi/AviUtl2_SrtImporter)<br>`shyachi.SrtImporter` | 汎用プラグイン | shyachi | MIT | [移植済み](plugins/shyachi.SrtImporter) | SRT 読み込みパネル |
 | [Palette History](https://github.com/teruyoshii/AviUtl2_Palette_History)<br>`teruyoshii.Palette_History` | 汎用プラグイン | てるよし | MIT | [移植済み](plugins/teruyoshii.Palette_History) | 色の履歴パネル |
 | [Tonecurve_C](https://x.com/CatWithNeko/status/1972685066963960255)<br>`CatWithNeko.ToneCurve` | スクリプト | こんにゃくねこ | CC0-1.0 | znd 本体で対応 | znd の組み込みエフェクト「トーンカーブ」で同じことができる |
+| [svg2obj](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.svg2obj` | スクリプト | 黒猫大福 | MIT | znd 本体で対応 | znd は SVG を素材として直接読み込める（ドロップでもよい） |
 | [出力時に非表示.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E5%87%BA%E5%8A%9B%E6%99%82%E3%81%AB%E9%9D%9E%E8%A1%A8%E7%A4%BA/README.md)<br>`sevenc-nanashi.aviutl2-scripts.hide_on_export-anm2` | スクリプト | Nanashi. | MIT | znd 本体で対応 | znd のガイドレイヤー（書き出しに含めないレイヤー）で同じことができる |
 | [void.auf2](https://github.com/sevenc-nanashi/void.auf2)<br>`sevenc-nanashi.void-auf2` | フィルタプラグイン | Nanashi. | MIT | znd 本体で対応 | znd の組み込みのヌルレイヤーで同じことができる |
 | [L-SMASH-Works](https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds)<br>`Mr-Ojii.L-SMASH-Works` | 入力プラグイン | Mr-Ojii | MIT | znd 本体で対応 | 動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ |
@@ -345,7 +346,6 @@
 | [@Stylize_K](https://github.com/korarei/AviUtl2_Stylize_K_Script)<br>`korarei.Stylize_K` | スクリプト | Korarei | MIT | 未着手 |  |
 | [audio2obj](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.audio2obj` | スクリプト | 黒猫大福 | MIT | 未着手 |  |
 | [midi2EAP2](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.midi2EAP2` | スクリプト | 黒猫大福 | MIT | 未着手 |  |
-| [svg2obj](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.svg2obj` | スクリプト | 黒猫大福 | MIT | 未着手 |  |
 | [TTSFileRename](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.TTSFileRename` | スクリプト | 黒猫大福 | MIT | 未着手 |  |
 | [VariableFont](https://github.com/rokujyushi/Variable-Font-Plug-ins)<br>`KuroNeko.VariableFont` | スクリプト | 黒猫大福 | MIT | 未着手 |  |
 | [ベクターキャンバス](https://github.com/Mg32/aviutl2-vectorcanvas)<br>`mogesystem.VectorCanvas` | スクリプト | もげ | MIT | 未着手 |  |
