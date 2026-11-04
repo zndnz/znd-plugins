@@ -32,8 +32,8 @@
   "status": "pending"
  },
  "Book-0225.relink": {
-  "note": "",
-  "status": "pending"
+  "note": "znd の組み込みの「欠落した素材を再リンク」（CLI は znd relink）で同じことができる",
+  "status": "builtin"
  },
  "CJF.MaskSelector": {
   "note": "",
