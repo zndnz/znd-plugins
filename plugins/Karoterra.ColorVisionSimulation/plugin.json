@@ -1,0 +1,12 @@
+{
+  "id": "Karoterra.ColorVisionSimulation",
+  "name": "色覚シミュレーションKR",
+  "version": "1.0.0",
+  "vendor": "かろてら（znd 移植: znd-plugins）",
+  "license": "Unlicense",
+  "description": "色覚を持つ人の見え方をシミュレーションするスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_karoterra_colorvisionsimulation"
+  ]
+}

@@ -425,8 +425,9 @@
   "status": "pending"
  },
  "Karoterra.ColorVisionSimulation": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト",
+  "path": "plugins/Karoterra.ColorVisionSimulation",
+  "status": "ported"
  },
  "Karoterra.OilPainting": {
   "note": "エフェクト",
