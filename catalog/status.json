@@ -545,8 +545,9 @@
   "status": "pending"
  },
  "NeAc.CinemaScope": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（コンポの大きさの平面に掛ける）",
+  "path": "plugins/NeAc.CinemaScope",
+  "status": "ported"
  },
  "NeAc.Egasumi": {
   "note": "",

@@ -1,0 +1,12 @@
+{
+  "id": "NeAc.CinemaScope",
+  "name": "シネマスコープ",
+  "version": "1.0.0",
+  "vendor": "猫愛（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "シネマスコープ風の黒帯を描画するスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_neac_cinemascope"
+  ]
+}
