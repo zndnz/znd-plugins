@@ -1383,8 +1383,9 @@
   "status": "pending"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/sevenc-nanashi.aviutl2-rs.rusty_ffmpeg",
+  "status": "ported"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_image_rs_input": {
   "note": "",

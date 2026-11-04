@@ -1,0 +1,36 @@
+{
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_ffmpeg",
+  "name": "Rusty FFmpeg Output",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "FFmpegを使用して動画を出力するプラグイン",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "ffmpeg",
+      "label": "rusty_ffmpeg（FFmpeg の引数を指定）",
+      "extension": "mp4",
+      "video_args": [
+        "{vargs}"
+      ],
+      "audio_args": [
+        "{aargs}"
+      ],
+      "params": [
+        {
+          "id": "vargs",
+          "label": "映像の引数",
+          "type": "args",
+          "default": "-c:v libx264 -crf 18 -preset medium -pix_fmt yuv420p"
+        },
+        {
+          "id": "aargs",
+          "label": "音声の引数",
+          "type": "args",
+          "default": "-c:a aac -b:a 320k"
+        }
+      ]
+    }
+  ]
+}
