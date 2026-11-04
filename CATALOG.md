@@ -6,11 +6,11 @@
 | 状況 | 数 | 意味 |
 |---|---|---|
 | 移植済み | 130 | `plugins/` に znd のプラグインとして再実装した |
-| znd 本体で対応 | 4 | znd 本体に同じ機能があるため、プラグインにしていない |
+| znd 本体で対応 | 5 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 24 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 184 | まだ手を付けていない |
+| 未着手 | 183 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -145,6 +145,7 @@
 | [SrtImporter](https://github.com/shyachi/AviUtl2_SrtImporter)<br>`shyachi.SrtImporter` | 汎用プラグイン | shyachi | MIT | [移植済み](plugins/shyachi.SrtImporter) | SRT 読み込みパネル |
 | [Palette History](https://github.com/teruyoshii/AviUtl2_Palette_History)<br>`teruyoshii.Palette_History` | 汎用プラグイン | てるよし | MIT | [移植済み](plugins/teruyoshii.Palette_History) | 色の履歴パネル |
 | [Tonecurve_C](https://x.com/CatWithNeko/status/1972685066963960255)<br>`CatWithNeko.ToneCurve` | スクリプト | こんにゃくねこ | CC0-1.0 | znd 本体で対応 | znd の組み込みエフェクト「トーンカーブ」で同じことができる |
+| [出力時に非表示.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E5%87%BA%E5%8A%9B%E6%99%82%E3%81%AB%E9%9D%9E%E8%A1%A8%E7%A4%BA/README.md)<br>`sevenc-nanashi.aviutl2-scripts.hide_on_export-anm2` | スクリプト | Nanashi. | MIT | znd 本体で対応 | znd のガイドレイヤー（書き出しに含めないレイヤー）で同じことができる |
 | [void.auf2](https://github.com/sevenc-nanashi/void.auf2)<br>`sevenc-nanashi.void-auf2` | フィルタプラグイン | Nanashi. | MIT | znd 本体で対応 | znd の組み込みのヌルレイヤーで同じことができる |
 | [L-SMASH-Works](https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds)<br>`Mr-Ojii.L-SMASH-Works` | 入力プラグイン | Mr-Ojii | MIT | znd 本体で対応 | 動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ |
 | [Rusty Image Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_image_rs_output` | 出力プラグイン | Nanashi. | MIT | znd 本体で対応 | 画像の連番の書き出し。znd 本体の書き出し形式に PNG 連番（8/16bit）・EXR 連番があり、静止画 1 枚は rusty_single_image_output の移植で書き出せる |
@@ -342,7 +343,6 @@
 | [CRTディスプレイ風.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/CRT%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E9%A2%A8/README.md)<br>`sevenc-nanashi.aviutl2-scripts.crt-display.anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [ドカベン.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%82%AB%E3%83%99%E3%83%B3)<br>`sevenc-nanashi.aviutl2-scripts.dokaben-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [GPUピクセルソート.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/GPU%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88/README.md)<br>`sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
-| [出力時に非表示.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E5%87%BA%E5%8A%9B%E6%99%82%E3%81%AB%E9%9D%9E%E8%A1%A8%E7%A4%BA/README.md)<br>`sevenc-nanashi.aviutl2-scripts.hide_on_export-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [旧発光.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E6%97%A7%E7%99%BA%E5%85%89)<br>`sevenc-nanashi.aviutl2-scripts.legacy_glow-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [ドット絵変形.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/tree/main/scripts/%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2#%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%E5%A4%89%E5%BD%A2anm2)<br>`sevenc-nanashi.aviutl2-scripts.pixel-transform-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [目標指定拡大縮小.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%9B%AE%E6%A8%99%E6%8C%87%E5%AE%9A%E6%8B%A1%E5%A4%A7%E7%B8%AE%E5%B0%8F/README.md)<br>`sevenc-nanashi.aviutl2-scripts.targeted-scale-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |

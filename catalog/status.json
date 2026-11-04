@@ -1503,8 +1503,8 @@
   "status": "pending"
  },
  "sevenc-nanashi.aviutl2-scripts.hide_on_export-anm2": {
-  "note": "",
-  "status": "pending"
+  "note": "znd のガイドレイヤー（書き出しに含めないレイヤー）で同じことができる",
+  "status": "builtin"
  },
  "sevenc-nanashi.aviutl2-scripts.legacy_glow-anm2": {
   "note": "",
