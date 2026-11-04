@@ -250,3 +250,50 @@ mod tests {
         assert!((area - std::f32::consts::PI * 400.0).abs() < 4.0, "{area}");
     }
 }
+
+/// 三角形 `d` に、`src` の三角形 `s`（画素座標）を貼って `dst` に重ねる（アフィン、バイリニア、プリマルチプライドの通常合成）。
+/// 隣り合う三角形の継ぎ目が二重に塗られないよう、左上規則で塗る。
+pub fn textured_triangle(dst: &mut Image, src: &Image, d: [V2; 3], s: [V2; 3], alpha: f32) {
+    let area = (d[1].x - d[0].x) * (d[2].y - d[0].y) - (d[2].x - d[0].x) * (d[1].y - d[0].y);
+    if area.abs() < 1e-12 {
+        return;
+    }
+    // 向きをそろえる（反時計回りにする）
+    let (d, s) = if area < 0.0 { ([d[0], d[2], d[1]], [s[0], s[2], s[1]]) } else { (d, s) };
+    let area = area.abs();
+    let x0 = d.iter().map(|p| p.x).fold(f64::INFINITY, f64::min).floor().max(0.0) as usize;
+    let y0 = d.iter().map(|p| p.y).fold(f64::INFINITY, f64::min).floor().max(0.0) as usize;
+    let x1 = (d.iter().map(|p| p.x).fold(f64::NEG_INFINITY, f64::max).ceil().max(0.0) as usize).min(dst.w);
+    let y1 = (d.iter().map(|p| p.y).fold(f64::NEG_INFINITY, f64::max).ceil().max(0.0) as usize).min(dst.h);
+    let edge = |a: V2, b: V2, p: V2| (b.x - a.x) * (p.y - a.y) - (p.x - a.x) * (b.y - a.y);
+    // 左上規則: 上の辺・左の辺だけ境界を含める
+    let top_left = |a: V2, b: V2| (a.y == b.y && b.x < a.x) || b.y < a.y;
+    let incl = [top_left(d[1], d[2]), top_left(d[2], d[0]), top_left(d[0], d[1])];
+    for y in y0..y1 {
+        for x in x0..x1 {
+            let p = V2::new(x as f64 + 0.5, y as f64 + 0.5);
+            let w = [edge(d[1], d[2], p), edge(d[2], d[0], p), edge(d[0], d[1], p)];
+            if (0..3).any(|k| w[k] < 0.0 || (w[k] == 0.0 && !incl[k])) {
+                continue;
+            }
+            let (b0, b1, b2) = (w[0] / area, w[1] / area, w[2] / area);
+            let u = s[0].x * b0 + s[1].x * b1 + s[2].x * b2;
+            let v = s[0].y * b0 + s[1].y * b1 + s[2].y * b2;
+            let c = src.sample(u as f32, v as f32);
+            if c[3] <= 0.0 {
+                continue;
+            }
+            let i = dst.idx(x, y);
+            let k = 1.0 - c[3] * alpha;
+            for ch in 0..4 {
+                dst.data[i + ch] = c[ch] * alpha + dst.data[i + ch] * k;
+            }
+        }
+    }
+}
+
+/// AviUtl の `obj.drawpoly` に当たるもの: 四角形 `d` に `src` の四角形 `s` を 2 つの三角形に分けて貼る。
+pub fn textured_quad(dst: &mut Image, src: &Image, d: [V2; 4], s: [V2; 4], alpha: f32) {
+    textured_triangle(dst, src, [d[0], d[1], d[2]], [s[0], s[1], s[2]], alpha);
+    textured_triangle(dst, src, [d[0], d[2], d[3]], [s[0], s[2], s[3]], alpha);
+}
