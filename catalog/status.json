@@ -65,8 +65,8 @@
   "status": "pending"
  },
  "CatWithNeko.Composite": {
-  "note": "",
-  "status": "pending"
+  "note": "znd のエフェクトは後に続くエフェクトの結果を受け取れない（エフェクトの順番と合成モードで代わりになる）",
+  "status": "na"
  },
  "CatWithNeko.Dither": {
   "note": "乱数閾値の二値化",
