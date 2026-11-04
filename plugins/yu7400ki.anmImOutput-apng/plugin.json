@@ -1,0 +1,35 @@
+{
+  "id": "yu7400ki.anmImOutput-apng",
+  "name": "APNG出力プラグイン",
+  "version": "1.0.0",
+  "vendor": "yu7400ki（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "動画をAPNGとして出力するプラグイン",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "apng",
+      "label": "APNG（アニメーション PNG）",
+      "extension": "png",
+      "alpha": true,
+      "video_args": [
+        "-f",
+        "apng",
+        "-plays",
+        "{loop}",
+        "-pix_fmt",
+        "rgba"
+      ],
+      "params": [
+        {
+          "id": "loop",
+          "label": "ループ回数（0 で無限）",
+          "type": "number",
+          "default": 0,
+          "min": 0,
+          "max": 1000
+        }
+      ]
+    }
+  ]
+}

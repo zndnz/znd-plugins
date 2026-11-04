@@ -1792,8 +1792,9 @@
   "status": "pending"
  },
  "yu7400ki.anmImOutput-apng": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/yu7400ki.anmImOutput-apng",
+  "status": "ported"
  },
  "yu7400ki.anmImOutput-avif": {
   "note": "",
