@@ -1557,8 +1557,9 @@
   "status": "pending"
  },
  "sevenc-nanashi.insert-aux2": {
-  "note": "",
-  "status": "pending"
+  "note": "メディアを挿入",
+  "path": "plugins/sevenc-nanashi.insert-aux2",
+  "status": "ported"
  },
  "sevenc-nanashi.modify_group_num_layers-aux2": {
   "note": "",

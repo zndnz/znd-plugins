@@ -1,0 +1,24 @@
+{
+  "id": "sevenc-nanashi.insert-aux2",
+  "name": "insert.aux2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "「メディアを挿入」編集メニューを追加する汎用プラグイン",
+  "permissions": [
+    "filesystem"
+  ],
+  "commands": [
+    {
+      "id": "insert",
+      "label": "メディアを挿入",
+      "script": "commands/insert.js",
+      "function": "insertMedia",
+      "menu": [
+        "plugins",
+        "toolbar"
+      ],
+      "description": "素材を選んで、再生ヘッドの位置に読み込みます"
+    }
+  ]
+}
