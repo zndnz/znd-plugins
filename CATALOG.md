@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 111 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 112 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 4 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 19 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 208 | まだ手を付けていない |
+| 未着手 | 207 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -100,6 +100,7 @@
 | [NCS風音声波形 (NCSAudioVisualizer)](https://github.com/Tettu0530/NCSAudioVisualizer)<br>`tettu0530.NCSVisualizer` | スクリプト | tettu0530 | MIT | [移植済み](plugins/tettu0530.NCSVisualizer) | エフェクト（音は LAYER パラメータで受け取る） |
 | [ブラインドループ](https://gist.github.com/zopty/ff3439d79fe609c7714d6db4ef1a39a6)<br>`zopty.BlindLoop` | スクリプト | zopty | BSD-3-Clause | [移植済み](plugins/zopty.BlindLoop) | 斜めクリッピングの連続 |
 | [どこでもバッファ](https://github.com/zopty/DokodemoBuffer)<br>`zopty.DokodemoBuffer` | スクリプト | zopty | BSD-3-Clause | [移植済み](plugins/zopty.DokodemoBuffer) | エフェクト 4 つ（他のレイヤーは LAYER パラメータ、過去の絵は時刻を指定して取得） |
+| [Rusty Chiptune Filter](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_chiptune` | フィルタプラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-rs.rusty_chiptune) | チップチューン音源 |
 | [Rusty Equalizer Filter](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_equalizer` | フィルタプラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-rs.rusty_equalizer) | 3 バンド EQ |
 | [Rusty Pixel Sort Filter](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_pixelsort` | フィルタプラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-rs.rusty_pixelsort) | ピクセルソート |
 | [Rusty Random Color Filter](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_random_color` | フィルタプラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.aviutl2-rs.rusty_random_color) | ランダムな色の図形 |
@@ -366,7 +367,6 @@
 | [vsr4aviutl](https://github.com/Pachira762/vsr4aviutl)<br>`Pachira762.vsr4aviutl` | フィルタプラグイン | Pachira762 | MIT | 未着手 |  |
 | [mojie](https://github.com/ronin-gw/aviutl2_mojie)<br>`ronin_gw.mojie` | フィルタプラグイン | Andy.F | MIT | 未着手 |  |
 | [Rusty Binaural Filter](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_binaural` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
-| [Rusty Chiptune Filter](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_chiptune` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
 | [svg.aux2](https://github.com/sevenc-nanashi/svg.aux2)<br>`sevenc-nanashi.svg-aux2` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
 | [tex.auf2](https://github.com/sevenc-nanashi/tex.auf2)<br>`sevenc-nanashi.tex-auf2` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
 | [Border_S](https://github.com/sigma-axis/aviutl2_Border_S)<br>`sigma-axis.Border_S` | フィルタプラグイン | σ軸 | MIT | 未着手 |  |

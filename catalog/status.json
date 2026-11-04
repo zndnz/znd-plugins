@@ -1410,8 +1410,9 @@
   "status": "pending"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_chiptune": {
-  "note": "",
-  "status": "pending"
+  "note": "チップチューン音源",
+  "path": "plugins/sevenc-nanashi.aviutl2-rs.rusty_chiptune",
+  "status": "ported"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_equalizer": {
   "note": "3 バンド EQ",
