@@ -1,0 +1,20 @@
+{
+  "id": "sevenc-nanashi.aviutl2-scripts.targeted-scale-anm2",
+  "name": "目標指定拡大縮小.anm2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "目標のピクセル数を指定し拡大縮小を行うスクリプト",
+  "permissions": [],
+  "expressions": [
+    "expressions/targeted_scale.js"
+  ],
+  "panels": [
+    {
+      "id": "targeted_scale",
+      "title": "目標指定拡大縮小",
+      "script": "panels/targeted_scale.js",
+      "width": 280
+    }
+  ]
+}
