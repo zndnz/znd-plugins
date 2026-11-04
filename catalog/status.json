@@ -1611,8 +1611,9 @@
   "status": "ported"
  },
  "sevenc-nanashi.vintage-auf2": {
-  "note": "",
-  "status": "pending"
+  "note": "昔の録音風の音声",
+  "path": "plugins/sevenc-nanashi.vintage-auf2",
+  "status": "ported"
  },
  "sevenc-nanashi.void-auf2": {
   "note": "znd の組み込みのヌルレイヤーで同じことができる",

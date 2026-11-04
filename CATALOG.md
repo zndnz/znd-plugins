@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 107 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 108 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 4 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 19 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 212 | まだ手を付けていない |
+| 未着手 | 211 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -100,6 +100,7 @@
 | [NCS風音声波形 (NCSAudioVisualizer)](https://github.com/Tettu0530/NCSAudioVisualizer)<br>`tettu0530.NCSVisualizer` | スクリプト | tettu0530 | MIT | [移植済み](plugins/tettu0530.NCSVisualizer) | エフェクト（音は LAYER パラメータで受け取る） |
 | [ブラインドループ](https://gist.github.com/zopty/ff3439d79fe609c7714d6db4ef1a39a6)<br>`zopty.BlindLoop` | スクリプト | zopty | BSD-3-Clause | [移植済み](plugins/zopty.BlindLoop) | 斜めクリッピングの連続 |
 | [どこでもバッファ](https://github.com/zopty/DokodemoBuffer)<br>`zopty.DokodemoBuffer` | スクリプト | zopty | BSD-3-Clause | [移植済み](plugins/zopty.DokodemoBuffer) | エフェクト 4 つ（他のレイヤーは LAYER パラメータ、過去の絵は時刻を指定して取得） |
+| [vintage.auf2](https://github.com/sevenc-nanashi/vintage.auf2)<br>`sevenc-nanashi.vintage-auf2` | フィルタプラグイン | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.vintage-auf2) | 昔の録音風の音声 |
 | [ImageCropExport](https://github.com/azurite581/AviUtl2-ImageCropExport)<br>`azurite.ImageCropExport` | 出力プラグイン | azurite | MIT | [移植済み](plugins/azurite.ImageCropExport) | 書き出し形式（FFmpeg の引数の組） |
 | [WAVファイル出力](https://github.com/hebiiro/al2_wav_saver/)<br>`hebiiro.al2_wav_saver` | 出力プラグイン | 蛇色 | MIT | [移植済み](plugins/hebiiro.al2_wav_saver) | 書き出し形式（FFmpeg の引数の組） |
 | [WAVファイル出力](https://github.com/cycloawaodorin/wav_output_ks)<br>`KAZOON.wav_output_ks` | 出力プラグイン | KAZOON | MIT | [移植済み](plugins/KAZOON.wav_output_ks) | 書き出し形式（FFmpeg の引数の組） |
@@ -368,7 +369,6 @@
 | [Rusty Random Color Filter](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_random_color` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
 | [svg.aux2](https://github.com/sevenc-nanashi/svg.aux2)<br>`sevenc-nanashi.svg-aux2` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
 | [tex.auf2](https://github.com/sevenc-nanashi/tex.auf2)<br>`sevenc-nanashi.tex-auf2` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
-| [vintage.auf2](https://github.com/sevenc-nanashi/vintage.auf2)<br>`sevenc-nanashi.vintage-auf2` | フィルタプラグイン | Nanashi. | MIT | 未着手 |  |
 | [Border_S](https://github.com/sigma-axis/aviutl2_Border_S)<br>`sigma-axis.Border_S` | フィルタプラグイン | σ軸 | MIT | 未着手 |  |
 | [AudioFilter](https://github.com/vramwiz/Aul2AudioFilter)<br>`VRAMWIZ.AudioFilter` | フィルタプラグイン | VRAMの魔術師 | MIT | 未着手 |  |
 | [呼吸](https://github.com/vramwiz/SYNC_Breath/)<br>`VRAMWIZ.SYNC_Breath` | フィルタプラグイン | VRAMの魔術師 | MIT | 未着手 |  |

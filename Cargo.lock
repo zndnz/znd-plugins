@@ -1300,6 +1300,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-sevenc-nanashi-vintage-auf2"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-sigma-axis-autoclipping-s"
 version = "1.0.0"
 dependencies = [
