@@ -120,3 +120,14 @@ fn every_script_evaluates() {
         }
     }
 }
+
+#[test]
+fn every_exporter_expands_all_placeholders() {
+    load_all();
+    for ex in znd_render::plugins::hooks::exporters().into_iter().filter(|e| plugins::packages().iter().any(|p| p.manifest.id == e.plugin && p.dir.starts_with(plugins_dir()))) {
+        for a in ex.expand(&ex.video_args, &Default::default()).iter().chain(&ex.expand(&ex.audio_args, &Default::default())) {
+            assert!(!a.contains('{') || a.contains("split["), "{}: 置き換わらない引数 {a}", ex.key);
+        }
+        assert!(!ex.extension.contains('{'), "{}", ex.key);
+    }
+}
