@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 139 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 140 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 5 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 24 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 174 | まだ手を付けていない |
+| 未着手 | 173 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -97,6 +97,7 @@
 | [Histogram_S](https://github.com/sigma-axis/aviutl2_script_Histogram_S)<br>`sigma-axis.Histogram_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.Histogram_S) | エフェクト（対象は LAYER パラメータ） |
 | [最背面に配置](https://github.com/sigma-axis/aviutl2_script_Layback)<br>`sigma-axis.Layback` | スクリプト | σ軸 | Unlicense | [移植済み](plugins/sigma-axis.Layback) | コマンド（レイヤーの重なり順を変える） |
 | [MovingMosaic_S](https://github.com/sigma-axis/aviutl2_script_MovingMosaic_S)<br>`sigma-axis.MovingMosaic_S` | スクリプト | σ軸 | Unlicense | [移植済み](plugins/sigma-axis.MovingMosaic_S) | エフェクト |
+| [PageRoll_S](https://github.com/sigma-axis/aviutl2_script_PageRoll_S)<br>`sigma-axis.PageRoll_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.PageRoll_S) | ページ巻き取り |
 | [PixelSnap_S](https://github.com/sigma-axis/aviutl2_script_PixelSnap_S)<br>`sigma-axis.PixelSnap_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.PixelSnap_S) | コマンド＋エクスプレッション用ライブラリ |
 | [RadRotDirBlur_S](https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S)<br>`sigma-axis.RadRotDirBlur_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.RadRotDirBlur_S) | エフェクト（ぼけた分だけ画像を広げる） |
 | [Resize_S](https://github.com/sigma-axis/aviutl2_script_Resize_S)<br>`sigma-axis.Resize_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.Resize_S) | リサイズσとボックスリサイズσ |
@@ -354,7 +355,6 @@
 | [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S)<br>`sigma-axis.Basic_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [GroundShadow2_S](https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S)<br>`sigma-axis.GroundShadow2_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [Lens_S](https://github.com/sigma-axis/aviutl2_script_Lens_S)<br>`sigma-axis.Lens_S` | スクリプト | σ軸 | MIT | 未着手 |  |
-| [PageRoll_S](https://github.com/sigma-axis/aviutl2_script_PageRoll_S)<br>`sigma-axis.PageRoll_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [Path_S](https://github.com/sigma-axis/aviutl2_script_Path_S/)<br>`sigma-axis.Path_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [Region_S](https://github.com/sigma-axis/aviutl2_script_Region_S)<br>`sigma-axis.Region_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [Tile_S](https://github.com/sigma-axis/aviutl2_script_Tile_S)<br>`sigma-axis.Tile_S` | スクリプト | σ軸 | MIT | 未着手 |  |

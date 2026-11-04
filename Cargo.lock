@@ -1426,6 +1426,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-sigma-axis-pageroll-s"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-sigma-axis-radrotdirblur-s"
 version = "1.0.0"
 dependencies = [

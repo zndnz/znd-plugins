@@ -1696,8 +1696,9 @@
   "status": "ported"
  },
  "sigma-axis.PageRoll_S": {
-  "note": "",
-  "status": "pending"
+  "note": "ページ巻き取り",
+  "path": "plugins/sigma-axis.PageRoll_S",
+  "status": "ported"
  },
  "sigma-axis.Path_S": {
   "note": "",
