@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 52 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 53 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 283 | まだ手を付けていない |
+| 未着手 | 282 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -64,6 +64,7 @@
 | [WAVファイル出力](https://github.com/cycloawaodorin/wav_output_ks)<br>`KAZOON.wav_output_ks` | 出力プラグイン | KAZOON | MIT | [移植済み](plugins/KAZOON.wav_output_ks) | 書き出し形式（FFmpeg の引数の組） |
 | [AudioEnc](https://github.com/sagami121/Aviutl2-AudioEnc)<br>`sagami121.AudioEnc` | 出力プラグイン | 3aGaM1 | MIT | [移植済み](plugins/sagami121.AudioEnc) | 書き出し形式（FFmpeg の引数の組） |
 | [APNG出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-apng` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-apng) | 書き出し形式（FFmpeg の引数の組） |
+| [AVIF出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-avif` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-avif) | 書き出し形式（FFmpeg の引数の組） |
 | [GIF出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-gif` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-gif) | 書き出し形式（FFmpeg の引数の組） |
 | [WebP出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-webp` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-webp) | 書き出し形式（FFmpeg の引数の組） |
 | [L-SMASH-Works](https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds)<br>`Mr-Ojii.L-SMASH-Works` | 入力プラグイン | Mr-Ojii | MIT | znd 本体で対応 | 動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ |
@@ -381,7 +382,6 @@
 | [Rusty Image Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_image_rs_output` | 出力プラグイン | Nanashi. | MIT | 未着手 |  |
 | [Rusty Single Image Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_single_image_output` | 出力プラグイン | Nanashi. | MIT | 未着手 |  |
 | [Rusty Statistics Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_statistics` | 出力プラグイン | Nanashi. | MIT | 未着手 |  |
-| [AVIF出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-avif` | 出力プラグイン | yu7400ki | MIT | 未着手 |  |
 | [JXL出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-jxl` | 出力プラグイン | yu7400ki | MIT | 未着手 |  |
 | [aup2 リンク修復](https://github.com/ar-ca-na/aviutl2-aup2-relink)<br>`ar-ca-na.aup2-relink` | 外部プログラム | arcana | MIT | 未着手 |  |
 | [前回のプロジェクトを開く](https://github.com/ar-ca-na/aviutl2-open-last-project)<br>`ar-ca-na.open-last-project` | 外部プログラム | arcana | MIT | 未着手 |  |

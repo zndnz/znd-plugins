@@ -1,0 +1,47 @@
+{
+  "id": "yu7400ki.anmImOutput-avif",
+  "name": "AVIF出力プラグイン",
+  "version": "1.0.0",
+  "vendor": "yu7400ki（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "動画をAVIFとして出力するプラグイン",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "avif",
+      "label": "AVIF（アニメーション）",
+      "extension": "avif",
+      "even": true,
+      "video_args": [
+        "-c:v",
+        "libaom-av1",
+        "-crf",
+        "{crf}",
+        "-cpu-used",
+        "{speed}",
+        "-pix_fmt",
+        "yuv420p",
+        "-f",
+        "avif"
+      ],
+      "params": [
+        {
+          "id": "crf",
+          "label": "画質 CRF（小さいほど高画質）",
+          "type": "number",
+          "default": 30,
+          "min": 0,
+          "max": 63
+        },
+        {
+          "id": "speed",
+          "label": "速さ（0 遅い〜8 速い）",
+          "type": "number",
+          "default": 6,
+          "min": 0,
+          "max": 8
+        }
+      ]
+    }
+  ]
+}
