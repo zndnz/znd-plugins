@@ -1,0 +1,12 @@
+{
+  "id": "saluf.SumiDamari",
+  "name": "墨だまり",
+  "version": "1.0.0",
+  "vendor": "saluf（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "墨だまり加工を追加するスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_saluf_sumidamari"
+  ]
+}

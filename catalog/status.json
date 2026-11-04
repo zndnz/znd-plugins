@@ -1337,8 +1337,9 @@
   "status": "pending"
  },
  "saluf.SumiDamari": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト",
+  "path": "plugins/saluf.SumiDamari",
+  "status": "ported"
  },
  "seilor0.roundedPolygonSl": {
   "note": "エフェクト（平面に掛ける）",
