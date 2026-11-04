@@ -1008,8 +1008,8 @@
   "status": "pending"
  },
  "halkun19.HL_Ezing": {
-  "note": "",
-  "status": "pending"
+  "note": "znd のキーフレームの「イージングプリセット」とグラフ編集で同じことができる",
+  "status": "builtin"
  },
  "halkun19.HL_FxWheel": {
   "note": "",

@@ -6,11 +6,11 @@
 | 状況 | 数 | 意味 |
 |---|---|---|
 | 移植済み | 140 | `plugins/` に znd のプラグインとして再実装した |
-| znd 本体で対応 | 9 | znd 本体に同じ機能があるため、プラグインにしていない |
+| znd 本体で対応 | 10 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 24 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 169 | まだ手を付けていない |
+| 未着手 | 168 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -161,6 +161,7 @@
 | [Rusty Image Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_image_rs_output` | 出力プラグイン | Nanashi. | MIT | znd 本体で対応 | 画像の連番の書き出し。znd 本体の書き出し形式に PNG 連番（8/16bit）・EXR 連番があり、静止画 1 枚は rusty_single_image_output の移植で書き出せる |
 | [aup2 リンク修復](https://github.com/ar-ca-na/aviutl2-aup2-relink)<br>`ar-ca-na.aup2-relink` | 外部プログラム | arcana | MIT | znd 本体で対応 | znd の組み込みの「欠落した素材を再リンク」（移動先のフォルダから同名のファイルを探す）で同じことができる |
 | [AviUtl2 relink](https://github.com/Book-0225/aviutl2_relink)<br>`Book-0225.relink` | 汎用プラグイン | Book0225 | MIT | znd 本体で対応 | znd の組み込みの「欠落した素材を再リンク」（CLI は znd relink）で同じことができる |
+| [HL_Ezing for AviUtl2](https://github.com/Hallkun19/HL_Ezing-for-aul2)<br>`halkun19.HL_Ezing` | 汎用プラグイン | はるくん / harukun19 | MIT | znd 本体で対応 | znd のキーフレームの「イージングプリセット」とグラフ編集で同じことができる |
 | [Easing Quick Setup](https://github.com/NumberZero-0621/AviUtl2-easing-quick-setup)<br>`Number-0621.easing-quick-setup` | 汎用プラグイン | No.0 | MIT-0 License | znd 本体で対応 | znd のキーフレームの「イージングプリセット」で同じことができる |
 | [SelectEasing](https://github.com/NumberZero-0621/AviUtl2-Plugin-SelectEasing)<br>`Number-0621.SelectEasing` | 汎用プラグイン | No.0 | MIT-0  license | znd 本体で対応 | znd のキーフレームの「イージングプリセット」で同じことができる |
 | [レイヤー固定](https://github.com/ar-ca-na/aviutl2-layer-pin)<br>`ar-ca-na.layer-pin` | MOD | arcana | MIT | 対象外 | AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない |
@@ -413,7 +414,6 @@
 | [aviutl2-alias-inserter](https://github.com/beive60/aviutl2-alias-inserter)<br>`beive60.aviutl2-alias-inserter` | 汎用プラグイン | Beive60 | MIT | 未着手 |  |
 | [aviutl2-audio-rec](https://github.com/beive60/aviutl2-audio-rec)<br>`beive60.aviutl2-audio-rec` | 汎用プラグイン | Beive60 | MIT | 未着手 |  |
 | [1クリック動画切り抜き](https://github.com/clean262/sam3_bb_gb_generator)<br>`cleaning.sam3_bb_gb_generator` | 汎用プラグイン | クリーニング | MIT | 未着手 |  |
-| [HL_Ezing for AviUtl2](https://github.com/Hallkun19/HL_Ezing-for-aul2)<br>`halkun19.HL_Ezing` | 汎用プラグイン | はるくん / harukun19 | MIT | 未着手 |  |
 | [HL_FxWheel for AviUtl2](https://github.com/Hallkun19/HL_FxWheel-for-aul2)<br>`halkun19.HL_FxWheel` | 汎用プラグイン | はるくん / harukun19 | MIT | 未着手 |  |
 | [メモ帳プラグイン](https://github.com/hebiiro/al2_memo)<br>`hebiiro.al2_memo` | 汎用プラグイン | 蛇色 | MIT | 未着手 |  |
 | [タイムラインオブジェクト整列プラグイン](https://github.com/hebiiro/al2_timeline_object_arranger)<br>`hebiiro.al2_timeline_object_arranger` | 汎用プラグイン | 蛇色 | BSL-1.0 | 未着手 |  |
