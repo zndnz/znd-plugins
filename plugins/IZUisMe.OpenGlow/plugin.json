@@ -1,0 +1,12 @@
+{
+  "id": "IZUisMe.OpenGlow",
+  "name": "Open Glow",
+  "version": "1.0.0",
+  "vendor": "絵に描いた虹（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "光学に基づいて自然に減衰する美しいグロー",
+  "permissions": [],
+  "effects": [
+    "lib/zp_izuisme_openglow"
+  ]
+}

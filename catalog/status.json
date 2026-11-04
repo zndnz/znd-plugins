@@ -399,8 +399,9 @@
   "status": "pending"
  },
  "IZUisMe.OpenGlow": {
-  "note": "",
-  "status": "pending"
+  "note": "物理減衰グロー",
+  "path": "plugins/IZUisMe.OpenGlow",
+  "status": "ported"
  },
  "InuyoshiAtom.ColorLink": {
   "note": "エフェクト＋コマンド（色はエクスプレッションでつなぐ）",

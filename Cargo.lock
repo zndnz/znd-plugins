@@ -1054,6 +1054,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-izuisme-openglow"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-karoterra-colorvisionsimulation"
 version = "1.0.0"
 dependencies = [
