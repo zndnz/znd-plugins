@@ -15,7 +15,6 @@ function rippleDelete() {
     // 先頭を切り、残りを元の開始位置へ寄せる（中身は切ったところから続く）
     l.start_time -= cut;
     l.out_point -= cut;
-    if (l.time_remap) { /* タイムリマップは中身の時刻なのでそのまま */ }
     (l.markers || []).forEach(function (m) { m.time -= cut; });
     c.layers.forEach(function (o) {
       if (o === l || o.locked || ids.indexOf(o.id) >= 0) return;
