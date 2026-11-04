@@ -1292,8 +1292,9 @@
   "status": "pending"
  },
  "sagami121.BlockNoise": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト",
+  "path": "plugins/sagami121.BlockNoise",
+  "status": "ported"
  },
  "sagami121.Calculator": {
   "note": "",

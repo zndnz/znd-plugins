@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 13 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 14 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 5 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 323 | まだ手を付けていない |
+| 未着手 | 322 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -22,6 +22,7 @@
 | [シネマスコープ](https://github.com/nea-c/aviutl2_script_CinemaScope)<br>`NeAc.CinemaScope` | スクリプト | 猫愛 | MIT | [移植済み](plugins/NeAc.CinemaScope) | エフェクト（コンポの大きさの平面に掛ける） |
 | [Scatter](https://github.com/nea-c/aviutl2_script_Scatter)<br>`NeAc.Scatter` | スクリプト | 猫愛 | MIT | [移植済み](plugins/NeAc.Scatter) | パネル＋エクスプレッション用ライブラリ |
 | [画面アスペクト](https://github.com/nea-c/aviutl2_script_ScreenAspect)<br>`NeAc.ScreenAspect` | スクリプト | 猫愛 | MIT | [移植済み](plugins/NeAc.ScreenAspect) | エフェクト（コンポの大きさの平面に掛ける） |
+| [BlockNoise](https://github.com/sagami121/Aviutl2-BlockNoise)<br>`sagami121.BlockNoise` | スクリプト | 3aGaM1 | MIT | [移植済み](plugins/sagami121.BlockNoise) | エフェクト |
 | [角丸正多角形_sl](https://github.com/seilor0/roundedPolygon_sl)<br>`seilor0.roundedPolygonSl` | スクリプト | セイル | MIT | [移植済み](plugins/seilor0.roundedPolygonSl) | エフェクト（平面に掛ける） |
 | [AutoClipping_S](https://github.com/sigma-axis/aviutl2_script_AutoClipping_S)<br>`sigma-axis.AutoClipping_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.AutoClipping_S) | エフェクト。大きさの変更は ABI 3 の set_output で行う |
 | [最背面に配置](https://github.com/sigma-axis/aviutl2_script_Layback)<br>`sigma-axis.Layback` | スクリプト | σ軸 | Unlicense | [移植済み](plugins/sigma-axis.Layback) | コマンド（レイヤーの重なり順を変える） |
@@ -257,7 +258,6 @@
 | [LyricMotioN](https://github.com/nea-c/aviutl2_script_LyricMotioN)<br>`NeAc.LyricMotioN` | スクリプト | 猫愛 | MIT | 未着手 |  |
 | [スピード線](https://github.com/nea-c/aviutl2_script_SpeedLine)<br>`NeAc.SpeedLine` | スクリプト | 猫愛 | MIT | 未着手 |  |
 | [VRM Toolkit for AviUtl2](https://github.com/nove-nove/aviutl2-vrm-toolkit)<br>`novenove.VRMToolkit` | スクリプト | novenove | MIT | 未着手 |  |
-| [BlockNoise](https://github.com/sagami121/Aviutl2-BlockNoise)<br>`sagami121.BlockNoise` | スクリプト | 3aGaM1 | MIT | 未着手 |  |
 | [Glitch_T](https://github.com/sagami121/Glitch_T)<br>`sagami121.Glitch_T` | スクリプト | 3aGaM1 | MIT | 未着手 |  |
 | [GParticle](https://github.com/sagami121/GParticle)<br>`sagami121.GParticle` | スクリプト | 3aGaM1 | MIT | 未着手 |  |
 | [QRCode](https://github.com/sagami121/Aviutl2-QRCode)<br>`sagami121.QRCode` | スクリプト | 3aGaM1 | MIT | 未着手 |  |
