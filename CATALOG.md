@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 143 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 12 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 37 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 38 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 14 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 149 | まだ手を付けていない |
+| 未着手 | 148 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -201,6 +201,7 @@
 | [reset_frame_selection_on_focus.aux2](https://github.com/sevenc-nanashi/reset_frame_selection_on_focus.aux2)<br>`sevenc-nanashi.reset_frame_selection_on_focus-aux2` | 汎用プラグイン | Nanashi. | MIT | 対象外 | AviUtl2 のフレーム選択の挙動を変える UI 用のもので、znd のワークエリアはレイヤーの選択で固定されない |
 | [Tinted AviUtl2](https://github.com/sevenc-nanashi/tinted-aviutl2)<br>`sevenc-nanashi.tinted-aviutl2` | 汎用プラグイン | Nanashi. | MIT | 対象外 | AviUtl2 本体の配色を書き換えるプラグインで、znd には書き換える対象がない |
 | [aviutl2_mcp_bridge](https://github.com/TranczMeq/aviutl2-live-mcp)<br>`tranczmeq.aviutl2-mcp-bridge` | 汎用プラグイン | TranczMeq | MIT | 対象外 | AviUtl2 を MCP から操作する通信のブリッジで、znd のプラグインには外部と通信する手段がない（znd は znd script と CLI で自動化できる） |
+| [AviUtl2 MCP](https://github.com/yh2237/AviUtl2-MCP)<br>`yh2237.AviUtl2-MCP` | 汎用プラグイン | yh | MIT | 対象外 | AviUtl2 を MCP から操作するサーバーで、znd のプラグインには外部と通信する手段がない（znd は znd script と CLI で自動化できる） |
 | [AviUtl2 Community Translation Companion](https://github.com/aviutl2/aviutl2-community-translation)<br>`aviutl2-community.aviutl2_community_translation_companion` | 言語ファイル | Nanashi. | MIT | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
 | [アクセスキー付き日本語リソース](https://github.com/Garech-mas/jp_akey.aul2)<br>`Garech.jp_akey.aul2` | 言語ファイル | Garech | CC0-1.0 | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
 | [非公式言語ファイル(Japanese_Mod)](https://github.com/reindex-ot/reindex_AviUtl2_Language)<br>`reindex-ot.reindex_AviUtl2_Language` | 言語ファイル | Re*Index. (ot_inc) | WTFPL license | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
@@ -460,4 +461,3 @@
 | [AutoZWJ](https://github.com/TNOTawa/AutoZWJ)<br>`tnotawa.autozwj` | 汎用プラグイン | TNOTawa | MIT | 未着手 |  |
 | [comfont.aux2](https://github.com/vandojapan/comfont)<br>`vandojapan.comfont` | 汎用プラグイン | 4vando | MIT | 未着手 |  |
 | [地図](https://github.com/vramwiz/MapRaku/)<br>`VRAMWIZ.SYNC_MapRaku` | 汎用プラグイン | VRAMの魔術師 | MIT | 未着手 |  |
-| [AviUtl2 MCP](https://github.com/yh2237/AviUtl2-MCP)<br>`yh2237.AviUtl2-MCP` | 汎用プラグイン | yh | MIT | 未着手 |  |

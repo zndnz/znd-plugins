@@ -1876,8 +1876,8 @@
   "status": "pending"
  },
  "yh2237.AviUtl2-MCP": {
-  "note": "",
-  "status": "pending"
+  "note": "AviUtl2 を MCP から操作するサーバーで、znd のプラグインには外部と通信する手段がない（znd は znd script と CLI で自動化できる）",
+  "status": "na"
  },
  "yu7400ki.anmImOutput-apng": {
   "note": "書き出し形式（FFmpeg の引数の組）",
