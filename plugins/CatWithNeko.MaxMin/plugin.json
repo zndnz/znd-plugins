@@ -1,0 +1,12 @@
+{
+  "id": "CatWithNeko.MaxMin",
+  "name": "MaxMin",
+  "version": "1.0.0",
+  "vendor": "こんにゃくねこ（znd 移植: znd-plugins）",
+  "license": "CC0-1.0",
+  "description": "最大値・最小値フィルタ",
+  "permissions": [],
+  "effects": [
+    "lib/zp_catwithneko_maxmin"
+  ]
+}

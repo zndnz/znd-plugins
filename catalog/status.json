@@ -108,8 +108,9 @@
   "status": "pending"
  },
  "CatWithNeko.MaxMin": {
-  "note": "",
-  "status": "pending"
+  "note": "最大値・最小値フィルタ",
+  "path": "plugins/CatWithNeko.MaxMin",
+  "status": "ported"
  },
  "CatWithNeko.Mosaic": {
   "note": "シャープなモザイク",
