@@ -1848,8 +1848,8 @@
   "status": "pending"
  },
  "tranczmeq.aviutl2-mcp-bridge": {
-  "note": "",
-  "status": "pending"
+  "note": "AviUtl2 を MCP から操作する通信のブリッジで、znd のプラグインには外部と通信する手段がない（znd は znd script と CLI で自動化できる）",
+  "status": "na"
  },
  "tsts4767.LoopPortionOfFrames": {
   "note": "ライセンス: カスタムライセンス（組み込めるライセンスではない）",
