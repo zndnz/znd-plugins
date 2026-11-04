@@ -1,0 +1,12 @@
+{
+  "id": "NeAc.Egasumi",
+  "name": "エ霞(えがすみ)",
+  "version": "1.0.0",
+  "vendor": "猫愛（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "和柄の雲を作成可能なカスタムオブジェクト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_neac_egasumi"
+  ]
+}

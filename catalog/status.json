@@ -552,8 +552,9 @@
   "status": "ported"
  },
  "NeAc.Egasumi": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（平面に掛ける）",
+  "path": "plugins/NeAc.Egasumi",
+  "status": "ported"
  },
  "NeAc.LongShadowN": {
   "note": "",
