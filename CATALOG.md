@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 61 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 62 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 274 | まだ手を付けていない |
+| 未着手 | 273 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -67,6 +67,7 @@
 | [GIFベイヤーディザ出力](https://github.com/osakana4242/aviutl2-gif-bayer-dither-output)<br>`osakana4242.GifBayerDitherOutput` | 出力プラグイン | 三川おさかな | 0BSD | [移植済み](plugins/osakana4242.GifBayerDitherOutput) | 書き出し形式（FFmpeg の引数の組） |
 | [ffmpegOut](https://github.com/rigaya/ffmpegOut)<br>`rigaya.ffmpegOut` | 出力プラグイン | rigaya | MIT | [移植済み](plugins/rigaya.ffmpegOut) | 書き出し形式（FFmpeg の引数の組） |
 | [svtAV1guiEx](https://github.com/rigaya/svtAV1guiEx)<br>`rigaya.svtAV1guiEx` | 出力プラグイン | rigaya | MIT | [移植済み](plugins/rigaya.svtAV1guiEx) | 書き出し形式（FFmpeg の引数の組） |
+| [VVenCguiEx](https://github.com/rigaya/VVenCguiEx)<br>`rigaya.VVenCguiEx` | 出力プラグイン | rigaya | MIT | [移植済み](plugins/rigaya.VVenCguiEx) | 書き出し形式（FFmpeg の引数の組） |
 | [x264guiEx](https://github.com/rigaya/x264guiEx)<br>`rigaya.x264guiEx` | 出力プラグイン | rigaya | MIT | [移植済み](plugins/rigaya.x264guiEx) | 書き出し形式（FFmpeg の引数の組） |
 | [x265guiEx](https://github.com/rigaya/x265guiEx)<br>`rigaya.x265guiEx` | 出力プラグイン | rigaya | MIT | [移植済み](plugins/rigaya.x265guiEx) | 書き出し形式（FFmpeg の引数の組） |
 | [AudioEnc](https://github.com/sagami121/Aviutl2-AudioEnc)<br>`sagami121.AudioEnc` | 出力プラグイン | 3aGaM1 | MIT | [移植済み](plugins/sagami121.AudioEnc) | 書き出し形式（FFmpeg の引数の組） |
@@ -378,7 +379,6 @@
 | [NVEnc](https://github.com/rigaya/NVEnc)<br>`rigaya.NVEnc` | 出力プラグイン | rigaya | MIT | 未着手 |  |
 | [QSVEnc](https://github.com/rigaya/QSVEnc)<br>`rigaya.QSVEnc` | 出力プラグイン | rigaya | MIT | 未着手 |  |
 | [VCEEnc](https://github.com/rigaya/VCEEnc)<br>`rigaya.VCEEnc` | 出力プラグイン | rigaya | MIT | 未着手 |  |
-| [VVenCguiEx](https://github.com/rigaya/VVenCguiEx)<br>`rigaya.VVenCguiEx` | 出力プラグイン | rigaya | MIT | 未着手 |  |
 | [Rusty FFmpeg Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_ffmpeg` | 出力プラグイン | Nanashi. | MIT | 未着手 |  |
 | [Rusty Image Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_image_rs_output` | 出力プラグイン | Nanashi. | MIT | 未着手 |  |
 | [Rusty Single Image Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_single_image_output` | 出力プラグイン | Nanashi. | MIT | 未着手 |  |

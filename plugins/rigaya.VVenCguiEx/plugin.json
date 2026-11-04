@@ -1,0 +1,73 @@
+{
+  "id": "rigaya.VVenCguiEx",
+  "name": "VVenCguiEx",
+  "version": "1.0.0",
+  "vendor": "rigaya（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "VVenCを使用してエンコードを行うAviutlの出力プラグインです。",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "vvenc",
+      "label": "VVenC（H.266/VVC）",
+      "extension": "mp4",
+      "even": true,
+      "video_args": [
+        "-c:v",
+        "libvvenc",
+        "-preset",
+        "{preset}",
+        "-qp",
+        "{q}",
+        "-pix_fmt",
+        "yuv420p10le",
+        "{extra}",
+        "-movflags",
+        "+faststart"
+      ],
+      "audio_args": [
+        "-c:a",
+        "aac",
+        "-b:a",
+        "{abr}k"
+      ],
+      "params": [
+        {
+          "id": "q",
+          "label": "画質 QP",
+          "type": "number",
+          "default": 32,
+          "min": 0,
+          "max": 63
+        },
+        {
+          "id": "preset",
+          "label": "プリセット",
+          "type": "choice",
+          "default": 2,
+          "options": [
+            "faster",
+            "fast",
+            "medium",
+            "slow",
+            "slower"
+          ]
+        },
+        {
+          "id": "abr",
+          "label": "音声ビットレート（kbps）",
+          "type": "number",
+          "default": 256,
+          "min": 32,
+          "max": 512
+        },
+        {
+          "id": "extra",
+          "label": "追加の引数",
+          "type": "args",
+          "default": ""
+        }
+      ]
+    }
+  ]
+}

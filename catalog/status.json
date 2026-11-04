@@ -1284,8 +1284,9 @@
   "status": "pending"
  },
  "rigaya.VVenCguiEx": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/rigaya.VVenCguiEx",
+  "status": "ported"
  },
  "rigaya.ffmpegOut": {
   "note": "書き出し形式（FFmpeg の引数の組）",
