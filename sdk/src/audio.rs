@@ -81,3 +81,114 @@ mod tests {
         assert!(super::band(&spec, sr, 900.0, 1100.0) > super::band(&spec, sr, 5000.0, 6000.0) * 10.0);
     }
 }
+
+/// 双 2 次フィルタの種類（RBJ の Audio EQ Cookbook）。
+#[derive(Clone, Copy, Debug, PartialEq)]
+pub enum BiquadKind {
+    LowPass,
+    HighPass,
+    BandPass,
+    Notch,
+    /// ピーキング（ゲインは dB）。
+    Peak(f64),
+    /// ローシェルフ（ゲインは dB）。
+    LowShelf(f64),
+    /// ハイシェルフ（ゲインは dB）。
+    HighShelf(f64),
+}
+
+/// 双 2 次フィルタ（直接形 I）。状態を持つので、チャンネルごとに 1 つ使う。
+#[derive(Clone, Debug)]
+pub struct Biquad {
+    b: [f64; 3],
+    a: [f64; 2],
+    x: [f64; 2],
+    y: [f64; 2],
+}
+
+impl Biquad {
+    /// `freq` は Hz、`q` は Q 値。
+    pub fn new(kind: BiquadKind, sample_rate: f64, freq: f64, q: f64) -> Self {
+        let mut f = Biquad { b: [1.0, 0.0, 0.0], a: [0.0, 0.0], x: [0.0; 2], y: [0.0; 2] };
+        f.set(kind, sample_rate, freq, q);
+        f
+    }
+
+    /// 係数だけを変える（状態はそのまま）。
+    pub fn set(&mut self, kind: BiquadKind, sample_rate: f64, freq: f64, q: f64) {
+        let w0 = 2.0 * std::f64::consts::PI * (freq / sample_rate).clamp(1e-6, 0.4999);
+        let (s, c) = w0.sin_cos();
+        let alpha = s / (2.0 * q.max(1e-6));
+        let (b0, b1, b2, a0, a1, a2) = match kind {
+            BiquadKind::LowPass => ((1.0 - c) / 2.0, 1.0 - c, (1.0 - c) / 2.0, 1.0 + alpha, -2.0 * c, 1.0 - alpha),
+            BiquadKind::HighPass => ((1.0 + c) / 2.0, -(1.0 + c), (1.0 + c) / 2.0, 1.0 + alpha, -2.0 * c, 1.0 - alpha),
+            BiquadKind::BandPass => (alpha, 0.0, -alpha, 1.0 + alpha, -2.0 * c, 1.0 - alpha),
+            BiquadKind::Notch => (1.0, -2.0 * c, 1.0, 1.0 + alpha, -2.0 * c, 1.0 - alpha),
+            BiquadKind::Peak(g) => {
+                let a = 10f64.powf(g / 40.0);
+                (1.0 + alpha * a, -2.0 * c, 1.0 - alpha * a, 1.0 + alpha / a, -2.0 * c, 1.0 - alpha / a)
+            }
+            BiquadKind::LowShelf(g) => {
+                let a = 10f64.powf(g / 40.0);
+                let k = 2.0 * a.sqrt() * alpha;
+                (
+                    a * ((a + 1.0) - (a - 1.0) * c + k),
+                    2.0 * a * ((a - 1.0) - (a + 1.0) * c),
+                    a * ((a + 1.0) - (a - 1.0) * c - k),
+                    (a + 1.0) + (a - 1.0) * c + k,
+                    -2.0 * ((a - 1.0) + (a + 1.0) * c),
+                    (a + 1.0) + (a - 1.0) * c - k,
+                )
+            }
+            BiquadKind::HighShelf(g) => {
+                let a = 10f64.powf(g / 40.0);
+                let k = 2.0 * a.sqrt() * alpha;
+                (
+                    a * ((a + 1.0) + (a - 1.0) * c + k),
+                    -2.0 * a * ((a - 1.0) + (a + 1.0) * c),
+                    a * ((a + 1.0) + (a - 1.0) * c - k),
+                    (a + 1.0) - (a - 1.0) * c + k,
+                    2.0 * ((a - 1.0) - (a + 1.0) * c),
+                    (a + 1.0) - (a - 1.0) * c - k,
+                )
+            }
+        };
+        self.b = [b0 / a0, b1 / a0, b2 / a0];
+        self.a = [a1 / a0, a2 / a0];
+    }
+
+    pub fn run(&mut self, x: f64) -> f64 {
+        let y = self.b[0] * x + self.b[1] * self.x[0] + self.b[2] * self.x[1] - self.a[0] * self.y[0] - self.a[1] * self.y[1];
+        self.x = [x, self.x[0]];
+        self.y = [y, self.y[0]];
+        y
+    }
+
+    pub fn reset(&mut self) {
+        self.x = [0.0; 2];
+        self.y = [0.0; 2];
+    }
+}
+
+#[cfg(test)]
+mod biquad_tests {
+    use super::*;
+    #[test]
+    fn lowpass_passes_dc_and_cuts_high() {
+        let mut f = Biquad::new(BiquadKind::LowPass, 48000.0, 1000.0, std::f64::consts::FRAC_1_SQRT_2);
+        let mut y = 0.0;
+        for _ in 0..4800 {
+            y = f.run(1.0);
+        }
+        assert!((y - 1.0).abs() < 1e-6);
+        let mut f = Biquad::new(BiquadKind::LowPass, 48000.0, 1000.0, std::f64::consts::FRAC_1_SQRT_2);
+        let mut peak: f64 = 0.0;
+        for i in 0..4800 {
+            let v = f.run(if i % 2 == 0 { 1.0 } else { -1.0 });
+            if i > 100 {
+                peak = peak.max(v.abs());
+            }
+        }
+        assert!(peak < 0.01, "{peak}");
+    }
+}
