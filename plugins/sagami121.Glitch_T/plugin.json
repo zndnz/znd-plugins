@@ -1,0 +1,12 @@
+{
+  "id": "sagami121.Glitch_T",
+  "name": "Glitch_T",
+  "version": "1.0.0",
+  "vendor": "3aGaM1（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "グリッチエフェクト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sagami121_glitch_t"
+  ]
+}

@@ -1314,8 +1314,9 @@
   "status": "pending"
  },
  "sagami121.Glitch_T": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト",
+  "path": "plugins/sagami121.Glitch_T",
+  "status": "ported"
  },
  "sagami121.HEIF-HEIC-Input": {
   "note": "",
