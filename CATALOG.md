@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 42 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 43 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 293 | まだ手を付けていない |
+| 未着手 | 292 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -44,6 +44,7 @@
 | [墨だまり](https://github.com/5qlufz-1536/AviUtl2_SumiDamari)<br>`saluf.SumiDamari` | スクリプト | saluf | MIT | [移植済み](plugins/saluf.SumiDamari) | エフェクト |
 | [角丸正多角形_sl](https://github.com/seilor0/roundedPolygon_sl)<br>`seilor0.roundedPolygonSl` | スクリプト | セイル | MIT | [移植済み](plugins/seilor0.roundedPolygonSl) | エフェクト（平面に掛ける） |
 | [twinkle_sl](https://github.com/seilor0/twinkle_sl)<br>`seilor0.twinkle_sl` | スクリプト | セイル | MIT | [移植済み](plugins/seilor0.twinkle_sl) | エフェクト 2 つ（平面に掛ける） |
+| [extra_blend_mode.anm2](https://github.com/sevenc-nanashi/extra_blend_mode.anm2)<br>`sevenc-nanashi.extra_blend_mode-anm2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.extra_blend_mode-anm2) | エフェクト（背景は LAYER パラメータで選ぶ） |
 | [AutoClipping_S](https://github.com/sigma-axis/aviutl2_script_AutoClipping_S)<br>`sigma-axis.AutoClipping_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.AutoClipping_S) | エフェクト。大きさの変更は ABI 3 の set_output で行う |
 | [ColoredCollar_S](https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S)<br>`sigma-axis.ColoredCollar_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.ColoredCollar_S) | エフェクト（画像を広げて縁を付ける） |
 | [最背面に配置](https://github.com/sigma-axis/aviutl2_script_Layback)<br>`sigma-axis.Layback` | スクリプト | σ軸 | Unlicense | [移植済み](plugins/sigma-axis.Layback) | コマンド（レイヤーの重なり順を変える） |
@@ -287,7 +288,6 @@
 | [縦動画ガイド.obj2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E7%B8%A6%E5%8B%95%E7%94%BB%E3%82%AC%E3%82%A4%E3%83%89/README.md)<br>`sevenc-nanashi.aviutl2-scripts.vertical-video-obj2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [budoux.obj2](https://github.com/sevenc-nanashi/budoux.obj2)<br>`sevenc-nanashi.budoux-obj2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [disassembler.anm2](https://github.com/sevenc-nanashi/disassembler.anm2)<br>`sevenc-nanashi.disassembler-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
-| [extra_blend_mode.anm2](https://github.com/sevenc-nanashi/extra_blend_mode.anm2)<br>`sevenc-nanashi.extra_blend_mode-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [ntsc-rs.anm2](https://github.com/sevenc-nanashi/ntsc-rs.anm2)<br>`sevenc-nanashi.ntsc-rs` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [ported_tim](https://github.com/sevenc-nanashi/ported_tim)<br>`sevenc-nanashi.ported_tim` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [time_control_assistant.tra2](https://github.com/sevenc-nanashi/time_control_assistant.tra2)<br>`sevenc-nanashi.time_control_assistant-tra2` | スクリプト | Nanashi. | MIT | 未着手 |  |

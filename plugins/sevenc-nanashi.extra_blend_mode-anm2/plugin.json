@@ -1,0 +1,12 @@
+{
+  "id": "sevenc-nanashi.extra_blend_mode-anm2",
+  "name": "extra_blend_mode.anm2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "合成モード拡張っぽいの",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sevenc_nanashi_extra_blend_mode_anm2"
+  ]
+}

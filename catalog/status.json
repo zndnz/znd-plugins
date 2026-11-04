@@ -1483,8 +1483,9 @@
   "status": "pending"
  },
  "sevenc-nanashi.extra_blend_mode-anm2": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（背景は LAYER パラメータで選ぶ）",
+  "path": "plugins/sevenc-nanashi.extra_blend_mode-anm2",
+  "status": "ported"
  },
  "sevenc-nanashi.filter_effect_toggle-aux2": {
   "note": "",
