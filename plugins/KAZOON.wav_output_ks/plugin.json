@@ -1,0 +1,61 @@
+{
+  "id": "KAZOON.wav_output_ks",
+  "name": "WAVファイル出力",
+  "version": "1.0.0",
+  "vendor": "KAZOON（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "モノラル/ステレオで出力できるWAVファイル出力プラグイン",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "wav",
+      "label": "WAV（モノラル/ステレオ）",
+      "extension": "wav",
+      "audio_only": true,
+      "audio_args": [
+        "-c:a",
+        "{codec}",
+        "-ac",
+        "{ch}"
+      ],
+      "params": [
+        {
+          "id": "ch",
+          "label": "チャンネル",
+          "type": "choice",
+          "default": 0,
+          "options": [
+            {
+              "label": "ステレオ",
+              "value": "2"
+            },
+            {
+              "label": "モノラル",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "id": "codec",
+          "label": "量子化",
+          "type": "choice",
+          "default": 0,
+          "options": [
+            {
+              "label": "16bit",
+              "value": "pcm_s16le"
+            },
+            {
+              "label": "24bit",
+              "value": "pcm_s24le"
+            },
+            {
+              "label": "32bit 浮動小数",
+              "value": "pcm_f32le"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

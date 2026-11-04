@@ -406,8 +406,9 @@
   "status": "pending"
  },
  "KAZOON.wav_output_ks": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/KAZOON.wav_output_ks",
+  "status": "ported"
  },
  "KYU.InterpolationObject": {
   "note": "",
