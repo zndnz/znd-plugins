@@ -1623,8 +1623,9 @@
   "status": "ported"
  },
  "sigma-axis.RadRotDirBlur_S": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（ぼけた分だけ画像を広げる）",
+  "path": "plugins/sigma-axis.RadRotDirBlur_S",
+  "status": "ported"
  },
  "sigma-axis.Region_S": {
   "note": "",

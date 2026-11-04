@@ -1,0 +1,12 @@
+{
+  "id": "sigma-axis.RadRotDirBlur_S",
+  "name": "RadRotDirBlur_S",
+  "version": "1.0.0",
+  "vendor": "σ軸（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "放射ブラー・回転ブラー・方向ブラーを組み合わせた複合ブラーのスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sigma_axis_radrotdirblur_s"
+  ]
+}
