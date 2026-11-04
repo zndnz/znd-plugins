@@ -98,8 +98,9 @@
   "status": "pending"
  },
  "CatWithNeko.Level": {
-  "note": "",
-  "status": "pending"
+  "note": "レベル補正",
+  "path": "plugins/CatWithNeko.Level",
+  "status": "ported"
  },
  "CatWithNeko.LongShadow": {
   "note": "",

@@ -1,0 +1,12 @@
+{
+  "id": "CatWithNeko.Level",
+  "name": "Level",
+  "version": "1.0.0",
+  "vendor": "こんにゃくねこ（znd 移植: znd-plugins）",
+  "license": "CC0-1.0",
+  "description": "レベル補正っぽいやつ",
+  "permissions": [],
+  "effects": [
+    "lib/zp_catwithneko_level"
+  ]
+}
