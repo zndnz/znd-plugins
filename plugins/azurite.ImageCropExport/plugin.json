@@ -15,7 +15,7 @@
       "single_frame": true,
       "video_args": [
         "-vf",
-        "crop={w}:{h}:{x}:{y}",
+        "crop=w='min({w},iw-{x})':h='min({h},ih-{y})':x='min({x},iw-1)':y='min({y},ih-1)'",
         "-frames:v",
         "1"
       ],
