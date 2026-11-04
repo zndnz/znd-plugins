@@ -1594,8 +1594,9 @@
   "status": "pending"
  },
  "sigma-axis.MovingMosaic_S": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト",
+  "path": "plugins/sigma-axis.MovingMosaic_S",
+  "status": "ported"
  },
  "sigma-axis.PageRoll_S": {
   "note": "",
