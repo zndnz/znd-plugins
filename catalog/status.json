@@ -906,8 +906,9 @@
   "status": "pending"
  },
  "azurite.Hex-Tiling": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（テクスチャは自分か LAYER パラメータのレイヤー）",
+  "path": "plugins/azurite.Hex-Tiling",
+  "status": "ported"
  },
  "azurite.ImageCropExport": {
   "note": "",

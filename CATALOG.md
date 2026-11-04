@@ -5,16 +5,17 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 37 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 38 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 298 | まだ手を付けていない |
+| 未着手 | 297 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
 | [連結ライン](https://github.com/ar-ca-na/connection_line)<br>`arcana.connection_line` | スクリプト | arcana | MIT | [移植済み](plugins/arcana.connection_line) | エフェクト＋コマンド（端点はエクスプレッションでレイヤーに追従） |
+| [Hex-Tiling](https://github.com/azurite581/AviUtl2-Hex-Tiling)<br>`azurite.Hex-Tiling` | スクリプト | azurite | MIT No Attribution | [移植済み](plugins/azurite.Hex-Tiling) | エフェクト（テクスチャは自分か LAYER パラメータのレイヤー） |
 | [ポイントズーム](https://github.com/azurite581/AviUtl2-PointZoom)<br>`azurite.PointZoom` | スクリプト | azurite | MIT | [移植済み](plugins/azurite.PointZoom) | エフェクト |
 | [scene-lighting](https://github.com/beive60/aviutl2-scene-lighting)<br>`beive60.scene-lighting` | スクリプト | Beive60 | MIT | [移植済み](plugins/beive60.scene-lighting) | エフェクト（背景はレイヤーで選ぶ） |
 | [プレースホルダー](https://github.com/eizo-gak/aviutl2-Placeholder)<br>`eizo-gak.aviutl2-Placeholder` | スクリプト | 映像学区 | MIT | [移植済み](plugins/eizo-gak.aviutl2-Placeholder) | エフェクト（平面に掛けると指定の大きさで描く） |
@@ -178,7 +179,6 @@
 | [中心ずらし_A](https://github.com/azurite581/AviUtl2-AdjustPivot_A)<br>`azurite.AdjustPivot_A` | スクリプト | azurite | MIT | 未着手 |  |
 | [ColorHalftone](https://github.com/azurite581/AviUtl2-ColorHalftone)<br>`azurite.ColorHalftone` | スクリプト | azurite | MIT | 未着手 |  |
 | [グラデーション+](https://github.com/azurite581/AviUtl2-GradientPlus)<br>`azurite.GradientPlus` | スクリプト | azurite | CC0-1.0 | 未着手 |  |
-| [Hex-Tiling](https://github.com/azurite581/AviUtl2-Hex-Tiling)<br>`azurite.Hex-Tiling` | スクリプト | azurite | MIT No Attribution | 未着手 |  |
 | [レイヤーグリッド表示](https://github.com/azurite581/AviUtl2-LayerGridView)<br>`azurite.LayerGridView` | スクリプト | azurite | MIT | 未着手 |  |
 | [AlphaDither_C](https://github.com/CatWithNeko/aviutl2-scripts#alphadither_c)<br>`CatWithNeko.AlphaDither` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [Canny](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Canny` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |

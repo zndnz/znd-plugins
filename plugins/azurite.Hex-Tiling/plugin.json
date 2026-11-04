@@ -1,0 +1,12 @@
+{
+  "id": "azurite.Hex-Tiling",
+  "name": "Hex-Tiling",
+  "version": "1.0.0",
+  "vendor": "azurite（znd 移植: znd-plugins）",
+  "license": "MIT-0",
+  "description": "テクスチャの繰り返しを目立ちにくくするスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_azurite_hex_tiling"
+  ]
+}
