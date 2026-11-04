@@ -1443,8 +1443,9 @@
   "status": "pending"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_pixelsort": {
-  "note": "",
-  "status": "pending"
+  "note": "ピクセルソート",
+  "path": "plugins/sevenc-nanashi.aviutl2-rs.rusty_pixelsort",
+  "status": "ported"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_random_color": {
   "note": "",
