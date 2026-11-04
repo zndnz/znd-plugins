@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 140 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 10 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 24 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 25 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 168 | まだ手を付けていない |
+| 未着手 | 167 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -175,6 +175,7 @@
 | [DockLayout](https://github.com/routersys/AUE2-DockLayout)<br>`routersys.DockLayout` | MOD | routersys | MIT | 対象外 | AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない |
 | [Composite](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Composite` | スクリプト | こんにゃくねこ | CC0-1.0 | 対象外 | znd のエフェクトは後に続くエフェクトの結果を受け取れない（エフェクトの順番と合成モードで代わりになる） |
 | [OSC4AU2](https://github.com/zopty/osc4au2)<br>`zopty.osc4au2` | スクリプト | zopty | BSD-3-Clause | 対象外 | OSC（UDP）で外部から値を受け取り、トラックバーを動かすライブ演奏用のプラグイン。znd のエクスプレッションとスクリプトは通信できない設計で、外部からの入力を時間軸に結び付ける仕組みも無い |
+| [HEIF_HEIC Input Plugin](https://github.com/sagami121/HEIF-HEIC-Input)<br>`sagami121.HEIF-HEIC-Input` | 入力プラグイン | 3aGaM1 | MIT | 対象外 | 入力プラグイン（素材の読み込み形式を足す）で、znd のプラグインには読み込み形式を足す仕組みがない |
 | [前回のプロジェクトを開く](https://github.com/ar-ca-na/aviutl2-open-last-project)<br>`ar-ca-na.open-last-project` | 外部プログラム | arcana | MIT | 対象外 | AviUtl2 の起動を外から操作する外部プログラムで、znd には対象がない |
 | [AviUtl2_Discord_RPC](https://github.com/amaii4/AviUtl2_Discord_RPC)<br>`amaii4.AviUtl2_Discord_RPC` | 汎用プラグイン | 甘味 | MIT | 対象外 | Discord のアプリと通信する機能で、znd のプラグインのスクリプトには外部と通信する手段がなく、ネイティブの通信は安全性スキャンで止められる |
 | [Rusty Restart Shortcut Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut` | 汎用プラグイン | Nanashi. | MIT | 対象外 | 作者が非推奨としている AviUtl2 の再起動メニューで、znd には対象がない |
@@ -403,7 +404,6 @@
 | [手ブレ補正プラグイン](https://github.com/yu7400ki/aviutl2-stabilizer-plugin)<br>`yu7400ki.stabilizer` | フィルタプラグイン | yu7400ki | MIT | 未着手 |  |
 | [HariboteReader](https://github.com/rokujyushi/Haribote)<br>`KuroNeko.Haribote` | 入力プラグイン | 黒猫大福 | MIT | 未着手 |  |
 | [WebPFileReader-Plugin](https://github.com/Mr-Ojii/AviUtl2-WebPFileReader-Plugin)<br>`Mr-Ojii.WebPFileReader-Plugin` | 入力プラグイン | Mr-Ojii | MIT | 未着手 |  |
-| [HEIF_HEIC Input Plugin](https://github.com/sagami121/HEIF-HEIC-Input)<br>`sagami121.HEIF-HEIC-Input` | 入力プラグイン | 3aGaM1 | MIT | 未着手 |  |
 | [NEF Input Plugin](https://github.com/sagami121/NEF-Input)<br>`sagami121.NEF-Input` | 入力プラグイン | 3aGaM1 | MIT | 未着手 |  |
 | [Rusty Image Input](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_image_rs_input` | 入力プラグイン | Nanashi. | MIT | 未着手 |  |
 | [Rusty Piano Midi Player Input](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_midi_player` | 入力プラグイン | Nanashi. | MIT | 未着手 |  |

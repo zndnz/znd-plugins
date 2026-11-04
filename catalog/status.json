@@ -1383,8 +1383,8 @@
   "status": "ported"
  },
  "sagami121.HEIF-HEIC-Input": {
-  "note": "",
-  "status": "pending"
+  "note": "入力プラグイン（素材の読み込み形式を足す）で、znd のプラグインには読み込み形式を足す仕組みがない",
+  "status": "na"
  },
  "sagami121.NEF-Input": {
   "note": "",
