@@ -1,0 +1,43 @@
+{
+  "id": "hebiiro.al2_wav_saver",
+  "name": "WAVファイル出力",
+  "version": "1.0.0",
+  "vendor": "蛇色（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "WAVファイルを出力するプラグイン",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "wav",
+      "label": "WAV（音声だけ）",
+      "extension": "wav",
+      "audio_only": true,
+      "audio_args": [
+        "-c:a",
+        "{codec}"
+      ],
+      "params": [
+        {
+          "id": "codec",
+          "label": "形式",
+          "type": "choice",
+          "default": 0,
+          "options": [
+            {
+              "label": "16bit 整数",
+              "value": "pcm_s16le"
+            },
+            {
+              "label": "24bit 整数",
+              "value": "pcm_s24le"
+            },
+            {
+              "label": "32bit 浮動小数",
+              "value": "pcm_f32le"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

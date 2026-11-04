@@ -1017,8 +1017,9 @@
   "status": "pending"
  },
  "hebiiro.al2_wav_saver": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/hebiiro.al2_wav_saver",
+  "status": "ported"
  },
  "hinodeisuzu.sliceglitch": {
   "note": "",
