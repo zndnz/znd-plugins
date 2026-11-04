@@ -509,8 +509,8 @@
   "status": "license"
  },
  "MIYA.Aup2GapFiller": {
-  "note": "",
-  "status": "pending"
+  "note": "リポジトリには README と LICENSE しかなく、ソースが公開されていない（配布はビルド済みのみ）",
+  "status": "closed"
  },
  "MonogoiNoobs.MFOutput": {
   "note": "書き出し形式（FFmpeg の引数の組）",

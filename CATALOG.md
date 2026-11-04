@@ -8,9 +8,9 @@
 | 移植済み | 142 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 12 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 31 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
-| ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
+| ソース非公開 | 14 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 157 | まだ手を付けていない |
+| 未着手 | 156 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -210,6 +210,7 @@
 | [ニコニ・コモンズ作品ID一覧出力プラグイン](https://www.nicovideo.jp/watch/sm46156601)<br>`Fuji.commons_material_extractor` | 汎用プラグイン | Fuji | MIT | ソース非公開 | ソースが公開されていない（配布物のみ） |
 | [Voice Drop](https://github.com/Fuji07-2525/voice-drop)<br>`Fuji.voice_drop` | 汎用プラグイン | Fuji | MIT | ソース非公開 | ソースが公開されていない（配布物のみ） |
 | [Voice Valet](https://github.com/Fuji07-2525/voice-valet)<br>`Fuji.voice_valet` | 汎用プラグイン | Fuji | MIT | ソース非公開 | ソースが公開されていない（配布物のみ） |
+| [Aup2GapFiller](https://github.com/miya999949/Aup2GapFiller)<br>`MIYA.Aup2GapFiller` | 汎用プラグイン | みや | MIT | ソース非公開 | リポジトリには README と LICENSE しかなく、ソースが公開されていない（配布はビルド済みのみ） |
 | [出力先トースト通知プラグイン](https://booth.pm/ja/items/7544010)<br>`namarium.toaster` | 汎用プラグイン | namarium | MIT | ソース非公開 | ソースが公開されていない（配布物のみ） |
 | [AviUtl2-WhisperAutoSub](https://github.com/nkopikaso/AviUtl2-WhisperAutoSub)<br>`nkopikaso.AviUtl2-WhisperAutoSub` | 汎用プラグイン | nkopikaso | MIT | ソース非公開 | ソースが公開されていない（配布物のみ） |
 | [3DCG Movie Animation](https://3dma.shidunami.com/)<br>`shidunami.3dcg_movie_animation` | MOD | しづなみ | カスタムライセンス | ライセンス不適合 | ライセンス: カスタムライセンス（組み込めるライセンスではない） |
@@ -440,7 +441,6 @@
 | [Waveform Preview](https://github.com/karoterra/aviutl2-waveform-preview)<br>`Karoterra.WaveformPreview` | 汎用プラグイン | かろてら | MIT | 未着手 |  |
 | [CopyAlias](https://github.com/rokujyushi/Copy_alias)<br>`KuroNeko.CopyAlias` | 汎用プラグイン | 黒猫大福 | MIT | 未着手 |  |
 | [FontPreview](https://github.com/rokujyushi/FontPreview)<br>`KuroNeko.FontPreview` | 汎用プラグイン | 黒猫大福 | MIT | 未着手 |  |
-| [Aup2GapFiller](https://github.com/miya999949/Aup2GapFiller)<br>`MIYA.Aup2GapFiller` | 汎用プラグイン | みや | MIT | 未着手 |  |
 | [LocusMotion](https://github.com/momoneeeko/LocusMotion.aux2)<br>`momo_neeeko.LocusMotion` | 汎用プラグイン | もも猫 | MIT | 未着手 |  |
 | [Any Shortcut for AviUtl2](https://github.com/mugi995/Any_Shortcut_for_AviUtl2)<br>`Mugi995.Any_Shortcut_for_AviUtl2` | 汎用プラグイン | Mugi995 | MIT | 未着手 |  |
 | [MyAssetManager](https://github.com/Natadecoco2539/AviUtl2-MyAssetManager)<br>`Natadecoco.MyAssetManager` | 汎用プラグイン | なたのこ | MIT | 未着手 |  |
