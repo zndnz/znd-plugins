@@ -1313,8 +1313,9 @@
   "status": "pending"
  },
  "sagami121.GParticle": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（コンピュートシェーダーの計算を CPU で行う）",
+  "path": "plugins/sagami121.GParticle",
+  "status": "ported"
  },
  "sagami121.Glitch_T": {
   "note": "エフェクト",

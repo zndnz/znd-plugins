@@ -1,0 +1,12 @@
+{
+  "id": "sagami121.GParticle",
+  "name": "GParticle",
+  "version": "1.0.0",
+  "vendor": "3aGaM1（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "パーティクルスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sagami121_gparticle"
+  ]
+}
