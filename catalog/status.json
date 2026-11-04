@@ -575,8 +575,9 @@
   "status": "ported"
  },
  "NeAc.ScreenAspect": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（コンポの大きさの平面に掛ける）",
+  "path": "plugins/NeAc.ScreenAspect",
+  "status": "ported"
  },
  "NeAc.SpeedLine": {
   "note": "",

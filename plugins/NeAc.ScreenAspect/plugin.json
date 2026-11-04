@@ -1,0 +1,12 @@
+{
+  "id": "NeAc.ScreenAspect",
+  "name": "画面アスペクト",
+  "version": "1.0.0",
+  "vendor": "猫愛（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "画面アスペクト比を指定してサイズ確認等をできるようにするスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_neac_screenaspect"
+  ]
+}
