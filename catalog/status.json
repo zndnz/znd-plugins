@@ -1368,8 +1368,9 @@
   "status": "ported"
  },
  "sagami121.Calculator": {
-  "note": "",
-  "status": "pending"
+  "note": "電卓パネル",
+  "path": "plugins/sagami121.Calculator",
+  "status": "ported"
  },
  "sagami121.GParticle": {
   "note": "エフェクト（コンピュートシェーダーの計算を CPU で行う）",

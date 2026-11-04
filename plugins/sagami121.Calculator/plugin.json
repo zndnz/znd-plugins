@@ -1,0 +1,17 @@
+{
+  "id": "sagami121.Calculator",
+  "name": "Aviutl2-Calculator",
+  "version": "1.0.0",
+  "vendor": "3aGaM1（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "AviUtl2上で計算ができるプラグイン",
+  "permissions": [],
+  "panels": [
+    {
+      "id": "calc",
+      "title": "電卓",
+      "script": "panels/calc.js",
+      "width": 240
+    }
+  ]
+}
