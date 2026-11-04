@@ -960,8 +960,8 @@
   "status": "ported"
  },
  "beive60.aviutl2-alias-inserter": {
-  "note": "",
-  "status": "pending"
+  "note": "外部の端末（Steam Deck など）から通信してエイリアスを入れるプラグインで、znd のプラグインには外部と通信する手段がない",
+  "status": "na"
  },
  "beive60.aviutl2-audio-rec": {
   "note": "",
