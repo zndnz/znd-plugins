@@ -110,8 +110,9 @@
   "status": "ported"
  },
  "CatWithNeko.LongShadow": {
-  "note": "",
-  "status": "pending"
+  "note": "ロングシャドー",
+  "path": "plugins/CatWithNeko.LongShadow",
+  "status": "ported"
  },
  "CatWithNeko.MaxMin": {
   "note": "最大値・最小値フィルタ",
