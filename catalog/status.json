@@ -88,8 +88,9 @@
   "status": "ported"
  },
  "CatWithNeko.Halftone": {
-  "note": "",
-  "status": "pending"
+  "note": "なんちゃってハーフトーン",
+  "path": "plugins/CatWithNeko.Halftone",
+  "status": "ported"
  },
  "CatWithNeko.LeaveColor": {
   "note": "",

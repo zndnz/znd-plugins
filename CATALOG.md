@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 83 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 84 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 2 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 251 | まだ手を付けていない |
+| 未着手 | 250 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -24,6 +24,7 @@
 | [Dither](https://github.com/CatWithNeko/aviutl2-scripts#dither)<br>`CatWithNeko.Dither` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Dither) | 乱数閾値の二値化 |
 | [Exposure](https://github.com/CatWithNeko/aviutl2-scripts#exposure)<br>`CatWithNeko.Exposure` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Exposure) | 露出・ガンマ・オフセット |
 | [Gamma](https://github.com/CatWithNeko/aviutl2-scripts#gamma)<br>`CatWithNeko.Gamma` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Gamma) | ガンマ補正 |
+| [Halftone](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Halftone` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Halftone) | なんちゃってハーフトーン |
 | [Level](https://github.com/CatWithNeko/aviutl2-scripts#level)<br>`CatWithNeko.Level` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Level) | レベル補正 |
 | [MaxMin](https://github.com/CatWithNeko/aviutl2-scripts#maxmin)<br>`CatWithNeko.MaxMin` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.MaxMin) | 最大値・最小値フィルタ |
 | [Mosaic_C](https://github.com/CatWithNeko/aviutl2-scripts#mosaic_c)<br>`CatWithNeko.Mosaic` | スクリプト | こんにゃくねこ | CC0-1.0 | [移植済み](plugins/CatWithNeko.Mosaic) | シャープなモザイク |
@@ -229,7 +230,6 @@
 | [Colorama](https://github.com/CatWithNeko/aviutl2-scripts#colorama)<br>`CatWithNeko.Colorama` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [Composite](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Composite` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [Erosion](https://github.com/CatWithNeko/aviutl2-scripts#erosion)<br>`CatWithNeko.Erosion` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
-| [Halftone](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Halftone` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [Leave Color](https://github.com/CatWithNeko/aviutl2-scripts#leave-color)<br>`CatWithNeko.LeaveColor` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [Lens](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Lens` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [LongShadow](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.LongShadow` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
