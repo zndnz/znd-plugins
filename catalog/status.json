@@ -929,8 +929,9 @@
   "status": "pending"
  },
  "azurite.GradientPlus": {
-  "note": "",
-  "status": "pending"
+  "note": "色空間を選べるグラデーション",
+  "path": "plugins/azurite.GradientPlus",
+  "status": "ported"
  },
  "azurite.Hex-Tiling": {
   "note": "エフェクト（テクスチャは自分か LAYER パラメータのレイヤー）",

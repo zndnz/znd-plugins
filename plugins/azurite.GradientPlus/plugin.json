@@ -1,0 +1,12 @@
+{
+  "id": "azurite.GradientPlus",
+  "name": "グラデーション+",
+  "version": "1.0.0",
+  "vendor": "azurite（znd 移植: znd-plugins）",
+  "license": "CC0-1.0",
+  "description": "sRGB以外の色空間でグラデーション加工するスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_azurite_gradientplus"
+  ]
+}
