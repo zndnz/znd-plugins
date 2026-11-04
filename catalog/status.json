@@ -74,8 +74,9 @@
   "status": "ported"
  },
  "CatWithNeko.Erosion": {
-  "note": "",
-  "status": "pending"
+  "note": "輪郭を削る",
+  "path": "plugins/CatWithNeko.Erosion",
+  "status": "ported"
  },
  "CatWithNeko.Exposure": {
   "note": "露出・ガンマ・オフセット",
