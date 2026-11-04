@@ -1405,6 +1405,27 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-teruyoshii-4corner"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-teruyoshii-noisegradation"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-teruyoshii-stepgradation"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-tettu0530-liquidglass"
 version = "1.0.0"
 dependencies = [

@@ -1761,8 +1761,9 @@
   "status": "ported"
  },
  "teruyoshii.4corner": {
-  "note": "",
-  "status": "pending"
+  "note": "四隅に配置",
+  "path": "plugins/teruyoshii.4corner",
+  "status": "ported"
  },
  "teruyoshii.Palette_History": {
   "note": "",
