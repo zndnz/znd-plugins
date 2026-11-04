@@ -1562,8 +1562,8 @@
   "status": "ported"
  },
  "sevenc-nanashi.modify_group_num_layers-aux2": {
-  "note": "",
-  "status": "pending"
+  "note": "znd にはグループ制御（下のレイヤー数を対象にする制御オブジェクト）がなく、親子付けやプリコンポーズで代わりにする",
+  "status": "na"
  },
  "sevenc-nanashi.ntsc-rs": {
   "note": "",
