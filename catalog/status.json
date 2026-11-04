@@ -622,8 +622,8 @@
   "status": "builtin"
  },
  "Number-0621.easing-quick-setup": {
-  "note": "",
-  "status": "pending"
+  "note": "znd のキーフレームの「イージングプリセット」で同じことができる",
+  "status": "builtin"
  },
  "OverPulse.Custom_Speed_Move": {
   "note": "ソースが公開されていない（配布物のみ）",
