@@ -4,16 +4,16 @@ use znd_plugin_sdk::*;
 
 fn render(f: &mut Frame) -> FxResult {
     let (lo, hi) = (f.f(0) as f32, f.f(1) as f32);
-    for p in f.rgba.chunks_exact_mut(4) {
-        let a = p[3];
-        if a <= 0.0 {
-            continue;
-        }
+    let mut img = f.input();
+    aul::map_display(&mut img, |p| {
+        let mut o = p;
         for c in 0..3 {
-            let v = ((p[c] / a - lo) / (hi - lo)).clamp(0.0, 1.0);
-            p[c] = if v.is_nan() { 0.0 } else { v * a };
+            let v = ((p[c] - lo) / (hi - lo)).clamp(0.0, 1.0);
+            o[c] = if v.is_nan() { 0.0 } else { v };
         }
-    }
+        o
+    });
+    f.set(img);
     Ok(())
 }
 
