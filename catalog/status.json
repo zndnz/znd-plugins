@@ -137,8 +137,9 @@
   "status": "ported"
  },
  "CatWithNeko.WaveWarp": {
-  "note": "",
-  "status": "pending"
+  "note": "ラスター",
+  "path": "plugins/CatWithNeko.WaveWarp",
+  "status": "ported"
  },
  "ChihaYuki.obj": {
   "note": "ライセンス: GPLv3（組み込めるライセンスではない）",
