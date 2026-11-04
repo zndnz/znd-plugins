@@ -1,0 +1,20 @@
+{
+  "id": "azurite.AdjustPivot_A",
+  "name": "中心ずらし_A",
+  "version": "1.0.0",
+  "vendor": "azurite（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "オブジェクトの中心座標を移動するスクリプト",
+  "permissions": [],
+  "expressions": [
+    "expressions/adjust_pivot.js"
+  ],
+  "panels": [
+    {
+      "id": "pivot",
+      "title": "中心ずらし",
+      "script": "panels/pivot.js",
+      "width": 280
+    }
+  ]
+}

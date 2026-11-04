@@ -912,8 +912,9 @@
   "status": "na"
  },
  "azurite.AdjustPivot_A": {
-  "note": "",
-  "status": "pending"
+  "note": "中心ずらし（エクスプレッションとパネル）",
+  "path": "plugins/azurite.AdjustPivot_A",
+  "status": "ported"
  },
  "azurite.ColorHalftone": {
   "note": "カラーハーフトーン",
