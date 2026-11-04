@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 143 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 12 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 33 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 34 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 14 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 153 | まだ手を付けていない |
+| 未着手 | 152 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -191,6 +191,7 @@
 | [Rusty Piano Midi Player Input](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_midi_player` | 入力プラグイン | Nanashi. | MIT | 対象外 | 入力プラグイン（素材の読み込み形式を足す）で、znd のプラグインには読み込み形式を足す仕組みがない |
 | [前回のプロジェクトを開く](https://github.com/ar-ca-na/aviutl2-open-last-project)<br>`ar-ca-na.open-last-project` | 外部プログラム | arcana | MIT | 対象外 | AviUtl2 の起動を外から操作する外部プログラムで、znd には対象がない |
 | [AviUtl2_Discord_RPC](https://github.com/amaii4/AviUtl2_Discord_RPC)<br>`amaii4.AviUtl2_Discord_RPC` | 汎用プラグイン | 甘味 | MIT | 対象外 | Discord のアプリと通信する機能で、znd のプラグインのスクリプトには外部と通信する手段がなく、ネイティブの通信は安全性スキャンで止められる |
+| [1クリック動画切り抜き](https://github.com/clean262/sam3_bb_gb_generator)<br>`cleaning.sam3_bb_gb_generator` | 汎用プラグイン | クリーニング | MIT | 対象外 | SAM（Python の AI モデル）で背景を消すプラグインで、znd のプラグインからは外部のプログラムや AI モデルを動かせない |
 | [Rusty Restart Shortcut Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut` | 汎用プラグイン | Nanashi. | MIT | 対象外 | 作者が非推奨としている AviUtl2 の再起動メニューで、znd には対象がない |
 | [create_control_object.aux2](https://github.com/sevenc-nanashi/create_control_object.aux2)<br>`sevenc-nanashi.create_control_object-aux2` | 汎用プラグイン | Nanashi. | MIT | 対象外 | znd にはグループ制御（下のレイヤー数を対象にする制御オブジェクト）がなく、親子付けやプリコンポーズで代わりにする |
 | [discord_activity.aux2](https://github.com/sevenc-nanashi/discord_activity.aux2)<br>`sevenc-nanashi.discord_activity-aux2` | 汎用プラグイン | Nanashi. | MIT | 対象外 | Discord のアプリと通信する機能で、znd のプラグインのスクリプトには外部と通信する手段がなく、ネイティブの通信は安全性スキャンで止められる |
@@ -416,7 +417,6 @@
 | [Gradient Editor](https://github.com/azurite581/AviUtl2-GradientEditor)<br>`azurite.GradientEditor` | 汎用プラグイン | azurite | MIT | 未着手 |  |
 | [aviutl2-alias-inserter](https://github.com/beive60/aviutl2-alias-inserter)<br>`beive60.aviutl2-alias-inserter` | 汎用プラグイン | Beive60 | MIT | 未着手 |  |
 | [aviutl2-audio-rec](https://github.com/beive60/aviutl2-audio-rec)<br>`beive60.aviutl2-audio-rec` | 汎用プラグイン | Beive60 | MIT | 未着手 |  |
-| [1クリック動画切り抜き](https://github.com/clean262/sam3_bb_gb_generator)<br>`cleaning.sam3_bb_gb_generator` | 汎用プラグイン | クリーニング | MIT | 未着手 |  |
 | [HL_FxWheel for AviUtl2](https://github.com/Hallkun19/HL_FxWheel-for-aul2)<br>`halkun19.HL_FxWheel` | 汎用プラグイン | はるくん / harukun19 | MIT | 未着手 |  |
 | [メモ帳プラグイン](https://github.com/hebiiro/al2_memo)<br>`hebiiro.al2_memo` | 汎用プラグイン | 蛇色 | MIT | 未着手 |  |
 | [タイムラインオブジェクト整列プラグイン](https://github.com/hebiiro/al2_timeline_object_arranger)<br>`hebiiro.al2_timeline_object_arranger` | 汎用プラグイン | 蛇色 | BSL-1.0 | 未着手 |  |

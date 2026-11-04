@@ -981,8 +981,8 @@
   "status": "license"
  },
  "cleaning.sam3_bb_gb_generator": {
-  "note": "",
-  "status": "pending"
+  "note": "SAM（Python の AI モデル）で背景を消すプラグインで、znd のプラグインからは外部のプログラムや AI モデルを動かせない",
+  "status": "na"
  },
  "cleaning.sam_frame_export_filter": {
   "note": "",
