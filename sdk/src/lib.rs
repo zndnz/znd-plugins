@@ -266,6 +266,29 @@ impl<'a> Frame<'a> {
         }
     }
 
+    /// i 番目のパラメータを、レイヤーのイン点から `layer_time` 秒の時刻で評価した値（`f` などと同じ形の 4 つ組）。
+    /// ホストが無いときは今の値。
+    pub fn param_at(&self, i: usize, layer_time: f64) -> [f64; 4] {
+        let Some(h) = self.host() else {
+            let v = self.v(i);
+            return [v[0], v[1], v[2], v[3]];
+        };
+        let mut out = [0.0f64; 4];
+        if unsafe { (h.param_at)(h.ctx, i as u32, layer_time, out.as_mut_ptr()) } != 0 {
+            let v = self.v(i);
+            return [v[0], v[1], v[2], v[3]];
+        }
+        out
+    }
+
+    /// i 番目の数値パラメータの、レイヤーの長さ全体にわたる変化を `n` 点の表にする（AviUtl の時間制御カーブの代わり）。
+    /// 表の k 番目は、イン点から 長さ × k / (n − 1) 秒の値。
+    pub fn curve(&self, i: usize, n: usize) -> Vec<f64> {
+        let n = n.max(2);
+        let d = (self.duration() - 1.0 / self.fps().max(1.0)).max(0.0);
+        (0..n).map(|k| self.param_at(i, d * k as f64 / (n - 1) as f64)[0]).collect()
+    }
+
     /// レイヤーのマスクのパス（バッファ画素座標の折れ線と、閉じているか）。
     pub fn masks(&self) -> Vec<(Vec<math::V2>, bool)> {
         let Some(h) = self.host() else { return Vec::new() };
