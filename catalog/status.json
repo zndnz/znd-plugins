@@ -1502,8 +1502,9 @@
   "status": "ported"
  },
  "sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2": {
-  "note": "",
-  "status": "pending"
+  "note": "しきい値つきピクセルソート",
+  "path": "plugins/sevenc-nanashi.aviutl2-scripts.gpu_pixelsort-anm2",
+  "status": "ported"
  },
  "sevenc-nanashi.aviutl2-scripts.hide_on_export-anm2": {
   "note": "znd のガイドレイヤー（書き出しに含めないレイヤー）で同じことができる",
