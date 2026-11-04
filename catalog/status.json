@@ -124,8 +124,9 @@
   "status": "ported"
  },
  "CatWithNeko.SelfDisplace": {
-  "note": "",
-  "status": "pending"
+  "note": "自己ディスプレイスメント",
+  "path": "plugins/CatWithNeko.SelfDisplace",
+  "status": "ported"
  },
  "CatWithNeko.ToneCurve": {
   "note": "",

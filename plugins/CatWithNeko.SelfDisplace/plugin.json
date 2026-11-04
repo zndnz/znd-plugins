@@ -1,0 +1,12 @@
+{
+  "id": "CatWithNeko.SelfDisplace",
+  "name": "SelfDisplace",
+  "version": "1.0.0",
+  "vendor": "こんにゃくねこ（znd 移植: znd-plugins）",
+  "license": "CC0-1.0",
+  "description": "自身を基準にディスプレイスメントマップ(移動・回転・拡大)をかける",
+  "permissions": [],
+  "effects": [
+    "lib/zp_catwithneko_selfdisplace"
+  ]
+}
