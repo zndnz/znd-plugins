@@ -140,8 +140,9 @@
   "status": "pending"
  },
  "Fu-Majime.AviUtl2_PolygonMorph_F": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（モーフ元・先と進行度はパラメータで指定）",
+  "path": "plugins/Fu-Majime.AviUtl2_PolygonMorph_F",
+  "status": "ported"
  },
  "Fuji.commons_material_extractor": {
   "note": "ソースが公開されていない（配布物のみ）",

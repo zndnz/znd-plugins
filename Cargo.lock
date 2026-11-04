@@ -887,6 +887,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-fu-majime-aviutl2-polygonmorph-f"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-inuyoshiatom-colorlink"
 version = "1.0.0"
 dependencies = [

@@ -1,0 +1,12 @@
+{
+  "id": "Fu-Majime.AviUtl2_PolygonMorph_F",
+  "name": "多角形モーフ_F",
+  "version": "1.0.0",
+  "vendor": "フマジメ（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "モーフィング機能を備えた角丸正多角形・星型図形スクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_fu_majime_aviutl2_polygonmorph_f"
+  ]
+}

@@ -1,0 +1,13 @@
+[package]
+name = "zp-fu-majime-aviutl2-polygonmorph-f"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[dependencies]
+znd-plugin-sdk.workspace = true
