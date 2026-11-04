@@ -1,0 +1,17 @@
+{
+  "id": "sevenc-nanashi.quantizer-aux2",
+  "name": "quantizer.aux2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "BPMグリッドから少しズレているオブジェクトを補正するプラグイン",
+  "permissions": [],
+  "panels": [
+    {
+      "id": "quantizer",
+      "title": "quantizer",
+      "script": "panels/quantizer.js",
+      "width": 380
+    }
+  ]
+}

@@ -1588,8 +1588,9 @@
   "status": "pending"
  },
  "sevenc-nanashi.quantizer-aux2": {
-  "note": "",
-  "status": "pending"
+  "note": "BPM グリッドに合わせる",
+  "path": "plugins/sevenc-nanashi.quantizer-aux2",
+  "status": "ported"
  },
  "sevenc-nanashi.reset_frame_selection_on_focus-aux2": {
   "note": "AviUtl2 のフレーム選択の挙動を変える UI 用のもので、znd のワークエリアはレイヤーの選択で固定されない",
