@@ -1595,8 +1595,9 @@
   "status": "pending"
  },
  "sigma-axis.Histogram_S": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（対象は LAYER パラメータ）",
+  "path": "plugins/sigma-axis.Histogram_S",
+  "status": "ported"
  },
  "sigma-axis.Layback": {
   "note": "コマンド（レイヤーの重なり順を変える）",

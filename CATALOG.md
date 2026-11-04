@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 44 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 45 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 291 | まだ手を付けていない |
+| 未着手 | 290 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -48,6 +48,7 @@
 | [extra_blend_mode.anm2](https://github.com/sevenc-nanashi/extra_blend_mode.anm2)<br>`sevenc-nanashi.extra_blend_mode-anm2` | スクリプト | Nanashi. | MIT | [移植済み](plugins/sevenc-nanashi.extra_blend_mode-anm2) | エフェクト（背景は LAYER パラメータで選ぶ） |
 | [AutoClipping_S](https://github.com/sigma-axis/aviutl2_script_AutoClipping_S)<br>`sigma-axis.AutoClipping_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.AutoClipping_S) | エフェクト。大きさの変更は ABI 3 の set_output で行う |
 | [ColoredCollar_S](https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S)<br>`sigma-axis.ColoredCollar_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.ColoredCollar_S) | エフェクト（画像を広げて縁を付ける） |
+| [Histogram_S](https://github.com/sigma-axis/aviutl2_script_Histogram_S)<br>`sigma-axis.Histogram_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.Histogram_S) | エフェクト（対象は LAYER パラメータ） |
 | [最背面に配置](https://github.com/sigma-axis/aviutl2_script_Layback)<br>`sigma-axis.Layback` | スクリプト | σ軸 | Unlicense | [移植済み](plugins/sigma-axis.Layback) | コマンド（レイヤーの重なり順を変える） |
 | [MovingMosaic_S](https://github.com/sigma-axis/aviutl2_script_MovingMosaic_S)<br>`sigma-axis.MovingMosaic_S` | スクリプト | σ軸 | Unlicense | [移植済み](plugins/sigma-axis.MovingMosaic_S) | エフェクト |
 | [PixelSnap_S](https://github.com/sigma-axis/aviutl2_script_PixelSnap_S)<br>`sigma-axis.PixelSnap_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.PixelSnap_S) | コマンド＋エクスプレッション用ライブラリ |
@@ -294,7 +295,6 @@
 | [transform_specific_chars.anm2](https://github.com/sevenc-nanashi/transform_specific_chars.anm2)<br>`sevenc-nanashi.transform_specific_chars-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S)<br>`sigma-axis.Basic_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [GroundShadow2_S](https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S)<br>`sigma-axis.GroundShadow2_S` | スクリプト | σ軸 | MIT | 未着手 |  |
-| [Histogram_S](https://github.com/sigma-axis/aviutl2_script_Histogram_S)<br>`sigma-axis.Histogram_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [Lens_S](https://github.com/sigma-axis/aviutl2_script_Lens_S)<br>`sigma-axis.Lens_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [PageRoll_S](https://github.com/sigma-axis/aviutl2_script_PageRoll_S)<br>`sigma-axis.PageRoll_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [Path_S](https://github.com/sigma-axis/aviutl2_script_Path_S/)<br>`sigma-axis.Path_S` | スクリプト | σ軸 | MIT | 未着手 |  |
