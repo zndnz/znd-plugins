@@ -1227,8 +1227,8 @@
   "status": "pending"
  },
  "natuneko722.OCRTextExtractorPlugin": {
-  "note": "",
-  "status": "pending"
+  "note": "Windows 標準の OCR を呼ぶプラグインで、znd が動く環境では使えない",
+  "status": "na"
  },
  "natuneko722.text-background-balloon-script": {
   "note": "",

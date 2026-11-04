@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 143 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 12 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 35 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 36 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 14 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 151 | まだ手を付けていない |
+| 未着手 | 150 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -193,6 +193,7 @@
 | [前回のプロジェクトを開く](https://github.com/ar-ca-na/aviutl2-open-last-project)<br>`ar-ca-na.open-last-project` | 外部プログラム | arcana | MIT | 対象外 | AviUtl2 の起動を外から操作する外部プログラムで、znd には対象がない |
 | [AviUtl2_Discord_RPC](https://github.com/amaii4/AviUtl2_Discord_RPC)<br>`amaii4.AviUtl2_Discord_RPC` | 汎用プラグイン | 甘味 | MIT | 対象外 | Discord のアプリと通信する機能で、znd のプラグインのスクリプトには外部と通信する手段がなく、ネイティブの通信は安全性スキャンで止められる |
 | [1クリック動画切り抜き](https://github.com/clean262/sam3_bb_gb_generator)<br>`cleaning.sam3_bb_gb_generator` | 汎用プラグイン | クリーニング | MIT | 対象外 | SAM（Python の AI モデル）で背景を消すプラグインで、znd のプラグインからは外部のプログラムや AI モデルを動かせない |
+| [OCR文字抽出プラグイン](https://github.com/natuneko722/OCRTextExtractorPlugin)<br>`natuneko722.OCRTextExtractorPlugin` | 汎用プラグイン | 夏猫 | MIT | 対象外 | Windows 標準の OCR を呼ぶプラグインで、znd が動く環境では使えない |
 | [Rusty Restart Shortcut Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_restart_shortcut` | 汎用プラグイン | Nanashi. | MIT | 対象外 | 作者が非推奨としている AviUtl2 の再起動メニューで、znd には対象がない |
 | [create_control_object.aux2](https://github.com/sevenc-nanashi/create_control_object.aux2)<br>`sevenc-nanashi.create_control_object-aux2` | 汎用プラグイン | Nanashi. | MIT | 対象外 | znd にはグループ制御（下のレイヤー数を対象にする制御オブジェクト）がなく、親子付けやプリコンポーズで代わりにする |
 | [discord_activity.aux2](https://github.com/sevenc-nanashi/discord_activity.aux2)<br>`sevenc-nanashi.discord_activity-aux2` | 汎用プラグイン | Nanashi. | MIT | 対象外 | Discord のアプリと通信する機能で、znd のプラグインのスクリプトには外部と通信する手段がなく、ネイティブの通信は安全性スキャンで止められる |
@@ -447,7 +448,6 @@
 | [MyAssetManager](https://github.com/Natadecoco2539/AviUtl2-MyAssetManager)<br>`Natadecoco.MyAssetManager` | 汎用プラグイン | なたのこ | MIT | 未着手 |  |
 | [TextEditor](https://github.com/Natadecoco2539/AviUtl2-TextEditor)<br>`Natadecoco.TextEditor` | 汎用プラグイン | なたのこ | MIT | 未着手 |  |
 | [フレームキャプチャー](https://github.com/natuneko722/FrameCapturePlugin)<br>`natuneko722.FrameCapturePlugin` | 汎用プラグイン | 夏猫 | MIT | 未着手 |  |
-| [OCR文字抽出プラグイン](https://github.com/natuneko722/OCRTextExtractorPlugin)<br>`natuneko722.OCRTextExtractorPlugin` | 汎用プラグイン | 夏猫 | MIT | 未着手 |  |
 | [MotionTracking MK-II Plus for AviUtl2](https://github.com/nullruptr/MotionTracking_MK-II_Plus_for_AviUtl2)<br>`nullru.MotionTracking_MK-II_Plus_for_AviUtl2` | 汎用プラグイン | nullru | MIT | 未着手 |  |
 | [PSDToolKit2](https://github.com/oov/aviutl2_psdtoolkit2)<br>`oov.PSDToolKit2` | 汎用プラグイン | おおぶ | MIT | 未着手 |  |
 | [Rusty Local Alias Plugin](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_local_alias_plugin` | 汎用プラグイン | Nanashi. | MIT | 未着手 |  |
