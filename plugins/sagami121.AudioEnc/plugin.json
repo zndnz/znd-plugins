@@ -1,0 +1,121 @@
+{
+  "id": "sagami121.AudioEnc",
+  "name": "AudioEnc",
+  "version": "1.0.0",
+  "vendor": "3aGaM1（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "Aviutl2で音声を出力するプラグイン",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "aac",
+      "label": "音声（AAC .m4a）",
+      "extension": "m4a",
+      "audio_only": true,
+      "audio_args": [
+        "-c:a",
+        "aac",
+        "-b:a",
+        "{abr}k"
+      ],
+      "params": [
+        {
+          "id": "abr",
+          "label": "音声ビットレート（kbps）",
+          "type": "number",
+          "default": 256,
+          "min": 32,
+          "max": 512
+        }
+      ]
+    },
+    {
+      "id": "mp3",
+      "label": "音声（MP3）",
+      "extension": "mp3",
+      "audio_only": true,
+      "audio_args": [
+        "-c:a",
+        "libmp3lame",
+        "-b:a",
+        "{abr}k"
+      ],
+      "params": [
+        {
+          "id": "abr",
+          "label": "音声ビットレート（kbps）",
+          "type": "number",
+          "default": 256,
+          "min": 32,
+          "max": 512
+        }
+      ]
+    },
+    {
+      "id": "flac",
+      "label": "音声（FLAC）",
+      "extension": "flac",
+      "audio_only": true,
+      "audio_args": [
+        "-c:a",
+        "flac",
+        "-compression_level",
+        "{lv}"
+      ],
+      "params": [
+        {
+          "id": "lv",
+          "label": "圧縮レベル",
+          "type": "number",
+          "default": 5,
+          "min": 0,
+          "max": 12
+        }
+      ]
+    },
+    {
+      "id": "opus",
+      "label": "音声（Opus）",
+      "extension": "opus",
+      "audio_only": true,
+      "audio_args": [
+        "-c:a",
+        "libopus",
+        "-b:a",
+        "{abr}k"
+      ],
+      "params": [
+        {
+          "id": "abr",
+          "label": "音声ビットレート（kbps）",
+          "type": "number",
+          "default": 256,
+          "min": 32,
+          "max": 512
+        }
+      ]
+    },
+    {
+      "id": "ogg",
+      "label": "音声（Ogg Vorbis）",
+      "extension": "ogg",
+      "audio_only": true,
+      "audio_args": [
+        "-c:a",
+        "libvorbis",
+        "-q:a",
+        "{q}"
+      ],
+      "params": [
+        {
+          "id": "q",
+          "label": "品質",
+          "type": "number",
+          "default": 6,
+          "min": 0,
+          "max": 10
+        }
+      ]
+    }
+  ]
+}

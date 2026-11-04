@@ -1309,8 +1309,9 @@
   "status": "pending"
  },
  "sagami121.AudioEnc": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/sagami121.AudioEnc",
+  "status": "ported"
  },
  "sagami121.BlockNoise": {
   "note": "エフェクト",

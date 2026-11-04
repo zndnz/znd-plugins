@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 48 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 49 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 6 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 287 | まだ手を付けていない |
+| 未着手 | 286 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -62,6 +62,7 @@
 | [どこでもバッファ](https://github.com/zopty/DokodemoBuffer)<br>`zopty.DokodemoBuffer` | スクリプト | zopty | BSD-3-Clause | [移植済み](plugins/zopty.DokodemoBuffer) | エフェクト 4 つ（他のレイヤーは LAYER パラメータ、過去の絵は時刻を指定して取得） |
 | [WAVファイル出力](https://github.com/hebiiro/al2_wav_saver/)<br>`hebiiro.al2_wav_saver` | 出力プラグイン | 蛇色 | MIT | [移植済み](plugins/hebiiro.al2_wav_saver) | 書き出し形式（FFmpeg の引数の組） |
 | [WAVファイル出力](https://github.com/cycloawaodorin/wav_output_ks)<br>`KAZOON.wav_output_ks` | 出力プラグイン | KAZOON | MIT | [移植済み](plugins/KAZOON.wav_output_ks) | 書き出し形式（FFmpeg の引数の組） |
+| [AudioEnc](https://github.com/sagami121/Aviutl2-AudioEnc)<br>`sagami121.AudioEnc` | 出力プラグイン | 3aGaM1 | MIT | [移植済み](plugins/sagami121.AudioEnc) | 書き出し形式（FFmpeg の引数の組） |
 | [L-SMASH-Works](https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds)<br>`Mr-Ojii.L-SMASH-Works` | 入力プラグイン | Mr-Ojii | MIT | znd 本体で対応 | 動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ |
 | [OSC4AU2](https://github.com/zopty/osc4au2)<br>`zopty.osc4au2` | スクリプト | zopty | BSD-3-Clause | 対象外 | OSC（UDP）で外部から値を受け取り、トラックバーを動かすライブ演奏用のプラグイン。znd のエクスプレッションとスクリプトは通信できない設計で、外部からの入力を時間軸に結び付ける仕組みも無い |
 | [AviUtl2 Community Translation Companion](https://github.com/aviutl2/aviutl2-community-translation)<br>`aviutl2-community.aviutl2_community_translation_companion` | 言語ファイル | Nanashi. | MIT | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
@@ -373,7 +374,6 @@
 | [VVenCguiEx](https://github.com/rigaya/VVenCguiEx)<br>`rigaya.VVenCguiEx` | 出力プラグイン | rigaya | MIT | 未着手 |  |
 | [x264guiEx](https://github.com/rigaya/x264guiEx)<br>`rigaya.x264guiEx` | 出力プラグイン | rigaya | MIT | 未着手 |  |
 | [x265guiEx](https://github.com/rigaya/x265guiEx)<br>`rigaya.x265guiEx` | 出力プラグイン | rigaya | MIT | 未着手 |  |
-| [AudioEnc](https://github.com/sagami121/Aviutl2-AudioEnc)<br>`sagami121.AudioEnc` | 出力プラグイン | 3aGaM1 | MIT | 未着手 |  |
 | [Rusty FFmpeg Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_ffmpeg` | 出力プラグイン | Nanashi. | MIT | 未着手 |  |
 | [Rusty Image Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_image_rs_output` | 出力プラグイン | Nanashi. | MIT | 未着手 |  |
 | [Rusty Single Image Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_single_image_output` | 出力プラグイン | Nanashi. | MIT | 未着手 |  |
