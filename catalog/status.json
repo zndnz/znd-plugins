@@ -1808,8 +1808,9 @@
   "status": "pending"
  },
  "zopty.DokodemoBuffer": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト 4 つ（他のレイヤーは LAYER パラメータ、過去の絵は時刻を指定して取得）",
+  "path": "plugins/zopty.DokodemoBuffer",
+  "status": "ported"
  },
  "zopty.OKLCHpalette": {
   "note": "ライセンス: 不明（組み込めるライセンスではない）",
