@@ -1641,8 +1641,9 @@
   "status": "license"
  },
  "supernyan74.RadialClipping": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト",
+  "path": "plugins/supernyan74.RadialClipping",
+  "status": "ported"
  },
  "teruyoshii.4corner": {
   "note": "",

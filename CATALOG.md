@@ -5,16 +5,17 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 1 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 2 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 1 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 5 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 335 | まだ手を付けていない |
+| 未着手 | 334 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
 | [AutoClipping_S](https://github.com/sigma-axis/aviutl2_script_AutoClipping_S)<br>`sigma-axis.AutoClipping_S` | スクリプト | σ軸 | MIT | [移植済み](plugins/sigma-axis.AutoClipping_S) | エフェクト。大きさの変更は ABI 3 の set_output で行う |
+| [放射クリッピング](https://github.com/supernyan74/Radial-Clipping)<br>`supernyan74.RadialClipping` | スクリプト | スーパーNyan | MIT | [移植済み](plugins/supernyan74.RadialClipping) | エフェクト |
 | [L-SMASH-Works](https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds)<br>`Mr-Ojii.L-SMASH-Works` | 入力プラグイン | Mr-Ojii | MIT | znd 本体で対応 | 動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ |
 | [AviUtl2 Community Translation Companion](https://github.com/aviutl2/aviutl2-community-translation)<br>`aviutl2-community.aviutl2_community_translation_companion` | 言語ファイル | Nanashi. | MIT | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
 | [アクセスキー付き日本語リソース](https://github.com/Garech-mas/jp_akey.aul2)<br>`Garech.jp_akey.aul2` | 言語ファイル | Garech | CC0-1.0 | 対象外 | AviUtl2 の画面の翻訳ファイル。znd の画面には当てはまらない |
@@ -298,7 +299,6 @@
 | [WhiteBalance_S](https://github.com/sigma-axis/aviutl2_script_WhiteBalance_S)<br>`sigma-axis.WhiteBalance_S` | スクリプト | σ軸 | MIT | 未着手 |  |
 | [JPEGCrush](https://note.com/sikemoti/n/n7017a0e6eabf)<br>`sikemoti.JPEGCrush` | スクリプト | しけもち | MIT | 未着手 |  |
 | [SeiSa](https://github.com/samuelladoco/aviutl2-script-seisa)<br>`SLDC.SeiSa` | スクリプト | SLDC | MIT | 未着手 |  |
-| [放射クリッピング](https://github.com/supernyan74/Radial-Clipping)<br>`supernyan74.RadialClipping` | スクリプト | スーパーNyan | MIT | 未着手 |  |
 | [IDgen_Su](https://github.com/Suzukeh/IDgen_Su)<br>`Suzuke.IDgen_Su` | スクリプト | Suzuke | MIT | 未着手 |  |
 | [四隅に配置](https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E5%9B%9B%E9%9A%85%E3%81%AB%E9%85%8D%E7%BD%AE.anm2)<br>`teruyoshii.4corner` | スクリプト | てるよし | MIT | 未着手 |  |
 | [ノイズグラデーション](https://x.com/teruyoshi_uec/status/1979927691215471002)<br>`teruyoshii.noiseGradation` | スクリプト | てるよし | MIT | 未着手 |  |

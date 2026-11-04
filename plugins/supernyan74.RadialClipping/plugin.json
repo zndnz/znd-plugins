@@ -1,0 +1,12 @@
+{
+  "id": "supernyan74.RadialClipping",
+  "name": "放射クリッピング",
+  "version": "1.0.0",
+  "vendor": "スーパーNyan（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "放射状にオブジェクトをクリッピングします。",
+  "permissions": [],
+  "effects": [
+    "lib/zp_supernyan74_radialclipping"
+  ]
+}
