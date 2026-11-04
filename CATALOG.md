@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 127 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 128 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 4 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 22 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 189 | まだ手を付けていない |
+| 未着手 | 188 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -97,6 +97,7 @@
 | [放射クリッピング](https://github.com/supernyan74/Radial-Clipping)<br>`supernyan74.RadialClipping` | スクリプト | スーパーNyan | MIT | [移植済み](plugins/supernyan74.RadialClipping) | エフェクト |
 | [IDgen_Su](https://github.com/Suzukeh/IDgen_Su)<br>`Suzuke.IDgen_Su` | スクリプト | Suzuke | MIT | [移植済み](plugins/Suzuke.IDgen_Su) | パネル＋エクスプレッション用ライブラリ（テキストの本文のエクスプレッション） |
 | [四隅に配置](https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E5%9B%9B%E9%9A%85%E3%81%AB%E9%85%8D%E7%BD%AE.anm2)<br>`teruyoshii.4corner` | スクリプト | てるよし | MIT | [移植済み](plugins/teruyoshii.4corner) | 四隅に配置 |
+| [段階グラデーション](https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E6%AE%B5%E9%9A%8E%E3%82%B0%E3%83%A9%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.anm2)<br>`teruyoshii.stepGradation` | スクリプト | てるよし | MIT | [移植済み](plugins/teruyoshii.stepGradation) | 段階グラデーション |
 | [Liquid Glass エフェクト](https://github.com/Tettu0530/Liquid-Glass)<br>`tettu0530.LiquidGlass` | スクリプト | tettu0530 | MIT | [移植済み](plugins/tettu0530.LiquidGlass) | エフェクト（背景は LAYER パラメータで選ぶ） |
 | [NCS風音声波形 (NCSAudioVisualizer)](https://github.com/Tettu0530/NCSAudioVisualizer)<br>`tettu0530.NCSVisualizer` | スクリプト | tettu0530 | MIT | [移植済み](plugins/tettu0530.NCSVisualizer) | エフェクト（音は LAYER パラメータで受け取る） |
 | [ブラインドループ](https://gist.github.com/zopty/ff3439d79fe609c7714d6db4ef1a39a6)<br>`zopty.BlindLoop` | スクリプト | zopty | BSD-3-Clause | [移植済み](plugins/zopty.BlindLoop) | 斜めクリッピングの連続 |
@@ -358,7 +359,6 @@
 | [ノイズ_Te](https://github.com/teruyoshii/AviUtl2_Noise_Te)<br>`teruyoshii.noiseTe` | スクリプト | てるよし | MIT | 未着手 |  |
 | [パスブラー](https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E3%83%91%E3%82%B9%E3%83%96%E3%83%A9%E3%83%BC.anm2)<br>`teruyoshii.pathBlur` | スクリプト | てるよし | MIT | 未着手 |  |
 | [パスグラデーション](https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E3%83%91%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.anm2)<br>`teruyoshii.pathGradation` | スクリプト | てるよし | MIT | 未着手 |  |
-| [段階グラデーション](https://github.com/teruyoshii/Teruyoshi_AviUtl2_Scripts/blob/main/%E6%AE%B5%E9%9A%8E%E3%82%B0%E3%83%A9%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.anm2)<br>`teruyoshii.stepGradation` | スクリプト | てるよし | MIT | 未着手 |  |
 | [トラックバー音声同期](https://x.com/teruyoshi_uec/status/1965389717224276231)<br>`teruyoshii.TrackbarAudioSync` | スクリプト | てるよし | MIT | 未着手 |  |
 | [TypingEffect](https://github.com/vandojapan/TypingEffect.obj2)<br>`vandojapan.typing-effect` | スクリプト | 4vando | MIT | 未着手 |  |
 | [光学モーションブラー](https://gist.github.com/zopty/51deda495876451c1dcfb09ceb05345d)<br>`zopty.OpticalFlowMotionBlur` | スクリプト | zopty | BSD-3-Clause | 未着手 |  |

@@ -1,0 +1,12 @@
+{
+  "id": "teruyoshii.stepGradation",
+  "name": "段階グラデーション",
+  "version": "1.0.0",
+  "vendor": "てるよし（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "時間制御カーブで自由に調整できる段階グラデーション",
+  "permissions": [],
+  "effects": [
+    "lib/zp_teruyoshii_stepgradation"
+  ]
+}

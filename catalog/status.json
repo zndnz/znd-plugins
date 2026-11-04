@@ -1790,8 +1790,9 @@
   "status": "pending"
  },
  "teruyoshii.stepGradation": {
-  "note": "",
-  "status": "pending"
+  "note": "段階グラデーション",
+  "path": "plugins/teruyoshii.stepGradation",
+  "status": "ported"
  },
  "tettu0530.LiquidGlass": {
   "note": "エフェクト（背景は LAYER パラメータで選ぶ）",
