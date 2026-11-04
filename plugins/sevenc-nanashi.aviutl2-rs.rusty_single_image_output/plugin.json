@@ -1,0 +1,82 @@
+{
+  "id": "sevenc-nanashi.aviutl2-rs.rusty_single_image_output",
+  "name": "Rusty Single Image Output",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "静止画を出力するプラグイン",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "png",
+      "label": "静止画（PNG・今のフレーム）",
+      "extension": "png",
+      "alpha": true,
+      "single_frame": true,
+      "video_args": [
+        "-frames:v",
+        "1"
+      ],
+      "params": []
+    },
+    {
+      "id": "jpg",
+      "label": "静止画（JPG・今のフレーム）",
+      "extension": "jpg",
+      "alpha": false,
+      "single_frame": true,
+      "video_args": [
+        "-frames:v",
+        "1",
+        "-q:v",
+        "{q}"
+      ],
+      "params": [
+        {
+          "id": "q",
+          "label": "JPEG の画質（2 高〜31 低）",
+          "type": "number",
+          "default": 2,
+          "min": 2,
+          "max": 31
+        }
+      ]
+    },
+    {
+      "id": "webp",
+      "label": "静止画（WEBP・今のフレーム）",
+      "extension": "webp",
+      "alpha": true,
+      "single_frame": true,
+      "video_args": [
+        "-frames:v",
+        "1"
+      ],
+      "params": []
+    },
+    {
+      "id": "bmp",
+      "label": "静止画（BMP・今のフレーム）",
+      "extension": "bmp",
+      "alpha": false,
+      "single_frame": true,
+      "video_args": [
+        "-frames:v",
+        "1"
+      ],
+      "params": []
+    },
+    {
+      "id": "tiff",
+      "label": "静止画（TIFF・今のフレーム）",
+      "extension": "tiff",
+      "alpha": true,
+      "single_frame": true,
+      "video_args": [
+        "-frames:v",
+        "1"
+      ],
+      "params": []
+    }
+  ]
+}

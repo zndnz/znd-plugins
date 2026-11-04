@@ -1424,8 +1424,9 @@
   "status": "pending"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_single_image_output": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/sevenc-nanashi.aviutl2-rs.rusty_single_image_output",
+  "status": "ported"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_srt_file": {
   "note": "",
