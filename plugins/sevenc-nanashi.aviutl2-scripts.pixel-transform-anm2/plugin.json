@@ -1,0 +1,12 @@
+{
+  "id": "sevenc-nanashi.aviutl2-scripts.pixel-transform-anm2",
+  "name": "ドット絵変形.anm2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "ドット絵の拡大縮小・回転を行うスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sevenc_nanashi_aviutl2_scripts_pixel_transform_anm2"
+  ]
+}

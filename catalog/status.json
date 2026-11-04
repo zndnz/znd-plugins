@@ -1517,8 +1517,9 @@
   "status": "ported"
  },
  "sevenc-nanashi.aviutl2-scripts.pixel-transform-anm2": {
-  "note": "",
-  "status": "pending"
+  "note": "ドット絵変形",
+  "path": "plugins/sevenc-nanashi.aviutl2-scripts.pixel-transform-anm2",
+  "status": "ported"
  },
  "sevenc-nanashi.aviutl2-scripts.targeted-scale-anm2": {
   "note": "目標のピクセル数に拡大縮小",
