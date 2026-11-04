@@ -1,0 +1,12 @@
+{
+  "id": "NeAc.AviUtlNoise",
+  "name": "無印ノイズ",
+  "version": "1.0.0",
+  "vendor": "猫愛（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "AviUtl無印のノイズを再現するスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_neac_aviutlnoise"
+  ]
+}

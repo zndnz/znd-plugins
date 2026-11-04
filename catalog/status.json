@@ -539,8 +539,9 @@
   "status": "pending"
  },
  "NeAc.AviUtlNoise": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（AviUtl の表を同梱）",
+  "path": "plugins/NeAc.AviUtlNoise",
+  "status": "ported"
  },
  "NeAc.BezierPath": {
   "note": "エフェクト（ガイド）＋コマンド＋エクスプレッション用ライブラリ",
