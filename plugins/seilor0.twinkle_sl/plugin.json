@@ -1,0 +1,12 @@
+{
+  "id": "seilor0.twinkle_sl",
+  "name": "twinkle_sl",
+  "version": "1.0.0",
+  "vendor": "セイル（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "✨を作れるカスタムオブジェクト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_seilor0_twinkle_sl"
+  ]
+}

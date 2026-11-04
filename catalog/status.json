@@ -1342,8 +1342,9 @@
   "status": "ported"
  },
  "seilor0.twinkle_sl": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト 2 つ（平面に掛ける）",
+  "path": "plugins/seilor0.twinkle_sl",
+  "status": "ported"
  },
  "sevenc-nanashi.aviutl2-rs.rusty_binaural": {
   "note": "",
