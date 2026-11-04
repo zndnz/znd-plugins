@@ -1810,8 +1810,9 @@
   "status": "pending"
  },
  "yu7400ki.anmImOutput-webp": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/yu7400ki.anmImOutput-webp",
+  "status": "ported"
  },
  "yu7400ki.stabilizer": {
   "note": "",

@@ -1,0 +1,65 @@
+{
+  "id": "yu7400ki.anmImOutput-webp",
+  "name": "WebP出力プラグイン",
+  "version": "1.0.0",
+  "vendor": "yu7400ki（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "動画をWebPとして出力するプラグイン",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "webp",
+      "label": "WebP（アニメーション）",
+      "extension": "webp",
+      "alpha": true,
+      "video_args": [
+        "-c:v",
+        "libwebp_anim",
+        "-lossless",
+        "{lossless}",
+        "-quality",
+        "{quality}",
+        "-compression_level",
+        "{speed}",
+        "-loop",
+        "0",
+        "-pix_fmt",
+        "yuva420p"
+      ],
+      "params": [
+        {
+          "id": "lossless",
+          "label": "可逆圧縮",
+          "type": "choice",
+          "default": 0,
+          "options": [
+            {
+              "label": "しない",
+              "value": "0"
+            },
+            {
+              "label": "する",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "id": "quality",
+          "label": "品質",
+          "type": "number",
+          "default": 75,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "id": "speed",
+          "label": "圧縮の手間（0〜6）",
+          "type": "number",
+          "default": 4,
+          "min": 0,
+          "max": 6
+        }
+      ]
+    }
+  ]
+}
