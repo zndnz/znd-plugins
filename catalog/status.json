@@ -1659,8 +1659,9 @@
   "status": "pending"
  },
  "sigma-axis.Resize_S": {
-  "note": "",
-  "status": "pending"
+  "note": "リサイズσとボックスリサイズσ",
+  "path": "plugins/sigma-axis.Resize_S",
+  "status": "ported"
  },
  "sigma-axis.SceneChangeKit_S": {
   "note": "エフェクト（他のレイヤーの絵を取り込む）",
