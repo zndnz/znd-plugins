@@ -1,0 +1,22 @@
+{
+  "id": "sevenc-nanashi.object_as_frame_selection-aux2",
+  "name": "object_as_frame_selection.aux2",
+  "version": "1.0.0",
+  "vendor": "Nanashi.（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "選択したオブジェクトの範囲をフレーム選択範囲にするプラグイン",
+  "permissions": [],
+  "commands": [
+    {
+      "id": "select",
+      "label": "レイヤーの範囲をワークエリアにする",
+      "script": "commands/select.js",
+      "function": "objectAsFrameSelection",
+      "menu": [
+        "plugins",
+        "layer"
+      ],
+      "description": "選んだレイヤーの始まりから終わりまでをワークエリアにします"
+    }
+  ]
+}

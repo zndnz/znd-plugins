@@ -1569,8 +1569,9 @@
   "status": "pending"
  },
  "sevenc-nanashi.object_as_frame_selection-aux2": {
-  "note": "",
-  "status": "pending"
+  "note": "レイヤーの範囲をワークエリアに",
+  "path": "plugins/sevenc-nanashi.object_as_frame_selection-aux2",
+  "status": "ported"
  },
  "sevenc-nanashi.open_project_directory-aux2": {
   "note": "",
