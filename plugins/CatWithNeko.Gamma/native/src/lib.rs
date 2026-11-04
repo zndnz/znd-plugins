@@ -5,16 +5,15 @@ use znd_plugin_sdk::*;
 fn render(f: &mut Frame) -> FxResult {
     let g = f.f(0);
     let gs = [g * f.f(1), g * f.f(2), g * f.f(3)];
-    for p in f.rgba.chunks_exact_mut(4) {
-        let a = p[3];
-        if a <= 0.0 {
-            continue;
-        }
+    let mut img = f.input();
+    aul::map_display(&mut img, |p| {
+        let mut o = p;
         for c in 0..3 {
-            let v = (p[c] / a).max(0.0) as f64;
-            p[c] = (v.powf(1.0 / gs[c]) as f32) * a;
+            o[c] = p[c].max(0.0).powf((1.0 / gs[c]) as f32);
         }
-    }
+        o
+    });
+    f.set(img);
     Ok(())
 }
 
