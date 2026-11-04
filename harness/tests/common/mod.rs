@@ -83,3 +83,24 @@ pub fn render_expr(p: &Project, seconds: f64) -> FrameBuf {
         .render_frame(&CompId::new("main"), Time::from_seconds(seconds), RenderOptions { downsample: 1, background: false, guides: false })
         .unwrap()
 }
+
+/// 白い文字のテキストレイヤー（id "t"）をコンポ（cw×ch）の中央に置いたプロジェクト。
+pub fn text_project(text: &str, size: f64, cw: u32, ch: u32) -> Project {
+    let dur = Time::from_seconds(4.0);
+    let doc = znd_core::text::TextDocument::new(text, size);
+    let l = Layer::new(
+        "t",
+        "t",
+        LayerKind::Text { document: doc, animators: Vec::new(), path: None, per_char_3d: false },
+        Transform::centered(0.0, 0.0, cw as f64, ch as f64),
+        dur,
+    );
+    let mut p = Project::new("t");
+    p.compositions.push(Composition { layers: vec![l], ..Composition::new("main", "main", cw, ch, FrameRate::FPS_30, dur) });
+    p
+}
+
+/// 不透明度の合計（描かれた量の目安）。
+pub fn coverage(buf: &FrameBuf) -> f32 {
+    buf.data.chunks_exact(4).map(|p| p[3]).sum()
+}

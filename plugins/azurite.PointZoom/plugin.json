@@ -1,0 +1,12 @@
+{
+  "id": "azurite.PointZoom",
+  "name": "ポイントズーム",
+  "version": "1.0.0",
+  "vendor": "azurite（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "指定したポイントにズームするスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_azurite_pointzoom"
+  ]
+}

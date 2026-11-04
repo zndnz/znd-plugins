@@ -909,8 +909,9 @@
   "status": "pending"
  },
  "azurite.PointZoom": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト",
+  "path": "plugins/azurite.PointZoom",
+  "status": "ported"
  },
  "beive60.aviutl2-alias-inserter": {
   "note": "",

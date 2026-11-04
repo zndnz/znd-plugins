@@ -852,6 +852,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-azurite-pointzoom"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-eizo-gak-aviutl2-placeholder"
 version = "1.0.0"
 dependencies = [
@@ -902,6 +909,13 @@ dependencies = [
 
 [[package]]
 name = "zp-sagami121-blocknoise"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-sagyou-opticscompensation-s-for-aviutl2"
 version = "1.0.0"
 dependencies = [
  "znd-plugin-sdk",
