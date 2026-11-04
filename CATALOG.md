@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 140 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 12 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 30 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 31 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 160 | まだ手を付けていない |
+| 未着手 | 159 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -176,6 +176,7 @@
 | [フォント視覚化MOD](https://github.com/hebiiro/al2_visual_font)<br>`hebiiro.al2_visual_font` | MOD | 蛇色 | MIT | 対象外 | AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない |
 | [DockLayout](https://github.com/routersys/AUE2-DockLayout)<br>`routersys.DockLayout` | MOD | routersys | MIT | 対象外 | AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない |
 | [Composite](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Composite` | スクリプト | こんにゃくねこ | CC0-1.0 | 対象外 | znd のエフェクトは後に続くエフェクトの結果を受け取れない（エフェクトの順番と合成モードで代わりになる） |
+| [midi2EAP2](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.midi2EAP2` | スクリプト | 黒猫大福 | MIT | 対象外 | EAP2 の MIDI Visualizer オブジェクトを作る GCMZDrops2 のハンドラーで、EAP2 は znd にない |
 | [TTSFileRename](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.TTSFileRename` | スクリプト | 黒猫大福 | MIT | 対象外 | ドロップしたファイルの名前をディスク上で書き換える GCMZDrops2 のハンドラーで、znd のスクリプトにはファイルの名前を変える手段がない |
 | [OSC4AU2](https://github.com/zopty/osc4au2)<br>`zopty.osc4au2` | スクリプト | zopty | BSD-3-Clause | 対象外 | OSC（UDP）で外部から値を受け取り、トラックバーを動かすライブ演奏用のプラグイン。znd のエクスプレッションとスクリプトは通信できない設計で、外部からの入力を時間軸に結び付ける仕組みも無い |
 | [HariboteReader](https://github.com/rokujyushi/Haribote)<br>`KuroNeko.Haribote` | 入力プラグイン | 黒猫大福 | MIT | 対象外 | GCMZDrops2 にメディア以外のファイルを渡すための AviUtl2 の入力プラグインで、znd には対象がない |
@@ -346,7 +347,6 @@
 | [FlowType_K](https://github.com/korarei/AviUtl2_FlowType_K_Script)<br>`korarei.FlowType_K` | スクリプト | Korarei | MIT | 未着手 |  |
 | [@Stylize_K](https://github.com/korarei/AviUtl2_Stylize_K_Script)<br>`korarei.Stylize_K` | スクリプト | Korarei | MIT | 未着手 |  |
 | [audio2obj](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.audio2obj` | スクリプト | 黒猫大福 | MIT | 未着手 |  |
-| [midi2EAP2](https://github.com/rokujyushi/GCMZScripts)<br>`KuroNeko.midi2EAP2` | スクリプト | 黒猫大福 | MIT | 未着手 |  |
 | [VariableFont](https://github.com/rokujyushi/Variable-Font-Plug-ins)<br>`KuroNeko.VariableFont` | スクリプト | 黒猫大福 | MIT | 未着手 |  |
 | [ベクターキャンバス](https://github.com/Mg32/aviutl2-vectorcanvas)<br>`mogesystem.VectorCanvas` | スクリプト | もげ | MIT | 未着手 |  |
 | [SoftAnchorBone](https://github.com/Natadecoco2539/AviUtl2-SoftAnchorBone)<br>`Natadecoco.SoftAnchorBone` | スクリプト | なたのこ | MIT | 未着手 |  |

@@ -496,8 +496,8 @@
   "status": "pending"
  },
  "KuroNeko.midi2EAP2": {
-  "note": "",
-  "status": "pending"
+  "note": "EAP2 の MIDI Visualizer オブジェクトを作る GCMZDrops2 のハンドラーで、EAP2 は znd にない",
+  "status": "na"
  },
  "KuroNeko.svg2obj": {
   "note": "znd は SVG を素材として直接読み込める（ドロップでもよい）",
