@@ -16,6 +16,13 @@ function panel(s) {
   ];
 }
 
+/** レイヤーのキーフレーム（コンポ時刻）をすべて dt だけずらす。 */
+function __shiftKeys(o, dt) {
+  if (!o || typeof o !== 'object') return;
+  if (Array.isArray(o.keyframes)) o.keyframes.forEach(function (k) { if (typeof k.time === 'number') k.time += dt; });
+  for (var k in o) if (k !== 'keyframes') __shiftKeys(o[k], dt);
+}
+
 function onEvent(id, value, s) {
   defaults(s);
   if (id !== 'apply') { s[id] = value; return; }
@@ -42,6 +49,7 @@ function onEvent(id, value, s) {
       d.out_point = start + len;
       d.start_time = src.start_time + step * k;
       (d.markers || []).forEach(function (m) { m.time += step * k; });
+      __shiftKeys(d.kind, step * k); __shiftKeys(d.transform, step * k); __shiftKeys(d.effects, step * k); __shiftKeys(d.masks, step * k); __shiftKeys(d.time_remap, step * k); __shiftKeys(d.audio, step * k);
       c.layers.splice(c.layers.indexOf(src), 0, d);
       made++;
     }

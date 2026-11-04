@@ -40,7 +40,7 @@ function findGaps(c, s) {
     if (l.locked) return;
     if (s.start) check(l, '開始', l.in_point);
     if (s.end && (s.compEnd || l.out_point !== c.duration)) check(l, '終了', l.out_point);
-    if (s.key) __props(l).forEach(function (p) { p.prop.keyframes.forEach(function (k, i) { check(l, 'キー ' + p.path, l.start_time + k.time, { path: p.path, index: i }); }); });
+    if (s.key) __props(l).forEach(function (p) { p.prop.keyframes.forEach(function (k, i) { check(l, 'キー ' + p.path, k.time, { path: p.path, index: i }); }); });
   });
   out.sort(s.sort === 1 ? function (a, b) { return a.time - b.time; } : function (a, b) { return c.layers.findIndex(function (l) { return l.id === a.layer; }) - c.layers.findIndex(function (l) { return l.id === b.layer; }) || a.time - b.time; });
   return out;
