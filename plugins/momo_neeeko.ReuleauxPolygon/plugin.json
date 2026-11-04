@@ -1,0 +1,12 @@
+{
+  "id": "momo_neeeko.ReuleauxPolygon",
+  "name": "ルーローの多角形",
+  "version": "1.0.0",
+  "vendor": "もも猫（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "ルーローの多角形のカスタムオブジェクト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_momo_neeeko_reuleauxpolygon"
+  ]
+}

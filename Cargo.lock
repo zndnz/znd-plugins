@@ -1082,6 +1082,41 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-momo-neeeko-rainbowgradationm"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-momo-neeeko-rasterm"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-momo-neeeko-reuleauxpolygon"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-momo-neeeko-scallopedcircle"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
+name = "zp-momo-neeeko-waveclipping"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-nctype-pixelizer"
 version = "1.0.0"
 dependencies = [

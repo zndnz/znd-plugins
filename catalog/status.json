@@ -1133,8 +1133,9 @@
   "status": "pending"
  },
  "momo_neeeko.ReuleauxPolygon": {
-  "note": "",
-  "status": "pending"
+  "note": "ルーローの多角形",
+  "path": "plugins/momo_neeeko.ReuleauxPolygon",
+  "status": "ported"
  },
  "momo_neeeko.ScallopedCircle": {
   "note": "",
