@@ -7,10 +7,10 @@
 |---|---|---|
 | 移植済み | 102 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 3 | znd 本体に同じ機能があるため、プラグインにしていない |
-| 対象外 | 8 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
+| 対象外 | 9 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 229 | まだ手を付けていない |
+| 未着手 | 228 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -119,6 +119,7 @@
 | [Tonecurve_C](https://x.com/CatWithNeko/status/1972685066963960255)<br>`CatWithNeko.ToneCurve` | スクリプト | こんにゃくねこ | CC0-1.0 | znd 本体で対応 | znd の組み込みエフェクト「トーンカーブ」で同じことができる |
 | [L-SMASH-Works](https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds)<br>`Mr-Ojii.L-SMASH-Works` | 入力プラグイン | Mr-Ojii | MIT | znd 本体で対応 | 動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ |
 | [Rusty Image Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_image_rs_output` | 出力プラグイン | Nanashi. | MIT | znd 本体で対応 | 画像の連番の書き出し。znd 本体の書き出し形式に PNG 連番（8/16bit）・EXR 連番があり、静止画 1 枚は rusty_single_image_output の移植で書き出せる |
+| [レイヤー固定](https://github.com/ar-ca-na/aviutl2-layer-pin)<br>`ar-ca-na.layer-pin` | MOD | arcana | MIT | 対象外 | AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない |
 | [レイヤー一括切り替え](https://github.com/Garech-mas/AviUtl2_toggle_layers)<br>`Garech.ToggleLayers` | MOD | Garech | MIT | 対象外 | AviUtl2 本体の画面を書き換える MOD で、znd には書き換える対象がない |
 | [Composite](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Composite` | スクリプト | こんにゃくねこ | CC0-1.0 | 対象外 | znd のエフェクトは後に続くエフェクトの結果を受け取れない（エフェクトの順番と合成モードで代わりになる） |
 | [OSC4AU2](https://github.com/zopty/osc4au2)<br>`zopty.osc4au2` | スクリプト | zopty | BSD-3-Clause | 対象外 | OSC（UDP）で外部から値を受け取り、トラックバーを動かすライブ演奏用のプラグイン。znd のエクスプレッションとスクリプトは通信できない設計で、外部からの入力を時間軸に結び付ける仕組みも無い |
@@ -232,7 +233,6 @@
 | [チャプターマーカー読み込みプラグイン](https://drive.google.com/drive/u/2/folders/1GhO8jXWakX3DZUptUNLVafKBb7Kmnnc0)<br>`Yuzuriha.ChapterMarker` | 汎用プラグイン | ゆずりは | 不明 | ライセンス不適合 | ライセンス: 不明（組み込めるライセンスではない） |
 | [ラウドネス視覚分析](https://drive.google.com/drive/folders/1scs7pYc-EUqhfItoDdPXlV1DKFZ9iYQf?usp=sharing)<br>`Yuzuriha.LoudnessVisualExplorer` | 汎用プラグイン | ゆずりは | 不明 | ライセンス不適合 | ライセンス: 不明（組み込めるライセンスではない） |
 | [シンプルレコーダー](https://drive.google.com/drive/u/2/folders/1p3wHfas0d7fLNMffXFM2X6bJU9fW1dWt)<br>`Yuzuriha.SimpleRecorder` | 汎用プラグイン | ゆずりは | 不明 | ライセンス不適合 | ライセンス: 不明（組み込めるライセンスではない） |
-| [レイヤー固定](https://github.com/ar-ca-na/aviutl2-layer-pin)<br>`ar-ca-na.layer-pin` | MOD | arcana | MIT | 未着手 |  |
 | [ダイアログサイズ変更MOD](https://github.com/hebiiro/al2_dialog_resizer)<br>`hebiiro.al2_dialog_resizer` | MOD | 蛇色 | BSL-1.0 | 未着手 |  |
 | [⚠️【非推奨】ダークモード化MOD](https://github.com/hebiiro/al2_jd/)<br>`hebiiro.al2_jd` | MOD | 蛇色 | MIT | 未着手 |  |
 | [プリセット追加MOD](https://github.com/hebiiro/al2_preset_adder)<br>`hebiiro.al2_preset_adder` | MOD | 蛇色 | MIT | 未着手 |  |
