@@ -1237,6 +1237,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zp-sagyou-jpegnoise"
+version = "1.0.0"
+dependencies = [
+ "znd-plugin-sdk",
+]
+
+[[package]]
 name = "zp-sagyou-opticscompensation-s-for-aviutl2"
 version = "1.0.0"
 dependencies = [

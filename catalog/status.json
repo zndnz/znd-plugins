@@ -755,8 +755,9 @@
   "status": "pending"
  },
  "Sagyou.JpegNoise": {
-  "note": "",
-  "status": "pending"
+  "note": "JPEG ブロックノイズ",
+  "path": "plugins/Sagyou.JpegNoise",
+  "status": "ported"
  },
  "Sagyou.OpticsCompensation_s_for_AviUtl2": {
   "note": "エフェクト",

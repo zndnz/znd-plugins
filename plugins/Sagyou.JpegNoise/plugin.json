@@ -1,0 +1,12 @@
+{
+  "id": "Sagyou.JpegNoise",
+  "name": "JpegNoise_for_AviUtl2",
+  "version": "1.0.0",
+  "vendor": "サ行（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "JPEG圧縮特有のブロックノイズや色のにじみを再現するスクリプト。",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sagyou_jpegnoise"
+  ]
+}

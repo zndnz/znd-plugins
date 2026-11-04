@@ -5,12 +5,12 @@
 
 | 状況 | 数 | 意味 |
 |---|---|---|
-| 移植済み | 102 | `plugins/` に znd のプラグインとして再実装した |
+| 移植済み | 103 | `plugins/` に znd のプラグインとして再実装した |
 | znd 本体で対応 | 3 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 19 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 218 | まだ手を付けていない |
+| 未着手 | 217 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -71,6 +71,7 @@
 | [Glitch_T](https://github.com/sagami121/Glitch_T)<br>`sagami121.Glitch_T` | スクリプト | 3aGaM1 | MIT | [移植済み](plugins/sagami121.Glitch_T) | エフェクト |
 | [GParticle](https://github.com/sagami121/GParticle)<br>`sagami121.GParticle` | スクリプト | 3aGaM1 | MIT | [移植済み](plugins/sagami121.GParticle) | エフェクト（コンピュートシェーダーの計算を CPU で行う） |
 | [QRCode](https://github.com/sagami121/Aviutl2-QRCode)<br>`sagami121.QRCode` | スクリプト | 3aGaM1 | MIT | [移植済み](plugins/sagami121.QRCode) | エフェクト（符号化は qrcodegen） |
+| [JpegNoise_for_AviUtl2](https://github.com/SagyouDarui900/JPEGNoise_AviUtl2)<br>`Sagyou.JpegNoise` | スクリプト | サ行 | MIT | [移植済み](plugins/Sagyou.JpegNoise) | JPEG ブロックノイズ |
 | [OpticsCompensation_s_for_AviUtl2](https://github.com/SagyouDarui900/OpticsCompensation_s_for_AviUtl2)<br>`Sagyou.OpticsCompensation_s_for_AviUtl2` | スクリプト | サ行 | MIT | [移植済み](plugins/Sagyou.OpticsCompensation_s_for_AviUtl2) | エフェクト |
 | [墨だまり](https://github.com/5qlufz-1536/AviUtl2_SumiDamari)<br>`saluf.SumiDamari` | スクリプト | saluf | MIT | [移植済み](plugins/saluf.SumiDamari) | エフェクト |
 | [角丸正多角形_sl](https://github.com/seilor0/roundedPolygon_sl)<br>`seilor0.roundedPolygonSl` | スクリプト | セイル | MIT | [移植済み](plugins/seilor0.roundedPolygonSl) | エフェクト（平面に掛ける） |
@@ -307,7 +308,6 @@
 | [LongShadowN](https://github.com/nea-c/aviutl2_script_LongShadowN)<br>`NeAc.LongShadowN` | スクリプト | 猫愛 | Apache-2.0 | 未着手 |  |
 | [VRM Toolkit for AviUtl2](https://github.com/nove-nove/aviutl2-vrm-toolkit)<br>`novenove.VRMToolkit` | スクリプト | novenove | MIT | 未着手 |  |
 | [DVD](https://github.com/SagyouDarui900/AviUtl2_Script_SagyouDarui)<br>`Sagyou.DVD` | スクリプト | サ行 | MIT | 未着手 |  |
-| [JpegNoise_for_AviUtl2](https://github.com/SagyouDarui900/JPEGNoise_AviUtl2)<br>`Sagyou.JpegNoise` | スクリプト | サ行 | MIT | 未着手 |  |
 | [ベベルとエンボス.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%83%99%E3%83%99%E3%83%AB%E3%81%A8%E3%82%A8%E3%83%B3%E3%83%9C%E3%82%B9/README.md)<br>`sevenc-nanashi.aviutl2-scripts.bevel_and_emboss-anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [カメラフレーム.obj2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/README.md)<br>`sevenc-nanashi.aviutl2-scripts.camera_frame-obj2` | スクリプト | Nanashi. | MIT | 未着手 |  |
 | [CRTディスプレイ風.anm2](https://github.com/sevenc-nanashi/aviutl2-scripts/blob/main/scripts/CRT%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E9%A2%A8/README.md)<br>`sevenc-nanashi.aviutl2-scripts.crt-display.anm2` | スクリプト | Nanashi. | MIT | 未着手 |  |
