@@ -1352,8 +1352,9 @@
   "status": "pending"
  },
  "sagami121.QRCode": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（符号化は qrcodegen）",
+  "path": "plugins/sagami121.QRCode",
+  "status": "ported"
  },
  "saluf.SumiDamari": {
   "note": "エフェクト",

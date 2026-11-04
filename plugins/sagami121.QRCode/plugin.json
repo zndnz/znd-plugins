@@ -1,0 +1,12 @@
+{
+  "id": "sagami121.QRCode",
+  "name": "QRCode",
+  "version": "1.0.0",
+  "vendor": "3aGaM1（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "QRコードの生成ができるスクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_sagami121_qrcode"
+  ]
+}
