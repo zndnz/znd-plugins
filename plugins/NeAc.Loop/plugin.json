@@ -1,0 +1,12 @@
+{
+  "id": "NeAc.Loop",
+  "name": "Loop",
+  "version": "1.0.0",
+  "vendor": "猫愛（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "個別オブジェクト化、Z方向ループ対応の高度な画像ループ系スクリプト",
+  "permissions": [],
+  "effects": [
+    "lib/zp_neac_loop"
+  ]
+}

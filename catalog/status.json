@@ -560,8 +560,9 @@
   "status": "pending"
  },
  "NeAc.Loop": {
-  "note": "",
-  "status": "pending"
+  "note": "エフェクト（画像を広げて並べる）",
+  "path": "plugins/NeAc.Loop",
+  "status": "ported"
  },
  "NeAc.LyricMotioN": {
   "note": "パネル＋エクスプレッション用ライブラリ（テキストのアニメーターを作る）",
