@@ -6,11 +6,11 @@
 | 状況 | 数 | 意味 |
 |---|---|---|
 | 移植済み | 94 | `plugins/` に znd のプラグインとして再実装した |
-| znd 本体で対応 | 2 | znd 本体に同じ機能があるため、プラグインにしていない |
+| znd 本体で対応 | 3 | znd 本体に同じ機能があるため、プラグインにしていない |
 | 対象外 | 7 | AviUtl2 の画面・ファイル形式そのものを変えるもの（MOD・言語ファイルなど）で、znd には当てはまらない |
 | ソース非公開 | 13 | 配布物しかなく、ソースが公開されていない |
 | ライセンス不適合 | 92 | ライセンスが組み込みを許していない（独自・不明・GPL など） |
-| 未着手 | 239 | まだ手を付けていない |
+| 未着手 | 238 | まだ手を付けていない |
 
 | パッケージ | 種類 | 作者 | ライセンス | 状況 | 備考 |
 |---|---|---|---|---|---|
@@ -108,6 +108,7 @@
 | [GIF出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-gif` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-gif) | 書き出し形式（FFmpeg の引数の組） |
 | [JXL出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-jxl` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-jxl) | 書き出し形式（FFmpeg の引数の組） |
 | [WebP出力プラグイン](https://yu7400ki.me/aviutl2-animated-image-output/)<br>`yu7400ki.anmImOutput-webp` | 出力プラグイン | yu7400ki | MIT | [移植済み](plugins/yu7400ki.anmImOutput-webp) | 書き出し形式（FFmpeg の引数の組） |
+| [Tonecurve_C](https://x.com/CatWithNeko/status/1972685066963960255)<br>`CatWithNeko.ToneCurve` | スクリプト | こんにゃくねこ | CC0-1.0 | znd 本体で対応 | znd の組み込みエフェクト「トーンカーブ」で同じことができる |
 | [L-SMASH-Works](https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds)<br>`Mr-Ojii.L-SMASH-Works` | 入力プラグイン | Mr-Ojii | MIT | znd 本体で対応 | 動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ |
 | [Rusty Image Output](https://github.com/sevenc-nanashi/aviutl2-rs)<br>`sevenc-nanashi.aviutl2-rs.rusty_image_rs_output` | 出力プラグイン | Nanashi. | MIT | znd 本体で対応 | 画像の連番の書き出し。znd 本体の書き出し形式に PNG 連番（8/16bit）・EXR 連番があり、静止画 1 枚は rusty_single_image_output の移植で書き出せる |
 | [Composite](https://github.com/CatWithNeko/aviutl2-scripts)<br>`CatWithNeko.Composite` | スクリプト | こんにゃくねこ | CC0-1.0 | 対象外 | znd のエフェクトは後に続くエフェクトの結果を受け取れない（エフェクトの順番と合成モードで代わりになる） |
@@ -236,7 +237,6 @@
 | [中心ずらし_A](https://github.com/azurite581/AviUtl2-AdjustPivot_A)<br>`azurite.AdjustPivot_A` | スクリプト | azurite | MIT | 未着手 |  |
 | [グラデーション+](https://github.com/azurite581/AviUtl2-GradientPlus)<br>`azurite.GradientPlus` | スクリプト | azurite | CC0-1.0 | 未着手 |  |
 | [レイヤーグリッド表示](https://github.com/azurite581/AviUtl2-LayerGridView)<br>`azurite.LayerGridView` | スクリプト | azurite | MIT | 未着手 |  |
-| [Tonecurve_C](https://x.com/CatWithNeko/status/1972685066963960255)<br>`CatWithNeko.ToneCurve` | スクリプト | こんにゃくねこ | CC0-1.0 | 未着手 |  |
 | [ペン&矩形ツール](https://github.com/ColorJellyFish/aviutl2_cjf_pentool)<br>`CJF.PenTool` | スクリプト | CJF | MIT | 未着手 |  |
 | [PSD連携アニメーション(非公式)](https://github.com/ColorJellyFish/aviutl2_cjf_psdanimation)<br>`CJF.PSD_anime` | スクリプト | CJF | MIT | 未着手 |  |
 | [日付と時刻](https://www.nicovideo.jp/watch/sm36307237)<br>`Garech.DateTime` | スクリプト | Garech | CC0-1.0 | 未着手 |  |

@@ -132,8 +132,8 @@
   "status": "ported"
  },
  "CatWithNeko.ToneCurve": {
-  "note": "",
-  "status": "pending"
+  "note": "znd の組み込みエフェクト「トーンカーブ」で同じことができる",
+  "status": "builtin"
  },
  "CatWithNeko.Turbulent": {
   "note": "簡易タービュレントディスプレイス",
