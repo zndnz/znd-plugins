@@ -563,8 +563,9 @@
   "status": "pending"
  },
  "NeAc.LyricMotioN": {
-  "note": "",
-  "status": "pending"
+  "note": "パネル＋エクスプレッション用ライブラリ（テキストのアニメーターを作る）",
+  "path": "plugins/NeAc.LyricMotioN",
+  "status": "ported"
  },
  "NeAc.MorphBridge": {
   "note": "",

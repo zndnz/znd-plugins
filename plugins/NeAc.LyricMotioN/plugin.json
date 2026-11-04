@@ -1,0 +1,20 @@
+{
+  "id": "NeAc.LyricMotioN",
+  "name": "LyricMotioN",
+  "version": "1.0.0",
+  "vendor": "猫愛（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "リリックモーションを簡単に作成できるスクリプト",
+  "permissions": [],
+  "panels": [
+    {
+      "id": "lyricmotion",
+      "title": "LyricMotioN",
+      "script": "panels/lyricmotion.js",
+      "width": 340
+    }
+  ],
+  "expressions": [
+    "expressions/lyricmotion.js"
+  ]
+}
