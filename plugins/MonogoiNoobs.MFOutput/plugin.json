@@ -1,0 +1,133 @@
+{
+  "id": "MonogoiNoobs.MFOutput",
+  "name": "MFOutput",
+  "version": "1.0.0",
+  "vendor": "依神紫苑（znd 移植: znd-plugins）",
+  "license": "MIT",
+  "description": "MP4・M4A・WMV・WMAを簡単に出力",
+  "permissions": [],
+  "exporters": [
+    {
+      "id": "mp4",
+      "label": "MP4（H.264＋AAC、手軽）",
+      "extension": "mp4",
+      "even": true,
+      "video_args": [
+        "-c:v",
+        "libx264",
+        "-preset",
+        "medium",
+        "-b:v",
+        "{vbr}k",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart"
+      ],
+      "audio_args": [
+        "-c:a",
+        "aac",
+        "-b:a",
+        "{abr}k"
+      ],
+      "params": [
+        {
+          "id": "vbr",
+          "label": "映像ビットレート（kbps）",
+          "type": "number",
+          "default": 8000,
+          "min": 500,
+          "max": 100000
+        },
+        {
+          "id": "abr",
+          "label": "音声ビットレート（kbps）",
+          "type": "number",
+          "default": 256,
+          "min": 32,
+          "max": 512
+        }
+      ]
+    },
+    {
+      "id": "m4a",
+      "label": "M4A（AAC）",
+      "extension": "m4a",
+      "audio_only": true,
+      "audio_args": [
+        "-c:a",
+        "aac",
+        "-b:a",
+        "{abr}k"
+      ],
+      "params": [
+        {
+          "id": "abr",
+          "label": "音声ビットレート（kbps）",
+          "type": "number",
+          "default": 256,
+          "min": 32,
+          "max": 512
+        }
+      ]
+    },
+    {
+      "id": "wmv",
+      "label": "WMV",
+      "extension": "wmv",
+      "even": true,
+      "video_args": [
+        "-c:v",
+        "wmv2",
+        "-b:v",
+        "{vbr}k"
+      ],
+      "audio_args": [
+        "-c:a",
+        "wmav2",
+        "-b:a",
+        "{abr}k"
+      ],
+      "params": [
+        {
+          "id": "vbr",
+          "label": "映像ビットレート（kbps）",
+          "type": "number",
+          "default": 8000,
+          "min": 500,
+          "max": 100000
+        },
+        {
+          "id": "abr",
+          "label": "音声ビットレート（kbps）",
+          "type": "number",
+          "default": 256,
+          "min": 32,
+          "max": 512
+        }
+      ]
+    },
+    {
+      "id": "wma",
+      "label": "WMA",
+      "extension": "wma",
+      "audio_only": true,
+      "audio_args": [
+        "-c:a",
+        "wmav2",
+        "-b:a",
+        "{abr}k"
+      ],
+      "params": [
+        {
+          "id": "abr",
+          "label": "音声ビットレート（kbps）",
+          "type": "number",
+          "default": 256,
+          "min": 32,
+          "max": 512
+        }
+      ]
+    }
+  ]
+}

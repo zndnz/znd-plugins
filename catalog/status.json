@@ -489,8 +489,9 @@
   "status": "pending"
  },
  "MonogoiNoobs.MFOutput": {
-  "note": "",
-  "status": "pending"
+  "note": "書き出し形式（FFmpeg の引数の組）",
+  "path": "plugins/MonogoiNoobs.MFOutput",
+  "status": "ported"
  },
  "Mr-Ojii.L-SMASH-Works": {
   "note": "動画・音声の読み込み。znd は FFmpeg で同じ形式（MP4/MKV/MOV/WebM など）を読み込む。配布はビルド済みのバイナリのみ",
